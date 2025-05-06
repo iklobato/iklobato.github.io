@@ -9,6 +9,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Jekyll settings
+permalink: pretty
+encoding: UTF-8
+
 # Exclude from processing
 exclude:
   - Gemfile
@@ -16,3 +20,7 @@ exclude:
   - node_modules
   - vendor
   - README.md
+  - backend_cv_enhanced.md
+  - data_engineer_cv_enhanced.md
+  - devops_cv_enhanced.md
+  - unified_cv_template.md
