@@ -149,21 +149,6 @@ title: Home
                 <img src="https://github-readme-activity-graph.vercel.app/graph?username=iklobato&theme=github-light&hide_border=true&area=true" alt="Current Year GitHub Contributions" />
             </div>
         </div>
-        
-        <div class="contribution-timeline">
-            <div class="github-calendar">
-                <h4 class="card-title">Contribution Calendar</h4>
-                <iframe src="https://github-contributions.vercel.app/api/embed/iklobato?chart=calendar&weeks=52" frameborder="0" scrolling="no" width="100%" height="120"></iframe>
-            </div>
-            
-            <div class="github-skyline">
-                <h4 class="card-title">3D Contribution Visualization</h4>
-                <a href="https://skyline.github.com/iklobato/2023" target="_blank" class="skyline-link">
-                    <span class="skyline-preview"></span>
-                    <span class="skyline-button">View in 3D on GitHub Skyline</span>
-                </a>
-            </div>
-        </div>
     </section>
     
     <section id="experience">
