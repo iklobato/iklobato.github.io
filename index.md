@@ -130,38 +130,37 @@ title: Home
     
     <section id="github-stats">
         <h2>GitHub Activity</h2>
-        <div class="github-stats-container">
-            <div class="github-card">
-                <img src="https://github-readme-stats.vercel.app/api?username=iklobato&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+        
+        <div class="github-overview">
+            <div class="github-overview-row">
+                <div class="github-card stats-card">
+                    <h4 class="card-title">Statistics Overview</h4>
+                    <img src="https://github-readme-stats.vercel.app/api?username=iklobato&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+                </div>
+                
+                <div class="github-card languages-card">
+                    <h4 class="card-title">Most Used Languages</h4>
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top Languages" />
+                </div>
             </div>
-            <div class="github-card">
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=iklobato&theme=github-dark&hide_border=true" alt="GitHub Streak" />
-            </div>
-            <div class="github-card languages-card">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top Languages" />
+            
+            <div class="github-card activity-graph">
+                <h4 class="card-title">Recent Activity</h4>
+                <img src="https://github-readme-activity-graph.vercel.app/graph?username=iklobato&theme=github-light&hide_border=true&area=true" alt="Current Year GitHub Contributions" />
             </div>
         </div>
         
-        <h3>Contribution Timeline</h3>
         <div class="contribution-timeline">
-            <!-- Current Year's Activity -->
-            <div class="contribution-year">
-                <h4 class="year-label">Current Year</h4>
-                <img src="https://github-readme-activity-graph.vercel.app/graph?username=iklobato&theme=github-light&hide_border=true&area=true" alt="Current Year GitHub Contributions" />
+            <div class="github-calendar">
+                <h4 class="card-title">Contribution Calendar</h4>
+                <iframe src="https://github-contributions.vercel.app/api/embed/iklobato?chart=calendar&weeks=52" frameborder="0" scrolling="no" width="100%" height="120"></iframe>
             </div>
             
-            <!-- Previous Year Calendar View -->
-            <div class="contribution-year">
-                <h4 class="year-label">All-Time Contributions</h4>
-                <iframe src="https://github-contributions.vercel.app/api/embed/iklobato?chart=calendar&weeks=52" frameborder="0" scrolling="no" width="100%" height="200"></iframe>
-            </div>
-            
-            <!-- Calendar Heatmap View -->
-            <div class="contribution-year">
-                <h4 class="year-label">3D Contribution Calendar</h4>
+            <div class="github-skyline">
+                <h4 class="card-title">3D Contribution Visualization</h4>
                 <a href="https://skyline.github.com/iklobato/2023" target="_blank" class="skyline-link">
-                    <img src="https://img.shields.io/badge/GitHub_Skyline-View_3D_Contribution_Graph-blue?style=for-the-badge&logo=github" alt="GitHub Skyline" />
                     <span class="skyline-preview"></span>
+                    <span class="skyline-button">View in 3D on GitHub Skyline</span>
                 </a>
             </div>
         </div>

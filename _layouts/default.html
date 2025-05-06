@@ -340,12 +340,23 @@
         }
         
         /* GitHub stats section */
-        .github-stats-container {
+        #github-stats {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .github-overview {
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
             margin-top: 1.5rem;
             margin-bottom: 2rem;
+        }
+        
+        .github-overview-row {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
         }
         
         .github-card {
@@ -354,62 +365,56 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             background-color: var(--highlight-bg);
             width: 100%;
-            text-align: center;
+            padding: 1rem;
         }
         
         .github-card img {
             max-width: 100%;
             height: auto;
             display: block;
+            border-radius: 4px;
         }
         
-        #github-stats h3 {
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-            text-align: center;
-            color: var(--secondary-color);
-            font-size: 1.5rem;
-            position: relative;
-        }
-        
-        #github-stats h3:after {
-            content: '';
-            position: absolute;
-            width: 100px;
-            height: 2px;
-            background-color: var(--primary-color);
-            bottom: -0.5rem;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        
-        .contribution-timeline {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-        
-        .contribution-year {
-            border-radius: 8px;
-            background-color: var(--highlight-bg);
-            padding: 1.5rem;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        
-        .year-label {
+        .card-title {
             margin-top: 0;
             margin-bottom: 1rem;
             color: var(--primary-color);
             font-size: 1.1rem;
             font-weight: 600;
             text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
         }
         
-        .contribution-year img, 
-        .contribution-year iframe {
+        .activity-graph {
+            margin-top: 1rem;
+        }
+        
+        .contribution-timeline {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .github-calendar {
+            border-radius: 8px;
+            background-color: var(--highlight-bg);
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .github-calendar iframe {
             width: 100%;
             border-radius: 4px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .github-skyline {
+            border-radius: 8px;
+            background-color: var(--highlight-bg);
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         
         .skyline-link {
@@ -418,10 +423,12 @@
             align-items: center;
             flex-direction: column;
             text-decoration: none;
-            padding: 1rem;
             border-radius: 8px;
             background-color: var(--white);
             transition: all 0.3s ease;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
         }
         
         .skyline-link:hover {
@@ -430,39 +437,52 @@
         }
         
         .skyline-preview {
-            margin-top: 1rem;
             width: 100%;
-            height: 150px;
+            height: 180px;
             background-image: url('https://skyline.github.com/iklobato/2023/preview');
-            background-size: contain;
+            background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            border-radius: 4px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
             opacity: 0.9;
+            transition: opacity 0.3s ease;
+        }
+        
+        .skyline-link:hover .skyline-preview {
+            opacity: 1;
+        }
+        
+        .skyline-button {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-align: center;
+            font-weight: 600;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .skyline-link:hover .skyline-button {
+            background-color: #0550ae;
         }
         
         @media (min-width: 768px) {
-            .github-stats-container {
+            .github-overview-row {
                 flex-direction: row;
-                flex-wrap: wrap;
                 justify-content: space-between;
             }
             
-            .github-card {
+            .github-card.stats-card,
+            .github-card.languages-card {
                 width: calc(50% - 0.75rem);
             }
             
-            .languages-card {
-                margin-top: 1rem;
-                width: 100%;
-            }
-            
             .contribution-timeline {
-                flex-direction: column;
-            }
-            
-            .contribution-year {
-                width: 100%;
+                grid-template-columns: 2fr 1fr;
             }
         }
         
