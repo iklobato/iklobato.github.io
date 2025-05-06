@@ -541,6 +541,13 @@
             font-size: 0.9rem;
         }
         
+        .last-updated {
+            font-size: 0.8rem;
+            color: var(--lighter-text);
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        
         .scrollToTop {
             position: fixed;
             bottom: 20px;
@@ -629,6 +636,7 @@
         
         <footer class="footer">
             <p>&copy; 2025 Henrique Lobato. All rights reserved.</p>
+            <p class="last-updated">Last updated: {{ site.time | date: "%B %d, %Y at %H:%M" }} UTC</p>
         </footer>
     </div>
     
