@@ -6,7 +6,7 @@ title: Home
 <header class="header">
     <div class="profile-section">
         <div class="profile-img">
-            <img src="https://avatars.githubusercontent.com/u/18133417" alt="Henrique Lobato" />
+            <img src="https://avatars.githubusercontent.com/u/18133417?v=4" alt="Henrique Lobato" />
         </div>
         <div class="profile-info">
             <h1>Henrique Lobato</h1>
