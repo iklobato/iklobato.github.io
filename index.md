@@ -138,7 +138,10 @@ title: Home
                 <img src="https://github-readme-streak-stats.herokuapp.com/?user=iklobato&theme=github-dark&hide_border=true" alt="GitHub Streak" />
             </div>
             <div class="github-card contribution-graph">
-                <img src="https://ghchart.rshah.org/iklobato" alt="GitHub Contributions" />
+                <img src="https://github-readme-activity-graph.vercel.app/graph?username=iklobato&theme=github-light&hide_border=true&area=true" alt="GitHub Contributions" />
+            </div>
+            <div class="github-card languages-card">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top Languages" />
             </div>
         </div>
     </section>
