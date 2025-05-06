@@ -27,7 +27,6 @@ Thumbs.db
 # Log files
 *.log
 
-# Original markdown files
-*_cv_enhanced.md
-unified_cv_template.md
+# Keep all markdown files
+# No exclusions for CV files
 **/.claude/settings.local.json

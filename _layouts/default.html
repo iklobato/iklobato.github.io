@@ -209,8 +209,41 @@
         
         .hero-section p {
             font-size: 1.1rem;
-            margin-bottom: 0;
+            margin-bottom: 1rem;
             color: var(--light-text);
+        }
+        
+        .cv-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .cv-link {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--white);
+            color: var(--primary-color);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .cv-link i {
+            margin-right: 0.5rem;
+        }
+        
+        .cv-link:hover {
+            background-color: var(--primary-color);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         
         .main-content {
@@ -297,6 +330,50 @@
             font-size: 0.9rem;
             color: var(--text-color);
             font-weight: 500;
+        }
+        
+        /* GitHub stats section */
+        .github-stats-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .github-card {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: var(--highlight-bg);
+            width: 100%;
+            text-align: center;
+        }
+        
+        .github-card img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .contribution-graph {
+            padding: 1rem;
+        }
+        
+        @media (min-width: 768px) {
+            .github-stats-container {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            
+            .github-card {
+                width: calc(50% - 0.75rem);
+            }
+            
+            .contribution-graph {
+                width: 100%;
+                margin-top: 1rem;
+            }
         }
         
         .experience-item {

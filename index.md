@@ -6,8 +6,7 @@ title: Home
 <header class="header">
     <div class="profile-section">
         <div class="profile-img">
-            <!-- Add your profile image here -->
-            <i class="fas fa-user" style="font-size: 60px; display: flex; height: 100%; justify-content: center; align-items: center; color: #0366d6;"></i>
+            <img src="https://avatars.githubusercontent.com/u/18133417" alt="Henrique Lobato" />
         </div>
         <div class="profile-info">
             <h1>Henrique Lobato</h1>
@@ -47,6 +46,13 @@ title: Home
     <div class="hero-section">
         <h2>About Me</h2>
         <p>Senior Software Engineer with 10+ years of experience building robust backend systems, scalable data pipelines, and cloud infrastructures. I specialize in solving complex engineering challenges with Python, delivering high-performance solutions that scale to millions of users.</p>
+        
+        <div class="cv-links">
+            <a href="/backend/" class="cv-link"><i class="fas fa-code"></i> Backend CV</a>
+            <a href="/data-engineer/" class="cv-link"><i class="fas fa-database"></i> Data Engineering CV</a>
+            <a href="/devops/" class="cv-link"><i class="fas fa-cloud"></i> DevOps CV</a>
+            <a href="/full-cv/" class="cv-link"><i class="fas fa-file-alt"></i> Full CV</a>
+        </div>
     </div>
 </header>
 
@@ -118,6 +124,21 @@ title: Home
                     <span class="skill-tag">TensorFlow</span>
                     <span class="skill-tag">Keras</span>
                 </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="github-stats">
+        <h2>GitHub Activity</h2>
+        <div class="github-stats-container">
+            <div class="github-card">
+                <img src="https://github-readme-stats.vercel.app/api?username=iklobato&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+            </div>
+            <div class="github-card">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=iklobato&theme=github-dark&hide_border=true" alt="GitHub Streak" />
+            </div>
+            <div class="github-card contribution-graph">
+                <img src="https://ghchart.rshah.org/iklobato" alt="GitHub Contributions" />
             </div>
         </div>
     </section>
