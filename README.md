@@ -1,8 +1,6 @@
 # Henrique Lobato
 
 **Senior Python Developer**  
-📞 Brazil: +55 11 9 8434 8555  
-📞 USA: +1 415 851 6951  
 📧 Email: h.lobato001@gmail.com  
 📨 Telegram: [@iklobato](https://t.me/iklobato)
 
