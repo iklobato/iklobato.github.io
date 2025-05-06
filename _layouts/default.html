@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C03JH4JXFL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-C03JH4JXFL', {
+            'stream_id': '11187083073',
+            'cookie_domain': 'iklobato.com',
+            'anonymize_ip': true
+        });
+    </script>
+    <!-- End Google Analytics -->
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -89,5 +103,9 @@
     <footer>
         <p>&copy; 2025 Henrique Lobato</p>
     </footer>
+    
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN_HERE"}'></script>
+    <!-- End Cloudflare Web Analytics -->
 </body>
 </html>
