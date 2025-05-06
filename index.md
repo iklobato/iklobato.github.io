@@ -128,18 +128,63 @@ title: Home
         </div>
     </section>
     
-    <section id="github-stats">
-        <h2>GitHub Activity</h2>
+    <section id="tech-skills">
+        <h2>Technical Expertise</h2>
         
-        <div class="github-stats-grid">
-            <div class="github-card stats-card">
-                <h4 class="card-title">Statistics Overview</h4>
-                <img src="https://github-readme-stats.vercel.app/api?username=iklobato&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+        <div class="expertise-container">
+            <div class="expertise-overview">
+                <p class="expertise-intro">With over a decade of experience delivering high-impact technical solutions, I specialize in building scalable, robust systems that solve complex business challenges. My work has directly contributed to:</p>
+                
+                <div class="value-props">
+                    <div class="value-prop">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Accelerated Performance</h4>
+                        <p>45-85% improvement in system speed and response times</p>
+                    </div>
+                    <div class="value-prop">
+                        <i class="fas fa-coins"></i>
+                        <h4>Cost Reduction</h4>
+                        <p>30-40% decrease in cloud infrastructure costs</p>
+                    </div>
+                    <div class="value-prop">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Enhanced Security</h4>
+                        <p>SOC2 compliance and robust security implementations</p>
+                    </div>
+                </div>
             </div>
             
-            <div class="github-card languages-card">
-                <h4 class="card-title">Most Used Languages</h4>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top Languages" />
+            <div class="languages-expertise">
+                <h3>Technology Stack</h3>
+                <div class="github-card languages-card">
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Most Used Languages" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="services-offered">
+            <h3>Services Offered</h3>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-server"></i></div>
+                    <h4>Backend System Development</h4>
+                    <p>Custom APIs, microservices, and data processing systems built for scale and performance.</p>
+                    <a href="/backend/" class="service-link">View Backend Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h4>Data Pipeline Engineering</h4>
+                    <p>ETL/ELT pipelines, data warehousing, and analytics infrastructures that deliver actionable insights.</p>
+                    <a href="/data-engineer/" class="service-link">View Data Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cloud"></i></div>
+                    <h4>Cloud Infrastructure Optimization</h4>
+                    <p>AWS/GCP architecture design, cost optimization, and DevOps automation for reliable deployments.</p>
+                    <a href="/devops/" class="service-link">View DevOps Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
         </div>
     </section>
@@ -289,6 +334,90 @@ title: Home
                 <span>PostgreSQL</span>
                 <span>TensorFlow</span>
                 <span>OpenCV</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials">
+        <h2>Client Testimonials</h2>
+        
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Henrique transformed our data infrastructure, reducing processing times by 60% and implementing robust validation that virtually eliminated data quality issues. His expertise saved us thousands in operational costs."</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-details">
+                        <div class="author-name">Michael J.</div>
+                        <div class="author-title">CTO, AgriTech Solutions</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Working with Henrique on our API infrastructure was a game-changer. His microservices architecture not only handled our 10x growth but did so while reducing our cloud costs by 35%. Exceptional problem-solver."</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-details">
+                        <div class="author-name">Sarah L.</div>
+                        <div class="author-title">VP Engineering, FinTech Startup</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"His cloud architecture redesign cut our AWS bill by 40% while actually improving performance. Henrique has a rare talent for building systems that are both technically excellent and business-aware."</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-details">
+                        <div class="author-name">David K.</div>
+                        <div class="author-title">Director of Engineering, Enterprise SaaS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="hire-me">
+        <h2>Ready to Work Together?</h2>
+        <div class="hire-me-container">
+            <div class="hire-me-content">
+                <p>I'm available for freelance projects, consulting, and technical advisory roles. Whether you need to build a new system from scratch, optimize existing infrastructure, or solve complex technical challenges, let's discuss how I can help.</p>
+                
+                <div class="hire-me-benefits">
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Fixed-price or hourly engagements available</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Clear communication and regular progress updates</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Flexible scheduling to meet your timeline needs</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Code quality and documentation guaranteed</span>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="mailto:h.lobato001@gmail.com" class="primary-cta">Contact Me</a>
+                    <a href="https://calendly.com/hlobato/30mincall" class="secondary-cta">Schedule a Call</a>
+                </div>
             </div>
         </div>
     </section>
