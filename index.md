@@ -14,11 +14,7 @@ keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architectur
             <h1>Henrique Lobato - Python Developer & Cloud Solutions Expert</h1>
             <span class="title">Senior Python Developer | Tech Lead | Cloud Architect</span>
             <div class="contact-info">
-                <a href="tel:+5511984348555" class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    +55 11 9 8434 8555
-                </a>
-                <a href="mailto:h.lobato001@gmail.com" class="contact-item">
+                <a href="mailto:iklobato1@gmail.com" class="contact-item">
                     <i class="fas fa-envelope"></i>
                     h.lobato001@gmail.com
                 </a>
@@ -34,7 +30,7 @@ keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architectur
                 <a href="https://github.com/iklobato" class="social-link" title="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://calendly.com/hlobato/30mincall" class="social-link" title="Schedule a Call">
+                <a href="https://calendly.com/iktech/30min" class="social-link" title="Schedule a Call">
                     <i class="far fa-calendar-alt"></i>
                 </a>
             </div>
