@@ -1,150 +1,158 @@
 ---
-layout: resume
-title: Data Engineering CV
+layout: default
+title: Data Engineering Achievements
 permalink: /data-engineer/
 ---
 
-# Henrique Lobato – Data Engineering
+# Data Engineering Achievements
 
-**Tech Lead | Senior Data Engineer | ETL Specialist**  
-📧 Email: [h.lobato001@gmail.com](mailto:h.lobato001@gmail.com)  
-📱 WhatsApp (BR): [+55 11 9 8434 8555](tel:+5511984348555)  
-📱 US Number: [+1 415 851 6951](tel:+14158516951)  
-📨 Telegram: [@iklobato](https://t.me/iklobato)  
-🔗 [LinkedIn](https://linkedin.com/in/iklobato-sr-python) | [GitHub](https://github.com/iklobato) | [Book a call](https://calendly.com/hlobato/30mincall)
+**Building Scalable, Resilient Data Pipelines & Processing Systems**
 
 ---
 
-## Professional Summary
+## Key Data Engineering Strengths
 
-### 📊 Data Engineering Specialist
+I specialize in building **scalable ETL pipelines**, **optimizing data ingestion processes**, and delivering **high-throughput batch and real-time data workflows**. My systems have processed over **10M+ records daily** across diverse industries, with deep expertise in SQL optimization, Apache Spark, and data pipeline resilience.
 
-Focused on building **scalable ETL pipelines**, **optimizing data ingestion processes**, and delivering **high-throughput batch and real-time data workflows**. Over 10 years of experience designing and implementing robust data systems processing **10M+ records daily** across industries. Expert in SQL-based architectures, PostgreSQL optimization, Apache Spark/PySpark, and ensuring data pipeline resiliency and validation.
+<div class="skills-highlights">
+    <div class="skill-area">
+        <h4><i class="fas fa-database"></i> Data Processing</h4>
+        <ul>
+            <li>ETL/ELT Pipeline Design</li>
+            <li>PySpark & Apache Spark</li>
+            <li>Batch & Stream Processing</li>
+            <li>Snowflake & PostgreSQL</li>
+            <li>Data Warehousing</li>
+        </ul>
+    </div>
+    <div class="skill-area">
+        <h4><i class="fas fa-chart-line"></i> Performance</h4>
+        <ul>
+            <li>Query Optimization</li>
+            <li>Data Partitioning</li>
+            <li>Optimized Data Formats</li>
+            <li>Indexing Strategies</li>
+            <li>Parallel Processing</li>
+        </ul>
+    </div>
+    <div class="skill-area">
+        <h4><i class="fas fa-clipboard-check"></i> Data Quality</h4>
+        <ul>
+            <li>Schema Validation</li>
+            <li>Data Quality Checks</li>
+            <li>Reconciliation Frameworks</li>
+            <li>Pipeline Monitoring</li>
+            <li>Data Lineage Tracking</li>
+        </ul>
+    </div>
+</div>
 
----
+## Notable Data Engineering Projects & Achievements
 
-## Technical Skills
+<div class="achievement-cards">
+    <div class="achievement-card">
+        <div class="achievement-header">
+            <h3>High-Volume Agricultural Data Pipeline</h3>
+            <div class="achievement-meta">IKTech | 2021-2023</div>
+        </div>
+        <div class="achievement-content">
+            <p class="project-description">Designed and implemented high-throughput data pipelines processing over 5TB of agricultural data daily for crop yield analytics and precision farming.</p>
+            <div class="achievement-highlights">
+                <span class="highlight-tag">PySpark</span>
+                <span class="highlight-tag">PostgreSQL</span>
+                <span class="highlight-tag">Redis</span>
+                <span class="highlight-tag">Parquet</span>
+            </div>
+            <ul class="achievement-list">
+                <li>Optimized PostgreSQL query performance reducing processing time by 60%</li>
+                <li>Created custom ETL solutions for real-time crop analysis workflows</li>
+                <li>Implemented comprehensive data quality validation frameworks</li>
+                <li>Built data distribution systems with Redis for high-availability analytics</li>
+                <li>Designed partitioning strategy for efficient query performance</li>
+            </ul>
+        </div>
+    </div>
 
-### Core Data Technologies
-- **Languages**: Python (10+ years), SQL, PySpark
-- **Databases**: PostgreSQL, MySQL, Snowflake, DynamoDB, Redis
-- **Big Data**: Apache Spark, Hadoop, Data Lakes, Data Warehousing
-- **ETL/ELT**: Custom Python ETL tooling, Data Pipeline Design, Batch Processing
-- **Processing**: Streaming Data, Batch Processing, Real-time Analytics
+    <div class="achievement-card">
+        <div class="achievement-header">
+            <h3>Credit Scoring Data Platform</h3>
+            <div class="achievement-meta">Serasa Experian (via Dextra) | 2019-2020</div>
+        </div>
+        <div class="achievement-content">
+            <p class="project-description">Built PySpark/Hadoop pipelines for Serasa's credit scoring systems, processing over 10 million records daily with strict financial compliance requirements.</p>
+            <div class="achievement-highlights">
+                <span class="highlight-tag">PySpark</span>
+                <span class="highlight-tag">Hadoop</span>
+                <span class="highlight-tag">Data Lake</span>
+                <span class="highlight-tag">Financial Data</span>
+            </div>
+            <ul class="achievement-list">
+                <li>Architected scalable data lake solution for financial analytics</li>
+                <li>Implemented data quality monitoring with comprehensive validation</li>
+                <li>Created ETL workflows for credit scoring with financial compliance</li>
+                <li>Designed data security protocols meeting regulatory requirements</li>
+                <li>Built custom data lineage tracking for auditability</li>
+            </ul>
+        </div>
+    </div>
 
-### Data Infrastructure & Optimization
-- **Cloud Data Services**: AWS (S3, RDS, Redshift), GCP BigQuery
-- **Orchestration**: Airflow, Jenkins, Custom Scheduling Solutions
-- **Containerization**: Docker, Kubernetes for Data Workloads
-- **Storage Solutions**: S3, HDFS, Optimized Data Formats (Parquet, Avro)
-- **Performance**: Query Optimization, Indexing Strategies, Data Partitioning
+    <div class="achievement-card">
+        <div class="achievement-header">
+            <h3>Compliance Data Migration Platform</h3>
+            <div class="achievement-meta">OneTrust | 2023</div>
+        </div>
+        <div class="achievement-content">
+            <p class="project-description">Led ETL architecture for a critical compliance data migration platform, transferring sensitive data between systems with 99.9% accuracy and complete audit trails.</p>
+            <div class="achievement-highlights">
+                <span class="highlight-tag">ETL Design</span>
+                <span class="highlight-tag">Data Validation</span>
+                <span class="highlight-tag">Reconciliation</span>
+                <span class="highlight-tag">Audit Trails</span>
+            </div>
+            <ul class="achievement-list">
+                <li>Designed PostgreSQL integrations for compliance data validation</li>
+                <li>Reduced processing time by 45% through optimization and parallelization</li>
+                <li>Implemented comprehensive data validation ensuring data integrity</li>
+                <li>Created custom ETL pipelines with complete audit trails</li>
+                <li>Engineered automated reconciliation between source and target systems</li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-### Data Quality & Governance
-- **Validation**: Schema Validation, Data Quality Checks, Reconciliation
-- **Monitoring**: Pipeline Monitoring, Data SLAs, Alerting
-- **Documentation**: Data Dictionaries, Pipeline Documentation, Data Lineage
-- **Security**: Data Encryption, Access Controls, Compliance (GDPR, CCPA)
+## Additional Data Engineering Achievements
 
----
+- **Security Metrics Processing**: Architected data pipelines at SecurityScorecard monitoring 10M+ security events daily with comprehensive quality controls and strict access protocols
+- **Real-Time Media Analytics**: Designed streaming architecture for Globo.com processing 500K+ events/hour for content recommendation engine
+- **Time-Series Financial Monitoring**: Developed platform for 10K+ ATM devices with <1s data processing latency for critical metrics
+- **Satellite Image Processing**: Built pipeline handling 100K+ daily images for wildfire detection with 75% reduction in processing time
+- **Vehicle Data Processing**: Engineered system processing 1M+ vehicle records daily with 70% storage optimization and geospatial indexing
 
-## Professional Experience
+## Technical Articles & Resources
 
-### OneTrust
-**Senior Data Engineer | ETL Architecture Lead** — *Remote – USA*  
-*Jun 2023 – Present*
+<div class="resources-section">
+    <div class="resource-item">
+        <h4>Building Resilient ETL Pipelines</h4>
+        <p>A practical guide to designing fault-tolerant data pipelines with comprehensive error handling and recovery.</p>
+        <a href="#" class="resource-link">Read article <i class="fas fa-arrow-right"></i></a>
+    </div>
+    
+    <div class="resource-item">
+        <h4>PostgreSQL Performance Optimization for Data Engineers</h4>
+        <p>Advanced techniques for optimizing PostgreSQL for high-volume data processing workloads.</p>
+        <a href="#" class="resource-link">Read article <i class="fas fa-arrow-right"></i></a>
+    </div>
+    
+    <div class="resource-item">
+        <h4>Data Quality Frameworks: Beyond Basic Validation</h4>
+        <p>Implementing comprehensive data quality assurance in production ETL pipelines.</p>
+        <a href="#" class="resource-link">Read article <i class="fas fa-arrow-right"></i></a>
+    </div>
+</div>
 
-- **Architected** and led data migration platform from Convercent with 99.9% accuracy
-- **Designed** robust PostgreSQL integrations for compliance data ingestion and validation
-- **Reduced** data processing time by 45% through batch optimization and parallelization
-- **Implemented** comprehensive data validation framework ensuring data integrity
-- **Created** custom ETL pipelines for sensitive compliance data with full audit trails
-- **Engineered** automated data reconciliation processes between source and target systems
-
-### IKTech
-**Senior Data Engineer | Pipeline Architect** — *Campinas, Brazil (Remote)*  
-*Nov 2020 – Present*
-
-- **Designed** high-throughput data pipelines processing 5TB+ daily for agricultural analytics
-- **Optimized** PostgreSQL query performance reducing processing time by 60%
-- **Created** real-time crop analysis data workflows using custom ETL solutions
-- **Implemented** comprehensive data quality checks and validation frameworks
-- **Maintained** >95% test coverage across all data processing systems
-- **Built** data distribution systems with Redis for high-availability analytics
-
-### SecurityScorecard
-**Senior Data Engineer | Data Pipeline Specialist** — *New York, USA (Remote)*  
-*Jan 2022 – Jun 2023*
-
-- **Architected** scalable data ingestion pipelines for security metrics processing
-- **Built** automated data quality monitoring systems for 10M+ daily records
-- **Designed** security-focused data warehousing solution with strict access controls
-- **Developed** resilient ETL workflows with comprehensive error handling and retry logic
-- **Implemented** real-time data streaming architecture for security event monitoring
-- **Created** PostgreSQL optimization strategies reducing storage requirements by 35%
-
-### BairesDev
-**Senior Data Engineer | ETL Specialist** — *Canada (Remote)*  
-*Dec 2020 – Jun 2021*
-
-- **Developed** PostgreSQL data backends with optimized SQLAlchemy layers
-- **Built** scalable data ingestion pipelines with comprehensive validation
-- **Implemented** data partitioning strategies improving query performance by 85%
-- **Created** automated data quality assurance processes for sensitive financial data
-- **Designed** data extraction services from legacy systems with 100% accuracy
-
-### Dextra Digital (Globo, Serasa Experian, Caixa)
-**Senior Data Engineer | Big Data Architect** — *Brazil*  
-*2019 – 2020*
-
-- **Built** PySpark/Hadoop ML pipelines for Serasa scoring systems processing 10M+ records daily
-- **Architected** data lake solution for Globo.com's content analytics platform
-- **Designed** real-time data streaming solution processing 500K+ events/hour
-- **Implemented** data quality monitoring framework for critical financial data
-- **Created** ETL workflows for credit scoring models with comprehensive validations
-
-### GPr Sistemas
-**Data Engineer | Analytics Specialist** — *Brazil*  
-*Jul 2019 – Nov 2019*
-
-- **Developed** real-time monitoring data platform for 10K+ ATM devices
-- **Designed** time-series data storage solution with efficient querying capabilities
-- **Built** analytics dashboard ingesting and processing network monitoring data
-- **Achieved** <1s data processing latency for critical financial metrics
-- **Implemented** data archiving and retention policies for compliance requirements
-
-### Sintecsys
-**Data Engineer | Image Processing Specialist** — *Brazil*  
-*Apr 2019 – Jul 2019*
-
-- **Built** data pipeline processing 100K+ satellite images daily for wildfire detection
-- **Designed** metadata extraction and indexing system for rapid image retrieval
-- **Reduced** data processing time by 75% through optimization and parallelization
-- **Implemented** fault-tolerant storage solution for critical environmental data
-- **Created** ETL workflows for ML model training with comprehensive data validation
-
-### Multiway (Smart City)
-**Data Engineer | ALPR Systems** — *Brazil*  
-*Jan 2016 – Feb 2019*
-
-- **Engineered** data processing system handling 1M+ vehicle records daily
-- **Designed** efficient data storage architecture for license plate recognition data
-- **Built** ETL pipelines for vehicle tracking data with geospatial indexing
-- **Achieved** 70% improvement in data processing efficiency and storage utilization
-- **Implemented** data retention and anonymization policies for regulatory compliance
-
----
-
-## Certifications & Education
-
-- B.Sc. in Computer Science — *University of London*  
-- AWS Certified Cloud Practitioner  
-- Database Optimization & Data Pipeline Design Certifications
-- Advanced PostgreSQL Administration & Performance Tuning
-
----
-
-## Languages
-
-- 🇧🇷 Portuguese: Native  
-- 🇺🇸 English: Fluent  
-- 🇷🇺 Russian: Basic
+<div class="contact-cta">
+    <h3>Let's Discuss Your Data Engineering Challenges</h3>
+    <p>I'm available for consultations on ETL architecture, data pipeline optimization, and data quality frameworks.</p>
+    <a href="mailto:h.lobato001@gmail.com" class="cta-button">Contact Me</a>
+    <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
+</div>

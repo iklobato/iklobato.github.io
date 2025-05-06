@@ -400,6 +400,229 @@
             margin-bottom: 0;
         }
         
+        /* Achievement Pages Styling */
+        .skills-highlights {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .skill-area {
+            background-color: var(--highlight-bg);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        
+        .skill-area h4 {
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        .skill-area h4 i {
+            margin-right: 0.5rem;
+        }
+        
+        .skill-area ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        
+        .skill-area li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .achievement-cards {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .achievement-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .achievement-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+        
+        .achievement-header {
+            background-color: var(--highlight-bg);
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .achievement-header h3 {
+            margin: 0;
+            color: var(--secondary-color);
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .achievement-meta {
+            color: var(--light-text);
+            font-size: 0.9rem;
+            margin-top: 0.3rem;
+        }
+        
+        .achievement-content {
+            padding: 1.5rem;
+        }
+        
+        .project-description {
+            color: var(--light-text);
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+        
+        .achievement-highlights {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .highlight-tag {
+            background-color: rgba(3, 102, 214, 0.1);
+            color: var(--primary-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-family: 'Roboto Mono', monospace;
+        }
+        
+        .achievement-list {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        
+        .achievement-list li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .resources-section {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .resource-item {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+        }
+        
+        .resource-item h4 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            color: var(--secondary-color);
+        }
+        
+        .resource-item p {
+            margin-bottom: 1rem;
+            color: var(--light-text);
+        }
+        
+        .resource-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .resource-link i {
+            margin-left: 0.5rem;
+            transition: transform 0.2s ease;
+        }
+        
+        .resource-link:hover i {
+            transform: translateX(3px);
+        }
+        
+        .contact-cta {
+            background-color: var(--highlight-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 3rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        
+        .contact-cta h3 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+        }
+        
+        .contact-cta p {
+            margin-bottom: 1.5rem;
+            color: var(--light-text);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 0.8rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #0550ae;
+            transform: translateY(-2px);
+        }
+        
+        .back-link {
+            display: block;
+            color: var(--light-text);
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+        
+        .back-link i {
+            margin-right: 0.5rem;
+        }
+        
+        .back-link:hover {
+            color: var(--primary-color);
+        }
+        
+        @media (min-width: 768px) {
+            .skills-highlights {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .achievement-cards {
+                gap: 2.5rem;
+            }
+            
+            .resources-section {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
         .experience-header {
             margin-bottom: 0.5rem;
         }

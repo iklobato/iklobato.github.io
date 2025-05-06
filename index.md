@@ -48,9 +48,9 @@ title: Home
         <p>Senior Software Engineer with 10+ years of experience building robust backend systems, scalable data pipelines, and cloud infrastructures. I specialize in solving complex engineering challenges with Python, delivering high-performance solutions that scale to millions of users.</p>
         
         <div class="cv-links">
-            <a href="/backend/" class="cv-link"><i class="fas fa-code"></i> Backend CV</a>
-            <a href="/data-engineer/" class="cv-link"><i class="fas fa-database"></i> Data Engineering CV</a>
-            <a href="/devops/" class="cv-link"><i class="fas fa-cloud"></i> DevOps CV</a>
+            <a href="/backend/" class="cv-link"><i class="fas fa-code"></i> Backend Achievements</a>
+            <a href="/data-engineer/" class="cv-link"><i class="fas fa-database"></i> Data Engineering Achievements</a>
+            <a href="/devops/" class="cv-link"><i class="fas fa-cloud"></i> DevOps Achievements</a>
             <a href="/full-cv/" class="cv-link"><i class="fas fa-file-alt"></i> Full CV</a>
         </div>
     </div>
