@@ -15,7 +15,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    <meta name="author" content="{{ site.author }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
     <script>
         // Force HTTPS
         if (window.location.protocol !== "https:" && 
@@ -512,6 +532,107 @@
         
         .achievement-list li {
             margin-bottom: 0.5rem;
+        }
+        
+        .technical-details {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background-color: rgba(3, 102, 214, 0.05);
+            border-radius: 4px;
+            border-left: 3px solid var(--primary-color);
+        }
+        
+        .technical-details p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: var(--light-text);
+        }
+        
+        /* Mini Projects styling */
+        .mini-projects {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .mini-project {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .mini-project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+        }
+        
+        .mini-project h4 {
+            font-size: 1.1rem;
+            margin-top: 0;
+            margin-bottom: 0.75rem;
+            color: var(--secondary-color);
+        }
+        
+        .mini-project-client {
+            font-size: 0.85rem;
+            font-weight: normal;
+            color: var(--primary-color);
+            margin-left: 0.5rem;
+        }
+        
+        .mini-project-description {
+            font-size: 0.95rem;
+            color: var(--light-text);
+            margin-bottom: 1rem;
+        }
+        
+        .mini-project-details {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .mini-project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .tech-tag {
+            background-color: rgba(3, 102, 214, 0.08);
+            color: var(--primary-color);
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-family: 'Roboto Mono', monospace;
+        }
+        
+        .mini-project-achievements {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+        
+        .achievement-metric {
+            background-color: rgba(46, 164, 79, 0.1);
+            color: var(--accent-color);
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .metric-detail {
+            font-weight: normal;
+            color: var(--text-color);
+            margin-left: 0.4rem;
+            font-size: 0.8rem;
         }
         
         .resources-section {
@@ -1200,6 +1321,58 @@
                 behavior: 'smooth'
             });
         });
+    </script>
+    
+    <!-- Schema.org structured data for Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Henrique Lobato",
+      "jobTitle": "Senior Python Developer | Tech Lead | Cloud Architect",
+      "telephone": "+55 11 9 8434 8555",
+      "email": "h.lobato001@gmail.com",
+      "url": "https://iklobato.github.io",
+      "sameAs": [
+        "https://linkedin.com/in/iklobato-sr-python",
+        "https://github.com/iklobato"
+      ],
+      "knowsAbout": ["Python", "Django", "Flask", "FastAPI", "AWS", "GCP", "Kubernetes", "Docker", "PostgreSQL", "Data Engineering", "DevOps", "Backend Development"]
+    }
+    </script>
+
+    <!-- Schema.org structured data for Professional Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Henrique Lobato - Python Development Services",
+      "image": "https://avatars.githubusercontent.com/u/18133417?v=4",
+      "description": "Senior Python Developer providing backend development, data engineering, and DevOps services",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Brazil"
+      },
+      "telephone": "+55 11 9 8434 8555",
+      "email": "h.lobato001@gmail.com",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Backend System Development",
+          "description": "Custom APIs, microservices, and data processing systems built for scale and performance"
+        },
+        {
+          "@type": "Offer",
+          "name": "Data Pipeline Engineering",
+          "description": "ETL/ELT pipelines, data warehousing, and analytics infrastructures that deliver actionable insights"
+        },
+        {
+          "@type": "Offer", 
+          "name": "Cloud Infrastructure Optimization",
+          "description": "AWS/GCP architecture design, cost optimization, and DevOps automation for reliable deployments"
+        }
+      ]
+    }
     </script>
     
     <!-- Cloudflare Web Analytics -->

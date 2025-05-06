@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Home
+title: Henrique Lobato | Python Developer & Cloud Solutions Expert
+description: Senior Python Developer with 10+ years experience delivering scalable backend systems, optimized data pipelines, and cloud infrastructure. Specializing in AWS, GCP, Django, Flask, and FastAPI.
+keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architecture, AWS, GCP, Django, Kubernetes, API Development
 ---
 
 <header class="header">
@@ -9,16 +11,12 @@ title: Home
             <img src="https://avatars.githubusercontent.com/u/18133417?v=4" alt="Henrique Lobato" />
         </div>
         <div class="profile-info">
-            <h1>Henrique Lobato</h1>
+            <h1>Henrique Lobato - Python Developer & Cloud Solutions Expert</h1>
             <span class="title">Senior Python Developer | Tech Lead | Cloud Architect</span>
             <div class="contact-info">
                 <a href="tel:+5511984348555" class="contact-item">
                     <i class="fas fa-phone"></i>
                     +55 11 9 8434 8555
-                </a>
-                <a href="tel:+14158516951" class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    +1 415 851 6951
                 </a>
                 <a href="mailto:h.lobato001@gmail.com" class="contact-item">
                     <i class="fas fa-envelope"></i>
@@ -45,7 +43,7 @@ title: Home
     
     <div class="hero-section">
         <h2>About Me</h2>
-        <p>Senior Software Engineer with 10+ years of experience building robust backend systems, scalable data pipelines, and cloud infrastructures. I specialize in solving complex engineering challenges with Python, delivering high-performance solutions that scale to millions of users.</p>
+        <p><strong>Python Developer & Cloud Solutions Expert</strong> with 10+ years of experience building robust backend systems, scalable data pipelines, and cloud infrastructures. I specialize in solving complex engineering challenges with Python, delivering high-performance solutions that scale to millions of users. Expert in <strong>AWS</strong>, <strong>Django</strong>, <strong>FastAPI</strong>, and <strong>Kubernetes</strong>.</p>
         
         <div class="cv-links">
             <a href="/backend/" class="cv-link"><i class="fas fa-code"></i> Backend Achievements</a>
@@ -74,8 +72,8 @@ title: Home
             <div class="skills-category">
                 <h3>Programming & Frameworks</h3>
                 <div class="skills-list">
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">Python Developer</span>
+                    <span class="skill-tag">Django REST</span>
                     <span class="skill-tag">Flask</span>
                     <span class="skill-tag">FastAPI</span>
                     <span class="skill-tag">JavaScript</span>
@@ -334,57 +332,6 @@ title: Home
                 <span>PostgreSQL</span>
                 <span>TensorFlow</span>
                 <span>OpenCV</span>
-            </div>
-        </div>
-    </section>
-    
-    <section id="testimonials">
-        <h2>Client Testimonials</h2>
-        
-        <div class="testimonials-container">
-            <div class="testimonial">
-                <div class="testimonial-content">
-                    <p>"Henrique transformed our data infrastructure, reducing processing times by 60% and implementing robust validation that virtually eliminated data quality issues. His expertise saved us thousands in operational costs."</p>
-                </div>
-                <div class="testimonial-author">
-                    <div class="author-avatar">
-                        <i class="fas fa-user-circle"></i>
-                    </div>
-                    <div class="author-details">
-                        <div class="author-name">Michael J.</div>
-                        <div class="author-title">CTO, AgriTech Solutions</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="testimonial">
-                <div class="testimonial-content">
-                    <p>"Working with Henrique on our API infrastructure was a game-changer. His microservices architecture not only handled our 10x growth but did so while reducing our cloud costs by 35%. Exceptional problem-solver."</p>
-                </div>
-                <div class="testimonial-author">
-                    <div class="author-avatar">
-                        <i class="fas fa-user-circle"></i>
-                    </div>
-                    <div class="author-details">
-                        <div class="author-name">Sarah L.</div>
-                        <div class="author-title">VP Engineering, FinTech Startup</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="testimonial">
-                <div class="testimonial-content">
-                    <p>"His cloud architecture redesign cut our AWS bill by 40% while actually improving performance. Henrique has a rare talent for building systems that are both technically excellent and business-aware."</p>
-                </div>
-                <div class="testimonial-author">
-                    <div class="author-avatar">
-                        <i class="fas fa-user-circle"></i>
-                    </div>
-                    <div class="author-details">
-                        <div class="author-name">David K.</div>
-                        <div class="author-title">Director of Engineering, Enterprise SaaS</div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

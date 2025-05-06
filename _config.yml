@@ -1,7 +1,12 @@
-title: Henrique Lobato
-description: Senior Python Developer | Tech Lead | Cloud Architect
+title: Henrique Lobato | Senior Python Developer & Cloud Architect
+description: Senior Python Developer, Tech Lead, and Cloud Architect specializing in backend engineering, data pipelines, and DevOps with 10+ years experience.
+author: Henrique Lobato
 baseurl: ""
 url: "https://iklobato.github.io"
+social:
+  github: iklobato
+  linkedin: iklobato-sr-python
+keywords: Python Developer, Backend Engineering, Data Engineering, Cloud Architect, DevOps Engineer, AWS, GCP, Django, Flask, FastAPI, Kubernetes, PostgreSQL
 
 # Build settings
 markdown: kramdown
