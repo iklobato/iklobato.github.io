@@ -1,0 +1,18 @@
+title: Henrique Lobato
+description: Senior Python Developer | Tech Lead | Cloud Architect
+baseurl: ""
+url: "https://iklobato.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md

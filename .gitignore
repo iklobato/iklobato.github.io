@@ -1,0 +1,33 @@
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler files
+.bundle/
+vendor/
+
+# Ruby environment
+.ruby-version
+.ruby-gemset
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Original markdown files
+*_cv_enhanced.md
+unified_cv_template.md
+**/.claude/settings.local.json
