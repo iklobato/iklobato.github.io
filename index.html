@@ -3,4 +3,11 @@ layout: default
 title: Home
 ---
 
+<script>
+  // Force HTTPS
+  if (window.location.protocol != "https:" && window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1") {
+    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+  }
+</script>
+
 {% include_relative index.md %}
