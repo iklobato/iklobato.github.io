@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Henrique Lobato | Python Developer & Cloud Solutions Expert
-description: Senior Python Developer with 10+ years experience delivering scalable backend systems, optimized data pipelines, and cloud infrastructure. Specializing in AWS, GCP, Django, Flask, and FastAPI.
-keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architecture, AWS, GCP, Django, Kubernetes, API Development
+title: Henrique Lobato | Freelance Python Developer | Cloud Architect | AI & Backend Expert
+description: Henrique Lobato – Freelance Python expert offering scalable backend APIs, cloud infrastructure, machine learning integrations, and security-driven DevOps solutions. Remote worldwide.
+keywords: Freelance Python Developer, Cloud Architect, AI Integration, Backend Expert, API Development, AWS, GCP, Django, FastAPI, Kubernetes, Data Engineering, Machine Learning, Remote Developer
 ---
 
 <header class="header">
     <div class="profile-section">
         <div class="profile-img">
-            <img src="https://avatars.githubusercontent.com/u/18133417?v=4" alt="Henrique Lobato" />
+            <img src="https://avatars.githubusercontent.com/u/18133417?v=4" alt="Henrique Lobato - Freelance Python Developer and Cloud Architect" />
         </div>
         <div class="profile-info">
-            <h1>Henrique Lobato - Python Developer & Cloud Solutions Expert</h1>
-            <span class="title">Senior Python Developer | Tech Lead | Cloud Architect</span>
+            <h1>Senior Python Developer & Cloud Architect for Scalable AI, API & Backend Solutions</h1>
+            <span class="title">Freelance Python Expert | Cloud Solutions | AI Integration</span>
             <div class="contact-info">
                 <a href="mailto:iklobato1@gmail.com" class="contact-item">
                     <i class="fas fa-envelope"></i>
@@ -40,7 +40,7 @@ keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architectur
     
     <div class="hero-section">
         <h2>About Me</h2>
-        <p><strong>Python Developer & Cloud Solutions Expert</strong> with 10+ years of experience building robust backend systems, scalable data pipelines, and cloud infrastructures. I specialize in solving complex engineering challenges with Python, delivering high-performance solutions that scale to millions of users. Expert in <strong>AWS</strong>, <strong>Django</strong>, <strong>FastAPI</strong>, and <strong>Kubernetes</strong>.</p>
+        <p>I'm Henrique, a <strong>freelance Senior Python Developer and Cloud Architect</strong> with 10+ years of experience in scalable backend systems, AWS/GCP deployments, microservices, AI/ML integrations using HuggingFace and OpenCV, and Django/FastAPI APIs. I help startups and enterprise teams reduce cloud costs and scale faster.</p>
         
         <div class="cv-links">
             <a href="/backend/" class="cv-link"><i class="fas fa-code"></i> Backend Achievements</a>
@@ -158,27 +158,34 @@ keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architectur
         </div>
         
         <div class="services-offered">
-            <h3>Services Offered</h3>
+            <h3>Freelance Services</h3>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-server"></i></div>
-                    <h4>Backend System Development</h4>
-                    <p>Custom APIs, microservices, and data processing systems built for scale and performance.</p>
-                    <a href="/backend/" class="service-link">View Backend Projects <i class="fas fa-arrow-right"></i></a>
+                    <h4>Scalable Backend API Development</h4>
+                    <p>Custom REST and GraphQL APIs built with Django and FastAPI for startups and enterprises. Microservices architecture that scales to millions of users with high performance.</p>
+                    <a href="/backend/" class="service-link">View Backend Expertise <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-brain"></i></div>
+                    <h4>AI/ML Integration Services</h4>
+                    <p>Machine learning implementation with Python using HuggingFace, LangChain, OpenCV, and TensorFlow for business automation, data analytics, and intelligent features.</p>
+                    <a href="/data-engineer/" class="service-link">View AI/ML Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cloud"></i></div>
+                    <h4>Cloud Infrastructure & DevOps</h4>
+                    <p>AWS/GCP architecture design with 30-40% cost reduction, Kubernetes orchestration, and CI/CD automation for reliable, scalable deployments.</p>
+                    <a href="/devops/" class="service-link">View DevOps Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-database"></i></div>
                     <h4>Data Pipeline Engineering</h4>
-                    <p>ETL/ELT pipelines, data warehousing, and analytics infrastructures that deliver actionable insights.</p>
-                    <a href="/data-engineer/" class="service-link">View Data Projects <i class="fas fa-arrow-right"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-cloud"></i></div>
-                    <h4>Cloud Infrastructure Optimization</h4>
-                    <p>AWS/GCP architecture design, cost optimization, and DevOps automation for reliable deployments.</p>
-                    <a href="/devops/" class="service-link">View DevOps Projects <i class="fas fa-arrow-right"></i></a>
+                    <p>Robust ETL/ELT pipelines, data warehousing, and analytics infrastructures with PySpark, Hadoop, and Snowflake that deliver actionable business insights.</p>
+                    <a href="/data-engineer/" class="service-link">View Data Engineering <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

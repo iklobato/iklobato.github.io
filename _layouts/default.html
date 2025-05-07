@@ -22,6 +22,14 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
     <meta name="author" content="{{ site.author }}">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="google-site-verification" content="YOUR-VERIFICATION-CODE">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="geo.region" content="BR">
+    <meta name="geo.placename" content="Brazil">
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 
     <!-- Open Graph / Facebook -->
@@ -30,13 +38,19 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
+    <meta property="og:image:alt" content="Henrique Lobato - Freelance Python Developer specialized in cloud architecture and AI integration">
+    <meta property="og:site_name" content="Henrique Lobato - Freelance Python Developer">
+    <meta property="og:locale" content="en_US">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
+    <meta name="twitter:image:alt" content="Henrique Lobato - Freelance Python Developer specialized in cloud architecture and AI integration">
+    <meta name="twitter:creator" content="@iklobato">
+    <meta name="twitter:site" content="@iklobato">
     <script>
         // Force HTTPS
         if (window.location.protocol !== "https:" && 
@@ -1090,11 +1104,19 @@
             }
             
             .services-grid {
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
             }
             
             .testimonials-container {
                 grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .services-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 1.5rem;
             }
             
             .cta-buttons {
@@ -1572,15 +1594,26 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Henrique Lobato",
-      "jobTitle": "Senior Python Developer | Tech Lead | Cloud Architect",
+      "jobTitle": "Freelance Python Developer",
       "telephone": "+55 11 9 8434 8555",
       "email": "h.lobato001@gmail.com",
-      "url": "https://iklobato.github.io",
+      "url": "https://iklobato.com",
+      "image": "https://avatars.githubusercontent.com/u/18133417?v=4",
       "sameAs": [
         "https://linkedin.com/in/iklobato-sr-python",
-        "https://github.com/iklobato"
+        "https://github.com/iklobato",
+        "https://calendly.com/hlobato/lets-talk"
       ],
-      "knowsAbout": ["Python", "Django", "Flask", "FastAPI", "AWS", "GCP", "Kubernetes", "Docker", "PostgreSQL", "Data Engineering", "DevOps", "Backend Development"]
+      "knowsAbout": [
+        "Python", "Django", "Flask", "FastAPI", "AWS", "GCP", "Kubernetes", "Docker", 
+        "PostgreSQL", "Data Engineering", "DevOps", "Backend Development", "AI Integration",
+        "Machine Learning", "HuggingFace", "OpenCV", "Microservices Architecture",
+        "API Development", "Cloud Cost Optimization", "Scalable Systems"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance Clients Worldwide"
+      }
     }
     </script>
 
@@ -1589,32 +1622,62 @@
     {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      "name": "Henrique Lobato - Python Development Services",
+      "name": "Henrique Lobato - Freelance Python Development Services",
       "image": "https://avatars.githubusercontent.com/u/18133417?v=4",
-      "description": "Senior Python Developer providing backend development, data engineering, and DevOps services",
+      "description": "Freelance Senior Python Developer providing scalable backend APIs, cloud infrastructure, machine learning integrations, and security-driven DevOps solutions. Available for remote work worldwide.",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "Brazil"
       },
+      "url": "https://iklobato.com",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://calendly.com/hlobato/lets-talk",
+        "servicePhone": "+55 11 9 8434 8555",
+        "serviceSmsNumber": "+55 11 9 8434 8555"
+      },
       "telephone": "+55 11 9 8434 8555",
       "email": "h.lobato001@gmail.com",
+      "areaServed": {
+        "@type": "GeoCircle",
+        "name": "Available for Remote Work Worldwide"
+      },
       "makesOffer": [
         {
           "@type": "Offer",
-          "name": "Backend System Development",
-          "description": "Custom APIs, microservices, and data processing systems built for scale and performance"
+          "name": "Scalable Backend API Development",
+          "description": "Custom REST and GraphQL APIs built with Django and FastAPI for startups and enterprises. Microservices architecture for scale and performance."
         },
         {
           "@type": "Offer",
-          "name": "Data Pipeline Engineering",
-          "description": "ETL/ELT pipelines, data warehousing, and analytics infrastructures that deliver actionable insights"
+          "name": "AI/ML Integration Services",
+          "description": "Machine learning implementation with Python using HuggingFace, LangChain, OpenCV, and TensorFlow for business automation and analytics."
         },
         {
           "@type": "Offer", 
-          "name": "Cloud Infrastructure Optimization",
-          "description": "AWS/GCP architecture design, cost optimization, and DevOps automation for reliable deployments"
+          "name": "Cloud Infrastructure & DevOps",
+          "description": "AWS/GCP architecture design, cloud cost optimization, Kubernetes orchestration, and CI/CD automation for reliable deployments."
+        },
+        {
+          "@type": "Offer", 
+          "name": "Data Engineering & Pipeline Development",
+          "description": "ETL/ELT pipelines, data warehousing, and analytics infrastructures with PySpark, Hadoop, and Snowflake that deliver actionable insights."
         }
-      ]
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Freelance Python Development Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Technology Stack",
+            "itemListElement": [
+              "Python", "Django", "FastAPI", "Flask", "AWS", "GCP", "Kubernetes",
+              "Docker", "PostgreSQL", "Redis", "Snowflake", "Terraform", "GitHub Actions"
+            ]
+          }
+        ]
+      }
     }
     </script>
     
