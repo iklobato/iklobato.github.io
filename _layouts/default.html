@@ -1291,6 +1291,7 @@
             display: none;
         }
         
+        /* Print button styles - temporarily disabled - to be fixed later
         .printButton {
             position: fixed;
             bottom: 20px;
@@ -1314,6 +1315,7 @@
             opacity: 1;
             transform: translateY(-2px);
         }
+        */
         
         @media (max-width: 768px) {
             .skills-container {
@@ -1505,6 +1507,7 @@
             <i class="fas fa-arrow-up"></i>
         </button>
         
+        <!-- Print button temporarily disabled - to be fixed later
         <button class="printButton" id="printButton" title="Print this page">
             <i class="fas fa-print"></i>
         </button>
@@ -1512,6 +1515,7 @@
         <div class="print-only print-message">
             <p>This resume was printed from <strong>iklobato.github.io</strong> on <span id="print-date"></span></p>
         </div>
+        -->
         
         {{ content }}
         
@@ -1524,7 +1528,6 @@
     <script>
         // Scroll to top functionality
         const scrollToTopBtn = document.getElementById('scrollToTop');
-        const printButton = document.getElementById('printButton');
         
         window.addEventListener('scroll', function() {
             if (window.pageYOffset > 300) {
@@ -1541,7 +1544,8 @@
             });
         });
         
-        // Print functionality
+        /* Print functionality - temporarily disabled - to be fixed later
+        const printButton = document.getElementById('printButton');
         printButton.addEventListener('click', function() {
             // Prepare page for printing
             document.body.classList.add('printing');
@@ -1559,6 +1563,7 @@
                 document.body.classList.remove('printing');
             }, 1000);
         });
+        */
     </script>
     
     <!-- Schema.org structured data for Person -->
