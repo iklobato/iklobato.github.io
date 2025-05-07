@@ -313,7 +313,7 @@ keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architectur
             <ul class="contributions-list">
                 <li><span class="contribution-highlight">BairesDev:</span> Modernized legacy systems to AWS serverless infrastructure, reducing costs by 40%</li>
                 <li><span class="contribution-highlight">Dextra Digital:</span> Built PySpark/Hadoop ML pipelines processing 10M+ daily records for Serasa Experian</li>
-                <li><span class="contribution-highlight">GPr Sistemas:</span> Developed SNMP-based monitoring for 10,000+ ATM devices with 99.99% uptime</li>
+                <li><span class="contribution-highlight">GPr Sistemas:</span> Developed SNMP-based monitoring banking network devices</li>
                 <li><span class="contribution-highlight">Sintecsys:</span> Created wildfire detection system that detected 500+ early-stage fires</li>
                 <li><span class="contribution-highlight">Multiway:</span> Built ALPR system processing 1M+ vehicles daily with 98% detection accuracy</li>
             </ul>
