@@ -30,9 +30,6 @@ keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architectur
                 <a href="https://github.com/iklobato" class="social-link" title="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://calendly.com/iktech/30min" class="social-link" title="Schedule a Call">
-                    <i class="far fa-calendar-alt"></i>
-                </a>
             </div>
         </div>
     </div>
@@ -357,10 +354,6 @@ keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architectur
                     </div>
                 </div>
                 
-                <div class="cta-buttons">
-                    <a href="mailto:h.lobato001@gmail.com" class="primary-cta">Contact Me</a>
-                    <a href="https://calendly.com/hlobato/30mincall" class="secondary-cta">Schedule a Call</a>
-                </div>
             </div>
         </div>
     </section>
