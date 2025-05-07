@@ -1287,6 +1287,34 @@
             opacity: 1;
         }
         
+        .print-only {
+            display: none;
+        }
+        
+        .printButton {
+            position: fixed;
+            bottom: 20px;
+            right: 70px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background-color: var(--accent-color);
+            color: var(--white);
+            border-radius: 50%;
+            opacity: 0.7;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            border: none;
+            transition: opacity 0.3s, transform 0.3s;
+        }
+        
+        .printButton:hover {
+            opacity: 1;
+            transform: translateY(-2px);
+        }
+        
         @media (max-width: 768px) {
             .skills-container {
                 grid-template-columns: 1fr;
@@ -1306,35 +1334,167 @@
         }
         
         @media print {
+            /* General print styles */
             body {
                 padding: 0;
+                font-size: 10pt;
+                line-height: 1.4;
+                background-color: white !important;
+                color: black !important;
+                width: 100%;
+                max-width: 100%;
+            }
+            
+            /* Text and content formatting */
+            p, li {
+                font-size: 10pt;
+                line-height: 1.4;
+                color: black !important;
+            }
+            
+            h1 {
+                font-size: 16pt;
+                margin-bottom: 0.3rem;
+                color: black !important;
+            }
+            
+            h2 {
+                font-size: 14pt;
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+                color: black !important;
+                page-break-after: avoid;
+                border-bottom: 1pt solid #444;
+            }
+            
+            h3, h4 {
                 font-size: 12pt;
+                margin-top: 0.75rem;
+                margin-bottom: 0.3rem;
+                page-break-after: avoid;
+                color: black !important;
             }
             
-            .scrollToTop {
-                display: none;
+            /* Layout and page breaks */
+            .container {
+                width: 100%;
+                padding: 0;
+                margin: 0;
             }
             
-            a {
-                text-decoration: none;
-                color: inherit;
+            .main-content {
+                padding: 0;
+                margin: 0;
             }
             
+            /* Page break controls */
             .experience-item, section {
                 page-break-inside: avoid;
             }
             
-            h2, h3 {
-                page-break-after: avoid;
+            .skills-container, .services-grid, .value-props, .testimonials-container {
+                page-break-inside: avoid;
             }
             
-            .profile-img {
-                width: 100px;
-                height: 100px;
+            /* Force backgrounds to white and borders to be visible */
+            .skill-tag, .highlight-tag, .tech-tag, .achievement-metric, .service-card,
+            .value-prop, .github-card, .achievement-card, .technologies span {
+                background-color: white !important;
+                border: 1pt solid #ddd !important;
+                color: black !important;
+                box-shadow: none !important;
             }
             
-            .social-links {
+            /* Remove decorative elements */
+            .service-icon {
                 display: none;
+            }
+            
+            /* Hide non-essential elements */
+            .scrollToTop, .printButton, .footer, .social-links, .contact-cta, .hero-section,
+            .testimonials-container, .cta-buttons, .github-stats-grid,
+            .hire-me-container, #hire-me, .resume-footer, .back-link,
+            .cv-links {
+                display: none !important;
+            }
+            
+            /* Hide profile image */
+            .profile-img {
+                display: none !important;
+            }
+            
+            /* Improve contact info display */
+            .profile-info {
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            
+            .contact-info {
+                justify-content: center;
+                margin-bottom: 0.5rem;
+            }
+            
+            .contact-item {
+                margin: 0 0.5rem;
+            }
+            
+            /* Links & buttons */
+            a {
+                text-decoration: none;
+                color: black !important;
+            }
+            
+            .service-link, .resource-link {
+                display: none;
+            }
+            
+            /* Grid layouts for optimal space usage */
+            .skills-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.5rem;
+            }
+            
+            .skills-list {
+                gap: 0.25rem;
+            }
+            
+            /* Add print-specific header with contact details */
+            .header::after {
+                content: "Email: h.lobato001@gmail.com | Telegram: @iklobato";
+                display: block;
+                text-align: center;
+                margin-top: 0.5rem;
+                font-size: 10pt;
+                border-bottom: 1pt solid #ddd;
+                padding-bottom: 0.5rem;
+            }
+            
+            /* Simplified headers and sections */
+            .header {
+                padding: 0;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+            
+            /* Reset all colors to black on white for better printing */
+            * {
+                color: black !important;
+                background-color: white !important;
+            }
+            
+            /* Print specific visibility */
+            .print-only {
+                display: block !important;
+            }
+            
+            .print-message {
+                text-align: center;
+                font-size: 8pt;
+                color: #666 !important;
+                margin-top: 1rem;
+                border-top: 1pt solid #ccc;
+                padding-top: 0.5rem;
             }
         }
     </style>
@@ -1344,6 +1504,14 @@
         <button class="scrollToTop" id="scrollToTop" title="Scroll to top">
             <i class="fas fa-arrow-up"></i>
         </button>
+        
+        <button class="printButton" id="printButton" title="Print this page">
+            <i class="fas fa-print"></i>
+        </button>
+        
+        <div class="print-only print-message">
+            <p>This resume was printed from <strong>iklobato.github.io</strong> on <span id="print-date"></span></p>
+        </div>
         
         {{ content }}
         
@@ -1356,6 +1524,7 @@
     <script>
         // Scroll to top functionality
         const scrollToTopBtn = document.getElementById('scrollToTop');
+        const printButton = document.getElementById('printButton');
         
         window.addEventListener('scroll', function() {
             if (window.pageYOffset > 300) {
@@ -1370,6 +1539,25 @@
                 top: 0,
                 behavior: 'smooth'
             });
+        });
+        
+        // Print functionality
+        printButton.addEventListener('click', function() {
+            // Prepare page for printing
+            document.body.classList.add('printing');
+            
+            // Set print date
+            const printDate = document.getElementById('print-date');
+            const now = new Date();
+            printDate.textContent = now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
+            
+            // Show print dialog
+            window.print();
+            
+            // Remove printing class after print dialog is closed
+            setTimeout(function() {
+                document.body.classList.remove('printing');
+            }, 1000);
         });
     </script>
     

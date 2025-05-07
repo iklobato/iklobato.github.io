@@ -30,8 +30,8 @@ keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architectur
                 <a href="https://github.com/iklobato" class="social-link" title="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://calendly.com/hlobato/lets-talk" class="social-link" title="Call me!">
-                    <i class="fab fa-calendar-alt"></i>
+                <a href="https://calendly.com/hlobato/lets-talk" class="social-link" title="Schedule a call">
+                    <i class="fas fa-calendar-check"></i>
                 </a>
 
             </div>
