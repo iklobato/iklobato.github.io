@@ -14,6 +14,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     
@@ -50,6 +51,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
     <style>
         :root {
+            /* Light mode colors (default) */
             --primary-color: #0366d6;
             --secondary-color: #24292e;
             --accent-color: #2ea44f;
@@ -59,6 +61,38 @@
             --border-color: #e1e4e8;
             --highlight-bg: #f6f8fa;
             --white: #ffffff;
+            --card-bg: #ffffff;
+            --body-bg: #ffffff;
+            
+            /* Dark mode colors */
+            --primary-color-dark: #58a6ff;
+            --secondary-color-dark: #c9d1d9;
+            --accent-color-dark: #56d364;
+            --text-color-dark: #c9d1d9;
+            --light-text-dark: #8b949e;
+            --lighter-text-dark: #6e7681;
+            --border-color-dark: #30363d;
+            --highlight-bg-dark: #161b22;
+            --white-dark: #0d1117;
+            --card-bg-dark: #0d1117;
+            --body-bg-dark: #0d1117;
+        }
+        
+        /* Apply dark mode */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: var(--primary-color-dark);
+                --secondary-color: var(--secondary-color-dark);
+                --accent-color: var(--accent-color-dark);
+                --text-color: var(--text-color-dark);
+                --light-text: var(--light-text-dark);
+                --lighter-text: var(--lighter-text-dark);
+                --border-color: var(--border-color-dark);
+                --highlight-bg: var(--highlight-bg-dark);
+                --white: var(--white-dark);
+                --card-bg: var(--card-bg-dark);
+                --body-bg: var(--body-bg-dark);
+            }
         }
         
         body {
@@ -68,7 +102,13 @@
             max-width: 950px;
             margin: 0 auto;
             padding: 20px;
-            background-color: var(--white);
+            background-color: var(--body-bg);
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            html {
+                color-scheme: dark;
+            }
         }
         
         .container {
@@ -199,6 +239,7 @@
             color: var(--primary-color);
             font-size: 1.2rem;
             transition: all 0.3s;
+            border: 1px solid var(--border-color);
         }
         
         .social-link:hover {
@@ -214,6 +255,7 @@
             margin-bottom: 2rem;
             position: relative;
             overflow: hidden;
+            border: 1px solid var(--border-color);
         }
         
         .hero-section::after {
@@ -251,7 +293,7 @@
         .cv-link {
             display: inline-flex;
             align-items: center;
-            background-color: var(--white);
+            background-color: var(--card-bg);
             color: var(--primary-color);
             padding: 0.5rem 1rem;
             border-radius: 4px;
@@ -259,7 +301,7 @@
             font-weight: 500;
             border: 1px solid var(--border-color);
             transition: all 0.3s ease;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.15);
         }
         
         .cv-link i {
@@ -357,6 +399,7 @@
             font-size: 0.9rem;
             color: var(--text-color);
             font-weight: 500;
+            border: 1px solid var(--border-color);
         }
         
         /* GitHub stats section */
@@ -376,7 +419,7 @@
         .github-card {
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
             background-color: var(--highlight-bg);
             padding: 1rem;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -384,7 +427,7 @@
         
         .github-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
         }
         
         .github-card img {
@@ -432,7 +475,7 @@
             background-color: var(--highlight-bg);
             border-radius: 8px;
             padding: 1.5rem;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
         
         .skill-area h4 {
@@ -466,9 +509,9 @@
         }
         
         .achievement-card {
-            background-color: var(--white);
+            background-color: var(--card-bg);
             border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
             overflow: hidden;
             border: 1px solid var(--border-color);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -476,7 +519,7 @@
         
         .achievement-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
         }
         
         .achievement-header {
@@ -517,12 +560,13 @@
         }
         
         .highlight-tag {
-            background-color: rgba(3, 102, 214, 0.1);
+            background-color: var(--highlight-bg);
             color: var(--primary-color);
             padding: 0.3rem 0.8rem;
             border-radius: 4px;
             font-size: 0.85rem;
             font-family: 'Roboto Mono', monospace;
+            border: 1px solid var(--border-color);
         }
         
         .achievement-list {
@@ -537,7 +581,7 @@
         .technical-details {
             margin-top: 1.5rem;
             padding: 1rem;
-            background-color: rgba(3, 102, 214, 0.05);
+            background-color: var(--highlight-bg);
             border-radius: 4px;
             border-left: 3px solid var(--primary-color);
         }
@@ -557,10 +601,10 @@
         }
         
         .mini-project {
-            background-color: var(--white);
+            background-color: var(--card-bg);
             border-radius: 8px;
             padding: 1.5rem;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
             border: 1px solid var(--border-color);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -603,12 +647,13 @@
         }
         
         .tech-tag {
-            background-color: rgba(3, 102, 214, 0.08);
+            background-color: var(--highlight-bg);
             color: var(--primary-color);
             padding: 0.2rem 0.6rem;
             border-radius: 4px;
             font-size: 0.75rem;
             font-family: 'Roboto Mono', monospace;
+            border: 1px solid var(--border-color);
         }
         
         .mini-project-achievements {
@@ -618,7 +663,7 @@
         }
         
         .achievement-metric {
-            background-color: rgba(46, 164, 79, 0.1);
+            background-color: var(--highlight-bg);
             color: var(--accent-color);
             padding: 0.2rem 0.6rem;
             border-radius: 4px;
@@ -626,6 +671,7 @@
             font-weight: 600;
             display: inline-flex;
             align-items: center;
+            border: 1px solid var(--border-color);
         }
         
         .metric-detail {
@@ -643,10 +689,10 @@
         }
         
         .resource-item {
-            background-color: var(--white);
+            background-color: var(--card-bg);
             border-radius: 8px;
             padding: 1.5rem;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
             border: 1px solid var(--border-color);
         }
         
@@ -684,7 +730,8 @@
             padding: 2rem;
             margin: 3rem 0;
             text-align: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border: 1px solid var(--border-color);
         }
         
         .contact-cta h3 {
@@ -753,11 +800,11 @@
         }
         
         .value-prop {
-            background-color: var(--white);
+            background-color: var(--card-bg);
             border-radius: 8px;
             padding: 1.5rem;
             text-align: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
             border: 1px solid var(--border-color);
             transition: transform 0.3s ease;
         }
@@ -811,10 +858,10 @@
         }
         
         .service-card {
-            background-color: var(--white);
+            background-color: var(--card-bg);
             border-radius: 8px;
             padding: 2rem;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
             border: 1px solid var(--border-color);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             display: flex;
@@ -823,7 +870,7 @@
         
         .service-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
         }
         
         .service-icon {
@@ -882,9 +929,9 @@
         }
         
         .testimonial {
-            background-color: var(--white);
+            background-color: var(--card-bg);
             border-radius: 8px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
             overflow: hidden;
             border: 1px solid var(--border-color);
         }
@@ -947,8 +994,9 @@
             background-color: var(--highlight-bg);
             border-radius: 8px;
             padding: 2.5rem;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
             margin: 1.5rem 0 3rem;
+            border: 1px solid var(--border-color);
         }
         
         .hire-me-content p {
@@ -1003,7 +1051,7 @@
         
         .secondary-cta {
             display: inline-block;
-            background-color: var(--white);
+            background-color: var(--card-bg);
             color: var(--primary-color);
             padding: 1rem 2rem;
             border-radius: 4px;
@@ -1015,7 +1063,7 @@
         }
         
         .secondary-cta:hover {
-            background-color: rgba(3, 102, 214, 0.05);
+            background-color: var(--highlight-bg);
             transform: translateY(-2px);
         }
         
@@ -1086,6 +1134,7 @@
             margin: 1rem 0;
             font-style: italic;
             color: var(--light-text);
+            border: 1px solid var(--border-color);
         }
         
         .contributions-heading {
@@ -1119,7 +1168,7 @@
         }
         
         .business-impact {
-            background-color: rgba(46, 164, 79, 0.1);
+            background-color: var(--highlight-bg);
             border-left: 3px solid var(--accent-color);
             padding: 0.75rem 1rem;
             margin: 1rem 0;
@@ -1134,12 +1183,13 @@
         
         .technologies span {
             display: inline-block;
-            background-color: rgba(3, 102, 214, 0.1);
+            background-color: var(--highlight-bg);
             color: var(--primary-color);
             padding: 0.25rem 0.5rem;
             border-radius: 3px;
             margin-right: 0.5rem;
             margin-bottom: 0.5rem;
+            border: 1px solid var(--border-color);
         }
         
         .education-item, .certification-item {

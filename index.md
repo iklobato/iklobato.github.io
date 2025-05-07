@@ -152,7 +152,7 @@ keywords: Python Developer, Backend Systems, Data Engineering, Cloud Architectur
             <div class="languages-expertise">
                 <h3>Technology Stack</h3>
                 <div class="github-card languages-card">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Most Used Languages" />
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=github_dark&hide_border=true&langs_count=6&bg_color=0d1117" alt="Most Used Languages" />
                 </div>
             </div>
         </div>
