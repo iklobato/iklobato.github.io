@@ -9,14 +9,14 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     <div class="profile-section">
         <div class="profile-img">
             <img src="https://avatars.githubusercontent.com/u/18133417?v=4" 
-                 alt="Henrique Lobato - Senior Python Developer and Cloud Architect"
+                 alt="Henrique Lobato - Freelance Python Developer specializing in backend APIs and cloud architecture"
                  width="150"
                  height="150"
                  loading="lazy" />
         </div>
         <div class="profile-info">
             <h1>Hire a Senior Python Developer & API Architect</h1>
-            <span class="title">Scalable Backend Systems | Cloud Architecture | AI Integration</span>
+            <span class="title">Freelance Backend Consultant | <a href="#skills">API Expert</a> | <a href="#tech-skills">Cloud Solutions</a></span>
             <div class="contact-info">
                 <a href="mailto:iklobato1@gmail.com" class="contact-item">
                     <i class="fas fa-envelope"></i>
@@ -43,10 +43,11 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     </div>
     
     <div class="hero-section">
-        <h2>How Can I Help Your Business?</h2>
-        <p>I'm Henrique, a <strong>Senior Python Developer and API Architect</strong> with 10+ years of experience building high-performance systems that scale to millions of users. I specialize in backend APIs, cloud cost optimization (30-40% savings), microservices architecture, and AI/ML integration for businesses that need reliable technical solutions.</p>
+        <h2>Hire a Freelance Python Backend Expert</h2>
+        <p>I'm Henrique, a <strong><a href="#skills">Senior Python Developer</a> and <a href="#tech-skills">API Architect</a></strong> with 10+ years of experience building high-performance systems that scale to millions of users. I create <a href="#experience">scalable backend APIs</a>, implement <a href="/services/ai-integration">cloud cost optimization</a> (30-40% savings), design <a href="#skills">microservices architecture</a>, and deliver <a href="#experience">AI/ML integration</a> for businesses seeking reliable technical solutions.</p>
         
         <div class="cv-links">
+            <a href="#hire-me" class="cv-link"><i class="fas fa-briefcase"></i> Hire Me Today</a>
             <a href="/blog/" class="cv-link"><i class="fas fa-rss"></i> Technical Blog</a>
             <a href="https://calendly.com/hlobato/lets-talk" class="cv-link"><i class="fas fa-calendar-check"></i> Schedule a Consultation</a>
         </div>
@@ -55,7 +56,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
 
 <main class="main-content">
     <section id="skills">
-        <h2>Technical Skills</h2>
+        <h2>Backend Development & API Architecture</h2>
         <div class="skills-container">
             <div class="skills-category">
                 <h3>Platforms & Cloud</h3>
@@ -126,27 +127,27 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     </section>
     
     <section id="tech-skills">
-        <h2>Technical Expertise</h2>
+        <h2>API Development & Cloud Infrastructure</h2>
         
         <div class="expertise-container">
             <div class="expertise-overview">
-                <p class="expertise-intro">With over a decade of experience delivering high-impact technical solutions, I specialize in building scalable, robust systems that solve complex business challenges. My work has directly contributed to:</p>
+                <p class="expertise-intro">With over a decade of experience delivering high-impact <a href="#experience">backend solutions</a>, I specialize in building <a href="#skills">scalable, robust APIs</a> that solve complex business challenges. As a <a href="#hire-me">freelance Python consultant</a>, my work has directly contributed to:</p>
                 
                 <div class="value-props">
                     <div class="value-prop">
                         <i class="fas fa-rocket"></i>
-                        <h4>Accelerated Performance</h4>
-                        <p>45-85% improvement in system speed and response times</p>
+                        <h4>Accelerated API Performance</h4>
+                        <p>45-85% improvement in response times for <a href="#experience">client projects</a></p>
                     </div>
                     <div class="value-prop">
                         <i class="fas fa-coins"></i>
-                        <h4>Cost Reduction</h4>
-                        <p>30-40% decrease in cloud infrastructure costs</p>
+                        <h4>Cloud Cost Optimization</h4>
+                        <p>30-40% decrease in <a href="/services/ai-integration">infrastructure costs</a> for startups</p>
                     </div>
                     <div class="value-prop">
                         <i class="fas fa-shield-alt"></i>
-                        <h4>Enhanced Security</h4>
-                        <p>SOC2 compliance and robust security implementations</p>
+                        <h4>Secure Backend Architecture</h4>
+                        <p>SOC2 compliance and <a href="#skills">robust API security</a> implementations</p>
                     </div>
                 </div>
             </div>
@@ -166,35 +167,35 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                     <div class="service-icon"><i class="fas fa-server"></i></div>
                     <h4>Scalable Backend API Development</h4>
                     <p>Custom REST and GraphQL APIs built with Django and FastAPI for startups and enterprises. Microservices architecture that scales to millions of users with high performance.</p>
-                    <a href="/backend/" class="service-link">View Backend Expertise <i class="fas fa-arrow-right"></i></a>
+                    <a href="#experience" class="service-link">View Backend Expertise <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-brain"></i></div>
                     <h4>AI/ML Integration Services</h4>
                     <p>Machine learning implementation with Python using HuggingFace, LangChain, OpenCV, and TensorFlow for business automation, data analytics, and intelligent features.</p>
-                    <a href="/data-engineer/" class="service-link">View AI/ML Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="/services/ai-integration" class="service-link">View AI/ML Services <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-cloud"></i></div>
                     <h4>Cloud Infrastructure & DevOps</h4>
                     <p>AWS/GCP architecture design with 30-40% cost reduction, Kubernetes orchestration, and CI/CD automation for reliable, scalable deployments.</p>
-                    <a href="/devops/" class="service-link">View DevOps Solutions <i class="fas fa-arrow-right"></i></a>
+                    <a href="#skills" class="service-link">View Cloud Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-database"></i></div>
                     <h4>Data Pipeline Engineering</h4>
                     <p>Robust ETL/ELT pipelines, data warehousing, and analytics infrastructures with PySpark, Hadoop, and Snowflake that deliver actionable business insights.</p>
-                    <a href="/data-engineer/" class="service-link">View Data Engineering <i class="fas fa-arrow-right"></i></a>
+                    <a href="#experience" class="service-link">View Data Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
     
     <section id="experience">
-        <h2>Professional Experience</h2>
+        <h2>Freelance Projects & Enterprise APIs</h2>
         
         <div class="experience-item">
             <div class="experience-header">

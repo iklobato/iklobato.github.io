@@ -41,9 +41,11 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
-    <meta property="og:image:alt" content="Henrique Lobato - Senior Python Developer and Backend Expert specializing in APIs, cloud architecture and AI integration">
-    <meta property="og:site_name" content="Henrique Lobato - Senior Python Developer">
+    <meta property="og:image" content="https://iklobato.com/assets/images/henrique-lobato-python-developer.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Henrique Lobato - Freelance Python Developer and API Architect specializing in backend development, cloud infrastructure, and API design">
+    <meta property="og:site_name" content="Hire Henrique Lobato - Senior Backend Developer">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter / X -->
@@ -51,10 +53,13 @@
     <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
-    <meta name="twitter:image:alt" content="Henrique Lobato - Senior Python Developer specialized in backend APIs, cloud architecture and AI integration">
+    <meta name="twitter:image" content="https://iklobato.com/assets/images/henrique-lobato-python-developer.jpg">
+    <meta name="twitter:image:alt" content="Henrique Lobato - Freelance Python Backend Developer specialized in API architecture, cloud solutions and scalable systems">
     <meta name="twitter:creator" content="@iklobato">
     <meta name="twitter:site" content="@iklobato">
+    
+    <!-- SEO keywords for freelance work -->
+    <meta name="keywords" content="hire Python developer, freelance backend consultant, API architect, Python Django expert, FastAPI developer, cloud solutions architect, remote backend developer, freelance API expert, scalable systems builder, Python microservices consultant">
     <script>
         // Force HTTPS
         if (window.location.protocol !== "https:" && 
@@ -67,6 +72,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Cache Control Headers -->
+    <meta http-equiv="Cache-Control" content="max-age=86400, public">
+    <meta http-equiv="Expires" content="{{ site.time | date: '%a, %d %b %Y %H:%M:%S GMT' }}">
     <style>
         :root {
             /* Light mode colors (default) */
@@ -1598,21 +1607,24 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Henrique Lobato",
-      "jobTitle": "Senior Python Developer & API Architect",
+      "jobTitle": "Freelance Python Developer & API Architect",
+      "description": "Senior Python backend consultant with 10+ years experience building scalable APIs, cloud infrastructure, and AI integrations for startups and enterprises.",
       "telephone": "+55 11 9 8434 8555",
       "email": "h.lobato001@gmail.com",
-      "url": "https://iklobato.github.io",
-      "image": "https://avatars.githubusercontent.com/u/18133417?v=4",
+      "url": "https://iklobato.com",
+      "image": "https://iklobato.com/assets/images/henrique-lobato-python-developer.jpg",
       "sameAs": [
         "https://linkedin.com/in/iklobato-sr-python",
         "https://github.com/iklobato",
-        "https://calendly.com/hlobato/lets-talk"
+        "https://calendly.com/hlobato/lets-talk",
+        "https://medium.com/@iklobato1"
       ],
       "knowsAbout": [
-        "Python", "Django", "Flask", "FastAPI", "AWS", "GCP", "Kubernetes", "Docker", 
-        "PostgreSQL", "Data Engineering", "DevOps", "Backend Development", "AI Integration",
-        "Machine Learning", "HuggingFace", "OpenCV", "Microservices Architecture",
-        "API Development", "Cloud Cost Optimization", "Scalable Systems"
+        "Python Backend Development", "Django REST Framework", "FastAPI", "Flask", 
+        "AWS Cloud Architecture", "GCP", "Kubernetes", "Docker", 
+        "PostgreSQL", "REST API Design", "GraphQL", "Microservices Architecture",
+        "API Security", "Cloud Cost Optimization", "Scalable Backend Systems",
+        "AI Integration", "LangChain", "HuggingFace", "TensorFlow", "ETL Pipelines"
       ],
       "alumniOf": {
         "@type": "EducationalOrganization",
@@ -1625,7 +1637,24 @@
           "@type": "PostalAddress",
           "addressCountry": "Brazil"
         }
-      }
+      },
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Backend API Development",
+          "description": "Custom RESTful and GraphQL API development with Django, FastAPI and Flask that scales to millions of users."
+        },
+        {
+          "@type": "Offer", 
+          "name": "Cloud Architecture & DevOps",
+          "description": "AWS/GCP design with 30-40% cost reduction, Kubernetes orchestration, and CI/CD automation."
+        },
+        {
+          "@type": "Offer",
+          "name": "AI/ML Integration",
+          "description": "Implementation of AI capabilities into existing applications using LangChain, HuggingFace, and custom Python frameworks."
+        }
+      ]
     }
     </script>
 
