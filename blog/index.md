@@ -34,7 +34,7 @@ keywords: Python blog, Backend development, Cloud optimization, API architecture
         
         <div class="blog-post featured">
             <div class="post-image">
-                <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*kBfX-MjD0bBuiBXIQ8S0pA.png" 
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*VJPr-UdjHpmucPrs5RsSwQ.png" 
                      alt="Ollama on Remote GPU Setup Architecture Diagram"
                      width="800"
                      height="450"
@@ -90,17 +90,6 @@ keywords: Python blog, Backend development, Cloud optimization, API architecture
         </div>
     </section>
     
-    <section id="newsletter">
-        <div class="newsletter-container">
-            <h2>Get Python Backend & Cloud Insights</h2>
-            <p>Subscribe to my newsletter for practical tutorials on Python development, API architecture, cloud optimization, and AI integration.</p>
-            <form action="/subscribe" method="post" class="newsletter-form">
-                <input type="email" name="email" placeholder="Your email address" required>
-                <button type="submit" class="subscribe-button">Subscribe</button>
-            </form>
-            <p class="newsletter-note">No spam, unsubscribe anytime. I send 1-2 emails per month with technical tutorials.</p>
-        </div>
-    </section>
 </main>
 
 <style>
@@ -232,51 +221,6 @@ keywords: Python blog, Backend development, Cloud optimization, API architecture
         border-radius: 8px;
     }
     
-    .newsletter-container {
-        background-color: var(--highlight-bg);
-        padding: 2rem;
-        border-radius: 8px;
-        text-align: center;
-        margin: 3rem 0;
-        border: 1px solid var(--border-color);
-    }
-    
-    .newsletter-form {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        max-width: 500px;
-        margin: 1.5rem auto;
-    }
-    
-    .newsletter-form input {
-        padding: 0.8rem 1rem;
-        border: 1px solid var(--border-color);
-        border-radius: 4px;
-        font-size: 1rem;
-        width: 100%;
-    }
-    
-    .subscribe-button {
-        background-color: var(--primary-color);
-        color: var(--white);
-        padding: 0.8rem 1.5rem;
-        border: none;
-        border-radius: 4px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-    
-    .subscribe-button:hover {
-        background-color: #0550ae;
-    }
-    
-    .newsletter-note {
-        font-size: 0.85rem;
-        color: var(--light-text);
-        margin-top: 1rem;
-    }
     
     @media (min-width: 768px) {
         .blog-post.featured {

@@ -377,51 +377,6 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         </div>
     </section>
     
-    <!-- Client Testimonials -->
-    <section id="testimonials">
-        <h2>What Clients Say</h2>
-        
-        <div class="testimonials-container">
-            <div class="testimonial">
-                <div class="testimonial-content">
-                    <p>"Henrique built our entire backend API infrastructure using Python. The system handles over 1 million requests daily with excellent performance. His expertise in backend architecture helped us scale efficiently."</p>
-                </div>
-                <div class="testimonial-author">
-                    <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
-                    <div>
-                        <div class="author-name">Technical Director</div>
-                        <div class="author-title">FinTech SaaS Company</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="testimonial">
-                <div class="testimonial-content">
-                    <p>"Henrique reduced our AWS costs by 35% while improving our application performance. His cloud architecture expertise and optimization strategies made a significant impact on our bottom line."</p>
-                </div>
-                <div class="testimonial-author">
-                    <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
-                    <div>
-                        <div class="author-name">CTO</div>
-                        <div class="author-title">E-commerce Platform</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="testimonial">
-                <div class="testimonial-content">
-                    <p>"We needed to integrate AI capabilities into our product. Henrique implemented a complete solution using LangChain and HuggingFace that exceeded our expectations and delighted our customers."</p>
-                </div>
-                <div class="testimonial-author">
-                    <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
-                    <div>
-                        <div class="author-name">Product Manager</div>
-                        <div class="author-title">Healthcare Software Provider</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     
     <section id="education">
         <h2>Education & Certifications</h2>
