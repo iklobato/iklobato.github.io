@@ -47,10 +47,8 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         <p>I'm Henrique, a <strong>Senior Python Developer and API Architect</strong> with 10+ years of experience building high-performance systems that scale to millions of users. I specialize in backend APIs, cloud cost optimization (30-40% savings), microservices architecture, and AI/ML integration for businesses that need reliable technical solutions.</p>
         
         <div class="cv-links">
-            <a href="/backend/" class="cv-link"><i class="fas fa-code"></i> Backend & API Development</a>
-            <a href="/data-engineer/" class="cv-link"><i class="fas fa-database"></i> Data Engineering Solutions</a>
-            <a href="/devops/" class="cv-link"><i class="fas fa-cloud"></i> Cloud Architecture</a>
             <a href="/blog/" class="cv-link"><i class="fas fa-rss"></i> Technical Blog</a>
+            <a href="https://calendly.com/hlobato/lets-talk" class="cv-link"><i class="fas fa-calendar-check"></i> Schedule a Consultation</a>
         </div>
     </div>
 </header>
