@@ -16,6 +16,8 @@ permalink: /devops/
 
 Expert in designing and implementing **scalable cloud infrastructures**, **containerized microservices**, and **automated CI/CD pipelines**. Over 10 years of experience building resilient systems with **99.9%+ availability** across AWS and GCP ecosystems. Proficient in infrastructure automation, security hardening, and cost optimization strategies delivering high-performance environments supporting critical business applications.
 
+[View Detailed DevOps & Cloud Use Cases](/devops-cloud-use-cases/) - Real-world examples of cloud migrations, infrastructure optimizations, and DevOps solutions I've built.
+
 ---
 
 ## Technical Skills

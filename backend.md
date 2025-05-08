@@ -16,6 +16,8 @@ permalink: /backend/
 
 Specialized in architecting **high-performance backend systems**, **microservices architectures**, and **REST APIs** at scale. Over 10 years of experience leading and building robust distributed systems serving **millions of daily users** across industries. Expert in Python-based backends with Django, FastAPI, and Flask, with deep knowledge of database optimization, asynchronous processing, and API design patterns.
 
+[View Detailed Backend Engineering Use Cases](/backend-engineering-use-cases/) - Real-world examples of API development, system architecture, and backend solutions I've built.
+
 ---
 
 ## Technical Skills

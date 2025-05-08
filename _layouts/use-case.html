@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C03JH4JXFL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-C03JH4JXFL');
+    </script>
+    <!-- End Google Analytics -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="color-scheme" content="dark light">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="google-site-verification" content="YOUR-VERIFICATION-CODE">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="geo.region" content="BR">
+    <meta name="geo.placename" content="Brazil">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono&display=swap" as="style">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="https://iklobato.com/assets/images/henrique-lobato-python-developer.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Henrique Lobato - Freelance Python Developer and API Architect specializing in backend development, cloud infrastructure, and API design">
+    <meta property="og:site_name" content="Hire Henrique Lobato - Senior Backend Developer">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="https://iklobato.com/assets/images/henrique-lobato-python-developer.jpg">
+    <meta name="twitter:image:alt" content="Henrique Lobato - Freelance Python Backend Developer specialized in API architecture, cloud solutions and scalable systems">
+    <meta name="twitter:creator" content="@iklobato">
+    <meta name="twitter:site" content="@iklobato">
+    
+    <!-- SEO keywords for freelance work -->
+    <meta name="keywords" content="hire Python developer, freelance backend consultant, API architect, Python Django expert, FastAPI developer, cloud solutions architect, remote backend developer, freelance API expert, scalable systems builder, Python microservices consultant">
+    <script>
+        // Force HTTPS
+        if (window.location.protocol !== "https:" && 
+            window.location.hostname !== "localhost" && 
+            window.location.hostname !== "127.0.0.1") {
+            window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Cache Control Headers -->
+    <meta http-equiv="Cache-Control" content="max-age=86400, public">
+    <meta http-equiv="Expires" content="{{ site.time | date: '%a, %d %b %Y %H:%M:%S GMT' }}">
+    <style>
+        :root {
+            /* Light mode colors (default) */
+            --primary-color: #0366d6;
+            --secondary-color: #24292e;
+            --accent-color: #2ea44f;
+            --text-color: #24292e;
+            --light-text: #6a737d;
+            --lighter-text: #959da5;
+            --border-color: #e1e4e8;
+            --highlight-bg: #f6f8fa;
+            --white: #ffffff;
+            --card-bg: #ffffff;
+            --body-bg: #ffffff;
+            
+            /* Dark mode colors */
+            --primary-color-dark: #58a6ff;
+            --secondary-color-dark: #c9d1d9;
+            --accent-color-dark: #56d364;
+            --text-color-dark: #c9d1d9;
+            --light-text-dark: #8b949e;
+            --lighter-text-dark: #6e7681;
+            --border-color-dark: #30363d;
+            --highlight-bg-dark: #161b22;
+            --white-dark: #0d1117;
+            --card-bg-dark: #0d1117;
+            --body-bg-dark: #0d1117;
+        }
+        
+        /* Apply dark mode */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: var(--primary-color-dark);
+                --secondary-color: var(--secondary-color-dark);
+                --accent-color: var(--accent-color-dark);
+                --text-color: var(--text-color-dark);
+                --light-text: var(--light-text-dark);
+                --lighter-text: var(--lighter-text-dark);
+                --border-color: var(--border-color-dark);
+                --highlight-bg: var(--highlight-bg-dark);
+                --white: var(--white-dark);
+                --card-bg: var(--card-bg-dark);
+                --body-bg: var(--body-bg-dark);
+            }
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--body-bg);
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            html {
+                color-scheme: dark;
+            }
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 2rem 0;
+            border-bottom: 1px solid var(--border-color);
+            position: relative;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        
+        .back-link i {
+            margin-right: 0.5rem;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--secondary-color);
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--light-text);
+            margin-bottom: 2rem;
+        }
+        
+        .main-content {
+            flex: 1;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        
+        .use-case {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        
+        .use-case-title {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .use-case-title i {
+            color: var(--accent-color);
+        }
+        
+        .section {
+            margin-bottom: 1.5rem;
+        }
+        
+        .section-title {
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .tools {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .tool {
+            background-color: var(--highlight-bg);
+            color: var(--primary-color);
+            padding: 0.3rem 0.7rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-family: 'Roboto Mono', monospace;
+            border: 1px solid var(--border-color);
+        }
+        
+        .impact {
+            background-color: var(--highlight-bg);
+            border-left: 3px solid var(--accent-color);
+            padding: 1rem;
+            margin-top: 1rem;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .impact p {
+            margin: 0;
+            color: var(--text-color);
+        }
+        
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--light-text);
+            font-size: 0.9rem;
+        }
+        
+        .contact-cta {
+            background-color: var(--highlight-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 3rem 0;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+        
+        .contact-cta h2 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .primary-cta, .secondary-cta {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .primary-cta {
+            background-color: var(--primary-color);
+            color: var(--white);
+        }
+        
+        .primary-cta:hover {
+            background-color: #0550ae;
+            transform: translateY(-2px);
+        }
+        
+        .secondary-cta {
+            background-color: var(--card-bg);
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+        }
+        
+        .secondary-cta:hover {
+            background-color: var(--highlight-bg);
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                padding: 0;
+            }
+            
+            .use-case {
+                padding: 1.5rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="{{ page.back_link }}" class="back-link"><i class="fas fa-arrow-left"></i> Back to {{ page.back_text }}</a>
+            <h1>{{ page.title }}</h1>
+            <div class="subtitle">{{ page.subtitle }}</div>
+        </header>
+        
+        <main class="main-content">
+            {{ content }}
+            
+            <div class="contact-cta">
+                <h2>Need similar solutions for your business?</h2>
+                <p>I help companies build high-performance, scalable systems that solve real business problems. Let's discuss how I can bring my expertise to your project.</p>
+                <div class="cta-buttons">
+                    <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Consultation</a>
+                    <a href="mailto:h.lobato001@gmail.com" class="secondary-cta">Email Me</a>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Henrique Lobato. All rights reserved.</p>
+            <p class="last-updated">Last updated: {{ site.time | date: "%B %d, %Y" }}</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Force HTTPS
+        if (window.location.protocol !== "https:" && 
+            window.location.hostname !== "localhost" && 
+            window.location.hostname !== "127.0.0.1") {
+            window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        }
+    </script>
+</body>
+</html>

@@ -16,6 +16,8 @@ permalink: /data-engineer/
 
 Focused on building **scalable ETL pipelines**, **optimizing data ingestion processes**, and delivering **high-throughput batch and real-time data workflows**. Over 10 years of experience designing and implementing robust data systems processing **10M+ records daily** across industries. Expert in SQL-based architectures, PostgreSQL optimization, Apache Spark/PySpark, and ensuring data pipeline resiliency and validation.
 
+[View Detailed Data Engineering Use Cases](/data-engineering-use-cases/) - Real-world examples of data pipelines, processing systems, and solutions I've built.
+
 ---
 
 ## Technical Skills
