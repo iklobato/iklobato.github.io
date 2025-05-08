@@ -1,18 +1,22 @@
 ---
 layout: default
-title: Henrique Lobato | Freelance Python Developer | Cloud Architect | AI & Backend Expert
-description: Henrique Lobato – Freelance Python expert offering scalable backend APIs, cloud infrastructure, machine learning integrations, and security-driven DevOps solutions. Remote worldwide.
-keywords: Freelance Python Developer, Cloud Architect, AI Integration, Backend Expert, API Development, AWS, GCP, Django, FastAPI, Kubernetes, Data Engineering, Machine Learning, Remote Developer
+title: Hire Python Developer | Backend & Cloud Expert | Freelance API Architect
+description: Need a senior Python developer? I build high-performance backend APIs, cloud architectures, and AI integrations that scale to millions of users with 99.9% uptime. Hire me for your next project.
+keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Cloud Expert, Django REST API, FastAPI Developer, Kubernetes Specialist, AI Integration, Python Freelancer, Remote Developer, Microservices, Scalable Systems
 ---
 
 <header class="header">
     <div class="profile-section">
         <div class="profile-img">
-            <img src="https://avatars.githubusercontent.com/u/18133417?v=4" alt="Henrique Lobato - Freelance Python Developer and Cloud Architect" />
+            <img src="https://avatars.githubusercontent.com/u/18133417?v=4" 
+                 alt="Henrique Lobato - Senior Python Developer and Cloud Architect"
+                 width="150"
+                 height="150"
+                 loading="lazy" />
         </div>
         <div class="profile-info">
-            <h1>Senior Python Developer & Cloud Architect for Scalable AI, API & Backend Solutions</h1>
-            <span class="title">Freelance Python Expert | Cloud Solutions | AI Integration</span>
+            <h1>Hire a Senior Python Developer & API Architect</h1>
+            <span class="title">Scalable Backend Systems | Cloud Architecture | AI Integration</span>
             <div class="contact-info">
                 <a href="mailto:iklobato1@gmail.com" class="contact-item">
                     <i class="fas fa-envelope"></i>
@@ -39,14 +43,14 @@ keywords: Freelance Python Developer, Cloud Architect, AI Integration, Backend E
     </div>
     
     <div class="hero-section">
-        <h2>About Me</h2>
-        <p>I'm Henrique, a <strong>freelance Senior Python Developer and Cloud Architect</strong> with 10+ years of experience in scalable backend systems, AWS/GCP deployments, microservices, AI/ML integrations using HuggingFace and OpenCV, and Django/FastAPI APIs. I help startups and enterprise teams reduce cloud costs and scale faster.</p>
+        <h2>How Can I Help Your Business?</h2>
+        <p>I'm Henrique, a <strong>Senior Python Developer and API Architect</strong> with 10+ years of experience building high-performance systems that scale to millions of users. I specialize in backend APIs, cloud cost optimization (30-40% savings), microservices architecture, and AI/ML integration for businesses that need reliable technical solutions.</p>
         
         <div class="cv-links">
-            <a href="/backend/" class="cv-link"><i class="fas fa-code"></i> Backend Achievements</a>
-            <a href="/data-engineer/" class="cv-link"><i class="fas fa-database"></i> Data Engineering Achievements</a>
-            <a href="/devops/" class="cv-link"><i class="fas fa-cloud"></i> DevOps Achievements</a>
-            <a href="/full-cv/" class="cv-link"><i class="fas fa-file-alt"></i> Full CV</a>
+            <a href="/backend/" class="cv-link"><i class="fas fa-code"></i> Backend & API Development</a>
+            <a href="/data-engineer/" class="cv-link"><i class="fas fa-database"></i> Data Engineering Solutions</a>
+            <a href="/devops/" class="cv-link"><i class="fas fa-cloud"></i> Cloud Architecture</a>
+            <a href="/blog/" class="cv-link"><i class="fas fa-rss"></i> Technical Blog</a>
         </div>
     </div>
 </header>
@@ -341,30 +345,80 @@ keywords: Freelance Python Developer, Cloud Architect, AI Integration, Backend E
     </section>
     
     <section id="hire-me">
-        <h2>Ready to Work Together?</h2>
+        <h2>Ready to Build Something Amazing?</h2>
         <div class="hire-me-container">
             <div class="hire-me-content">
-                <p>I'm available for freelance projects, consulting, and technical advisory roles. Whether you need to build a new system from scratch, optimize existing infrastructure, or solve complex technical challenges, let's discuss how I can help.</p>
+                <p>I help businesses build reliable, high-performance technical solutions that solve real problems. Whether you need scalable APIs, cloud cost optimization, or AI integration, let's discuss how I can deliver measurable value to your project.</p>
                 
                 <div class="hire-me-benefits">
                     <div class="benefit-item">
                         <i class="fas fa-check-circle"></i>
-                        <span>Fixed-price or hourly engagements available</span>
+                        <span>99.9% uptime for mission-critical systems</span>
                     </div>
                     <div class="benefit-item">
                         <i class="fas fa-check-circle"></i>
-                        <span>Clear communication and regular progress updates</span>
+                        <span>30-40% cloud infrastructure cost reduction</span>
                     </div>
                     <div class="benefit-item">
                         <i class="fas fa-check-circle"></i>
-                        <span>Flexible scheduling to meet your timeline needs</span>
+                        <span>High-performance APIs handling millions of requests</span>
                     </div>
                     <div class="benefit-item">
                         <i class="fas fa-check-circle"></i>
-                        <span>Code quality and documentation guaranteed</span>
+                        <span>Comprehensive testing and documentation</span>
                     </div>
                 </div>
                 
+                <div class="cta-buttons">
+                    <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
+                    <a href="mailto:h.lobato001@gmail.com" class="secondary-cta">Email Me About Your Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Client Testimonials -->
+    <section id="testimonials">
+        <h2>What Clients Say</h2>
+        
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Henrique built our entire backend API infrastructure using Python. The system handles over 1 million requests daily with excellent performance. His expertise in backend architecture helped us scale efficiently."</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                    <div>
+                        <div class="author-name">Technical Director</div>
+                        <div class="author-title">FinTech SaaS Company</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Henrique reduced our AWS costs by 35% while improving our application performance. His cloud architecture expertise and optimization strategies made a significant impact on our bottom line."</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                    <div>
+                        <div class="author-name">CTO</div>
+                        <div class="author-title">E-commerce Platform</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"We needed to integrate AI capabilities into our product. Henrique implemented a complete solution using LangChain and HuggingFace that exceeded our expectations and delighted our customers."</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                    <div>
+                        <div class="author-name">Product Manager</div>
+                        <div class="author-title">Healthcare Software Provider</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

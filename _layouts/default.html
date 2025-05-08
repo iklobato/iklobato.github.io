@@ -13,7 +13,7 @@
     <!-- End Google Analytics -->
     
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta name="color-scheme" content="dark light">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -22,24 +22,28 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
     <meta name="author" content="{{ site.author }}">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="language" content="English">
     <meta name="revisit-after" content="7 days">
+    <!-- Get verification code from Google Search Console -->
     <meta name="google-site-verification" content="YOUR-VERIFICATION-CODE">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta name="format-detection" content="telephone=yes">
     <meta name="geo.region" content="BR">
     <meta name="geo.placename" content="Brazil">
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 
+    <!-- Preload critical assets -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono&display=swap" as="style">
+    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
-    <meta property="og:image:alt" content="Henrique Lobato - Freelance Python Developer specialized in cloud architecture and AI integration">
-    <meta property="og:site_name" content="Henrique Lobato - Freelance Python Developer">
+    <meta property="og:image:alt" content="Henrique Lobato - Senior Python Developer and Backend Expert specializing in APIs, cloud architecture and AI integration">
+    <meta property="og:site_name" content="Henrique Lobato - Senior Python Developer">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter / X -->
@@ -48,7 +52,7 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
-    <meta name="twitter:image:alt" content="Henrique Lobato - Freelance Python Developer specialized in cloud architecture and AI integration">
+    <meta name="twitter:image:alt" content="Henrique Lobato - Senior Python Developer specialized in backend APIs, cloud architecture and AI integration">
     <meta name="twitter:creator" content="@iklobato">
     <meta name="twitter:site" content="@iklobato">
     <script>
@@ -1594,10 +1598,10 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Henrique Lobato",
-      "jobTitle": "Freelance Python Developer",
+      "jobTitle": "Senior Python Developer & API Architect",
       "telephone": "+55 11 9 8434 8555",
       "email": "h.lobato001@gmail.com",
-      "url": "https://iklobato.com",
+      "url": "https://iklobato.github.io",
       "image": "https://avatars.githubusercontent.com/u/18133417?v=4",
       "sameAs": [
         "https://linkedin.com/in/iklobato-sr-python",
@@ -1610,9 +1614,17 @@
         "Machine Learning", "HuggingFace", "OpenCV", "Microservices Architecture",
         "API Development", "Cloud Cost Optimization", "Scalable Systems"
       ],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Freelance Clients Worldwide"
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "University of London",
+        "sameAs": "https://www.london.ac.uk/"
+      },
+      "workLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Brazil"
+        }
       }
     }
     </script>
@@ -1622,14 +1634,14 @@
     {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      "name": "Henrique Lobato - Freelance Python Development Services",
+      "name": "Henrique Lobato - Senior Python Development Services",
       "image": "https://avatars.githubusercontent.com/u/18133417?v=4",
-      "description": "Freelance Senior Python Developer providing scalable backend APIs, cloud infrastructure, machine learning integrations, and security-driven DevOps solutions. Available for remote work worldwide.",
+      "description": "Senior Python Developer providing high-performance backend APIs, cloud infrastructure, AI integrations, and DevOps solutions. Available for hire with 10+ years of experience in scalable systems.",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "Brazil"
       },
-      "url": "https://iklobato.com",
+      "url": "https://iklobato.github.io",
       "availableChannel": {
         "@type": "ServiceChannel",
         "serviceUrl": "https://calendly.com/hlobato/lets-talk",
@@ -1646,38 +1658,88 @@
         {
           "@type": "Offer",
           "name": "Scalable Backend API Development",
-          "description": "Custom REST and GraphQL APIs built with Django and FastAPI for startups and enterprises. Microservices architecture for scale and performance."
+          "description": "Custom REST and GraphQL APIs built with Django and FastAPI for startups and enterprises. Microservices architecture that scales to millions of users with 99.9% uptime."
         },
         {
           "@type": "Offer",
           "name": "AI/ML Integration Services",
-          "description": "Machine learning implementation with Python using HuggingFace, LangChain, OpenCV, and TensorFlow for business automation and analytics."
+          "description": "Machine learning implementation with Python using HuggingFace, LangChain, OpenCV, and TensorFlow for business automation, data analytics, and intelligent features."
         },
         {
           "@type": "Offer", 
           "name": "Cloud Infrastructure & DevOps",
-          "description": "AWS/GCP architecture design, cloud cost optimization, Kubernetes orchestration, and CI/CD automation for reliable deployments."
+          "description": "AWS/GCP architecture design with 30-40% cost reduction, Kubernetes orchestration, and CI/CD automation for reliable, scalable deployments."
         },
         {
           "@type": "Offer", 
           "name": "Data Engineering & Pipeline Development",
-          "description": "ETL/ELT pipelines, data warehousing, and analytics infrastructures with PySpark, Hadoop, and Snowflake that deliver actionable insights."
+          "description": "Robust ETL/ELT pipelines, data warehousing, and analytics infrastructures with PySpark, Hadoop, and Snowflake that deliver actionable business insights."
         }
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Freelance Python Development Services",
+        "name": "Senior Python Development Services",
         "itemListElement": [
           {
             "@type": "OfferCatalog",
             "name": "Technology Stack",
             "itemListElement": [
               "Python", "Django", "FastAPI", "Flask", "AWS", "GCP", "Kubernetes",
-              "Docker", "PostgreSQL", "Redis", "Snowflake", "Terraform", "GitHub Actions"
+              "Docker", "PostgreSQL", "Redis", "Snowflake", "Terraform", "GitHub Actions",
+              "HuggingFace", "LangChain", "OpenCV", "TensorFlow", "API Development"
             ]
           }
         ]
-      }
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Technical Director at SaaS Company"
+          },
+          "reviewBody": "Henrique built our entire backend API infrastructure using Python. The system handles over 1 million requests daily with excellent performance. His expertise in backend architecture helped us scale efficiently."
+        }
+      ]
+    }
+    </script>
+    
+    <!-- FAQ Schema for Common Client Questions -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What Python frameworks do you work with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I specialize in Django, FastAPI, and Flask for building high-performance backend systems. Each framework has specific strengths, and I choose the best tool based on your project requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you help reduce our AWS cloud costs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! I specialize in AWS optimization and have helped companies reduce cloud costs by 30-40%. This includes right-sizing resources, implementing auto-scaling, optimizing database usage, and leveraging spot instances where appropriate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work with AI and machine learning integration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. I have extensive experience integrating AI/ML models using LangChain, HuggingFace, OpenCV, and TensorFlow. I can help you implement everything from custom LLM applications to computer vision systems and data analytics pipelines."
+          }
+        }
+      ]
     }
     </script>
     

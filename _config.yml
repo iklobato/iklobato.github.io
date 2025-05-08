@@ -1,12 +1,13 @@
-title: Henrique Lobato | Senior Python Developer & Cloud Architect
-description: Senior Python Developer, Tech Lead, and Cloud Architect specializing in backend engineering, data pipelines, and DevOps with 10+ years experience.
+title: Hire Python Developer | Backend & Cloud Expert | Freelance API Architect
+description: Need a senior Python developer? I build high-performance backend APIs, cloud architectures, and AI integrations that scale to millions of users with 99.9% uptime. Hire me for your next project.
 author: Henrique Lobato
 baseurl: ""
 url: "https://iklobato.github.io"
 social:
   github: iklobato
   linkedin: iklobato-sr-python
-keywords: Python Developer, Backend Engineering, Data Engineering, Cloud Architect, DevOps Engineer, AWS, GCP, Django, Flask, FastAPI, Kubernetes, PostgreSQL
+  calendly: hlobato/lets-talk
+keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Cloud Expert, Django REST API, FastAPI Developer, Kubernetes Specialist, AI Integration, Python Freelancer, Remote Developer, Microservices, Scalable Systems
 
 # Build settings
 markdown: kramdown
