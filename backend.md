@@ -16,7 +16,52 @@ permalink: /backend/
 
 Specialized in architecting **high-performance backend systems**, **microservices architectures**, and **REST APIs** at scale. Over 10 years of experience leading and building robust distributed systems serving **millions of daily users** across industries. Expert in Python-based backends with Django, FastAPI, and Flask, with deep knowledge of database optimization, asynchronous processing, and API design patterns.
 
-[View Detailed Backend Engineering Use Cases](/backend-engineering-use-cases/) - Real-world examples of API development, system architecture, and backend solutions I've built.
+<div class="use-cases-cta">
+  <a href="/backend-engineering-use-cases/" class="use-cases-button">
+    <i class="fas fa-server"></i> View Real-World Backend Engineering Use Cases
+  </a>
+</div>
+
+<style>
+  .use-cases-cta {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  
+  .use-cases-button {
+    display: inline-block;
+    background-color: #0366d6;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .use-cases-button i {
+    margin-right: 0.5rem;
+  }
+  
+  .use-cases-button:hover {
+    background-color: #0550ae;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .use-cases-button {
+      background-color: #58a6ff;
+      color: #0d1117;
+    }
+    .use-cases-button:hover {
+      background-color: #79b8ff;
+    }
+  }
+</style>
 
 ---
 

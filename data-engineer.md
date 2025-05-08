@@ -16,7 +16,52 @@ permalink: /data-engineer/
 
 Focused on building **scalable ETL pipelines**, **optimizing data ingestion processes**, and delivering **high-throughput batch and real-time data workflows**. Over 10 years of experience designing and implementing robust data systems processing **10M+ records daily** across industries. Expert in SQL-based architectures, PostgreSQL optimization, Apache Spark/PySpark, and ensuring data pipeline resiliency and validation.
 
-[View Detailed Data Engineering Use Cases](/data-engineering-use-cases/) - Real-world examples of data pipelines, processing systems, and solutions I've built.
+<div class="use-cases-cta">
+  <a href="/data-engineering-use-cases/" class="use-cases-button">
+    <i class="fas fa-project-diagram"></i> View Real-World Data Engineering Use Cases
+  </a>
+</div>
+
+<style>
+  .use-cases-cta {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  
+  .use-cases-button {
+    display: inline-block;
+    background-color: #0366d6;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .use-cases-button i {
+    margin-right: 0.5rem;
+  }
+  
+  .use-cases-button:hover {
+    background-color: #0550ae;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .use-cases-button {
+      background-color: #58a6ff;
+      color: #0d1117;
+    }
+    .use-cases-button:hover {
+      background-color: #79b8ff;
+    }
+  }
+</style>
 
 ---
 

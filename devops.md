@@ -16,7 +16,52 @@ permalink: /devops/
 
 Expert in designing and implementing **scalable cloud infrastructures**, **containerized microservices**, and **automated CI/CD pipelines**. Over 10 years of experience building resilient systems with **99.9%+ availability** across AWS and GCP ecosystems. Proficient in infrastructure automation, security hardening, and cost optimization strategies delivering high-performance environments supporting critical business applications.
 
-[View Detailed DevOps & Cloud Use Cases](/devops-cloud-use-cases/) - Real-world examples of cloud migrations, infrastructure optimizations, and DevOps solutions I've built.
+<div class="use-cases-cta">
+  <a href="/devops-cloud-use-cases/" class="use-cases-button">
+    <i class="fas fa-cloud"></i> View Real-World DevOps & Cloud Use Cases
+  </a>
+</div>
+
+<style>
+  .use-cases-cta {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  
+  .use-cases-button {
+    display: inline-block;
+    background-color: #0366d6;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .use-cases-button i {
+    margin-right: 0.5rem;
+  }
+  
+  .use-cases-button:hover {
+    background-color: #0550ae;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .use-cases-button {
+      background-color: #58a6ff;
+      color: #0d1117;
+    }
+    .use-cases-button:hover {
+      background-color: #79b8ff;
+    }
+  }
+</style>
 
 ---
 
