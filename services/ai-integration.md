@@ -40,7 +40,7 @@ permalink: /services/ai-integration/
                 <p>I help businesses implement secure, cost-effective AI solutions, from building private LLM infrastructure to integrating machine learning capabilities into existing applications. Whether you're looking to reduce AI costs, enhance data privacy, or add intelligent features to your product, I deliver measurable results.</p>
                 <div class="hero-cta">
                     <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
-                    <a href="mailto:h.lobato001@gmail.com" class="secondary-cta">Email Me About Your Project</a>
+                    <a href="mailto:iklobato1@gmail.com" class="secondary-cta">Email Me About Your Project</a>
                 </div>
             </div>
             <div class="service-hero-image">
@@ -251,7 +251,7 @@ permalink: /services/ai-integration/
             
             <div class="contact-cta">
                 <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
-                <a href="mailto:h.lobato001@gmail.com" class="secondary-cta">Email Me About Your Project</a>
+                <a href="mailto:iklobato1@gmail.com" class="secondary-cta">Email Me About Your Project</a>
             </div>
         </div>
     </section>

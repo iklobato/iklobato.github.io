@@ -262,6 +262,6 @@ I specialize in building **scalable ETL pipelines**, **optimizing data ingestion
 <div class="contact-cta">
     <h3>Let's Discuss Your Data Engineering Challenges</h3>
     <p>I'm available for consultations on ETL architecture, data pipeline optimization, and data quality frameworks.</p>
-    <a href="mailto:h.lobato001@gmail.com" class="cta-button">Contact Me</a>
+    <a href="mailto:iklobato1@gmail.com" class="cta-button">Contact Me</a>
     <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
 </div>

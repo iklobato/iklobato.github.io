@@ -20,7 +20,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
             <div class="contact-info">
                 <a href="mailto:iklobato1@gmail.com" class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    h.lobato001@gmail.com
+                    iklobato1@gmail.com
                 </a>
                 <a href="https://t.me/iklobato" class="contact-item">
                     <i class="fab fa-telegram"></i>
@@ -370,7 +370,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                 
                 <div class="cta-buttons">
                     <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
-                    <a href="mailto:h.lobato001@gmail.com" class="secondary-cta">Email Me About Your Project</a>
+                    <a href="mailto:iklobato1@gmail.com" class="secondary-cta">Email Me About Your Project</a>
                 </div>
             </div>
         </div>

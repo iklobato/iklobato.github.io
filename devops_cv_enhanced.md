@@ -280,6 +280,6 @@ I specialize in designing and implementing **scalable cloud infrastructures**, *
 <div class="contact-cta">
     <h3>Let's Discuss Your Cloud & DevOps Challenges</h3>
     <p>I'm available for consultations on cloud architecture, infrastructure optimization, and DevOps transformation.</p>
-    <a href="mailto:h.lobato001@gmail.com" class="cta-button">Contact Me</a>
+    <a href="mailto:iklobato1@gmail.com" class="cta-button">Contact Me</a>
     <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
 </div>

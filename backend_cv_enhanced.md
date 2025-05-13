@@ -265,6 +265,6 @@ I specialize in architecting **high-performance backend systems**, **microservic
 <div class="contact-cta">
     <h3>Let's Discuss Your Backend Engineering Needs</h3>
     <p>I'm available for consultations on backend architecture, API design, and performance optimization.</p>
-    <a href="mailto:h.lobato001@gmail.com" class="cta-button">Contact Me</a>
+    <a href="mailto:iklobato1@gmail.com" class="cta-button">Contact Me</a>
     <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
 </div>
