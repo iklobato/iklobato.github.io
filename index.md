@@ -16,7 +16,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         </div>
         <div class="profile-info">
             <h1>Hire a Senior Python Developer & API Architect</h1>
-            <span class="title">Freelance Backend Consultant | <a href="#skills">API Expert</a> | <a href="#tech-skills">Cloud Solutions</a></span>
+            <span class="title">Henry Lobato - Freelance Backend Consultant | <a href="#skills">API Expert</a> | <a href="#tech-skills">Cloud Solutions</a></span>
             <div class="contact-info">
                 <a href="mailto:iklobato1@gmail.com" class="contact-item">
                     <i class="fas fa-envelope"></i>
