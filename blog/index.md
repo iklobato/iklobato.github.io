@@ -30,7 +30,29 @@ keywords: Python blog, Backend development, Cloud optimization, API architecture
 
 <main class="main-content">
     <section id="featured-post">
-        <h2>Featured Technical Guide</h2>
+        <h2>Featured Technical Guides</h2>
+        
+        <div class="blog-post featured">
+            <div class="post-image">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*y7kPWCR2Oe_5vR7KXQzX1w.png" 
+                     alt="FastAPI with Gunicorn and Uvicorn Deployment Architecture"
+                     width="800"
+                     height="450"
+                     loading="lazy">
+            </div>
+            <div class="post-content">
+                <h3>Mastering Gunicorn and Uvicorn: The Right Way to Deploy FastAPI Applications</h3>
+                <p class="post-meta">Published: May 27, 2024 • 12 min read</p>
+                <p class="post-excerpt">A comprehensive guide to properly deploying FastAPI applications in production using Gunicorn and Uvicorn workers. Learn about optimal configurations, performance tuning, and best practices for scalable Python web applications.</p>
+                <div class="post-tags">
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Deployment</span>
+                    <span class="tag">Production</span>
+                </div>
+                <a href="https://medium.com/@iklobato1/mastering-gunicorn-and-uvicorn-the-right-way-to-deploy-fastapi-applications-aaa06849841e" class="post-link" target="_blank" rel="canonical noopener">Read the full article on Medium <i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
         
         <div class="blog-post featured">
             <div class="post-image">
@@ -139,6 +161,7 @@ keywords: Python blog, Backend development, Cloud optimization, API architecture
     .blog-post.featured {
         display: grid;
         grid-template-columns: 1fr;
+        margin-bottom: 2rem;
     }
     
     .post-image {
@@ -265,6 +288,29 @@ keywords: Python blog, Backend development, Cloud optimization, API architecture
     }
   },
   "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Mastering Gunicorn and Uvicorn: The Right Way to Deploy FastAPI Applications",
+      "description": "A comprehensive guide to properly deploying FastAPI applications in production using Gunicorn and Uvicorn workers with performance tuning.",
+      "url": "https://medium.com/@iklobato1/mastering-gunicorn-and-uvicorn-the-right-way-to-deploy-fastapi-applications-aaa06849841e",
+      "datePublished": "2024-05-27",
+      "author": {
+        "@type": "Person",
+        "name": "Henrique Lobato"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Medium",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://miro.medium.com/max/1200/1*cy8UgfukfMRkJLWyBy5t8g.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://medium.com/@iklobato1/mastering-gunicorn-and-uvicorn-the-right-way-to-deploy-fastapi-applications-aaa06849841e"
+      }
+    },
     {
       "@type": "BlogPosting",
       "headline": "How to Run Ollama Securely on a Remote GPU with Vast.ai",
