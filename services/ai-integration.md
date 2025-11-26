@@ -43,13 +43,6 @@ permalink: /services/ai-integration/
                     <a href="mailto:iklobato1@gmail.com" class="secondary-cta">Email Me About Your Project</a>
                 </div>
             </div>
-            <div class="service-hero-image">
-                <img src="/assets/images/ai-integration-service.jpg" 
-                     alt="AI Integration and Infrastructure Services" 
-                     width="600" 
-                     height="400"
-                     loading="lazy">
-            </div>
         </div>
     </section>
     
