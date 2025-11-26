@@ -219,7 +219,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                         <span>GraphQL</span>
                         <span>Microservices</span>
                     </div>
-                    <a href="#experience" class="service-link">View Backend Expertise <i class="fas fa-arrow-right"></i></a>
+                    <a href="/services/backend-api" class="service-link">View Backend Expertise <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
@@ -247,7 +247,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                         <span>CI/CD</span>
                         <span>Docker</span>
                     </div>
-                    <a href="#skills" class="service-link">View Cloud Solutions <i class="fas fa-arrow-right"></i></a>
+                    <a href="/services/cloud-devops" class="service-link">View Cloud Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
@@ -261,7 +261,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                         <span>Hadoop</span>
                         <span>ETL/ELT</span>
                     </div>
-                    <a href="#experience" class="service-link">View Data Solutions <i class="fas fa-arrow-right"></i></a>
+                    <a href="/services/data-pipelines" class="service-link">View Data Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
