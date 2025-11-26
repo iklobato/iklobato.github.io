@@ -30,3 +30,6 @@ Thumbs.db
 # Keep all markdown files
 # No exclusions for CV files
 **/.claude/settings.local.json
+**/.cursor/
+**/.specify/
+**/specs/

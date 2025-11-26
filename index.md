@@ -9,33 +9,34 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     <div class="profile-section">
         <div class="profile-img">
             <img src="https://avatars.githubusercontent.com/u/18133417?v=4" 
-                 alt="Henrique Lobato - Freelance Python Developer specializing in backend APIs and cloud architecture"
+                 alt="Henrique Lobato - Tech Lead and Senior Python Engineer with 10+ years of experience in backend systems, cloud architecture, and data engineering"
                  width="150"
                  height="150"
-                 loading="lazy" />
+                 loading="eager" />
         </div>
         <div class="profile-info">
-            <h1>Hire a Senior Python Developer & API Architect</h1>
-            <span class="title">Henry Lobato - Freelance Backend Consultant | <a href="#skills">API Expert</a> | <a href="#tech-skills">Cloud Solutions</a></span>
+            <h1>Henrique "Henry" Lobato</h1>
+            <span class="title">Tech Lead • Senior Python Engineer • Cloud & Data Architect</span>
+            <div class="experience-years">10+ years of experience</div>
             <div class="contact-info">
-                <a href="mailto:iklobato1@gmail.com" class="contact-item">
-                    <i class="fas fa-envelope"></i>
+                <a href="mailto:iklobato1@gmail.com" class="contact-item" aria-label="Email iklobato1@gmail.com">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
                     iklobato1@gmail.com
                 </a>
-                <a href="https://t.me/iklobato" class="contact-item">
-                    <i class="fab fa-telegram"></i>
+                <a href="https://t.me/iklobato" class="contact-item" aria-label="Telegram @iklobato">
+                    <i class="fab fa-telegram" aria-hidden="true"></i>
                     @iklobato
                 </a>
             </div>
             <div class="social-links">
-                <a href="https://linkedin.com/in/iklobato-sr-python" class="social-link" title="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
+                <a href="https://linkedin.com/in/iklobato-sr-python" class="social-link" title="LinkedIn" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/iklobato" class="social-link" title="GitHub">
-                    <i class="fab fa-github"></i>
+                <a href="https://github.com/iklobato" class="social-link" title="GitHub" aria-label="GitHub Profile">
+                    <i class="fab fa-github" aria-hidden="true"></i>
                 </a>
-                <a href="https://calendly.com/hlobato/lets-talk" class="social-link" title="Schedule a call">
-                    <i class="fas fa-calendar-check"></i>
+                <a href="https://calendly.com/hlobato/lets-talk" class="social-link" title="Schedule a call" aria-label="Schedule Consultation">
+                    <i class="fas fa-calendar-check" aria-hidden="true"></i>
                 </a>
 
             </div>
@@ -43,8 +44,21 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     </div>
     
     <div class="hero-section">
-        <h2>Hire a Freelance Python Backend Expert</h2>
-        <p>I'm Henrique, a <strong><a href="#skills">Senior Python Developer</a> and <a href="#tech-skills">API Architect</a></strong> with 10+ years of experience building high-performance systems that scale to millions of users. I create <a href="#experience">scalable backend APIs</a>, implement <a href="/services/ai-integration">cloud cost optimization</a> (30-40% savings), design <a href="#skills">microservices architecture</a>, and deliver <a href="#experience">AI/ML integration</a> for businesses seeking reliable technical solutions.</p>
+        <h2>Professional Summary</h2>
+        <p>Henrique Lobato is a <strong>Tech Lead and Senior Software Engineer</strong> with more than <strong>10 years of experience</strong> architecting, developing, and scaling backend systems, cloud-native infrastructures, and data-driven products. His career spans <strong>information security, fintech, compliance, ML/AI, biotechnology, big data, and large enterprise integrations</strong>, delivering high-availability systems used by global companies in the US, Canada, Brazil, and Europe.</p>
+        <p>Recognized for his mastery in <strong>Python, Django, FastAPI, microservices, CI/CD automation, Kubernetes, and data pipeline orchestration</strong>, Henrique is a specialist in transforming complex architectures into robust, maintainable, and scalable solutions. He has led engineering teams, modernized legacy environments, integrated machine learning pipelines, built security-critical systems, and delivered cloud migrations on AWS and GCP with zero-downtime reliability.</p>
+        <div class="core-expertise">
+            <h3>Core Expertise Areas</h3>
+            <div class="expertise-tags">
+                <span class="expertise-tag">Python</span>
+                <span class="expertise-tag">Django</span>
+                <span class="expertise-tag">Cloud Architecture</span>
+                <span class="expertise-tag">Data Engineering</span>
+                <span class="expertise-tag">AI/ML</span>
+                <span class="expertise-tag">Microservices</span>
+                <span class="expertise-tag">Kubernetes</span>
+            </div>
+        </div>
         
         <div class="cv-links">
             <a href="#hire-me" class="cv-link"><i class="fas fa-briefcase"></i> Hire Me Today</a>
@@ -107,8 +121,11 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                 <div class="skills-list">
                     <span class="skill-tag">Apache Spark</span>
                     <span class="skill-tag">PySpark</span>
+                    <span class="skill-tag">Apache Airflow</span>
                     <span class="skill-tag">Hadoop</span>
                     <span class="skill-tag">ETL Pipelines</span>
+                    <span class="skill-tag">ELT Pipelines</span>
+                    <span class="skill-tag">Snowflake</span>
                     <span class="skill-tag">Data Validation</span>
                 </div>
             </div>
@@ -155,18 +172,53 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
             <div class="languages-expertise">
                 <h3>Technology Stack</h3>
                 <div class="github-card languages-card">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=github_dark&hide_border=true&langs_count=6&bg_color=0d1117" alt="Most Used Languages" />
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=default&hide_border=true&langs_count=6&bg_color=ffffff&title_color=0366d6&text_color=24292e" 
+                         alt="Most Used Languages - Python, JavaScript, Shell, Docker, and more" 
+                         loading="lazy"
+                         onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                    <div class="tech-stack-fallback" style="display: none;">
+                        <div class="tech-stack-list">
+                            <div class="tech-stack-item">
+                                <span class="tech-stack-label">Python</span>
+                                <div class="tech-stack-bar"><div class="tech-stack-fill" style="width: 85%;"></div></div>
+                                <span class="tech-stack-percent">85%</span>
+                            </div>
+                            <div class="tech-stack-item">
+                                <span class="tech-stack-label">JavaScript</span>
+                                <div class="tech-stack-bar"><div class="tech-stack-fill" style="width: 10%;"></div></div>
+                                <span class="tech-stack-percent">10%</span>
+                            </div>
+                            <div class="tech-stack-item">
+                                <span class="tech-stack-label">Shell</span>
+                                <div class="tech-stack-bar"><div class="tech-stack-fill" style="width: 3%;"></div></div>
+                                <span class="tech-stack-percent">3%</span>
+                            </div>
+                            <div class="tech-stack-item">
+                                <span class="tech-stack-label">Docker</span>
+                                <div class="tech-stack-bar"><div class="tech-stack-fill" style="width: 2%;"></div></div>
+                                <span class="tech-stack-percent">2%</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         
-        <div class="services-offered">
-            <h3>Freelance Services</h3>
+        <div class="services-offered" id="services">
+            <h2>Freelance Services</h2>
+            <p class="services-intro">Professional backend, cloud, and data engineering services tailored to your business needs. From scalable API development to AI/ML integration and cloud infrastructure optimization.</p>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-server"></i></div>
                     <h4>Scalable Backend API Development</h4>
                     <p>Custom REST and GraphQL APIs built with Django and FastAPI for startups and enterprises. Microservices architecture that scales to millions of users with high performance.</p>
+                    <div class="service-tech-tags">
+                        <span>Django</span>
+                        <span>FastAPI</span>
+                        <span>REST</span>
+                        <span>GraphQL</span>
+                        <span>Microservices</span>
+                    </div>
                     <a href="#experience" class="service-link">View Backend Expertise <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
@@ -174,6 +226,13 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                     <div class="service-icon"><i class="fas fa-brain"></i></div>
                     <h4>AI/ML Integration Services</h4>
                     <p>Machine learning implementation with Python using HuggingFace, LangChain, OpenCV, and TensorFlow for business automation, data analytics, and intelligent features.</p>
+                    <div class="service-tech-tags">
+                        <span>HuggingFace</span>
+                        <span>LangChain</span>
+                        <span>TensorFlow</span>
+                        <span>OpenCV</span>
+                        <span>Python</span>
+                    </div>
                     <a href="/services/ai-integration" class="service-link">View AI/ML Services <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
@@ -181,13 +240,27 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                     <div class="service-icon"><i class="fas fa-cloud"></i></div>
                     <h4>Cloud Infrastructure & DevOps</h4>
                     <p>AWS/GCP architecture design with 30-40% cost reduction, Kubernetes orchestration, and CI/CD automation for reliable, scalable deployments.</p>
+                    <div class="service-tech-tags">
+                        <span>AWS</span>
+                        <span>GCP</span>
+                        <span>Kubernetes</span>
+                        <span>CI/CD</span>
+                        <span>Docker</span>
+                    </div>
                     <a href="#skills" class="service-link">View Cloud Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-database"></i></div>
                     <h4>Data Pipeline Engineering</h4>
-                    <p>Robust ETL/ELT pipelines, data warehousing, and analytics infrastructures with PySpark, Hadoop, and Snowflake that deliver actionable business insights.</p>
+                    <p>Robust ETL/ELT pipelines orchestrated with Apache Airflow, data warehousing on Snowflake, and analytics infrastructures with PySpark and Hadoop that deliver actionable business insights at scale.</p>
+                    <div class="service-tech-tags">
+                        <span>Apache Airflow</span>
+                        <span>Snowflake</span>
+                        <span>PySpark</span>
+                        <span>Hadoop</span>
+                        <span>ETL/ELT</span>
+                    </div>
                     <a href="#experience" class="service-link">View Data Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -195,150 +268,204 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     </section>
     
     <section id="experience">
-        <h2>Freelance Projects & Enterprise APIs</h2>
+        <h2>Experience & Enterprise APIs</h2>
         
-        <div class="experience-item">
-            <div class="experience-header">
-                <span class="company-name">OneTrust</span> — <span class="job-title">Senior Python Developer</span>
-                <span class="job-duration">Sep 2023 – Present | Remote, USA</span>
-            </div>
-            <div class="job-description">Privacy and compliance software platform</div>
-            
-            <div class="project-context">
-                Led the development of a mission-critical data migration platform following OneTrust's acquisition of Convercent, a major compliance management platform. The challenge involved migrating terabytes of sensitive compliance data across different database schemas while maintaining strict data integrity and privacy requirements.
-            </div>
-            
-            <div class="contributions-heading">Key Contributions:</div>
-            <ul class="contributions-list">
-                <li><span class="contribution-highlight">Migration Architecture:</span> Designed and implemented an enterprise-grade ETL pipeline achieving 99.9% data accuracy with zero privacy violations</li>
-                <li><span class="contribution-highlight">Technical Challenges:</span> Developed a flexible mapping engine handling schema transformations across 50+ complex data types</li>
-                <li><span class="contribution-highlight">Performance Optimization:</span> Reduced data processing time by 45% through parallel batch processing</li>
-                <li><span class="contribution-highlight">Implementation:</span> Created robust Django APIs with PostgreSQL integrations handling 100+ custom fields</li>
-                <li><span class="contribution-highlight">Infrastructure:</span> Designed Kubernetes-based client tools deployable in various environments, including air-gapped networks</li>
-            </ul>
-            
-            <div class="business-impact">
-                Successfully migrated 20+ enterprise clients with zero data loss incidents, accelerating time-to-value for acquired customer base.
-            </div>
-            
-            <div class="technologies">
-                <span>Python</span>
-                <span>Django</span>
-                <span>PostgreSQL</span>
-                <span>Kubernetes</span>
-                <span>AWS</span>
-                <span>Docker</span>
-                <span>Microservices</span>
-            </div>
-        </div>
-        
-        <div class="experience-item">
-            <div class="experience-header">
-                <span class="company-name">SecurityScorecard</span> — <span class="job-title">Senior Python Developer</span>
-                <span class="job-duration">Apr 2022 – Sep 2023 | Remote, USA</span>
-            </div>
-            <div class="job-description">Cybersecurity rating platform</div>
-            
-            <div class="project-context">
-                Enhanced their cybersecurity rating platform, which continuously monitors and assesses the security posture of organizations worldwide. Tackled challenges in scaling data collection infrastructure and making complex security insights more accessible to business users.
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="timeline-date">2023</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <span class="company-name">OneTrust</span> — <span class="job-title">Senior Python Developer</span>
+                            <span class="job-duration">Sep 2023 – Present | Remote, USA</span>
+                        </div>
+                        <div class="job-description">Privacy and compliance software platform</div>
+                        
+                        <div class="project-context">
+                            Led the development of a mission-critical data migration platform following OneTrust's acquisition of Convercent, a major compliance management platform. The challenge involved migrating terabytes of sensitive compliance data across different database schemas while maintaining strict data integrity and privacy requirements.
+                        </div>
+                        
+                        <div class="contributions-heading">Key Contributions:</div>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Migration Architecture:</span> Designed and implemented an enterprise-grade ETL pipeline orchestrated with Apache Airflow, achieving 99.9% data accuracy with zero privacy violations</li>
+                            <li><span class="contribution-highlight">Technical Challenges:</span> Developed a flexible mapping engine handling schema transformations across 50+ complex data types</li>
+                            <li><span class="contribution-highlight">Performance Optimization:</span> Reduced data processing time by 45% through parallel batch processing</li>
+                            <li><span class="contribution-highlight">Implementation:</span> Created robust Django APIs with PostgreSQL integrations handling 100+ custom fields</li>
+                            <li><span class="contribution-highlight">Infrastructure:</span> Designed Kubernetes-based client tools deployable in various environments, including air-gapped networks</li>
+                        </ul>
+                        
+                        <div class="business-impact">
+                            Successfully migrated 20+ enterprise clients with zero data loss incidents, accelerating time-to-value for acquired customer base.
+                        </div>
+                        
+                        <div class="technologies">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                            <span>Apache Airflow</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                            <span>Docker</span>
+                            <span>Microservices</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <div class="contributions-heading">Key Contributions:</div>
-            <ul class="contributions-list">
-                <li><span class="contribution-highlight">AI Integration:</span> Built a Langchain-powered chatbot with FastAPI for non-technical users to interact naturally with security data</li>
-                <li><span class="contribution-highlight">Infrastructure Scaling:</span> Implemented microservices handling 1M+ hourly API requests with 99.95% uptime</li>
-                <li><span class="contribution-highlight">Data Pipeline Development:</span> Created resilient ingestion pipelines across heterogeneous data sources</li>
-                <li><span class="contribution-highlight">API Enhancement:</span> Implemented comprehensive versioning strategy ensuring smooth transitions</li>
-                <li><span class="contribution-highlight">Technical Excellence:</span> Developed extensive test suites improving code quality by 35%</li>
-            </ul>
-            
-            <div class="business-impact">
-                Systems contributed to a 30% increase in API usage and enabled the platform to handle 3x more vendors per customer.
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="timeline-date">2022</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <span class="company-name">SecurityScorecard</span> — <span class="job-title">Senior Python Developer</span>
+                            <span class="job-duration">Apr 2022 – Sep 2023 | Remote, USA</span>
+                        </div>
+                        <div class="job-description">Cybersecurity rating platform</div>
+                        
+                        <div class="project-context">
+                            Enhanced their cybersecurity rating platform, which continuously monitors and assesses the security posture of organizations worldwide. Tackled challenges in scaling data collection infrastructure and making complex security insights more accessible to business users.
+                        </div>
+                        
+                        <div class="contributions-heading">Key Contributions:</div>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">AI Integration:</span> Built a Langchain-powered chatbot with FastAPI for non-technical users to interact naturally with security data</li>
+                            <li><span class="contribution-highlight">Infrastructure Scaling:</span> Implemented microservices handling 1M+ hourly API requests with 99.95% uptime</li>
+                            <li><span class="contribution-highlight">Data Pipeline Development:</span> Created resilient ingestion pipelines orchestrated with Apache Airflow, integrating with Snowflake for data warehousing across heterogeneous data sources</li>
+                            <li><span class="contribution-highlight">API Enhancement:</span> Implemented comprehensive versioning strategy ensuring smooth transitions</li>
+                            <li><span class="contribution-highlight">Technical Excellence:</span> Developed extensive test suites improving code quality by 35%</li>
+                        </ul>
+                        
+                        <div class="business-impact">
+                            Systems contributed to a 30% increase in API usage and enabled the platform to handle 3x more vendors per customer.
+                        </div>
+                        
+                        <div class="technologies">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Langchain</span>
+                            <span>FastAPI</span>
+                            <span>Apache Airflow</span>
+                            <span>Snowflake</span>
+                            <span>AWS</span>
+                            <span>Jenkins</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <div class="technologies">
-                <span>Python</span>
-                <span>Django</span>
-                <span>Langchain</span>
-                <span>FastAPI</span>
-                <span>Snowflake</span>
-                <span>AWS</span>
-                <span>Jenkins</span>
-                <span>Docker</span>
-            </div>
-        </div>
-        
-        <div class="experience-item">
-            <div class="experience-header">
-                <span class="company-name">IKTech</span> — <span class="job-title">Senior Python Developer & Cloud Architect</span>
-                <span class="job-duration">Jul 2020 – Present | Remote, USA</span>
-            </div>
-            <div class="job-description">Consulting firm with projects for Fortune 500 clients</div>
-            
-            <h4>Project: PayPal / Venmo</h4>
-            <div class="project-context">
-                Strengthened authentication flows for Venmo's financial transaction systems handling millions of daily transfers, improving security while maintaining seamless user experience.
-            </div>
-            
-            <ul class="contributions-list">
-                <li><span class="contribution-highlight">Security Enhancement:</span> Created Python validation decorators preventing common attack vectors</li>
-                <li><span class="contribution-highlight">Testing Framework:</span> Developed comprehensive QA testing for 20+ edge case scenarios</li>
-                <li><span class="contribution-highlight">Infrastructure:</span> Deployed CI/CD pipelines using Kubernetes and SSO workflows</li>
-            </ul>
-            
-            <h4>Project: ProbiusDx</h4>
-            <div class="project-context">
-                Led cloud migration for a bioinformatics startup analyzing medical diagnostic data, optimizing performance for compute-intensive analysis while ensuring regulatory compliance.
-            </div>
-            
-            <ul class="contributions-list">
-                <li><span class="contribution-highlight">Cloud Migration:</span> Migrated services from Azure to AWS, reducing costs by 40%</li>
-                <li><span class="contribution-highlight">Architecture:</span> Designed microservices with 99.9% uptime serving 100K+ daily API requests</li>
-                <li><span class="contribution-highlight">ML Integration:</span> Built real-time analysis pipelines with sub-second response times</li>
-            </ul>
-            
-            <div class="business-impact">
-                Reduced fraudulent authentication attempts while accelerating time-to-market for critical diagnostics platform.
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="timeline-date">2020</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <span class="company-name">IKTech</span> — <span class="job-title">Senior Python Developer & Cloud Architect</span>
+                            <span class="job-duration">Jul 2020 – Present | Remote, USA</span>
+                        </div>
+                        <div class="job-description">Consulting firm with projects for Fortune 500 clients</div>
+                        
+                        <h4 class="project-title">Project: PayPal / Venmo</h4>
+                        <div class="project-context">
+                            Strengthened authentication flows for Venmo's financial transaction systems handling millions of daily transfers, improving security while maintaining seamless user experience.
+                        </div>
+                        
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Security Enhancement:</span> Created Python validation decorators preventing common attack vectors</li>
+                            <li><span class="contribution-highlight">Testing Framework:</span> Developed comprehensive QA testing for 20+ edge case scenarios</li>
+                            <li><span class="contribution-highlight">Infrastructure:</span> Deployed CI/CD pipelines using Kubernetes and SSO workflows</li>
+                        </ul>
+                        
+                        <div class="technologies">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <div class="technologies">
-                <span>Python</span>
-                <span>Flask</span>
-                <span>SQLAlchemy</span>
-                <span>AWS</span>
-                <span>Docker</span>
-                <span>Jenkins</span>
-                <span>Kubernetes</span>
-                <span>OpenCV</span>
-                <span>Keras</span>
-            </div>
-        </div>
-        
-        <!-- Additional experiences can be condensed for brevity on main page -->
-        <div class="experience-item">
-            <div class="experience-header">
-                <span class="company-name">Previous Experience</span> — <span class="job-title">Senior Roles in Python Development</span>
-                <span class="job-duration">2016 – 2021 | Various Locations</span>
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="timeline-date">2020</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <span class="company-name">IKTech</span> — <span class="job-title">Senior Python Developer & Cloud Architect</span>
+                            <span class="job-duration">Jul 2020 – Present | Remote, USA</span>
+                        </div>
+                        <div class="job-description">Consulting firm with projects for Fortune 500 clients</div>
+                        
+                        <h4 class="project-title">Project: ProbiusDx</h4>
+                        <div class="project-context">
+                            Led cloud migration for a bioinformatics startup analyzing medical diagnostic data, optimizing performance for compute-intensive analysis while ensuring regulatory compliance.
+                        </div>
+                        
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Cloud Migration:</span> Migrated services from Azure to AWS, reducing costs by 40%</li>
+                            <li><span class="contribution-highlight">Architecture:</span> Designed microservices with 99.9% uptime serving 100K+ daily API requests</li>
+                            <li><span class="contribution-highlight">ML Integration:</span> Built real-time analysis pipelines with sub-second response times</li>
+                        </ul>
+                        
+                        <div class="business-impact">
+                            Reduced fraudulent authentication attempts while accelerating time-to-market for critical diagnostics platform.
+                        </div>
+                        
+                        <div class="technologies">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>SQLAlchemy</span>
+                            <span>AWS</span>
+                            <span>Docker</span>
+                            <span>Jenkins</span>
+                            <span>Kubernetes</span>
+                            <span>OpenCV</span>
+                            <span>Keras</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <ul class="contributions-list">
-                <li><span class="contribution-highlight">BairesDev:</span> Modernized legacy systems to AWS serverless infrastructure, reducing costs by 40%</li>
-                <li><span class="contribution-highlight">Dextra Digital:</span> Built PySpark/Hadoop ML pipelines processing 10M+ daily records for Serasa Experian</li>
-                <li><span class="contribution-highlight">GPr Sistemas:</span> Developed SNMP-based monitoring banking network devices</li>
-                <li><span class="contribution-highlight">Sintecsys:</span> Created wildfire detection system that detected 500+ early-stage fires</li>
-                <li><span class="contribution-highlight">Multiway:</span> Built ALPR system processing 1M+ vehicles daily with 98% detection accuracy</li>
-            </ul>
-            
-            <div class="technologies">
-                <span>Python</span>
-                <span>Django</span>
-                <span>Flask</span>
-                <span>PySpark</span>
-                <span>Hadoop</span>
-                <span>AWS</span>
-                <span>PostgreSQL</span>
-                <span>TensorFlow</span>
-                <span>OpenCV</span>
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="timeline-date">2016</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <span class="company-name">Previous Experience</span> — <span class="job-title">Senior Roles in Python Development</span>
+                            <span class="job-duration">2016 – 2021 | Various Locations</span>
+                        </div>
+                        
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">BairesDev:</span> Modernized legacy systems to AWS serverless infrastructure, reducing costs by 40%</li>
+                            <li><span class="contribution-highlight">Dextra Digital:</span> Built PySpark/Hadoop ML pipelines processing 10M+ daily records for Serasa Experian</li>
+                            <li><span class="contribution-highlight">GPr Sistemas:</span> Developed SNMP-based monitoring banking network devices</li>
+                            <li><span class="contribution-highlight">Sintecsys:</span> Created wildfire detection system that detected 500+ early-stage fires</li>
+                            <li><span class="contribution-highlight">Multiway:</span> Built ALPR system processing 1M+ vehicles daily with 98% detection accuracy</li>
+                        </ul>
+                        
+                        <div class="technologies">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Flask</span>
+                            <span>PySpark</span>
+                            <span>Hadoop</span>
+                            <span>AWS</span>
+                            <span>PostgreSQL</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
