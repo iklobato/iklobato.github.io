@@ -725,12 +725,13 @@ permalink: /services/data-pipelines/
     }
     
     .tech-item {
+        display: inline-block;
         background-color: var(--highlight-bg);
-        color: var(--primary-color);
-        padding: 0.5rem 1rem;
+        padding: 0.3rem 0.8rem;
         border-radius: 4px;
         font-size: 0.9rem;
-        font-family: 'Roboto Mono', monospace;
+        color: var(--text-color);
+        font-weight: 500;
         border: 1px solid var(--border-color);
     }
     
