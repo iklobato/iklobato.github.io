@@ -545,6 +545,11 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         </div>
     </section>
     
+    <section id="github-stats">
+        <h2>GitHub Stats</h2>
+        <img src="https://awesome-github-stats.azurewebsites.net/user-stats/iklobato" alt="iklobato's GitHub stats" />
+    </section>
+    
     
     <section id="education">
         <h2>Education & Certifications</h2>
