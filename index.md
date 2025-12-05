@@ -171,34 +171,76 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
             
             <div class="languages-expertise">
                 <h3>Technology Stack</h3>
-                <div class="github-card languages-card">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iklobato&layout=compact&theme=default&hide_border=true&langs_count=6&bg_color=ffffff&title_color=0366d6&text_color=24292e" 
-                         alt="Most Used Languages - Python, JavaScript, Shell, Docker, and more" 
-                         loading="lazy"
-                         onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='block';" />
-                    <div class="tech-stack-fallback" style="display: none;">
-                        <div class="tech-stack-list">
-                            <div class="tech-stack-item">
-                                <span class="tech-stack-label">Python</span>
-                                <div class="tech-stack-bar"><div class="tech-stack-fill" style="width: 85%;"></div></div>
-                                <span class="tech-stack-percent">85%</span>
-                            </div>
-                            <div class="tech-stack-item">
-                                <span class="tech-stack-label">JavaScript</span>
-                                <div class="tech-stack-bar"><div class="tech-stack-fill" style="width: 10%;"></div></div>
-                                <span class="tech-stack-percent">10%</span>
-                            </div>
-                            <div class="tech-stack-item">
-                                <span class="tech-stack-label">Shell</span>
-                                <div class="tech-stack-bar"><div class="tech-stack-fill" style="width: 3%;"></div></div>
-                                <span class="tech-stack-percent">3%</span>
-                            </div>
-                            <div class="tech-stack-item">
-                                <span class="tech-stack-label">Docker</span>
-                                <div class="tech-stack-bar"><div class="tech-stack-fill" style="width: 2%;"></div></div>
-                                <span class="tech-stack-percent">2%</span>
-                            </div>
+                <div class="tech-stack-list">
+                    <div class="tech-item">
+                        <span class="tech-name">Python</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
+                        <span class="tech-experience">10+ years</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-name">Docker</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="tech-experience">10 years</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-name">Django</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="tech-experience">8+ years</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-name">PostgreSQL</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="tech-experience">8 years</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-name">Kubernetes</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="tech-experience">6 years</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-name">AWS</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="tech-experience">5+ years</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-name">FastAPI</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="tech-experience">5 years</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-name">Google Cloud</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="tech-experience">5 years</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-name">Terraform</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
+                        <span class="tech-experience">5 years</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-name">Apache Airflow</span>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
+                        <span class="tech-experience">4 years</span>
                     </div>
                 </div>
             </div>
