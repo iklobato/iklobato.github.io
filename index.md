@@ -670,10 +670,72 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
             <div class="year">100+ hours</div>
         </div>
         
-        <div class="certification-item">
-            <div class="credential-name">Advanced PostgreSQL Administration & Performance Tuning</div>
-        </div>
+        
     </section>
+
+<!--
+<section id="certifications" class="certifications-section">
+    <h2>Certifications</h2>
+    <div class="certification-grid">
+        <div class="certification-card">
+            <div class="certification-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" class="certification-logo">
+                <h4 class="certification-name">✅ 1. AWS Solutions Architect – Associate (SAA-C03)</h4>
+            </div>
+            
+        </div>
+        <div class="certification-card">
+            <div class="certification-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg" alt="Terraform Logo" class="certification-logo">
+                <h4 class="certification-name">✅ 2. HashiCorp Terraform Associate</h4>
+            </div>
+            
+        </div>
+        <div class="certification-card">
+            <div class="certification-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" class="certification-logo">
+                <h4 class="certification-name">✅ 3. AWS Developer – Associate (DVA-C02)</h4>
+            </div>
+            
+        </div>
+        <div class="certification-card">
+            <div class="certification-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" alt="Kubernetes Logo" class="certification-logo">
+                <h4 class="certification-name">✅ 4. Certified Kubernetes Administrator (CKA)</h4>
+            </div>
+            
+        </div>
+        <div class="certification-card">
+            <div class="certification-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" class="certification-logo">
+                <h4 class="certification-name">✅ 5. AWS Data Engineer – Associate (DEA-C01)</h4>
+            </div>
+            
+        </div>
+        <div class="certification-card">
+            <div class="certification-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks-logo.svg" alt="Databricks Logo" class="certification-logo">
+                <h4 class="certification-name">✅ 6. Databricks Data Engineer Associate</h4>
+            </div>
+            
+        </div>
+        <div class="certification-card">
+            <div class="certification-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Snowflake_Logo.svg" alt="Snowflake Logo" class="certification-logo">
+                <h4 class="certification-name">✅ 7. SnowPro Core (Snowflake)</h4>
+            </div>
+            
+        </div>
+        <div class="certification-card">
+            <div class="certification-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Confluent%2C_Inc._logo.svg" alt="Confluent Logo" class="certification-logo">
+                <h4 class="certification-name">✅ 8. Apache Kafka Confluent Developer</h4>
+            </div>
+            
+        </div>
+    </div>
+</section>
+-->
     
     <section id="languages">
         <h2>Languages</h2>

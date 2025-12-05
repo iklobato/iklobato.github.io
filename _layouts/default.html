@@ -122,13 +122,17 @@
             }
         }
         
+        html {
+            font-size: 80%;
+        }
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.6;
             color: var(--text-color);
-            max-width: 1400px;
+            max-width: 1120px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 16px;
             background-color: var(--body-bg);
         }
         
@@ -1331,6 +1335,57 @@
             font-style: italic;
             color: var(--text-color);
             margin: 0;
+        }
+
+        .certifications-section {
+            margin-top: 4rem;
+        }
+
+        .certification-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .certification-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .certification-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .certification-logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 1rem;
+        }
+
+        .certification-name {
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .certification-body h5 {
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .certification-body ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            margin: 0;
+        }
+
+        .certification-body li {
+            margin-bottom: 0.5rem;
         }
         
         /* Testimonials Section */
