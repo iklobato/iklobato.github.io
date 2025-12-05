@@ -512,6 +512,96 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         </div>
     </section>
     
+    <section id="testimonials" class="testimonials-section">
+    <h2>Recommendations</h2>
+    <div class="testimonial-grid">
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="author-info">
+                    <h4 class="author-name">Ivan Domingos Francisco</h4>
+                    <p class="author-title">Engineering Lead | Creditas</p>
+                    <p class="author-relationship">December 15, 2024, Ivan managed Henry directly</p>
+                </div>
+            </div>
+            <div class="testimonial-body">
+                <p>"It was great working with Lobato at Dextra. He demonstrated excellent proficiency in Python, delivered quickly, created high-quality solutions, and always supported the business area with great dedication. Furthermore, he had an excellent relationship with the team, contributing to a collaborative, positive, and pleasant work environment. I highly recommend him as a professional!"</p>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="author-info">
+                    <h4 class="author-name">Felipe Longo França</h4>
+                    <p class="author-title">Tech Lead • Senior Software Engineer</p>
+                    <p class="author-relationship">December 7, 2024, Felipe worked with Henry on the same team</p>
+                </div>
+            </div>
+            <div class="testimonial-body">
+                <p>"Working with Henrique was an enriching experience. His expertise in Python is exceptional, and his ability to apply complex concepts in a practical and efficient way made a significant difference in the projects we collaborated on. Henrique demonstrated a unique talent for optimizing processes and finding innovative solutions to challenging problems. Beyond his technical proficiency, Henrique has a collaborative approach and was always willing to share his knowledge, helping to elevate the technical level of the entire team. His attention to detail, combined with his passion for development, makes him an indispensable professional in any tech team."</p>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="author-info">
+                    <h4 class="author-name">Eduwardo Horibe</h4>
+                    <p class="author-title">Desenvolvedor na Multiway Comercio E Representacoes Ltda</p>
+                    <p class="author-relationship">December 2, 2024, Eduwardo worked with Henry but on different teams</p>
+                </div>
+            </div>
+            <div class="testimonial-body">
+                <p>"Embora tenhamos trabalhado em frentes diferentes do setor de desenvolvimento, o Henrique foi essencial no meu desenvolvimento profissional. Sua forma de explicar Linux, um tópico bem alienígena para mim na época, me fez repensar totalmente a forma com que trabalho, especialmente na automação de tarefas repetitivas, além de depuração e análise de problemas no módulo que eu prestava manutenção, que roda principalmente em servidores Linux. Além disso, seus insights sobre o desenvolvimento em Python se mostraram extremamente valiosos no meu desenvolvimento acadêmico, especialmente em projetos de análise de dados. Sua forma de explicar conceitos complexos e abstratos é excelente. Posso dizer sem dúvidas que ele foi um dos melhores tutores da minha carreira e que cresci muito no meio profissional e acadêmico graças à sua influência."</p>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="author-info">
+                    <h4 class="author-name">Carolina Gonzalez Alvarenga</h4>
+                    <p class="author-title">Senior Frontend Software Engineer @ Uber</p>
+                    <p class="author-relationship">December 2, 2024, Carolina and Henry studied together</p>
+                </div>
+            </div>
+            <div class="testimonial-body">
+                <p>"I had the privilege of studying Engineering alongside Henry, and from the very beginning, it was clear that he was someone with exceptional intelligence and impressive dedication. His ability to grasp complex concepts and his capacity to lead his peers in academic activities always stood out. Over time, I’ve seen Henry evolve from a brilliant student into an extremely talented professional in the field of Python development. What impresses me most about Henry is the combination of his technical depth and his innovative approach to problem-solving. He doesn’t settle for simply solving challenges efficiently; he always seeks the most elegant and sustainable solution. His logical reasoning and attention to detail are qualities that make him a top-tier developer. More than that, he genuinely enjoys learning and constantly improving, which is one of his greatest strengths. Following Henry's journey has been a true inspiration. His evolution from an excellent student to a standout professional in the world of programming fills me with pride. Working with him is always an enriching experience, and I feel privileged to have had the opportunity to witness his growth and success firsthand."</p>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="author-info">
+                    <h4 class="author-name">Renato Fuzaro Miotto</h4>
+                    <p class="author-title">Computational Scientist | ML Engineer | HPC & CFD Specialist | Operations Researcher | Digital Twin & Forecasting Models | Quantitative Modeling for Intelligent, Data-Driven Decisions</p>
+                    <p class="author-relationship">November 29, 2024, Renato reported directly to Henry</p>
+                </div>
+            </div>
+            <div class="testimonial-body">
+                <p>"I had the privilege of working with Henrique at IK Tech, where his technical expertise and leadership truly stood out. As a Senior Software Engineer and founder, Henrique combines deep knowledge with a strategic mindset, consistently delivering innovative solutions to complex challenges. He’s not only a skilled engineer but also a mentor who fosters collaboration and drives success. I highly recommend Henrique for any team or project."</p>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="author-info">
+                    <h4 class="author-name">Rai Martins</h4>
+                    <p class="author-title">Infinity Media Brasil | Physicist | Software Engineer | Kotlin | Node.js | Flutter | Dart | Android | Ios</p>
+                    <p class="author-relationship">November 29, 2024, Rai worked with Henry but on different teams</p>
+                </div>
+            </div>
+            <div class="testimonial-body">
+                <p>"Working with Henrique was undoubtedly one of the most positive experiences I’ve ever had. Beyond being a highly skilled professional with expertise in technologies such as Python, Django, Kubernetes, GCP, and AWS, Henrique also stands out as an incredible human being. His empathy, patience, and generosity are qualities that transform the work environment and make any challenge more manageable. Henrique is not just a technical problem solver — he is a true leader by example. Always willing to listen, help, and share knowledge, he inspires everyone around him to give their best. His ability to unite people and foster a strong team spirit is something rare and extremely valuable. Having the opportunity to work alongside someone so committed to excellence and, at the same time, so genuinely human was a privilege. Henrique not only adds value to projects but also to the people around him, leaving a positive impact wherever he goes. Any team would be fortunate to have him."</p>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <div class="author-info">
+                    <h4 class="author-name">Dennis Rojas</h4>
+                    <p class="author-title">Staff Software Engineer | Distributed Systems & Cloud Architecture</p>
+                    <p class="author-relationship">September 10, 2023, Dennis was senior to Henry but didn't manage Henry directly</p>
+                </div>
+            </div>
+            <div class="testimonial-body">
+                <p>"Henry Lobato is a professional with a great desire to learn and always be up to date, contributing to his own growth and that of the company. It was an honor to work with him and I completely recommend to any company."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
     <section id="hire-me">
         <h2>Ready to Build Something Amazing?</h2>
         <div class="hire-me-container">
@@ -545,10 +635,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         </div>
     </section>
     
-    <section id="github-stats">
-        <h2>GitHub Stats</h2>
-        <img src="https://awesome-github-stats.azurewebsites.net/user-stats/iklobato" alt="iklobato's GitHub stats" />
-    </section>
+    
     
     
     <section id="education">
