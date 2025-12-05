@@ -673,7 +673,6 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         
     </section>
 
-<!--
 <section id="certifications" class="certifications-section">
     <h2>Certifications</h2>
     <div class="certification-grid">
@@ -735,7 +734,6 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         </div>
     </div>
 </section>
--->
     
     <section id="languages">
         <h2>Languages</h2>
