@@ -543,12 +543,12 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
             <div class="testimonial-header">
                 <div class="author-info">
                     <h4 class="author-name">Eduwardo Horibe</h4>
-                    <p class="author-title">Desenvolvedor na Multiway Comercio E Representacoes Ltda</p>
+                    <p class="author-title">Developer at Multiway Comercio E Representacoes Ltda</p>
                     <p class="author-relationship">December 2, 2024, Eduwardo worked with Henry but on different teams</p>
                 </div>
             </div>
             <div class="testimonial-body">
-                <p>"Embora tenhamos trabalhado em frentes diferentes do setor de desenvolvimento, o Henrique foi essencial no meu desenvolvimento profissional. Sua forma de explicar Linux, um tópico bem alienígena para mim na época, me fez repensar totalmente a forma com que trabalho, especialmente na automação de tarefas repetitivas, além de depuração e análise de problemas no módulo que eu prestava manutenção, que roda principalmente em servidores Linux. Além disso, seus insights sobre o desenvolvimento em Python se mostraram extremamente valiosos no meu desenvolvimento acadêmico, especialmente em projetos de análise de dados. Sua forma de explicar conceitos complexos e abstratos é excelente. Posso dizer sem dúvidas que ele foi um dos melhores tutores da minha carreira e que cresci muito no meio profissional e acadêmico graças à sua influência."</p>
+                <p>"Although we worked on different fronts in the development sector, Henrique was essential to my professional development. His way of explaining Linux, a very alien topic for me at the time, made me completely rethink the way I work, especially in automating repetitive tasks, as well as debugging and analyzing problems in the module I maintained, which runs mainly on Linux servers. In addition, his insights into Python development proved to be extremely valuable in my academic development, especially in data analysis projects. His way of explaining complex and abstract concepts is excellent. I can say without a doubt that he was one of the best tutors of my career and that I grew a lot professionally and academically thanks to his influence."</p>
             </div>
         </div>
         <div class="testimonial-card">
@@ -673,7 +673,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         
     </section>
 
-<section id="certifications" class="certifications-section">
+<!-- <section id="certifications" class="certifications-section">
     <h2>Certifications</h2>
     <div class="certification-grid">
         <div class="certification-card">
@@ -733,7 +733,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
             
         </div>
     </div>
-</section>
+</section> -->
     
     <section id="languages">
         <h2>Languages</h2>
