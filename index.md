@@ -29,7 +29,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                 </a>
             </div>
             <div class="social-links">
-                <a href="https://linkedin.com/in/iklobato-sr-python" class="social-link" title="LinkedIn" aria-label="LinkedIn Profile">
+                <a href="https://www.linkedin.com/in/iklobato/" class="social-link" title="LinkedIn" aria-label="LinkedIn Profile">
                     <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                 </a>
                 <a href="https://github.com/iklobato" class="social-link" title="GitHub" aria-label="GitHub Profile">
