@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Hire Python Developer | Backend & Cloud Expert | Freelance API Architect
+title: Hire Python Developer | Senior Backend Engineer | Freelance API Expert
 description: Need a senior Python developer? I build high-performance backend APIs, cloud architectures, and AI integrations that scale to millions of users with 99.9% uptime. Hire me for your next project.
-keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Cloud Expert, Django REST API, FastAPI Developer, Kubernetes Specialist, AI Integration, Python Freelancer, Remote Developer, Microservices, Scalable Systems
+keywords: Hire Python Developer, Senior Python Developer, Freelance Python Developer, Python Backend Developer, Django Developer, FastAPI Developer, REST API Developer, API Architect, AWS Developer, GCP Cloud Expert, Kubernetes Developer, Docker Expert, Microservices Architect, Remote Python Developer, Python Freelancer, Backend Engineer, Cloud Architect, CI/CD Engineer, DevOps Engineer, AI Integration Developer, LangChain Developer, ETL Pipeline Engineer
 ---
 
 <header class="header">
