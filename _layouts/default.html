@@ -16,6 +16,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta name="color-scheme" content="dark light">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#2563eb">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#2563eb">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3b82f6">
+    
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     
     <!-- SEO Meta Tags -->
@@ -25,12 +31,22 @@
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="language" content="English">
     <meta name="revisit-after" content="7 days">
-    <!-- Get verification code from Google Search Console -->
-    <meta name="google-site-verification" content="YOUR-VERIFICATION-CODE">
     <meta name="format-detection" content="telephone=yes">
     <meta name="geo.region" content="BR">
-    <meta name="geo.placename" content="Brazil">
+    <meta name="geo.placename" content="São Paulo">
+    
+    <!-- hreflang for multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <link rel="alternate" hreflang="pt-BR" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    
+    <!-- Canonical URL -->
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    
+    <!-- Resource Hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://avatars.githubusercontent.com" crossorigin>
 
     <!-- Preload critical assets -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
@@ -1814,8 +1830,46 @@
       ]
     }
     </script>
-
-    <!-- Schema.org structured data for Professional Service -->
+    
+    <!-- Schema.org structured data for WebPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+      "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}",
+      "url": "{{ site.url }}{{ page.url | replace:'index.html','' }}",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Henrique Lobato"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Henrique Lobato"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-03-17",
+      "dateModified": "{{ site.time | date: '%Y-%m-%d' }}"
+    }
+    </script>
+    
+    <!-- Schema.org structured data for BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://iklobato.com/"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Schema.org FAQ for Common Client Questions -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",

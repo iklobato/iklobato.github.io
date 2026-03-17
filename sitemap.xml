@@ -1,45 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+         xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <!-- Homepage -->
   <url>
-    <loc>https://iklobato.github.io/</loc>
+    <loc>https://iklobato.com/</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iklobato.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://iklobato.com/"/>
   </url>
-  
-  <!-- Service Pages (keeping these for reference in case they're still accessible) -->
-  <!-- These pages are no longer linked from the homepage -->
-  <!-- But are kept in the sitemap in case they have external links pointing to them -->
   
   <!-- Service Pages -->
   <url>
-    <loc>https://iklobato.github.io/services/ai-integration/</loc>
+    <loc>https://iklobato.com/services/ai-integration/</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iklobato.com/services/ai-integration/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://iklobato.com/services/ai-integration/"/>
   </url>
   <url>
-    <loc>https://iklobato.github.io/services/backend-api/</loc>
+    <loc>https://iklobato.com/services/backend-api/</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iklobato.com/services/backend-api/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://iklobato.com/services/backend-api/"/>
   </url>
   <url>
-    <loc>https://iklobato.github.io/services/cloud-devops/</loc>
+    <loc>https://iklobato.com/services/cloud-devops/</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iklobato.com/services/cloud-devops/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://iklobato.com/services/cloud-devops/"/>
   </url>
   <url>
-    <loc>https://iklobato.github.io/services/data-pipelines/</loc>
+    <loc>https://iklobato.com/services/data-pipelines/</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iklobato.com/services/data-pipelines/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://iklobato.com/services/data-pipelines/"/>
   </url>
   
   <!-- Blog Index -->
   <url>
-    <loc>https://iklobato.github.io/blog/</loc>
+    <loc>https://iklobato.com/blog/</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iklobato.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://iklobato.com/blog/"/>
   </url>
   
-  <!-- External Blog Posts (on Medium) -->
-  <!-- We don't list external blog posts in the sitemap -->
 </urlset>
