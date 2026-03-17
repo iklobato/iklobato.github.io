@@ -9,24 +9,28 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     <div class="profile-section">
         <div class="profile-img">
             <img src="https://avatars.githubusercontent.com/u/18133417?v=4" 
-                 alt="Henrique Lobato - Tech Lead and Senior Python Engineer with 10+ years of experience in backend systems, cloud architecture, and data engineering"
+                 alt="Henrique Lobato - Senior Backend Engineer with 10+ years of experience in Python, Distributed Systems, and Cloud Architecture"
                  width="150"
                  height="150"
                  loading="eager" />
         </div>
         <div class="profile-info">
-            <h1>Henrique "Henry" Lobato</h1>
-            <span class="title">Tech Lead • Senior Python Engineer • Cloud & Data Architect</span>
+            <h1>Henrique Lobato</h1>
+            <span class="title">Senior Backend Engineer &middot; Python &middot; Distributed Systems &middot; Kubernetes &middot; AWS / GCP</span>
             <div class="experience-years">10+ years of experience</div>
             <div class="contact-info">
-                <a href="mailto:iklobato1@gmail.com" class="contact-item" aria-label="Email iklobato1@gmail.com">
+                <a href="mailto:iklobato@proton.me" class="contact-item" aria-label="Email iklobato@proton.me">
                     <i class="fas fa-envelope" aria-hidden="true"></i>
-                    iklobato1@gmail.com
+                    iklobato@proton.me
                 </a>
-                <a href="https://t.me/iklobato" class="contact-item" aria-label="Telegram @iklobato">
-                    <i class="fab fa-telegram" aria-hidden="true"></i>
-                    @iklobato
+                <a href="tel:+5511984348555" class="contact-item" aria-label="Phone +55 11 98434-8555">
+                    <i class="fas fa-phone" aria-hidden="true"></i>
+                    +55 11 98434-8555
                 </a>
+                <span class="contact-item location">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    São Paulo, Remote (US Timezone Overlap)
+                </span>
             </div>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/iklobato/" class="social-link" title="LinkedIn" aria-label="LinkedIn Profile">
@@ -38,25 +42,23 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                 <a href="https://calendly.com/hlobato/lets-talk" class="social-link" title="Schedule a call" aria-label="Schedule Consultation">
                     <i class="fas fa-calendar-check" aria-hidden="true"></i>
                 </a>
-
             </div>
         </div>
     </div>
     
     <div class="hero-section">
-        <h2>Professional Summary</h2>
-        <p>Henrique Lobato is a <strong>Tech Lead and Senior Software Engineer</strong> with more than <strong>10 years of experience</strong> architecting, developing, and scaling backend systems, cloud-native infrastructures, and data-driven products. His career spans <strong>information security, fintech, compliance, ML/AI, biotechnology, big data, and large enterprise integrations</strong>, delivering high-availability systems used by global companies in the US, Canada, Brazil, and Europe.</p>
-        <p>Recognized for his mastery in <strong>Python, Django, FastAPI, microservices, CI/CD automation, Kubernetes, and data pipeline orchestration</strong>, Henrique is a specialist in transforming complex architectures into robust, maintainable, and scalable solutions. He has led engineering teams, modernized legacy environments, integrated machine learning pipelines, built security-critical systems, and delivered cloud migrations on AWS and GCP with zero-downtime reliability.</p>
+        <h2>Summary</h2>
+        <p>Senior Backend Engineer with <strong>10+ years of ownership</strong> over production-grade distributed systems in Python (Django, FastAPI, Flask). Specializes in decomposing monoliths into resilient microservices, designing event-driven pipelines sustaining tens of millions of daily events, and delivering cloud-native infrastructure on AWS and GCP, with observability, fault-tolerance, and operational clarity as first-class concerns.</p>
+        <p>Delivered across <strong>fintech, AI/ML, cybersecurity, biotechnology, big data, and computer vision</strong>, leading full project lifecycles from RFC through zero-downtime deployment. Tech Lead for the past two years: raising the bar through code review, mentoring, and engineering standards that survive team changes.</p>
         <div class="core-expertise">
-            <h3>Core Expertise Areas</h3>
+            <h3>Core Expertise</h3>
             <div class="expertise-tags">
                 <span class="expertise-tag">Python</span>
                 <span class="expertise-tag">Django</span>
-                <span class="expertise-tag">Cloud Architecture</span>
-                <span class="expertise-tag">Data Engineering</span>
-                <span class="expertise-tag">AI/ML</span>
-                <span class="expertise-tag">Microservices</span>
+                <span class="expertise-tag">FastAPI</span>
+                <span class="expertise-tag">Distributed Systems</span>
                 <span class="expertise-tag">Kubernetes</span>
+                <span class="expertise-tag">AWS / GCP</span>
             </div>
         </div>
         
@@ -70,238 +72,223 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
 
 <main class="main-content">
     <section id="skills">
-        <h2>Backend Development & API Architecture</h2>
-        <div class="skills-container">
-            <div class="skills-category">
-                <h3>Platforms & Cloud</h3>
-                <div class="skills-list">
-                    <span class="skill-tag">AWS</span>
-                    <span class="skill-tag">GCP</span>
-                    <span class="skill-tag">Docker</span>
-                    <span class="skill-tag">Kubernetes</span>
-                    <span class="skill-tag">Snowflake</span>
+        <h2>Technical Skills</h2>
+        
+        <div class="skills-grid">
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python 3</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Shell Script</span>
                 </div>
             </div>
             
-            <div class="skills-category">
-                <h3>Programming & Frameworks</h3>
-                <div class="skills-list">
-                    <span class="skill-tag">Python Developer</span>
-                    <span class="skill-tag">Django REST</span>
-                    <span class="skill-tag">Flask</span>
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Frameworks</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">Django REST Framework</span>
                     <span class="skill-tag">FastAPI</span>
-                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Flask</span>
+                    <span class="skill-tag">SQLAlchemy</span>
+                    <span class="skill-tag">Celery</span>
                 </div>
             </div>
             
-            <div class="skills-category">
-                <h3>Databases & Caching</h3>
-                <div class="skills-list">
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                </div>
+                <div class="skill-tags">
                     <span class="skill-tag">PostgreSQL</span>
                     <span class="skill-tag">MySQL</span>
-                    <span class="skill-tag">SQLAlchemy</span>
-                    <span class="skill-tag">Redis</span>
                     <span class="skill-tag">DynamoDB</span>
+                    <span class="skill-tag">Redis</span>
+                    <span class="skill-tag">Memcached</span>
+                    <span class="skill-tag">Snowflake</span>
+                    <span class="skill-tag">Firebase</span>
                 </div>
             </div>
             
-            <div class="skills-category">
-                <h3>DevOps & CI/CD</h3>
-                <div class="skills-list">
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud & CDN</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS (EC2, Lambda, ECS, RDS, S3, VPC, IAM, CloudFront, CloudWatch, Rekognition)</span>
+                    <span class="skill-tag">GCP</span>
+                    <span class="skill-tag">Cloudflare</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-server"></i>
+                    <h3>Infrastructure & IaC</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">Helm</span>
+                    <span class="skill-tag">Terraform</span>
+                    <span class="skill-tag">ArgoCD</span>
+                    <span class="skill-tag">Ansible</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Nginx</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-stream"></i>
+                    <h3>Streaming & Data</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Apache Kafka</span>
+                    <span class="skill-tag">RabbitMQ</span>
+                    <span class="skill-tag">PySpark</span>
+                    <span class="skill-tag">Apache Spark</span>
+                    <span class="skill-tag">Hadoop</span>
+                    <span class="skill-tag">gRPC</span>
+                    <span class="skill-tag">WebSockets</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-infinity"></i>
+                    <h3>CI/CD & Observability</h3>
+                </div>
+                <div class="skill-tags">
                     <span class="skill-tag">GitHub Actions</span>
                     <span class="skill-tag">Jenkins</span>
-                    <span class="skill-tag">Terraform</span>
-                    <span class="skill-tag">CloudFormation</span>
+                    <span class="skill-tag">ArgoCD</span>
                     <span class="skill-tag">Prometheus</span>
+                    <span class="skill-tag">Grafana</span>
+                    <span class="skill-tag">Datadog</span>
+                    <span class="skill-tag">OpenTelemetry</span>
                 </div>
             </div>
             
-            <div class="skills-category">
-                <h3>Data Engineering</h3>
-                <div class="skills-list">
-                    <span class="skill-tag">Apache Spark</span>
-                    <span class="skill-tag">PySpark</span>
-                    <span class="skill-tag">Apache Airflow</span>
-                    <span class="skill-tag">Hadoop</span>
-                    <span class="skill-tag">ETL Pipelines</span>
-                    <span class="skill-tag">ELT Pipelines</span>
-                    <span class="skill-tag">Snowflake</span>
-                    <span class="skill-tag">Data Validation</span>
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI / ML</h3>
                 </div>
-            </div>
-            
-            <div class="skills-category">
-                <h3>AI & Machine Learning</h3>
-                <div class="skills-list">
+                <div class="skill-tags">
                     <span class="skill-tag">Langchain</span>
                     <span class="skill-tag">HuggingFace</span>
+                    <span class="skill-tag">OpenAI APIs</span>
+                    <span class="skill-tag">TensorFlow / Keras</span>
                     <span class="skill-tag">OpenCV</span>
-                    <span class="skill-tag">TensorFlow</span>
-                    <span class="skill-tag">Keras</span>
+                    <span class="skill-tag">scikit-learn</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">OWASP</span>
+                    <span class="skill-tag">Penetration Testing</span>
+                    <span class="skill-tag">JWT</span>
+                    <span class="skill-tag">TCP/IP</span>
+                    <span class="skill-tag">InfoSec</span>
                 </div>
             </div>
         </div>
     </section>
     
     <section id="tech-skills">
-        <h2>API Development & Cloud Infrastructure</h2>
+        <h2>Freelance Services</h2>
         
         <div class="expertise-container">
             <div class="expertise-overview">
-                <p class="expertise-intro">With over a decade of experience delivering high-impact <a href="#experience">backend solutions</a>, I specialize in building <a href="#skills">scalable, robust APIs</a> that solve complex business challenges. As a <a href="#hire-me">freelance Python consultant</a>, my work has directly contributed to:</p>
+                <p class="expertise-intro">Professional backend engineering services tailored to your business needs. From scalable API development to cloud infrastructure and AI integration.</p>
                 
                 <div class="value-props">
                     <div class="value-prop">
                         <i class="fas fa-rocket"></i>
-                        <h4>Accelerated API Performance</h4>
-                        <p>45-85% improvement in response times for <a href="#experience">client projects</a></p>
+                        <h4>Scalable Systems</h4>
+                        <p>Microservices architectures handling millions of daily events with 99.9% uptime</p>
                     </div>
                     <div class="value-prop">
                         <i class="fas fa-coins"></i>
                         <h4>Cloud Cost Optimization</h4>
-                        <p>30-40% decrease in <a href="/services/ai-integration">infrastructure costs</a> for startups</p>
+                        <p>30-40% decrease in infrastructure costs through right-sizing and serverless</p>
                     </div>
                     <div class="value-prop">
                         <i class="fas fa-shield-alt"></i>
-                        <h4>Secure Backend Architecture</h4>
-                        <p>SOC2 compliance and <a href="#skills">robust API security</a> implementations</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="languages-expertise">
-                <h3>Technology Stack</h3>
-                <div class="tech-stack-list">
-                    <div class="tech-item">
-                        <span class="tech-name">Python</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <span class="tech-experience">10+ years</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-name">Docker</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <span class="tech-experience">10 years</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-name">Django</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <span class="tech-experience">8+ years</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-name">PostgreSQL</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <span class="tech-experience">8 years</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-name">Kubernetes</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <span class="tech-experience">6 years</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-name">AWS</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <span class="tech-experience">5+ years</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-name">FastAPI</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <span class="tech-experience">5 years</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-name">Google Cloud</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <span class="tech-experience">5 years</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-name">Terraform</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-                        </div>
-                        <span class="tech-experience">5 years</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-name">Apache Airflow</span>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-                        </div>
-                        <span class="tech-experience">4 years</span>
+                        <h4>Secure Architecture</h4>
+                        <p>SOC2 compliance and OWASP-aligned security implementations</p>
                     </div>
                 </div>
             </div>
         </div>
         
         <div class="services-offered" id="services">
-            <h2>Freelance Services</h2>
-            <p class="services-intro">Professional backend, cloud, and data engineering services tailored to your business needs. From scalable API development to AI/ML integration and cloud infrastructure optimization.</p>
+            <p class="services-intro">Specialized services for startups and enterprises building mission-critical systems.</p>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-server"></i></div>
-                    <h4>Scalable Backend API Development</h4>
-                    <p>Custom REST and GraphQL APIs built with Django and FastAPI for startups and enterprises. Microservices architecture that scales to millions of users with high performance.</p>
+                    <h4>Backend API Development</h4>
+                    <p>Production-grade REST and GraphQL APIs built with Django and FastAPI. Microservices architecture that scales to millions of users with high performance.</p>
                     <div class="service-tech-tags">
                         <span>Django</span>
                         <span>FastAPI</span>
-                        <span>REST</span>
-                        <span>GraphQL</span>
-                        <span>Microservices</span>
+                        <span>gRPC</span>
+                        <span>PostgreSQL</span>
+                        <span>Redis</span>
                     </div>
-                    <a href="/services/backend-api" class="service-link">View Backend Expertise <i class="fas fa-arrow-right"></i></a>
+                    <a href="/services/backend-api" class="service-link">View Expertise <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-brain"></i></div>
-                    <h4>AI/ML Integration Services</h4>
-                    <p>Machine learning implementation with Python using HuggingFace, LangChain, OpenCV, and TensorFlow for business automation, data analytics, and intelligent features.</p>
+                    <h4>AI/ML Integration</h4>
+                    <p>Machine learning implementation with LangChain, HuggingFace, and OpenAI APIs for business automation and intelligent features.</p>
                     <div class="service-tech-tags">
-                        <span>HuggingFace</span>
                         <span>LangChain</span>
+                        <span>HuggingFace</span>
+                        <span>OpenAI</span>
                         <span>TensorFlow</span>
-                        <span>OpenCV</span>
-                        <span>Python</span>
                     </div>
-                    <a href="/services/ai-integration" class="service-link">View AI/ML Services <i class="fas fa-arrow-right"></i></a>
+                    <a href="/services/ai-integration" class="service-link">View AI Services <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-cloud"></i></div>
-                    <h4>Cloud Infrastructure & DevOps</h4>
-                    <p>AWS/GCP architecture design with 30-40% cost reduction, Kubernetes orchestration, and CI/CD automation for reliable, scalable deployments.</p>
+                    <h4>Cloud Infrastructure</h4>
+                    <p>AWS/GCP architecture design with Kubernetes orchestration, Terraform IaC, and CI/CD automation for reliable deployments.</p>
                     <div class="service-tech-tags">
                         <span>AWS</span>
                         <span>GCP</span>
                         <span>Kubernetes</span>
-                        <span>CI/CD</span>
-                        <span>Docker</span>
+                        <span>Terraform</span>
+                        <span>GitHub Actions</span>
                     </div>
                     <a href="/services/cloud-devops" class="service-link">View Cloud Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-database"></i></div>
-                    <h4>Data Pipeline Engineering</h4>
-                    <p>Robust ETL/ELT pipelines orchestrated with Apache Airflow, data warehousing on Snowflake, and analytics infrastructures with PySpark and Hadoop that deliver actionable business insights at scale.</p>
+                    <h4>Data Pipelines</h4>
+                    <p>ETL/ELT pipelines with Apache Airflow, data warehousing on Snowflake, and analytics with PySpark for actionable insights.</p>
                     <div class="service-tech-tags">
                         <span>Apache Airflow</span>
                         <span>Snowflake</span>
                         <span>PySpark</span>
-                        <span>Hadoop</span>
-                        <span>ETL/ELT</span>
+                        <span>Kafka</span>
                     </div>
                     <a href="/services/data-pipelines" class="service-link">View Data Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -310,7 +297,7 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     </section>
     
     <section id="experience">
-        <h2>Experience & Enterprise APIs</h2>
+        <h2>Work Experience</h2>
         
         <div class="timeline-container">
             <div class="timeline-item">
@@ -320,37 +307,34 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">OneTrust</span> — <span class="job-title">Senior Python Developer</span>
+                            <span class="company-name">OneTrust</span> — <span class="job-title">Senior Backend Engineer</span>
                             <span class="job-duration">Sep 2023 – Present | Remote, USA</span>
                         </div>
-                        <div class="job-description">Privacy and compliance software platform</div>
+                        <div class="job-description">Global privacy & compliance SaaS, 14,000+ enterprise customers across 180 countries</div>
                         
-                        <div class="project-context">
-                            Led the development of a mission-critical data migration platform following OneTrust's acquisition of Convercent, a major compliance management platform. The challenge involved migrating terabytes of sensitive compliance data across different database schemas while maintaining strict data integrity and privacy requirements.
-                        </div>
-                        
-                        <div class="contributions-heading">Key Contributions:</div>
                         <ul class="contributions-list">
-                            <li><span class="contribution-highlight">Migration Architecture:</span> Designed and implemented an enterprise-grade ETL pipeline orchestrated with Apache Airflow, achieving 99.9% data accuracy with zero privacy violations</li>
-                            <li><span class="contribution-highlight">Technical Challenges:</span> Developed a flexible mapping engine handling schema transformations across 50+ complex data types</li>
-                            <li><span class="contribution-highlight">Performance Optimization:</span> Reduced data processing time by 45% through parallel batch processing</li>
-                            <li><span class="contribution-highlight">Implementation:</span> Created robust Django APIs with PostgreSQL integrations handling 100+ custom fields</li>
-                            <li><span class="contribution-highlight">Infrastructure:</span> Designed Kubernetes-based client tools deployable in various environments, including air-gapped networks</li>
+                            <li><span class="contribution-highlight">Migration Pipeline:</span> Owned end-to-end design and delivery of compliance-record migration from Convercent to OneTrust, orchestrating phased validation across DEV → QA1 → QA2 → PROD with zero data loss and zero production incidents.</li>
+                            <li><span class="contribution-highlight">API Architecture:</span> Architected Kubernetes-deployed Django REST endpoints handling concurrent ingestion at scale, implementing idempotent writes, schema validation, and transactional rollback across millions of compliance records.</li>
+                            <li><span class="contribution-highlight">CI/CD Excellence:</span> Designed Jira-triggered CI/CD pipelines (Python · Django · Kubernetes) cutting release cycle time by 60%, enabling multi-environment deployments in under 30 minutes with full auditability.</li>
+                            <li><span class="contribution-highlight">Code Quality:</span> Audited three legacy services, restoring test coverage from near-zero to 80%+, adding type annotations, and authoring engineering standards now adopted team-wide.</li>
                         </ul>
                         
-                        <div class="business-impact">
-                            Successfully migrated 20+ enterprise clients with zero data loss incidents, accelerating time-to-value for acquired customer base.
-                        </div>
-                        
                         <div class="technologies">
-                            <span>Python</span>
+                            <span>Python 3</span>
                             <span>Django</span>
+                            <span>DRF</span>
+                            <span>FastAPI</span>
                             <span>PostgreSQL</span>
-                            <span>Apache Airflow</span>
+                            <span>Redis</span>
                             <span>Kubernetes</span>
+                            <span>Helm</span>
+                            <span>Terraform</span>
+                            <span>ArgoCD</span>
                             <span>AWS</span>
-                            <span>Docker</span>
-                            <span>Microservices</span>
+                            <span>Cloudflare</span>
+                            <span>Datadog</span>
+                            <span>OpenTelemetry</span>
+                            <span>gRPC</span>
                         </div>
                     </div>
                 </div>
@@ -363,72 +347,37 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">SecurityScorecard</span> — <span class="job-title">Senior Python Developer</span>
+                            <span class="company-name">SecurityScorecard</span> — <span class="job-title">Senior Backend Engineer</span>
                             <span class="job-duration">Apr 2022 – Sep 2023 | Remote, USA</span>
                         </div>
-                        <div class="job-description">Cybersecurity rating platform</div>
+                        <div class="job-description">Cybersecurity SaaS, continuous security ratings for 12M+ companies globally</div>
                         
-                        <div class="project-context">
-                            Enhanced their cybersecurity rating platform, which continuously monitors and assesses the security posture of organizations worldwide. Tackled challenges in scaling data collection infrastructure and making complex security insights more accessible to business users.
-                        </div>
-                        
-                        <div class="contributions-heading">Key Contributions:</div>
                         <ul class="contributions-list">
-                            <li><span class="contribution-highlight">AI Integration:</span> Built a Langchain-powered chatbot with FastAPI for non-technical users to interact naturally with security data</li>
-                            <li><span class="contribution-highlight">Infrastructure Scaling:</span> Implemented microservices handling 1M+ hourly API requests with 99.95% uptime</li>
-                            <li><span class="contribution-highlight">Data Pipeline Development:</span> Created resilient ingestion pipelines orchestrated with Apache Airflow, integrating with Snowflake for data warehousing across heterogeneous data sources</li>
-                            <li><span class="contribution-highlight">API Enhancement:</span> Implemented comprehensive versioning strategy ensuring smooth transitions</li>
-                            <li><span class="contribution-highlight">Technical Excellence:</span> Developed extensive test suites improving code quality by 35%</li>
+                            <li><span class="contribution-highlight">AI Chatbot:</span> Led backend development of an AI-powered chatbot (Langchain · FastAPI · HuggingFace LLMs) enabling natural-language queries over security scores, designed, built, and shipped to AWS production in 6 weeks.</li>
+                            <li><span class="contribution-highlight">Platform Ownership:</span> Sole backend owner across three Django systems (platform API, support portal, intranet), shipping features weekly while sustaining reliability for security-critical product.</li>
+                            <li><span class="contribution-highlight">Test Coverage:</span> Restored abandoned test suites across all three repos from 0% to production-grade coverage, unblocking a major platform refactor.</li>
+                            <li><span class="contribution-highlight">Developer Experience:</span> Containerized internal support toolset with Docker, cutting engineer onboarding time from hours to under 60 minutes.</li>
                         </ul>
                         
-                        <div class="business-impact">
-                            Systems contributed to a 30% increase in API usage and enabled the platform to handle 3x more vendors per customer.
-                        </div>
-                        
                         <div class="technologies">
-                            <span>Python</span>
+                            <span>Python 3</span>
                             <span>Django</span>
-                            <span>Langchain</span>
+                            <span>DRF</span>
                             <span>FastAPI</span>
-                            <span>Apache Airflow</span>
+                            <span>Langchain</span>
+                            <span>HuggingFace</span>
+                            <span>OpenAI</span>
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
                             <span>Snowflake</span>
                             <span>AWS</span>
-                            <span>Jenkins</span>
-                            <span>Docker</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-marker">
-                    <div class="timeline-date">2020</div>
-                </div>
-                <div class="timeline-content">
-                    <div class="experience-card">
-                        <div class="experience-header">
-                            <span class="company-name">IKTech</span> — <span class="job-title">Senior Python Developer & Cloud Architect</span>
-                            <span class="job-duration">Jul 2020 – Present | Remote, USA</span>
-                        </div>
-                        <div class="job-description">Consulting firm with projects for Fortune 500 clients</div>
-                        
-                        <h4 class="project-title">Project: PayPal / Venmo</h4>
-                        <div class="project-context">
-                            Strengthened authentication flows for Venmo's financial transaction systems handling millions of daily transfers, improving security while maintaining seamless user experience.
-                        </div>
-                        
-                        <ul class="contributions-list">
-                            <li><span class="contribution-highlight">Security Enhancement:</span> Created Python validation decorators preventing common attack vectors</li>
-                            <li><span class="contribution-highlight">Testing Framework:</span> Developed comprehensive QA testing for 20+ edge case scenarios</li>
-                            <li><span class="contribution-highlight">Infrastructure:</span> Deployed CI/CD pipelines using Kubernetes and SSO workflows</li>
-                        </ul>
-                        
-                        <div class="technologies">
-                            <span>Python</span>
-                            <span>Flask</span>
                             <span>Kubernetes</span>
-                            <span>AWS</span>
-                            <span>Docker</span>
+                            <span>Helm</span>
+                            <span>Terraform</span>
+                            <span>Jenkins</span>
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>Datadog</span>
                         </div>
                     </div>
                 </div>
@@ -441,36 +390,100 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">IKTech</span> — <span class="job-title">Senior Python Developer & Cloud Architect</span>
-                            <span class="job-duration">Jul 2020 – Present | Remote, USA</span>
+                            <span class="company-name">IkTech</span> — <span class="job-title">Senior Backend Engineer / Cloud Architect</span>
+                            <span class="job-duration">Jun 2020 – Apr 2022 | Remote, USA</span>
                         </div>
-                        <div class="job-description">Consulting firm with projects for Fortune 500 clients</div>
+                        <div class="job-description">Consulting: PayPal/Venmo, Hercules, ProbiusDx, Swimlane, TIVIT</div>
                         
-                        <h4 class="project-title">Project: ProbiusDx</h4>
-                        <div class="project-context">
-                            Led cloud migration for a bioinformatics startup analyzing medical diagnostic data, optimizing performance for compute-intensive analysis while ensuring regulatory compliance.
-                        </div>
-                        
+                        <h4 class="project-title">PayPal / Venmo</h4>
                         <ul class="contributions-list">
-                            <li><span class="contribution-highlight">Cloud Migration:</span> Migrated services from Azure to AWS, reducing costs by 40%</li>
-                            <li><span class="contribution-highlight">Architecture:</span> Designed microservices with 99.9% uptime serving 100K+ daily API requests</li>
-                            <li><span class="contribution-highlight">ML Integration:</span> Built real-time analysis pipelines with sub-second response times</li>
+                            <li><span class="contribution-highlight">QA Automation:</span> Built Kubernetes QA automation and Python test suites covering new financial transaction field types on one of the world's highest-traffic payment platforms.</li>
                         </ul>
                         
-                        <div class="business-impact">
-                            Reduced fraudulent authentication attempts while accelerating time-to-market for critical diagnostics platform.
-                        </div>
+                        <h4 class="project-title">Hercules (ML Platform)</h4>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Infrastructure:</span> Provisioned full AWS + Docker infrastructure for greenfield ML platform; built predictive analytics pipelines (Flask/SQLAlchemy); automated CI/CD cutting environment setup from hours to under 5 minutes.</li>
+                        </ul>
+                        
+                        <h4 class="project-title">ProbiusDx (Biotech)</h4>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Cloud Migration:</span> Designed REST APIs and microservices migrating legacy Azure bioanalytical platform to AWS, hardening security posture, reducing overhead by 35%, and cutting ML inference latency.</li>
+                        </ul>
+                        
+                        <h4 class="project-title">Swimlane / TIVIT</h4>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Serverless:</span> Migrated security automation platform to AWS serverless (Lambda + S3); built centralized threat-intelligence dashboard with Grafana across 20+ attack vectors.</li>
+                        </ul>
                         
                         <div class="technologies">
-                            <span>Python</span>
+                            <span>Python 3</span>
                             <span>Flask</span>
+                            <span>FastAPI</span>
                             <span>SQLAlchemy</span>
+                            <span>PostgreSQL</span>
+                            <span>DynamoDB</span>
+                            <span>Redis</span>
+                            <span>AWS</span>
+                            <span>Kubernetes</span>
+                            <span>Helm</span>
+                            <span>Terraform</span>
+                            <span>ArgoCD</span>
+                            <span>Docker</span>
+                            <span>gRPC</span>
+                            <span>Jenkins</span>
+                            <span>GitHub Actions</span>
+                            <span>Prometheus</span>
+                            <span>RabbitMQ</span>
+                            <span>JWT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="timeline-date">2019</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <span class="company-name">Dextra</span> — <span class="job-title">Senior Backend Engineer, Tech Lead</span>
+                            <span class="job-duration">Nov 2019 – Jul 2020 | Brazil</span>
+                        </div>
+                        <div class="job-description">Custom software: Serasa Experian, Globo.com, Caixa Bank</div>
+                        
+                        <h4 class="project-title">Serasa Experian - New Score Project</h4>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">ML Pipeline:</span> Led 6 engineers to deliver 'New Score', a PySpark + neural network credit decisioning engine now used by thousands of Brazilian companies. Owned technical direction, sprint planning, and code quality.</li>
+                        </ul>
+                        
+                        <h4 class="project-title">Globo.com</h4>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Migration Pipeline:</span> Built high-throughput media migration pipeline (DRF + Firebase) moving thousands of records daily across microservices with zero downtime.</li>
+                        </ul>
+                        
+                        <h4 class="project-title">Caixa Bank</h4>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Load Testing:</span> Engineered distributed load-testing framework simulating 30,000 concurrent operators and 100,000 virtual clients over WebSockets on AWS.</li>
+                        </ul>
+                        
+                        <div class="technologies">
+                            <span>Python 3</span>
+                            <span>DRF</span>
+                            <span>Flask</span>
+                            <span>PySpark</span>
+                            <span>Apache Spark</span>
+                            <span>Hadoop</span>
+                            <span>scikit-learn</span>
+                            <span>PostgreSQL</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                            <span>Firebase</span>
                             <span>AWS</span>
                             <span>Docker</span>
-                            <span>Jenkins</span>
-                            <span>Kubernetes</span>
-                            <span>OpenCV</span>
-                            <span>Keras</span>
+                            <span>WebSockets</span>
+                            <span>Celery</span>
+                            <span>Terraform</span>
                         </div>
                     </div>
                 </div>
@@ -483,28 +496,46 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">Previous Experience</span> — <span class="job-title">Senior Roles in Python Development</span>
-                            <span class="job-duration">2016 – 2021 | Various Locations</span>
+                            <span class="company-name">Multiway / Sintecsys / GPR Sistemas</span> — <span class="job-title">Backend Engineer / Software Developer</span>
+                            <span class="job-duration">Jan 2016 – Oct 2019 | Brazil</span>
                         </div>
+                        <div class="job-description">Progressive roles in public safety, computer vision, and network security</div>
                         
+                        <h4 class="project-title">Multiway (Jan 2017 – Feb 2019)</h4>
                         <ul class="contributions-list">
-                            <li><span class="contribution-highlight">BairesDev:</span> Modernized legacy systems to AWS serverless infrastructure, reducing costs by 40%</li>
-                            <li><span class="contribution-highlight">Dextra Digital:</span> Built PySpark/Hadoop ML pipelines processing 10M+ daily records for Serasa Experian</li>
-                            <li><span class="contribution-highlight">GPr Sistemas:</span> Developed SNMP-based monitoring banking network devices</li>
-                            <li><span class="contribution-highlight">Sintecsys:</span> Created wildfire detection system that detected 500+ early-stage fires</li>
-                            <li><span class="contribution-highlight">Multiway:</span> Built ALPR system processing 1M+ vehicles daily with 98% detection accuracy</li>
+                            <li><span class="contribution-highlight">ALPR System:</span> Built neural network pipelines (OpenCV + Keras/TensorFlow) for real-time vehicle license plate recognition across hundreds of city cameras; maintained Java Spring legacy system; conducted OWASP penetration tests.</li>
+                        </ul>
+                        
+                        <h4 class="project-title">Sintecsys (Apr – Jul 2019)</h4>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Fire Detection:</span> Engineered TensorFlow/Keras + OpenCV fire detection APIs reducing wildfire detection latency from 5 minutes to 30 seconds.</li>
+                        </ul>
+                        
+                        <h4 class="project-title">GPR Sistemas (Jul – Oct 2019)</h4>
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Network Monitoring:</span> Built Django + SNMP multi-threaded network topology monitoring system for Itau Bank, enabling real-time visualization of thousands of hosts.</li>
                         </ul>
                         
                         <div class="technologies">
-                            <span>Python</span>
+                            <span>Python 3</span>
                             <span>Django</span>
-                            <span>Flask</span>
-                            <span>PySpark</span>
-                            <span>Hadoop</span>
-                            <span>AWS</span>
-                            <span>PostgreSQL</span>
+                            <span>FastAPI</span>
+                            <span>Java Spring</span>
                             <span>TensorFlow</span>
+                            <span>Keras</span>
                             <span>OpenCV</span>
+                            <span>Computer Vision</span>
+                            <span>PostgreSQL</span>
+                            <span>MySQL</span>
+                            <span>Docker</span>
+                            <span>TCP/IP</span>
+                            <span>SNMP</span>
+                            <span>OWASP</span>
+                            <span>Pentesting</span>
+                            <span>REST APIs</span>
+                            <span>Nginx</span>
+                            <span>Linux</span>
+                            <span>Bash</span>
                         </div>
                     </div>
                 </div>
@@ -536,63 +567,27 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
                 </div>
             </div>
             <div class="testimonial-body">
-                <p>"Working with Henrique was an enriching experience. His expertise in Python is exceptional, and his ability to apply complex concepts in a practical and efficient way made a significant difference in the projects we collaborated on. Henrique demonstrated a unique talent for optimizing processes and finding innovative solutions to challenging problems. Beyond his technical proficiency, Henrique has a collaborative approach and was always willing to share his knowledge, helping to elevate the technical level of the entire team. His attention to detail, combined with his passion for development, makes him an indispensable professional in any tech team."</p>
-            </div>
-        </div>
-        <div class="testimonial-card">
-            <div class="testimonial-header">
-                <div class="author-info">
-                    <h4 class="author-name">Eduwardo Horibe</h4>
-                    <p class="author-title">Developer at Multiway Comercio E Representacoes Ltda</p>
-                    <p class="author-relationship">December 2, 2024, Eduwardo worked with Henry but on different teams</p>
-                </div>
-            </div>
-            <div class="testimonial-body">
-                <p>"Although we worked on different fronts in the development sector, Henrique was essential to my professional development. His way of explaining Linux, a very alien topic for me at the time, made me completely rethink the way I work, especially in automating repetitive tasks, as well as debugging and analyzing problems in the module I maintained, which runs mainly on Linux servers. In addition, his insights into Python development proved to be extremely valuable in my academic development, especially in data analysis projects. His way of explaining complex and abstract concepts is excellent. I can say without a doubt that he was one of the best tutors of my career and that I grew a lot professionally and academically thanks to his influence."</p>
-            </div>
-        </div>
-        <div class="testimonial-card">
-            <div class="testimonial-header">
-                <div class="author-info">
-                    <h4 class="author-name">Carolina Gonzalez Alvarenga</h4>
-                    <p class="author-title">Senior Frontend Software Engineer @ Uber</p>
-                    <p class="author-relationship">December 2, 2024, Carolina and Henry studied together</p>
-                </div>
-            </div>
-            <div class="testimonial-body">
-                <p>"I had the privilege of studying Engineering alongside Henry, and from the very beginning, it was clear that he was someone with exceptional intelligence and impressive dedication. His ability to grasp complex concepts and his capacity to lead his peers in academic activities always stood out. Over time, I’ve seen Henry evolve from a brilliant student into an extremely talented professional in the field of Python development. What impresses me most about Henry is the combination of his technical depth and his innovative approach to problem-solving. He doesn’t settle for simply solving challenges efficiently; he always seeks the most elegant and sustainable solution. His logical reasoning and attention to detail are qualities that make him a top-tier developer. More than that, he genuinely enjoys learning and constantly improving, which is one of his greatest strengths. Following Henry's journey has been a true inspiration. His evolution from an excellent student to a standout professional in the world of programming fills me with pride. Working with him is always an enriching experience, and I feel privileged to have had the opportunity to witness his growth and success firsthand."</p>
+                <p>"Working with Henrique was an enriching experience. His expertise in Python is exceptional, and his ability to apply complex concepts in a practical and efficient way made a significant difference in the projects we collaborated on. Henrique demonstrated a unique talent for optimizing processes and finding innovative solutions to challenging problems. Beyond his technical proficiency, he has a collaborative approach and was always willing to share his knowledge, helping to elevate the technical level of the entire team."</p>
             </div>
         </div>
         <div class="testimonial-card">
             <div class="testimonial-header">
                 <div class="author-info">
                     <h4 class="author-name">Renato Fuzaro Miotto</h4>
-                    <p class="author-title">Computational Scientist | ML Engineer | HPC & CFD Specialist | Operations Researcher | Digital Twin & Forecasting Models | Quantitative Modeling for Intelligent, Data-Driven Decisions</p>
+                    <p class="author-title">Computational Scientist | ML Engineer</p>
                     <p class="author-relationship">November 29, 2024, Renato reported directly to Henry</p>
                 </div>
             </div>
             <div class="testimonial-body">
-                <p>"I had the privilege of working with Henrique at IK Tech, where his technical expertise and leadership truly stood out. As a Senior Software Engineer and founder, Henrique combines deep knowledge with a strategic mindset, consistently delivering innovative solutions to complex challenges. He’s not only a skilled engineer but also a mentor who fosters collaboration and drives success. I highly recommend Henrique for any team or project."</p>
-            </div>
-        </div>
-        <div class="testimonial-card">
-            <div class="testimonial-header">
-                <div class="author-info">
-                    <h4 class="author-name">Rai Martins</h4>
-                    <p class="author-title">Infinity Media Brasil | Physicist | Software Engineer | Kotlin | Node.js | Flutter | Dart | Android | Ios</p>
-                    <p class="author-relationship">November 29, 2024, Rai worked with Henry but on different teams</p>
-                </div>
-            </div>
-            <div class="testimonial-body">
-                <p>"Working with Henrique was undoubtedly one of the most positive experiences I’ve ever had. Beyond being a highly skilled professional with expertise in technologies such as Python, Django, Kubernetes, GCP, and AWS, Henrique also stands out as an incredible human being. His empathy, patience, and generosity are qualities that transform the work environment and make any challenge more manageable. Henrique is not just a technical problem solver — he is a true leader by example. Always willing to listen, help, and share knowledge, he inspires everyone around him to give their best. His ability to unite people and foster a strong team spirit is something rare and extremely valuable. Having the opportunity to work alongside someone so committed to excellence and, at the same time, so genuinely human was a privilege. Henrique not only adds value to projects but also to the people around him, leaving a positive impact wherever he goes. Any team would be fortunate to have him."</p>
+                <p>"I had the privilege of working with Henrique at IK Tech, where his technical expertise and leadership truly stood out. As a Senior Software Engineer and founder, Henrique combines deep knowledge with a strategic mindset, consistently delivering innovative solutions to complex challenges. He's not only a skilled engineer but also a mentor who fosters collaboration and drives success. I highly recommend Henrique for any team or project."</p>
             </div>
         </div>
         <div class="testimonial-card">
             <div class="testimonial-header">
                 <div class="author-info">
                     <h4 class="author-name">Dennis Rojas</h4>
-                    <p class="author-title">Staff Software Engineer | Distributed Systems & Cloud Architecture</p>
-                    <p class="author-relationship">September 10, 2023, Dennis was senior to Henry but didn't manage Henry directly</p>
+                    <p class="author-title">Staff Software Engineer | Distributed Systems</p>
+                    <p class="author-relationship">September 10, 2023, Dennis was senior to Henry</p>
                 </div>
             </div>
             <div class="testimonial-body">
@@ -602,138 +597,71 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     </div>
 </section>
 
-    <section id="hire-me">
-        <h2>Ready to Build Something Amazing?</h2>
-        <div class="hire-me-container">
-            <div class="hire-me-content">
-                <p>I help businesses build reliable, high-performance technical solutions that solve real problems. Whether you need scalable APIs, cloud cost optimization, or AI integration, let's discuss how I can deliver measurable value to your project.</p>
-                
-                <div class="hire-me-benefits">
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>99.9% uptime for mission-critical systems</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>30-40% cloud infrastructure cost reduction</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>High-performance APIs handling millions of requests</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Comprehensive testing and documentation</span>
-                    </div>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certification-grid">
+            <div class="certification-card">
+                <div class="certification-icon">
+                    <i class="fab fa-aws"></i>
                 </div>
-                
-                <div class="cta-buttons">
-                    <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
-                    <a href="mailto:iklobato1@gmail.com" class="secondary-cta">Email Me About Your Project</a>
+                <div class="certification-info">
+                    <h4>AWS Certified Cloud Practitioner</h4>
+                    <p>Amazon Web Services</p>
+                    <span class="certification-year">2021</span>
+                </div>
+            </div>
+            
+            <div class="certification-card">
+                <div class="certification-icon">
+                    <i class="fas fa-user-secret"></i>
+                </div>
+                <div class="certification-info">
+                    <h4>Certified Professional Pentester</h4>
+                    <p>Desec Security</p>
+                    <span class="certification-year">2017</span>
+                </div>
+            </div>
+            
+            <div class="certification-card">
+                <div class="certification-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="certification-info">
+                    <h4>Certified Mobile Pentester</h4>
+                    <p>Desec Security</p>
+                    <span class="certification-year">2017</span>
                 </div>
             </div>
         </div>
     </section>
-    
-    
-    
     
     <section id="education">
-        <h2>Education & Certifications</h2>
+        <h2>Education</h2>
         
-        <div class="education-item">
-            <div class="credential-name">B.Sc. Computer Science</div>
-            <div class="institution">University of London</div>
-            <div class="year">2023</div>
+        <div class="education-grid">
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-details">
+                    <h4>B.Sc. Computer Science</h4>
+                    <p class="institution">University of London</p>
+                    <span class="year">2023</span>
+                </div>
+            </div>
+            
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="education-details">
+                    <h4>B.Sc. Software Analysis</h4>
+                    <p class="institution">USF - Universidade São Francisco</p>
+                    <span class="year">2017 – 2020</span>
+                </div>
+            </div>
         </div>
-        
-        <div class="education-item">
-            <div class="credential-name">Software Analyst</div>
-            <div class="institution">USF</div>
-            <div class="year">2017–2020</div>
-        </div>
-        
-        <div class="certification-item">
-            <div class="credential-name">AWS Certified Cloud Practitioner</div>
-            <div class="year">2021</div>
-        </div>
-        
-        <div class="certification-item">
-            <div class="credential-name">Professional Pentest Certifications</div>
-            <div class="institution">Desec Security</div>
-            <div class="year">2017</div>
-        </div>
-        
-        <div class="certification-item">
-            <div class="credential-name">Modern Web Exploitation</div>
-            <div class="institution">Alura</div>
-            <div class="year">100+ hours</div>
-        </div>
-        
-        
     </section>
-
-<!-- <section id="certifications" class="certifications-section">
-    <h2>Certifications</h2>
-    <div class="certification-grid">
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" class="certification-logo">
-                <h4 class="certification-name">✅ 1. AWS Solutions Architect – Associate (SAA-C03)</h4>
-            </div>
-            
-        </div>
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg" alt="Terraform Logo" class="certification-logo">
-                <h4 class="certification-name">✅ 2. HashiCorp Terraform Associate</h4>
-            </div>
-            
-        </div>
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" class="certification-logo">
-                <h4 class="certification-name">✅ 3. AWS Developer – Associate (DVA-C02)</h4>
-            </div>
-            
-        </div>
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" alt="Kubernetes Logo" class="certification-logo">
-                <h4 class="certification-name">✅ 4. Certified Kubernetes Administrator (CKA)</h4>
-            </div>
-            
-        </div>
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" class="certification-logo">
-                <h4 class="certification-name">✅ 5. AWS Data Engineer – Associate (DEA-C01)</h4>
-            </div>
-            
-        </div>
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks-logo.svg" alt="Databricks Logo" class="certification-logo">
-                <h4 class="certification-name">✅ 6. Databricks Data Engineer Associate</h4>
-            </div>
-            
-        </div>
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Snowflake_Logo.svg" alt="Snowflake Logo" class="certification-logo">
-                <h4 class="certification-name">✅ 7. SnowPro Core (Snowflake)</h4>
-            </div>
-            
-        </div>
-        <div class="certification-card">
-            <div class="certification-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Confluent%2C_Inc._logo.svg" alt="Confluent Logo" class="certification-logo">
-                <h4 class="certification-name">✅ 8. Apache Kafka Confluent Developer</h4>
-            </div>
-            
-        </div>
-    </div>
-</section> -->
     
     <section id="languages">
         <h2>Languages</h2>
@@ -748,13 +676,46 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
             <div class="language-item">
                 <span class="language-flag">🇺🇸</span>
                 <span class="language-name">English</span>
-                <span class="language-level">(Advanced)</span>
+                <span class="language-level">(Advanced, Professional Working Proficiency)</span>
             </div>
             
             <div class="language-item">
                 <span class="language-flag">🇷🇺</span>
                 <span class="language-name">Russian</span>
                 <span class="language-level">(Basic)</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="hire-me">
+        <h2>Ready to Build Something Amazing?</h2>
+        <div class="hire-me-container">
+            <div class="hire-me-content">
+                <p>I help businesses build reliable, high-performance technical solutions that solve real problems. Whether you need scalable APIs, cloud infrastructure, or AI integration, let's discuss how I can deliver measurable value to your project.</p>
+                
+                <div class="hire-me-benefits">
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>99.9% uptime for mission-critical systems</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>30-40% cloud infrastructure cost reduction</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Microservices handling millions of daily events</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Full project lifecycle ownership</span>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
+                    <a href="mailto:iklobato@proton.me" class="secondary-cta">Email Me About Your Project</a>
+                </div>
             </div>
         </div>
     </section>
