@@ -365,11 +365,18 @@
             font-size: 1rem;
             font-weight: 600;
             color: var(--primary);
-            margin-bottom: var(--space-md);
             display: inline-block;
             background: var(--primary-light);
             padding: var(--space-xs) var(--space-md);
             border-radius: var(--radius-full);
+        }
+        
+        .contact-row {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            flex-wrap: wrap;
+            margin-bottom: var(--space-md);
         }
         
         .contact-info {
@@ -1578,6 +1585,394 @@
             box-shadow: var(--shadow-xl), var(--shadow-glow);
         }
         
+        /* ============================================
+           SCROLL PROGRESS BAR
+           ============================================ */
+        .scroll-progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            z-index: 9999;
+            transition: width 0.1s ease;
+        }
+        
+        /* ============================================
+           STICKY NAVIGATION
+           ============================================ */
+        .sticky-nav {
+            position: fixed;
+            top: -100px;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: var(--space-sm) var(--space-lg);
+            z-index: 1000;
+            transition: top var(--transition-normal);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .sticky-nav.visible {
+            top: 0;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .sticky-nav {
+                background: rgba(15, 23, 42, 0.95);
+            }
+        }
+        
+        .sticky-nav-content {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .sticky-nav-logo {
+            font-weight: 700;
+            color: var(--secondary);
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        
+        .sticky-nav-links {
+            display: flex;
+            gap: var(--space-lg);
+            align-items: center;
+        }
+        
+        .sticky-nav-link {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color var(--transition-fast);
+        }
+        
+        .sticky-nav-link:hover {
+            color: var(--primary);
+        }
+        
+        .sticky-nav-cta {
+            background: var(--primary);
+            color: white;
+            padding: var(--space-xs) var(--space-md);
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all var(--transition-fast);
+        }
+        
+        .sticky-nav-cta:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+        
+        /* ============================================
+           FLOATING CTA BUTTON
+           ============================================ */
+        .floating-cta {
+            position: fixed;
+            bottom: var(--space-xl);
+            right: var(--space-xl);
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+            align-items: flex-end;
+        }
+        
+        .floating-cta-main {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+            color: white;
+            padding: var(--space-md) var(--space-xl);
+            border-radius: var(--radius-full);
+            text-decoration: none;
+            font-weight: 700;
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+            transition: all var(--transition-normal);
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .floating-cta-main:hover {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: var(--shadow-xl), 0 0 40px rgba(37, 99, 235, 0.5);
+        }
+        
+        .floating-cta-main i {
+            font-size: 1.2rem;
+        }
+        
+        .floating-cta-secondary {
+            display: flex;
+            gap: var(--space-sm);
+        }
+        
+        .floating-cta-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: var(--radius-full);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-light);
+            text-decoration: none;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-normal);
+        }
+        
+        .floating-cta-btn:hover {
+            transform: translateY(-4px);
+            color: var(--primary);
+            border-color: var(--primary);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        /* Hide on mobile */
+        @media (max-width: 768px) {
+            .floating-cta {
+                bottom: var(--space-lg);
+                right: var(--space-lg);
+            }
+            
+            .floating-cta-main span {
+                display: none;
+            }
+            
+            .floating-cta-main {
+                padding: var(--space-md);
+            }
+        }
+        
+        /* ============================================
+           AVAILABILITY BADGE
+           ============================================ */
+        .availability-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            background: rgba(16, 185, 129, 0.1);
+            padding: var(--space-xs) var(--space-md);
+            border-radius: var(--radius-full);
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-left: var(--space-md);
+        }
+        
+        .availability-badge::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            border-radius: var(--radius-full);
+            animation: pulse 2s ease-in-out infinite;
+            box-shadow: 0 0 8px rgba(16, 185, 129, 0.6);
+        }
+        
+        /* ============================================
+           STATS SECTION
+           ============================================ */
+        .stats-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: var(--space-lg);
+            margin: var(--space-2xl) 0;
+            padding: var(--space-xl);
+            background: linear-gradient(135deg, var(--surface-alt) 0%, var(--surface) 100%);
+            border-radius: var(--radius-xl);
+            border: 1px solid var(--border);
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: var(--space-md);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1;
+            margin-bottom: var(--space-xs);
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+        
+        /* ============================================
+           HERO BACKGROUND ENHANCEMENT
+           ============================================ */
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            z-index: 0;
+            border-radius: var(--radius-lg);
+        }
+        
+        .hero-gradient {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.15;
+            animation: float 8s ease-in-out infinite;
+        }
+        
+        .hero-gradient-1 {
+            top: -200px;
+            right: -100px;
+            background: var(--primary);
+            animation-delay: 0s;
+        }
+        
+        .hero-gradient-2 {
+            bottom: -150px;
+            left: -100px;
+            background: var(--accent);
+            animation-delay: -4s;
+        }
+        
+        .hero-gradient-3 {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #8b5cf6;
+            animation-delay: -2s;
+        }
+        
+        /* ============================================
+           CARD 3D TILT EFFECT
+           ============================================ */
+        .tilt-card {
+            transform-style: preserve-3d;
+            transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+        }
+        
+        .tilt-card:hover {
+            transform: translateY(-8px) rotateX(2deg) rotateY(-2deg);
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+        }
+        
+        /* ============================================
+           ANIMATIONS - ENHANCED
+           ============================================ */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes pulse {
+            0%, 100% { 
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% { 
+                opacity: 0.7;
+                transform: scale(1.1);
+            }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        @keyframes countUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Scroll-triggered animations */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .animate-on-scroll.delay-1 { transition-delay: 0.1s; }
+        .animate-on-scroll.delay-2 { transition-delay: 0.2s; }
+        .animate-on-scroll.delay-3 { transition-delay: 0.3s; }
+        .animate-on-scroll.delay-4 { transition-delay: 0.4s; }
+        
+        /* ============================================
+           BUTTON PRESS EFFECT
+           ============================================ */
+        .btn-press:active {
+            transform: scale(0.95);
+        }
+        
+        /* ============================================
+           SMOOTH PAGE LOAD
+           ============================================ */
+        .page-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--body-bg);
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+        
+        .page-loader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .page-loader-spinner {
+            width: 48px;
+            height: 48px;
+            border: 4px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
         .print-only {
             display: none;
         }
@@ -1705,6 +2100,43 @@
     </style>
 </head>
 <body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="page-loader-spinner"></div>
+    </div>
+    
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="progressBar"></div>
+    
+    <!-- Sticky Navigation -->
+    <nav class="sticky-nav" id="stickyNav">
+        <div class="sticky-nav-content">
+            <a href="/" class="sticky-nav-logo">HL</a>
+            <div class="sticky-nav-links">
+                <a href="#skills" class="sticky-nav-link">Skills</a>
+                <a href="#experience" class="sticky-nav-link">Experience</a>
+                <a href="#services" class="sticky-nav-link">Services</a>
+                <a href="#hire-me" class="sticky-nav-cta">Let's Talk</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Floating CTA -->
+    <div class="floating-cta">
+        <div class="floating-cta-secondary">
+            <a href="mailto:iklobato@proton.me" class="floating-cta-btn" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://calendly.com/hlobato/lets-talk" class="floating-cta-btn" aria-label="Schedule Call">
+                <i class="fas fa-calendar-check"></i>
+            </a>
+        </div>
+        <a href="#hire-me" class="floating-cta-main btn-press">
+            <i class="fas fa-rocket"></i>
+            <span>Let's Talk</span>
+        </a>
+    </div>
+    
     <div class="container">
         <button class="scrollToTop" id="scrollToTop" title="Scroll to top">
             <i class="fas fa-arrow-up"></i>
@@ -1729,6 +2161,37 @@
     </div>
     
     <script>
+        // Page loader - hide after page loads
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                const loader = document.querySelector('.page-loader');
+                if (loader) {
+                    loader.classList.add('hidden');
+                }
+            }, 500);
+        });
+        
+        // Scroll Progress Bar
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            const progressBar = document.getElementById('progressBar');
+            if (progressBar) {
+                progressBar.style.width = scrolled + '%';
+            }
+            
+            // Sticky Navigation
+            const stickyNav = document.getElementById('stickyNav');
+            if (stickyNav) {
+                if (winScroll > 400) {
+                    stickyNav.classList.add('visible');
+                } else {
+                    stickyNav.classList.remove('visible');
+                }
+            }
+        });
+        
         // Scroll to top functionality
         const scrollToTopBtn = document.getElementById('scrollToTop');
         
@@ -1747,21 +2210,79 @@
             });
         });
         
+        // Scroll-triggered animations (Intersection Observer)
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    
+                    // Trigger counter animation if it's a stat
+                    if (entry.target.classList.contains('stat-item')) {
+                        const numberEl = entry.target.querySelector('.stat-number');
+                        if (numberEl && numberEl.dataset.target) {
+                            animateCounter(numberEl);
+                        }
+                    }
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+            observer.observe(el);
+        });
+        
+        // Counter animation
+        function animateCounter(el) {
+            const target = parseInt(el.dataset.target);
+            const duration = 2000;
+            const step = target / (duration / 16);
+            let current = 0;
+            
+            const updateCounter = function() {
+                current += step;
+                if (current < target) {
+                    el.textContent = Math.floor(current) + (el.dataset.suffix || '');
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    el.textContent = target + (el.dataset.suffix || '');
+                }
+            };
+            
+            updateCounter();
+        }
+        
+        // Animate stats on page load
+        document.querySelectorAll('.stat-item').forEach(function(item) {
+            observer.observe(item);
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
         /* Print functionality - temporarily disabled - to be fixed later
         const printButton = document.getElementById('printButton');
         printButton.addEventListener('click', function() {
-            // Prepare page for printing
             document.body.classList.add('printing');
-            
-            // Set print date
             const printDate = document.getElementById('print-date');
             const now = new Date();
             printDate.textContent = now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
-            
-            // Show print dialog
             window.print();
-            
-            // Remove printing class after print dialog is closed
             setTimeout(function() {
                 document.body.classList.remove('printing');
             }, 1000);

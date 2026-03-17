@@ -17,7 +17,10 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
         <div class="profile-info">
             <h1>Henrique Lobato</h1>
             <span class="title">Senior Backend Engineer &middot; Python &middot; Distributed Systems &middot; Kubernetes &middot; AWS / GCP</span>
-            <div class="experience-years">10+ years of experience</div>
+            <div class="contact-row">
+                <div class="experience-years">10+ years of experience</div>
+                <span class="availability-badge">Available for Projects</span>
+            </div>
             <div class="contact-info">
                 <a href="mailto:iklobato@proton.me" class="contact-item" aria-label="Email iklobato@proton.me">
                     <i class="fas fa-envelope" aria-hidden="true"></i>
@@ -70,8 +73,28 @@ keywords: Hire Python Developer, Senior Backend Engineer, API Architect, AWS Clo
     </div>
 </header>
 
+<!-- Stats Section -->
+<section class="stats-section animate-on-scroll">
+    <div class="stat-item">
+        <div class="stat-number" data-target="10" data-suffix="+">10+</div>
+        <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number" data-target="99" data-suffix=".9%">99.9%</div>
+        <div class="stat-label">Uptime Delivered</div>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number" data-target="30" data-suffix="%">30%</div>
+        <div class="stat-label">Cloud Cost Savings</div>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number" data-target="60" data-suffix="%">60%</div>
+        <div class="stat-label">Faster Deploys</div>
+    </div>
+</section>
+
 <main class="main-content">
-    <section id="skills">
+    <section id="skills" class="animate-on-scroll">
         <h2>Technical Skills</h2>
         
         <div class="skills-grid">
