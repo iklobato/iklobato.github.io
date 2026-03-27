@@ -10,7 +10,7 @@ permalink: /pdf/
     <style>
         @page {
             size: A4;
-            margin: 15mm;
+            margin: 8mm;
         }
         
         * {
@@ -21,32 +21,33 @@ permalink: /pdf/
         
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            font-size: 10pt;
-            line-height: 1.4;
+            font-size: 7pt;
+            line-height: 1.25;
             color: #1a1a1a;
             background: white;
             padding: 0;
+            width: 210mm;
         }
         
-        .page {
-            max-width: 210mm;
+        .container {
+            max-width: 194mm;
             margin: 0 auto;
         }
         
         /* Header */
         .header {
             display: flex;
-            gap: 20px;
-            padding-bottom: 15px;
+            gap: 12px;
+            padding-bottom: 8px;
             border-bottom: 2px solid #2563eb;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         
         .profile-img {
-            width: 90px;
-            height: 90px;
+            width: 55px;
+            height: 55px;
             border-radius: 50%;
-            border: 3px solid #2563eb;
+            border: 2px solid #2563eb;
             overflow: hidden;
             flex-shrink: 0;
         }
@@ -57,221 +58,196 @@ permalink: /pdf/
             object-fit: cover;
         }
         
+        .profile-info {
+            flex: 1;
+        }
+        
         .profile-info h1 {
-            font-size: 22pt;
+            font-size: 16pt;
             font-weight: 700;
             color: #1a1a1a;
-            margin-bottom: 5px;
+            margin-bottom: 2px;
+            line-height: 1.1;
         }
         
         .profile-info .title {
-            font-size: 11pt;
+            font-size: 8pt;
             color: #2563eb;
             font-weight: 600;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
         }
         
         .contact-row {
             display: flex;
             flex-wrap: wrap;
-            gap: 15px;
-            font-size: 9pt;
+            gap: 10px;
+            font-size: 6.5pt;
             color: #555;
         }
         
         .contact-row span {
-            display: flex;
-            align-items: center;
-            gap: 5px;
+            white-space: nowrap;
         }
         
         /* Sections */
         section {
-            margin-bottom: 18px;
+            margin-bottom: 8px;
         }
         
         h2 {
-            font-size: 12pt;
+            font-size: 9pt;
             font-weight: 700;
             color: #2563eb;
-            border-bottom: 1px solid #e0e0e0;
-            padding-bottom: 5px;
-            margin-bottom: 12px;
-        }
-        
-        h3 {
-            font-size: 10pt;
-            font-weight: 700;
-            color: #1a1a1a;
-            margin-bottom: 3px;
-        }
-        
-        h4 {
-            font-size: 9pt;
-            font-weight: 600;
-            color: #555;
-            margin-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 2px;
+            margin-bottom: 6px;
         }
         
         p {
-            font-size: 9pt;
+            font-size: 7pt;
             color: #333;
-            margin-bottom: 8px;
+            margin-bottom: 3px;
         }
         
-        /* Summary */
+        /* Summary - compact */
         .summary p {
             text-align: justify;
+            margin-bottom: 2px;
         }
         
-        /* Skills Grid */
+        /* Skills - very compact grid */
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 12px;
-        }
-        
-        .skill-category {
-            margin-bottom: 8px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 6px;
         }
         
         .skill-category h3 {
-            font-size: 9pt;
+            font-size: 6.5pt;
             color: #2563eb;
-            margin-bottom: 5px;
+            margin-bottom: 2px;
+            font-weight: 600;
         }
         
         .skill-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 4px;
+            gap: 2px;
         }
         
         .skill-tag {
             background: #f0f4f8;
-            padding: 2px 8px;
-            border-radius: 3px;
-            font-size: 8pt;
+            padding: 1px 4px;
+            border-radius: 2px;
+            font-size: 5.5pt;
             color: #333;
         }
         
-        /* Experience */
+        /* Experience - compact */
         .experience-item {
-            margin-bottom: 15px;
+            margin-bottom: 6px;
             page-break-inside: avoid;
         }
         
         .experience-header {
             display: flex;
             justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 3px;
+            margin-bottom: 0;
         }
         
         .company {
             font-weight: 700;
-            color: #1a1a1a;
-            font-size: 10pt;
+            font-size: 8pt;
         }
         
         .job-title {
             color: #2563eb;
             font-weight: 600;
-            font-size: 9pt;
+            font-size: 7pt;
         }
         
         .duration {
-            font-size: 9pt;
+            font-size: 6.5pt;
             color: #666;
         }
         
         .job-desc {
-            font-size: 9pt;
+            font-size: 6.5pt;
             color: #555;
-            margin-bottom: 5px;
             font-style: italic;
+            margin-bottom: 2px;
         }
         
         .contributions {
-            margin-left: 15px;
-            margin-bottom: 8px;
+            margin-left: 10px;
+            margin-bottom: 0;
         }
         
         .contributions li {
-            font-size: 9pt;
+            font-size: 6.5pt;
             color: #333;
-            margin-bottom: 3px;
+            margin-bottom: 1px;
         }
         
         .tech-stack {
             display: flex;
             flex-wrap: wrap;
-            gap: 4px;
-            margin-top: 5px;
+            gap: 2px;
+            margin-top: 2px;
         }
         
         .tech-stack span {
             background: #e8f0fe;
             color: #2563eb;
-            padding: 2px 6px;
-            border-radius: 3px;
+            padding: 1px 3px;
+            border-radius: 2px;
+            font-size: 5pt;
+        }
+        
+        /* Two column for bottom */
+        .two-column {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 15px;
+        }
+        
+        /* Education & Certs - compact */
+        .edu-item {
+            margin-bottom: 4px;
+        }
+        
+        .edu-item h3 {
             font-size: 7pt;
-            font-weight: 500;
+            font-weight: 600;
+            margin-bottom: 0;
         }
         
-        /* Education */
-        .education-item, .certification-item {
-            margin-bottom: 10px;
-        }
-        
-        .education-item h3, .certification-item h3 {
-            margin-bottom: 2px;
-        }
-        
-        .institution {
-            font-size: 9pt;
+        .edu-item .institution {
+            font-size: 6.5pt;
             color: #555;
         }
         
-        .year {
-            font-size: 9pt;
+        .edu-item .year {
+            font-size: 6pt;
             color: #2563eb;
             font-weight: 600;
         }
         
-        /* Languages */
+        /* Languages - inline */
         .languages-row {
             display: flex;
-            gap: 30px;
-        }
-        
-        .language-item {
-            font-size: 9pt;
-        }
-        
-        .language-item strong {
-            color: #1a1a1a;
-        }
-        
-        .language-level {
-            color: #555;
+            gap: 15px;
+            font-size: 6.5pt;
         }
         
         /* Footer */
         .footer {
-            margin-top: 20px;
-            padding-top: 10px;
-            border-top: 1px solid #e0e0e0;
+            margin-top: 6px;
+            padding-top: 4px;
+            border-top: 1px solid #ddd;
             text-align: center;
-            font-size: 8pt;
+            font-size: 6pt;
             color: #999;
-        }
-        
-        /* Two Column Layout for later pages */
-        .two-column {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
         }
         
         @media print {
@@ -279,27 +255,23 @@ permalink: /pdf/
                 -webkit-print-color-adjust: exact;
                 print-color-adjust: exact;
             }
-            
-            .page {
-                width: 100%;
-            }
         }
     </style>
 </head>
 <body>
-    <div class="page">
+    <div class="container">
         <!-- Header -->
         <header class="header">
             <div class="profile-img">
-                <img src="https://avatars.githubusercontent.com/u/18133417?v=4" alt="Henrique Lobato">
+                <img src="https://avatars.githubusercontent.com/u/18133417?v=4" alt="HL">
             </div>
             <div class="profile-info">
                 <h1>Henrique Lobato</h1>
-                <div class="title">Senior Backend Engineer • Python • Distributed Systems • Kubernetes • AWS / GCP</div>
+                <div class="title">Senior Backend Engineer • Python • Distributed Systems • Kubernetes • AWS/GCP</div>
                 <div class="contact-row">
                     <span>📧 iklobato@proton.me</span>
                     <span>📱 +55 11 98434-8555</span>
-                    <span>📍 São Paulo, Remote (US Timezone Overlap)</span>
+                    <span>📍 São Paulo, Remote</span>
                     <span>🔗 linkedin.com/in/iklobato</span>
                 </div>
             </div>
@@ -308,8 +280,7 @@ permalink: /pdf/
         <!-- Summary -->
         <section class="summary">
             <h2>Professional Summary</h2>
-            <p>Senior Backend Engineer with 10+ years of ownership over production-grade distributed systems in Python (Django, FastAPI, Flask). Specializes in decomposing monoliths into resilient microservices, designing event-driven pipelines sustaining tens of millions of daily events, and delivering cloud-native infrastructure on AWS and GCP, with observability, fault-tolerance, and operational clarity as first-class concerns.</p>
-            <p>Delivered across fintech, AI/ML, cybersecurity, biotechnology, big data, and computer vision, leading full project lifecycles from RFC through zero-downtime deployment. Tech Lead for the past two years: raising the bar through code review, mentoring, and engineering standards that survive team changes.</p>
+            <p>Senior Backend Engineer with 10+ years of ownership over production-grade distributed systems in Python (Django, FastAPI, Flask). Specializes in decomposing monoliths into resilient microservices, designing event-driven pipelines sustaining tens of millions of daily events, and delivering cloud-native infrastructure on AWS/GCP with observability, fault-tolerance, and operational clarity as first-class concerns. Tech Lead for 2+ years: raising the bar through code review, mentoring, and engineering standards.</p>
         </section>
         
         <!-- Skills -->
@@ -321,17 +292,16 @@ permalink: /pdf/
                     <div class="skill-tags">
                         <span class="skill-tag">Python 3</span>
                         <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Shell Script</span>
+                        <span class="skill-tag">Shell</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Frameworks</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Django</span>
-                        <span class="skill-tag">Django REST Framework</span>
+                        <span class="skill-tag">DRF</span>
                         <span class="skill-tag">FastAPI</span>
                         <span class="skill-tag">Flask</span>
-                        <span class="skill-tag">SQLAlchemy</span>
                         <span class="skill-tag">Celery</span>
                     </div>
                 </div>
@@ -342,69 +312,52 @@ permalink: /pdf/
                         <span class="skill-tag">MySQL</span>
                         <span class="skill-tag">DynamoDB</span>
                         <span class="skill-tag">Redis</span>
-                        <span class="skill-tag">Memcached</span>
                         <span class="skill-tag">Snowflake</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Cloud & CDN</h3>
+                    <h3>Cloud & IaC</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">AWS</span>
                         <span class="skill-tag">GCP</span>
-                        <span class="skill-tag">Cloudflare</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Infrastructure & IaC</h3>
-                    <div class="skill-tags">
                         <span class="skill-tag">Kubernetes</span>
-                        <span class="skill-tag">Helm</span>
                         <span class="skill-tag">Terraform</span>
-                        <span class="skill-tag">ArgoCD</span>
                         <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Nginx</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Streaming & Data</h3>
+                    <h3>Streaming</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Apache Kafka</span>
+                        <span class="skill-tag">Kafka</span>
                         <span class="skill-tag">RabbitMQ</span>
                         <span class="skill-tag">PySpark</span>
-                        <span class="skill-tag">Hadoop</span>
                         <span class="skill-tag">gRPC</span>
-                        <span class="skill-tag">WebSockets</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>CI/CD & Observability</h3>
+                    <h3>CI/CD & Observ.</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">GitHub Actions</span>
                         <span class="skill-tag">Jenkins</span>
                         <span class="skill-tag">Prometheus</span>
                         <span class="skill-tag">Grafana</span>
-                        <span class="skill-tag">Datadog</span>
-                        <span class="skill-tag">OpenTelemetry</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>AI / ML</h3>
+                    <h3>AI/ML</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Langchain</span>
                         <span class="skill-tag">HuggingFace</span>
-                        <span class="skill-tag">OpenAI APIs</span>
                         <span class="skill-tag">TensorFlow</span>
                         <span class="skill-tag">OpenCV</span>
-                        <span class="skill-tag">scikit-learn</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Security</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">OWASP</span>
-                        <span class="skill-tag">Penetration Testing</span>
                         <span class="skill-tag">JWT</span>
-                        <span class="skill-tag">TCP/IP</span>
+                        <span class="skill-tag">PenTest</span>
                     </div>
                 </div>
             </div>
@@ -419,16 +372,16 @@ permalink: /pdf/
                     <span class="company">OneTrust</span>
                     <span class="duration">Sep 2023 – Present</span>
                 </div>
-                <div class="job-title">Senior Backend Engineer</div>
-                <div class="job-desc">Global privacy & compliance SaaS, 14,000+ enterprise customers across 180 countries</div>
+                <span class="job-title">Senior Backend Engineer</span>
+                <p class="job-desc">Global privacy SaaS, 14,000+ enterprise customers</p>
                 <ul class="contributions">
-                    <li><strong>Migration Pipeline:</strong> Owned end-to-end design and delivery of compliance-record migration from Convercent to OneTrust, orchestrating phased validation across DEV → QA1 → QA2 → PROD with zero data loss and zero production incidents.</li>
-                    <li><strong>API Architecture:</strong> Architected Kubernetes-deployed Django REST endpoints handling concurrent ingestion at scale, implementing idempotent writes, schema validation, and transactional rollback across millions of compliance records.</li>
-                    <li><strong>CI/CD Excellence:</strong> Designed Jira-triggered CI/CD pipelines cutting release cycle time by 60%, enabling multi-environment deployments in under 30 minutes with full auditability.</li>
-                    <li><strong>Code Quality:</strong> Audited three legacy services, restoring test coverage from near-zero to 80%+, adding type annotations, and authoring engineering standards now adopted team-wide.</li>
+                    <li>Migration Pipeline: Owned end-to-end design of compliance-record migration from Convercent to OneTrust with zero data loss</li>
+                    <li>API Architecture: Architected Kubernetes-deployed Django REST endpoints handling concurrent ingestion at scale</li>
+                    <li>CI/CD Excellence: Designed pipelines cutting release cycle by 60%, multi-environment deployments in under 30 minutes</li>
+                    <li>Code Quality: Restored test coverage from near-zero to 80%+, authoring engineering standards team-wide</li>
                 </ul>
                 <div class="tech-stack">
-                    <span>Python 3</span><span>Django</span><span>DRF</span><span>FastAPI</span><span>PostgreSQL</span><span>Redis</span><span>Kubernetes</span><span>Helm</span><span>Terraform</span><span>ArgoCD</span><span>AWS</span><span>Datadog</span><span>gRPC</span>
+                    <span>Python</span><span>Django</span><span>DRF</span><span>FastAPI</span><span>K8s</span><span>Terraform</span><span>AWS</span><span>gRPC</span>
                 </div>
             </div>
             
@@ -437,15 +390,15 @@ permalink: /pdf/
                     <span class="company">SecurityScorecard</span>
                     <span class="duration">Apr 2022 – Sep 2023</span>
                 </div>
-                <div class="job-title">Senior Backend Engineer</div>
-                <div class="job-desc">Cybersecurity SaaS, continuous security ratings for 12M+ companies globally</div>
+                <span class="job-title">Senior Backend Engineer</span>
+                <p class="job-desc">Cybersecurity SaaS, ratings for 12M+ companies</p>
                 <ul class="contributions">
-                    <li><strong>AI Chatbot:</strong> Led backend development of an AI-powered chatbot (Langchain • FastAPI • HuggingFace LLMs) enabling natural-language queries over security scores, designed, built, and shipped to AWS production in 6 weeks.</li>
-                    <li><strong>Platform Ownership:</strong> Sole backend owner across three Django systems (platform API, support portal, intranet), shipping features weekly while sustaining reliability for security-critical product.</li>
-                    <li><strong>Test Coverage:</strong> Restored abandoned test suites across all three repos from 0% to production-grade coverage, unblocking a major platform refactor.</li>
+                    <li>AI Chatbot: Led backend of Langchain + FastAPI + HuggingFace LLM chatbot, shipped to AWS production in 6 weeks</li>
+                    <li>Platform Ownership: Sole backend owner across 3 Django systems (API, portal, intranet), shipping weekly</li>
+                    <li>Test Coverage: Restored test suites from 0% to production-grade coverage</li>
                 </ul>
                 <div class="tech-stack">
-                    <span>Python 3</span><span>Django</span><span>DRF</span><span>FastAPI</span><span>Langchain</span><span>HuggingFace</span><span>PostgreSQL</span><span>Redis</span><span>AWS</span><span>Kubernetes</span><span>Terraform</span><span>Datadog</span>
+                    <span>Python</span><span>Django</span><span>FastAPI</span><span>Langchain</span><span>PostgreSQL</span><span>AWS</span>
                 </div>
             </div>
             
@@ -454,16 +407,14 @@ permalink: /pdf/
                     <span class="company">IkTech</span>
                     <span class="duration">Jun 2020 – Apr 2022</span>
                 </div>
-                <div class="job-title">Senior Backend Engineer / Cloud Architect</div>
-                <div class="job-desc">Consulting: PayPal/Venmo, Hercules, ProbiusDx, Swimlane, TIVIT</div>
+                <span class="job-title">Senior Backend Engineer / Cloud Architect</span>
                 <ul class="contributions">
-                    <li><strong>PayPal/Venmo:</strong> Built Kubernetes QA automation and Python test suites covering new financial transaction field types on one of the world's highest-traffic payment platforms.</li>
-                    <li><strong>Hercules (ML Platform):</strong> Provisioned full AWS + Docker infrastructure for greenfield ML platform; built predictive analytics pipelines; automated CI/CD cutting environment setup from hours to under 5 minutes.</li>
-                    <li><strong>ProbiusDx (Biotech):</strong> Designed REST APIs and microservices migrating legacy Azure bioanalytical platform to AWS, hardening security posture, reducing overhead by 35%.</li>
-                    <li><strong>Swimlane/TIVIT:</strong> Migrated security automation platform to AWS serverless (Lambda + S3); built centralized threat-intelligence dashboard with Grafana across 20+ attack vectors.</li>
+                    <li>PayPal/Venmo: Built Kubernetes QA automation and Python test suites for payment platform</li>
+                    <li>Hercules: Provisioned AWS + Docker infra for ML platform; automated CI/CD cutting setup from hours to 5 min</li>
+                    <li>ProbiusDx: Migrated legacy Azure bioanalytical platform to AWS, reducing overhead by 35%</li>
                 </ul>
                 <div class="tech-stack">
-                    <span>Python 3</span><span>Flask</span><span>FastAPI</span><span>SQLAlchemy</span><span>AWS</span><span>Kubernetes</span><span>Terraform</span><span>Docker</span><span>gRPC</span><span>RabbitMQ</span>
+                    <span>Python</span><span>Flask</span><span>FastAPI</span><span>AWS</span><span>K8s</span><span>Terraform</span><span>Docker</span>
                 </div>
             </div>
             
@@ -472,86 +423,74 @@ permalink: /pdf/
                     <span class="company">Dextra</span>
                     <span class="duration">Nov 2019 – Jul 2020</span>
                 </div>
-                <div class="job-title">Senior Backend Engineer, Tech Lead</div>
-                <div class="job-desc">Custom software: Serasa Experian, Globo.com, Caixa Bank</div>
+                <span class="job-title">Senior Backend Engineer, Tech Lead</span>
                 <ul class="contributions">
-                    <li><strong>Serasa Experian:</strong> Led 6 engineers to deliver 'New Score', a PySpark + neural network credit decisioning engine now used by thousands of Brazilian companies.</li>
-                    <li><strong>Globo.com:</strong> Built high-throughput media migration pipeline (DRF + Firebase) moving thousands of records daily across microservices with zero downtime.</li>
-                    <li><strong>Caixa Bank:</strong> Engineered distributed load-testing framework simulating 30,000 concurrent operators and 100,000 virtual clients over WebSockets on AWS.</li>
+                    <li>Serasa Experian: Led 6 engineers delivering PySpark + neural network credit decisioning engine for thousands of companies</li>
+                    <li>Globo.com: Built media migration pipeline (DRF + Firebase), thousands of records daily across microservices</li>
+                    <li>Caixa Bank: Engineered load-testing framework simulating 30K concurrent operators on AWS</li>
                 </ul>
                 <div class="tech-stack">
-                    <span>Python 3</span><span>DRF</span><span>PySpark</span><span>scikit-learn</span><span>PostgreSQL</span><span>Firebase</span><span>AWS</span><span>WebSockets</span><span>Celery</span>
+                    <span>Python</span><span>DRF</span><span>PySpark</span><span>PostgreSQL</span><span>Firebase</span><span>WebSockets</span>
                 </div>
             </div>
             
             <div class="experience-item">
                 <div class="experience-header">
-                    <span class="company">Multiway / Sintecsys / GPR Sistemas</span>
+                    <span class="company">Multiway / Sintecsys / GPR</span>
                     <span class="duration">Jan 2016 – Oct 2019</span>
                 </div>
-                <div class="job-title">Backend Engineer / Software Developer</div>
-                <div class="job-desc">Progressive roles in public safety, computer vision, and network security</div>
+                <span class="job-title">Backend Engineer</span>
                 <ul class="contributions">
-                    <li><strong>Multiway:</strong> Built neural network pipelines (OpenCV + Keras/TensorFlow) for real-time vehicle license plate recognition across hundreds of city cameras.</li>
-                    <li><strong>Sintecsys:</strong> Engineered fire detection APIs reducing wildfire detection latency from 5 minutes to 30 seconds.</li>
-                    <li><strong>GPR Sistemas:</strong> Built Django + SNMP network topology monitoring system for Itau Bank, enabling real-time visualization of thousands of hosts.</li>
+                    <li>Built OpenCV + Keras/TensorFlow pipelines for real-time vehicle license plate recognition (hundreds of cameras)</li>
+                    <li>Engineered fire detection APIs reducing wildfire detection latency from 5 min to 30 seconds</li>
+                    <li>Built Django + SNMP monitoring system for Itau Bank, visualizing thousands of active hosts</li>
                 </ul>
                 <div class="tech-stack">
-                    <span>Python 3</span><span>Django</span><span>FastAPI</span><span>TensorFlow</span><span>OpenCV</span><span>PostgreSQL</span><span>Docker</span><span>OWASP</span><span>Nginx</span>
+                    <span>Python</span><span>Django</span><span>TensorFlow</span><span>OpenCV</span><span>PostgreSQL</span><span>Docker</span>
                 </div>
             </div>
         </section>
         
-        <!-- Education & Certifications -->
-        <section class="education-certifications">
+        <!-- Education, Certs & Languages -->
+        <section class="bottom-section">
             <div class="two-column">
                 <div>
                     <h2>Education</h2>
-                    <div class="education-item">
+                    <div class="edu-item">
                         <h3>B.Sc. Computer Science</h3>
-                        <p class="institution">University of London</p>
-                        <p class="year">2023</p>
+                        <span class="institution">University of London</span> — <span class="year">2023</span>
                     </div>
-                    <div class="education-item">
+                    <div class="edu-item">
                         <h3>B.Sc. Software Analysis</h3>
-                        <p class="institution">USF - Universidade São Francisco</p>
-                        <p class="year">2017 – 2020</p>
+                        <span class="institution">USF</span> — <span class="year">2017 – 2020</span>
+                    </div>
+                    
+                    <h2 style="margin-top: 8px;">Certifications</h2>
+                    <div class="edu-item">
+                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <span class="year">2021</span>
+                    </div>
+                    <div class="edu-item">
+                        <h3>Certified Professional Pentester</h3>
+                        <span class="institution">Desec Security</span> — <span class="year">2017</span>
                     </div>
                 </div>
                 <div>
-                    <h2>Certifications</h2>
-                    <div class="certification-item">
-                        <h3>AWS Certified Cloud Practitioner</h3>
-                        <p class="institution">Amazon Web Services</p>
-                        <p class="year">2021</p>
-                    </div>
-                    <div class="certification-item">
-                        <h3>Certified Professional Pentester</h3>
-                        <p class="institution">Desec Security</p>
-                        <p class="year">2017</p>
-                    </div>
-                    <div class="certification-item">
-                        <h3>Certified Mobile Pentester</h3>
-                        <p class="institution">Desec Security</p>
-                        <p class="year">2017</p>
+                    <h2>Languages</h2>
+                    <div class="languages-row">
+                        <div>
+                            <strong>🇧🇷 Portuguese:</strong> Native<br>
+                            <strong>🇺🇸 English:</strong> Advanced<br>
+                            <strong>🇷🇺 Russian:</strong> Basic
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        
-        <!-- Languages -->
-        <section class="languages">
-            <h2>Languages</h2>
-            <div class="languages-row">
-                <span class="language-item"><strong>🇧🇷 Portuguese:</strong> <span class="language-level">Native</span></span>
-                <span class="language-item"><strong>🇺🇸 English:</strong> <span class="language-level">Advanced, Professional Working Proficiency</span></span>
-                <span class="language-item"><strong>🇷🇺 Russian:</strong> <span class="language-level">Basic</span></span>
             </div>
         </section>
         
         <!-- Footer -->
         <footer class="footer">
-            <p>iklobato@proton.me • +55 11 98434-8555 • linkedin.com/in/iklobato • github.com/iklobato</p>
+            iklobato@proton.me • +55 11 98434-8555 • linkedin.com/in/iklobato • github.com/iklobato
         </footer>
     </div>
 </body>
