@@ -1674,6 +1674,59 @@
             transform: translateY(-1px);
         }
         
+        .sticky-nav-pdf {
+            background: var(--surface);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            padding: var(--space-xs) var(--space-md);
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all var(--transition-fast);
+            cursor: pointer;
+        }
+        
+        .sticky-nav-pdf:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-1px);
+        }
+        
+        /* ============================================
+           PRINT CV BUTTON
+           ============================================ */
+        .print-cv-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            background: var(--surface);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            padding: var(--space-sm) var(--space-lg);
+            border-radius: var(--radius-md);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            font-size: 0.95rem;
+        }
+        
+        .print-cv-btn:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .print-cv-btn:active {
+            transform: scale(0.98);
+        }
+        
+        .print-cv-btn.loading {
+            opacity: 0.7;
+            cursor: wait;
+        }
+        
         /* ============================================
            FLOATING CTA BUTTON
            ============================================ */
@@ -2062,6 +2115,30 @@
             
             section, .experience-item { page-break-inside: avoid; }
             
+            /* Hide elements not needed in PDF */
+            .scrollToTop,
+            .scroll-progress-bar,
+            .sticky-nav,
+            .floating-cta,
+            .page-loader,
+            .print-cv-btn,
+            .footer,
+            .social-links,
+            .contact-cta,
+            .testimonials-section,
+            .cta-buttons,
+            .hire-me-container,
+            #hire-me,
+            .cv-links,
+            .availability-badge,
+            .stats-section,
+            .back-link,
+            .hero-section,
+            .service-link,
+            .resource-link { 
+                display: none !important; 
+            }
+            
             .skill-tag, .highlight-tag, .tech-tag, .achievement-metric, .service-card,
             .value-prop, .github-card, .achievement-card, .technologies span {
                 background-color: white !important;
@@ -2072,14 +2149,15 @@
             
             .service-icon { display: none; }
             
-            .scrollToTop, .printButton, .footer, .social-links, .contact-cta, .hero-section,
-            .testimonials-container, .cta-buttons, .github-stats-grid,
-            .hire-me-container, #hire-me, .resume-footer, .back-link, .cv-links { display: none !important; }
-            
-            .profile-img { display: none !important; }
+            .profile-img { 
+                display: block !important;
+                width: 100px !important;
+                height: 100px !important;
+                border: 2px solid #333 !important;
+                box-shadow: none !important;
+            }
             
             a { text-decoration: none; color: black !important; }
-            .service-link, .resource-link { display: none; }
             
             .header::after {
                 content: "Email: iklobato@proton.me | Phone: +55 11 98434-8555";
@@ -2115,6 +2193,9 @@
                 <a href="#skills" class="sticky-nav-link">Skills</a>
                 <a href="#experience" class="sticky-nav-link">Experience</a>
                 <a href="#services" class="sticky-nav-link">Services</a>
+                <button class="sticky-nav-pdf" onclick="generatePDF()">
+                    <i class="fas fa-download"></i> PDF
+                </button>
                 <a href="#hire-me" class="sticky-nav-cta">Let's Talk</a>
             </div>
         </div>
@@ -2274,19 +2355,52 @@
             });
         });
         
-        /* Print functionality - temporarily disabled - to be fixed later
-        const printButton = document.getElementById('printButton');
-        printButton.addEventListener('click', function() {
-            document.body.classList.add('printing');
-            const printDate = document.getElementById('print-date');
-            const now = new Date();
-            printDate.textContent = now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
-            window.print();
-            setTimeout(function() {
-                document.body.classList.remove('printing');
-            }, 1000);
-        });
-        */
+        // Generate PDF from page
+        function generatePDF(event) {
+            if (event && event.target) {
+                const btn = event.target.closest('button');
+                if (btn) {
+                    btn.classList.add('loading');
+                    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating...';
+                }
+            }
+            
+            const element = document.querySelector('.container');
+            
+            const opt = {
+                margin: 0,
+                filename: '001-henrique-lobato.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { 
+                    scale: 2, 
+                    useCORS: true, 
+                    logging: false,
+                    backgroundColor: '#ffffff'
+                },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+            };
+            
+            html2pdf().set(opt).from(element).save().then(function() {
+                const btn = document.querySelector('.print-cv-btn.loading, .sticky-nav-pdf.loading');
+                if (btn) {
+                    btn.classList.remove('loading');
+                    const isSticky = btn.classList.contains('sticky-nav-pdf');
+                    btn.innerHTML = '<i class="fas fa-download"></i> ' + (isSticky ? 'PDF' : 'Download PDF');
+                }
+            }).catch(function(err) {
+                console.error('PDF generation failed:', err);
+                const btn = document.querySelector('.print-cv-btn.loading, .sticky-nav-pdf.loading');
+                if (btn) {
+                    btn.classList.remove('loading');
+                    btn.innerHTML = '<i class="fas fa-download"></i> Download PDF';
+                }
+                alert('Failed to generate PDF. Please try again.');
+            });
+        }
+        
+        // Make generatePDF globally available
+        window.generatePDF = generatePDF;
     </script>
     
     <!-- Schema.org structured data for Person -->
@@ -2488,6 +2602,9 @@
       ]
     }
     </script>
+    
+    <!-- PDF Generation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
     
     <!-- Cloudflare Web Analytics -->
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN_HERE"}'></script>

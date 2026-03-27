@@ -67,6 +67,9 @@ keywords: Hire Python Developer, Senior Python Developer, Freelance Python Devel
         
         <div class="cv-links">
             <a href="#hire-me" class="cv-link"><i class="fas fa-briefcase"></i> Hire Me Today</a>
+            <button class="print-cv-btn" onclick="generatePDF()">
+                <i class="fas fa-download"></i> Download PDF
+            </button>
             <a href="/blog/" class="cv-link"><i class="fas fa-rss"></i> Technical Blog</a>
             <a href="https://calendly.com/hlobato/lets-talk" class="cv-link"><i class="fas fa-calendar-check"></i> Schedule a Consultation</a>
         </div>
