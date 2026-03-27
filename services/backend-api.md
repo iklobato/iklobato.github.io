@@ -40,7 +40,7 @@ permalink: /services/backend-api/
                 <p>I design and develop custom REST and GraphQL APIs using Django and FastAPI that handle millions of requests with exceptional reliability. Whether you need to modernize legacy systems, build new microservices, or scale existing APIs, I deliver solutions that combine performance, security, and maintainability.</p>
                 <div class="hero-cta">
                     <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
-                    <a href="mailto:iklobato1@gmail.com" class="secondary-cta">Email Me About Your Project</a>
+                    <a href="mailto:iklobato@proton.me" class="secondary-cta">Email Me About Your Project</a>
                 </div>
             </div>
         </div>
@@ -548,7 +548,7 @@ permalink: /services/backend-api/
             
             <div class="contact-cta">
                 <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
-                <a href="mailto:iklobato1@gmail.com" class="secondary-cta">Email Me About Your Project</a>
+                <a href="mailto:iklobato@proton.me" class="secondary-cta">Email Me About Your Project</a>
             </div>
         </div>
     </section>

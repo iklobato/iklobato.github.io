@@ -7,7 +7,7 @@ permalink: /full-cv/
 # Henrique Lobato
 
 **Tech Lead | Senior Python Developer | Cloud Architect**  
-📧 Email: [iklobato1@gmail.com](mailto:iklobato1@gmail.com)  
+📧 Email: [iklobato1@gmail.com](mailto:iklobato@proton.me)  
 📱 WhatsApp (BR): [+55 11 9 8434 8555](tel:+5511984348555)  
 📱 US Number: [+1 415 851 6951](tel:+14158516951)  
 📨 Telegram: [@iklobato](https://t.me/iklobato)  
