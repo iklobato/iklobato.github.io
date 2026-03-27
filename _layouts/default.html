@@ -2355,48 +2355,43 @@
             });
         });
         
-        // Generate PDF from page
+        // Generate PDF - Opens dedicated PDF page and triggers print
         function generatePDF(event) {
             if (event && event.target) {
                 const btn = event.target.closest('button');
                 if (btn) {
                     btn.classList.add('loading');
-                    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating...';
+                    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Opening...';
                 }
             }
             
-            const element = document.querySelector('.container');
+            // Open PDF page in new window
+            const pdfWindow = window.open('/pdf/', '_blank');
             
-            const opt = {
-                margin: 0,
-                filename: '001-henrique-lobato.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { 
-                    scale: 2, 
-                    useCORS: true, 
-                    logging: false,
-                    backgroundColor: '#ffffff'
-                },
-                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
-            };
-            
-            html2pdf().set(opt).from(element).save().then(function() {
-                const btn = document.querySelector('.print-cv-btn.loading, .sticky-nav-pdf.loading');
-                if (btn) {
-                    btn.classList.remove('loading');
-                    const isSticky = btn.classList.contains('sticky-nav-pdf');
-                    btn.innerHTML = '<i class="fas fa-download"></i> ' + (isSticky ? 'PDF' : 'Download PDF');
-                }
-            }).catch(function(err) {
-                console.error('PDF generation failed:', err);
+            if (pdfWindow) {
+                // Wait for page to load, then trigger print
+                pdfWindow.onload = function() {
+                    setTimeout(function() {
+                        pdfWindow.print();
+                        
+                        // Reset button state
+                        const btn = document.querySelector('.print-cv-btn.loading, .sticky-nav-pdf.loading');
+                        if (btn) {
+                            btn.classList.remove('loading');
+                            const isSticky = btn.classList.contains('sticky-nav-pdf');
+                            btn.innerHTML = '<i class="fas fa-download"></i> ' + (isSticky ? 'PDF' : 'Download PDF');
+                        }
+                    }, 500);
+                };
+            } else {
+                // Fallback if popup is blocked
+                alert('Please allow popups to download the PDF, or use Ctrl+P on the /pdf page.');
                 const btn = document.querySelector('.print-cv-btn.loading, .sticky-nav-pdf.loading');
                 if (btn) {
                     btn.classList.remove('loading');
                     btn.innerHTML = '<i class="fas fa-download"></i> Download PDF';
                 }
-                alert('Failed to generate PDF. Please try again.');
-            });
+            }
         }
         
         // Make generatePDF globally available
@@ -2602,9 +2597,6 @@
       ]
     }
     </script>
-    
-    <!-- PDF Generation Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
     
     <!-- Cloudflare Web Analytics -->
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN_HERE"}'></script>
