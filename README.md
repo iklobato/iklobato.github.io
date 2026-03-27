@@ -1,78 +1,73 @@
-# Henrique Lobato - Senior Backend Engineer
+# Henrique Lobato - Personal Website & CVs
 
-Professional portfolio and CV website for Henrique Lobato, a Senior Backend Engineer specializing in Python, Distributed Systems, and Cloud Architecture.
+This repository contains my personal website hosted with GitHub Pages at [iklobato.com](https://iklobato.com), featuring a modern UI and specialized CV versions for different technical roles.
 
-Live at [iklobato.com](https://iklobato.com)
+## Website Structure
 
-## About
+The website is built using Jekyll and GitHub Pages with the following structure:
 
-Senior Backend Engineer with **10+ years of experience** building production-grade distributed systems in Python (Django, FastAPI, Flask). Specializes in microservices architecture, event-driven pipelines, and cloud-native infrastructure on AWS/GCP.
+- **Homepage**: A personal landing page with my skills, experience, and links to specialized CVs
+- **CV Versions**: Specialized CV pages for different technical roles, accessible via direct links
 
-## Services
+## CV Versions
 
-- **Backend API Development** - REST/GraphQL APIs with Django and FastAPI
-- **AI/ML Integration** - LangChain, HuggingFace, OpenAI implementations
-- **Cloud Infrastructure** - AWS/GCP architecture with Kubernetes
-- **Data Pipelines** - ETL/ELT with Apache Airflow, Snowflake, PySpark
+Each CV highlights relevant experience for specific roles while maintaining consistency in overall content:
 
-## Tech Stack
+1. [Backend Engineer CV](https://iklobato.com/backend/) - Emphasizes API design, microservices, and backend system architecture
+2. [Data Engineer CV](https://iklobato.com/data-engineer/) - Focuses on ETL pipelines, data processing, and data architecture
+3. [DevOps Engineer CV](https://iklobato.com/devops/) - Highlights cloud infrastructure, CI/CD, and system reliability
+4. [Full CV](https://iklobato.com/full-cv/) - A comprehensive version that combines all specializations
 
-| Category | Technologies |
-|----------|-------------|
-| Languages | Python 3, SQL, Shell Script |
-| Frameworks | Django, DRF, FastAPI, Flask, SQLAlchemy, Celery |
-| Databases | PostgreSQL, MySQL, DynamoDB, Redis, Snowflake |
-| Cloud | AWS, GCP, Cloudflare |
-| Infrastructure | Kubernetes, Helm, Terraform, ArgoCD, Docker |
-| Streaming | Apache Kafka, RabbitMQ, PySpark, gRPC |
-| AI/ML | Langchain, HuggingFace, TensorFlow, OpenCV |
+## Structure and Formatting
+
+All CVs follow a consistent structure using Markdown formatting:
+
+```
+# Name and Title
+Contact Information
+---
+## Professional Summary
+Role-specific highlight
+---
+## Technical Skills
+Role-focused skills grouped by category
+---
+## Professional Experience
+Experience details with role-specific emphasis
+---
+## Certifications & Education
+---
+## Languages
+```
 
 ## Website Features
 
-- **Modern UI** - Contemporary design with CSS custom properties, animations, and smooth interactions
-- **Responsive** - Optimized for desktop, tablet, and mobile
-- **Dark Mode** - Automatic theme based on system preference
-- **PDF Download** - One-click PDF export of CV
-- **SEO Optimized** - Structured data, Open Graph, Twitter Cards, sitemap
-- **Performance** - Lazy loading, preconnect hints, optimized assets
-- **Accessibility** - ARIA labels, keyboard navigation, reduced motion support
+- **Modern UI**: Clean, responsive design with a focus on readability and professional appearance
+- **Role-Specific Emphasis**: Each CV highlights relevant skills and achievements for the target role
+- **Consistent Information**: Core experience and qualifications remain the same across all versions
+- **Responsive Design**: Adapts to different screen sizes for optimal viewing on any device
+- **Analytics Integration**: Google Analytics for visitor tracking and Cloudflare for performance optimization
+- **HTTPS Enforced**: Secure browsing experience with automatic HTTPS redirection
+- **Print-Friendly**: Styled for clean printing directly from the browser
 
-## Pages
+## Technical Implementation
 
-- **Homepage** - Professional summary, skills, experience timeline, and services
-- **PDF CV** - Print-optimized single-page PDF at [/pdf/](https://iklobato.com/pdf/)
-
-## Quick Links
-
-- [LinkedIn](https://linkedin.com/in/iklobato)
-- [GitHub](https://github.com/iklobato)
-- [Schedule a Call](https://calendly.com/hlobato/lets-talk)
-- [Technical Blog](https://iklobato.com/blog/)
+- **Static Site Generator**: Built with Jekyll for efficient, maintainable static pages
+- **GitHub Pages**: Hosted directly from this repository for easy deployment
+- **Custom Domain**: Configured with a custom domain (iklobato.com) via CNAME
+- **Responsive CSS**: Hand-crafted CSS using flexbox and CSS Grid for modern layouts
+- **Markdown Content**: All CV content is written in Markdown for easy maintenance
+- **Font Awesome Icons**: Used for visual elements and improved UX
 
 ## Local Development
 
-```bash
-# Clone the repository
-git clone https://github.com/iklobato/iklobato.github.io.git
-cd iklobato.github.io
+To run this site locally:
 
-# Install dependencies
-bundle install
+1. Clone this repository
+2. Install Jekyll and dependencies: `bundle install`
+3. Start the development server: `bundle exec jekyll serve`
+4. Visit `http://localhost:4000` in your browser
 
-# Start development server
-bundle exec jekyll serve
+## About
 
-# Visit http://localhost:4000
-```
-
-## Tech Stack
-
-- **Static Site Generator**: Jekyll 4.x
-- **Hosting**: GitHub Pages
-- **Domain**: iklobato.com (via Cloudflare)
-- **Analytics**: Google Analytics 4
-- **Fonts**: Inter (Google Fonts)
-
-## License
-
-Copyright 2025 Henrique Lobato. All rights reserved.
+This personal website and CVs represent my professional experience as a Senior Python Developer with specializations in backend engineering, data engineering, and DevOps/cloud architecture.
