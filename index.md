@@ -26,10 +26,6 @@ keywords: Hire Python Developer, Senior Python Developer, Freelance Python Devel
                     <i class="fas fa-envelope" aria-hidden="true"></i>
                     iklobato@proton.me
                 </a>
-                <a href="tel:+5511984348555" class="contact-item" aria-label="Phone +55 11 98434-8555">
-                    <i class="fas fa-phone" aria-hidden="true"></i>
-                    +55 11 98434-8555
-                </a>
                 <span class="contact-item location">
                     <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                     São Paulo, Remote (US Timezone Overlap)
