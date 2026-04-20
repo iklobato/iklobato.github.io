@@ -324,7 +324,8 @@
     </style>
     {% include schema-webpage.html %}
     {% include schema-breadcrumb.html %}
-    <script defer src="{{ '/assets/js/interactions.js' | relative_url }}"></script>
+    {% assign asset_version = site.github.build_revision | default: site.time | date: '%s' %}
+    <script defer src="{{ '/assets/js/interactions.js' | relative_url }}?v={{ asset_version }}"></script>
 </head>
 <body>
     <div class="container">
