@@ -7,6 +7,9 @@ back_text: Data Engineering CV
 permalink: /data-engineering-use-cases/
 description: Real-world data engineering projects by Henrique Lobato, showcasing ETL pipelines, data processing systems, and large-scale data solutions with measurable business impacts.
 keywords: Data Engineering, ETL pipelines, PySpark, Hadoop, Data Processing, PostgreSQL, Real-time Data, Python Developer, Data Optimization
+breadcrumbs:
+  - name: Data Engineering Use Cases
+    url: /data-engineering-use-cases/
 ---
 
 <div class="use-case">

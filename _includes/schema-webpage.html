@@ -1,0 +1,21 @@
+<!-- Schema.org structured data for WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+  "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}",
+  "url": "{{ site.url }}{{ page.url | replace:'index.html','' }}",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Henrique Lobato"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Henrique Lobato"
+  },
+  "inLanguage": "en",
+  "datePublished": "{% if page.date %}{{ page.date | date: '%Y-%m-%d' }}{% else %}2026-03-17{% endif %}",
+  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date: '%Y-%m-%d' }}{% else %}{{ site.time | date: '%Y-%m-%d' }}{% endif %}"
+}
+</script>

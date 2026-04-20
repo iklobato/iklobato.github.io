@@ -4,9 +4,14 @@ author: Henrique Lobato
 baseurl: ""
 url: "https://iklobato.com"
 social:
+  name: Henrique Lobato
   github: iklobato
   linkedin: iklobato
   calendly: hlobato/lets-talk
+  links:
+    - https://www.linkedin.com/in/iklobato/
+    - https://github.com/iklobato
+    - https://calendly.com/hlobato/lets-talk
 keywords: Hire Python Developer, Senior Python Developer, Freelance Python Developer, Python Backend Developer, Django Developer, FastAPI Developer, REST API Developer, API Architect, AWS Developer, GCP Cloud Expert, Kubernetes Developer, Docker Expert, Microservices Architect, Remote Python Developer, Python Freelancer, Backend Engineer, Cloud Architect, CI/CD Engineer, DevOps Engineer, AI Integration Developer, LangChain Developer, ETL Pipeline Engineer
 
 # Build settings
@@ -14,6 +19,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+
+# jekyll-seo-tag defaults
+twitter:
+  username: iklobato
+  card: summary_large_image
+logo: /assets/images/profile.jpg
 
 # Jekyll settings
 permalink: pretty
@@ -31,3 +45,11 @@ exclude:
   - devops_cv_enhanced.md
   - unified_cv_template.md
   - index.html
+  - index.md.backup
+  - services-subpages-plan.md
+  - specs
+  - .specify
+  - .cursor
+  - .idea
+  - Makefile
+  - .DS_Store

@@ -1,0 +1,21 @@
+<!-- Schema.org structured data for BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}/"
+    }{% if page.breadcrumbs %}{% for crumb in page.breadcrumbs %},
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index | plus: 1 }},
+      "name": "{{ crumb.name }}",
+      "item": "{{ site.url }}{{ crumb.url }}"
+    }{% endfor %}{% endif %}
+  ]
+}
+</script>

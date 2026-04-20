@@ -4,6 +4,11 @@ title: AI Integration Services | Custom LLM Solutions | Python Developer
 description: Need to integrate AI into your product? I build secure, cost-effective AI solutions using LangChain, HuggingFace, and custom Python frameworks.
 keywords: AI integration services, LLM implementation, Python AI developer, HuggingFace integration, LangChain developer, Machine learning integration, Custom AI solutions
 permalink: /services/ai-integration/
+breadcrumbs:
+  - name: Services
+    url: /services/
+  - name: AI Integration
+    url: /services/ai-integration/
 ---
 
 <header class="header">

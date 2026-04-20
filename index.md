@@ -44,7 +44,27 @@ keywords: Hire Python Developer, Senior Python Developer, Freelance Python Devel
             </div>
         </div>
     </div>
-    
+
+    <!-- Proof stats (moved above fold) -->
+    <section class="stats-section animate-on-scroll">
+        <div class="stat-item">
+            <div class="stat-number" data-target="10" data-suffix="+">10+</div>
+            <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" data-target="99" data-suffix=".9%">99.9%</div>
+            <div class="stat-label">Uptime Delivered</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" data-target="30" data-suffix="%">30%</div>
+            <div class="stat-label">Cloud Cost Savings</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" data-target="60" data-suffix="%">60%</div>
+            <div class="stat-label">Faster Deploys</div>
+        </div>
+    </section>
+
     <div class="hero-section">
         <h2>Summary</h2>
         <p>Senior Backend Engineer with <strong>10+ years of ownership</strong> over production-grade distributed systems in Python (Django, FastAPI, Flask). Specializes in decomposing monoliths into resilient microservices, designing event-driven pipelines sustaining tens of millions of daily events, and delivering cloud-native infrastructure on AWS and GCP, with observability, fault-tolerance, and operational clarity as first-class concerns.</p>
@@ -71,26 +91,6 @@ keywords: Hire Python Developer, Senior Python Developer, Freelance Python Devel
         </div>
     </div>
 </header>
-
-<!-- Stats Section -->
-<section class="stats-section animate-on-scroll">
-    <div class="stat-item">
-        <div class="stat-number" data-target="10" data-suffix="+">10+</div>
-        <div class="stat-label">Years Experience</div>
-    </div>
-    <div class="stat-item">
-        <div class="stat-number" data-target="99" data-suffix=".9%">99.9%</div>
-        <div class="stat-label">Uptime Delivered</div>
-    </div>
-    <div class="stat-item">
-        <div class="stat-number" data-target="30" data-suffix="%">30%</div>
-        <div class="stat-label">Cloud Cost Savings</div>
-    </div>
-    <div class="stat-item">
-        <div class="stat-number" data-target="60" data-suffix="%">60%</div>
-        <div class="stat-label">Faster Deploys</div>
-    </div>
-</section>
 
 <main class="main-content">
     <section id="skills" class="animate-on-scroll">
@@ -317,7 +317,32 @@ keywords: Hire Python Developer, Senior Python Developer, Freelance Python Devel
             </div>
         </div>
     </section>
-    
+
+    <section id="case-studies" class="animate-on-scroll">
+        <h2>Featured Case Studies</h2>
+        <p class="services-intro">Deep dives into real-world projects with measurable business impact — architecture, challenges, and outcomes.</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-server"></i></div>
+                <h4>Backend Engineering</h4>
+                <p>API development, microservices decomposition, and system architecture case studies with measurable performance wins.</p>
+                <a href="/backend-engineering-use-cases/" class="service-link">Read case studies <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-database"></i></div>
+                <h4>Data Engineering</h4>
+                <p>ETL pipelines, real-time data processing, and large-scale data systems — real projects, real outcomes.</p>
+                <a href="/data-engineering-use-cases/" class="service-link">Read case studies <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-cloud"></i></div>
+                <h4>DevOps &amp; Cloud</h4>
+                <p>AWS/GCP optimizations, Kubernetes rollouts, and CI/CD pipelines that cut costs and deploy time.</p>
+                <a href="/devops-cloud-use-cases/" class="service-link">Read case studies <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
     <section id="experience">
         <h2>Work Experience</h2>
         

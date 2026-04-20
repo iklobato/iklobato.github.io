@@ -4,6 +4,11 @@ title: Backend API Development Services | Scalable REST & GraphQL APIs | Python 
 description: Need scalable backend APIs? I build high-performance REST and GraphQL APIs with Django and FastAPI that handle millions of requests with 99.9%+ uptime. Proven track record with Fortune 500 clients.
 keywords: Backend API development, Django REST API, FastAPI developer, GraphQL API, Python backend developer, Microservices architecture, API scaling, REST API design
 permalink: /services/backend-api/
+breadcrumbs:
+  - name: Services
+    url: /services/
+  - name: Backend API Development
+    url: /services/backend-api/
 ---
 
 <header class="header">

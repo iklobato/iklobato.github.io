@@ -4,6 +4,11 @@ title: Data Pipeline Engineering Services | ETL ELT Airflow Snowflake | Data Eng
 description: Build reliable data pipelines with 99.9% accuracy. Expert in Apache Airflow, Snowflake, PySpark, and Hadoop. Process millions of records with automated ETL/ELT pipelines.
 keywords: Data pipeline engineering, ETL pipelines, Apache Airflow, Snowflake data warehouse, PySpark developer, Hadoop expert, data engineering services, ELT pipelines
 permalink: /services/data-pipelines/
+breadcrumbs:
+  - name: Services
+    url: /services/
+  - name: Data Pipeline Engineering
+    url: /services/data-pipelines/
 ---
 
 <header class="header">

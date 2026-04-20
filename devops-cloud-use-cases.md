@@ -7,6 +7,9 @@ back_text: DevOps & Cloud CV
 permalink: /devops-cloud-use-cases/
 description: Real-world DevOps and cloud infrastructure projects by Henrique Lobato, showcasing AWS/GCP optimizations, Kubernetes implementations, and CI/CD pipeline achievements with measurable business impacts.
 keywords: DevOps Engineer, Cloud Architect, AWS, GCP, Kubernetes, Docker, CI/CD, Infrastructure as Code, Cost Optimization, Cloud Migration
+breadcrumbs:
+  - name: DevOps & Cloud Use Cases
+    url: /devops-cloud-use-cases/
 ---
 
 <div class="use-case">

@@ -4,6 +4,11 @@ title: Cloud Infrastructure & DevOps Services | AWS GCP Kubernetes | Cloud Archi
 description: Reduce cloud costs by 30-40% while improving reliability. Expert in AWS, GCP, Kubernetes, and CI/CD automation. Zero-downtime migrations and scalable infrastructure.
 keywords: Cloud infrastructure services, DevOps engineer, AWS migration, GCP architecture, Kubernetes expert, CI/CD automation, cloud cost optimization, infrastructure as code
 permalink: /services/cloud-devops/
+breadcrumbs:
+  - name: Services
+    url: /services/
+  - name: Cloud Infrastructure & DevOps
+    url: /services/cloud-devops/
 ---
 
 <header class="header">

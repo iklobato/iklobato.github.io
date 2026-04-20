@@ -7,6 +7,9 @@ back_text: Backend Engineering CV
 permalink: /backend-engineering-use-cases/
 description: Real-world backend development projects by Henrique Lobato, showcasing API development, system architecture, and high-performance backend solutions with measurable business impacts.
 keywords: Backend Engineering, API Development, Python Developer, Django, FastAPI, Flask, Microservices, Database Optimization, Authentication, System Architecture
+breadcrumbs:
+  - name: Backend Engineering Use Cases
+    url: /backend-engineering-use-cases/
 ---
 
 <div class="use-case">

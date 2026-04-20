@@ -3,6 +3,9 @@ layout: default
 title: Python Development Blog | Backend, Cloud & AI Engineering Insights
 description: Practical tutorials and insights on Python development, API architecture, cloud optimization, and AI integration from Senior Python Developer Henrique Lobato.
 keywords: Python blog, Backend development, Cloud optimization, API architecture, AI integration, FastAPI tutorial, Django REST, AWS cost reduction, Python microservices
+breadcrumbs:
+  - name: Blog
+    url: /blog/
 ---
 
 <header class="header">
@@ -77,40 +80,6 @@ keywords: Python blog, Backend development, Cloud optimization, API architecture
         </div>
     </section>
     
-    <section id="upcoming-posts">
-        <h2>Coming Soon</h2>
-        <div class="blog-posts-grid">
-            <div class="blog-post coming-soon">
-                <h3>Reducing AWS Costs by 40% for Django Applications</h3>
-                <p class="post-excerpt">A detailed case study on how we optimized a Django application's AWS infrastructure to cut costs significantly while improving performance.</p>
-                <div class="post-tags">
-                    <span class="tag">AWS Optimization</span>
-                    <span class="tag">Django</span>
-                    <span class="tag">Cost Reduction</span>
-                </div>
-            </div>
-            
-            <div class="blog-post coming-soon">
-                <h3>Building High-Performance APIs: FastAPI vs Django REST Framework</h3>
-                <p class="post-excerpt">A technical comparison of FastAPI and Django REST Framework with benchmarks, code examples, and best practices for each framework.</p>
-                <div class="post-tags">
-                    <span class="tag">API Development</span>
-                    <span class="tag">FastAPI</span>
-                    <span class="tag">Django REST</span>
-                </div>
-            </div>
-            
-            <div class="blog-post coming-soon">
-                <h3>Microservices Architecture with Python: Patterns and Pitfalls</h3>
-                <p class="post-excerpt">Learn how to design and implement a resilient microservices architecture using Python, with real-world examples of common patterns and mistakes to avoid.</p>
-                <div class="post-tags">
-                    <span class="tag">Microservices</span>
-                    <span class="tag">System Design</span>
-                    <span class="tag">Python Architecture</span>
-                </div>
-            </div>
-        </div>
-    </section>
     
 </main>
 
