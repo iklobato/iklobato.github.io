@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Hire Python Developer | Senior Backend Engineer | Freelance API Expert
-description: Need a senior Python developer? I build high-performance backend APIs, cloud architectures, and AI integrations that scale to millions of users with 99.9% uptime. Hire me for your next project.
-keywords: Hire Python Developer, Senior Python Developer, Freelance Python Developer, Python Backend Developer, Django Developer, FastAPI Developer, REST API Developer, API Architect, AWS Developer, GCP Cloud Expert, Kubernetes Developer, Docker Expert, Microservices Architect, Remote Python Developer, Python Freelancer, Backend Engineer, Cloud Architect, CI/CD Engineer, DevOps Engineer, AI Integration Developer, LangChain Developer, ETL Pipeline Engineer
+title: Senior Python & AI/LLM Engineer | Backend Engineer | LangChain · HuggingFace · AWS
+description: Senior Python and AI/LLM engineer with production-shipped LLM systems. Built a LangChain + HuggingFace chatbot for a 12M-company cybersecurity platform. Available for backend, AI integration, and private LLM infrastructure projects.
+keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, HuggingFace Developer, LLM Integration Developer, AI Chatbot Developer, Private LLM Infrastructure, Ollama Developer, LlamaIndex Developer, Prompt Engineering, RAG Developer, Python AI Developer, Hire Python Developer, Senior Python Developer, Freelance Python Developer, Python Backend Developer, Django Developer, FastAPI Developer, REST API Developer, API Architect, AWS Developer, GCP Cloud Expert, Kubernetes Developer, Docker Expert, Microservices Architect, Remote Python Developer, Python Freelancer, Backend Engineer, Cloud Architect, CI/CD Engineer
 ---
 
 <header class="header">
@@ -16,7 +16,7 @@ keywords: Hire Python Developer, Senior Python Developer, Freelance Python Devel
         </div>
         <div class="profile-info">
             <h1>Henrique Lobato</h1>
-            <span class="title">Senior Backend Engineer &middot; Python &middot; Distributed Systems &middot; Kubernetes &middot; AWS / GCP</span>
+            <span class="title">Senior Python & AI/LLM Engineer &middot; LangChain &middot; HuggingFace &middot; Distributed Systems &middot; AWS / GCP</span>
             <div class="contact-row">
                 <div class="experience-years">10+ years of experience</div>
                 <span class="availability-badge">Available for Projects</span>
@@ -67,8 +67,8 @@ keywords: Hire Python Developer, Senior Python Developer, Freelance Python Devel
 
     <div class="hero-section">
         <h2>Summary</h2>
-        <p>Senior Backend Engineer with <strong>10+ years of ownership</strong> over production-grade distributed systems in Python (Django, FastAPI, Flask). Specializes in decomposing monoliths into resilient microservices, designing event-driven pipelines sustaining tens of millions of daily events, and delivering cloud-native infrastructure on AWS and GCP, with observability, fault-tolerance, and operational clarity as first-class concerns.</p>
-        <p>Delivered across <strong>fintech, AI/ML, cybersecurity, biotechnology, big data, and computer vision</strong>, leading full project lifecycles from RFC through zero-downtime deployment. Tech Lead for the past two years: raising the bar through code review, mentoring, and engineering standards that survive team changes.</p>
+        <p>Senior Python and AI/LLM Engineer with <strong>10+ years of ownership</strong> over production-grade distributed systems (Django, FastAPI, Flask). Built and shipped a <strong>LangChain + HuggingFace LLM chatbot</strong> to AWS production in 6 weeks at SecurityScorecard, enabling natural-language querying over security data for 12M+ companies. Led a PySpark + neural network credit decisioning engine at Serasa Experian, and designed real-time computer vision pipelines (TensorFlow/Keras + OpenCV) for public-safety systems at scale.</p>
+        <p>Specializes in decomposing monoliths into resilient microservices, designing event-driven pipelines sustaining tens of millions of daily events, and integrating LLMs and ML models into cloud-native infrastructure on AWS and GCP. Delivered across <strong>fintech, AI/ML, cybersecurity, biotechnology, big data, and computer vision</strong>, leading full project lifecycles from RFC through zero-downtime deployment.</p>
         <div class="core-expertise">
             <h3>Core Expertise</h3>
             <div class="expertise-tags">
@@ -206,12 +206,16 @@ keywords: Hire Python Developer, Senior Python Developer, Freelance Python Devel
                     <h3>AI / ML</h3>
                 </div>
                 <div class="skill-tags">
-                    <span class="skill-tag">Langchain</span>
+                    <span class="skill-tag">LangChain</span>
                     <span class="skill-tag">HuggingFace</span>
                     <span class="skill-tag">OpenAI APIs</span>
+                    <span class="skill-tag">Ollama</span>
+                    <span class="skill-tag">LlamaIndex</span>
+                    <span class="skill-tag">PyTorch</span>
                     <span class="skill-tag">TensorFlow / Keras</span>
-                    <span class="skill-tag">OpenCV</span>
                     <span class="skill-tag">scikit-learn</span>
+                    <span class="skill-tag">OpenCV</span>
+                    <span class="skill-tag">PySpark</span>
                 </div>
             </div>
             
@@ -400,7 +404,7 @@ keywords: Hire Python Developer, Senior Python Developer, Freelance Python Devel
                         <div class="job-description">Cybersecurity SaaS, continuous security ratings for 12M+ companies globally</div>
                         
                         <ul class="contributions-list">
-                            <li><span class="contribution-highlight">AI Chatbot:</span> Led backend development of an AI-powered chatbot (Langchain · FastAPI · HuggingFace LLMs) enabling natural-language queries over security scores, designed, built, and shipped to AWS production in 6 weeks.</li>
+                            <li><span class="contribution-highlight">LLM Chatbot (Production):</span> Led full backend of an LLM-powered chatbot — LangChain orchestration, HuggingFace open-source models, FastAPI serving layer — enabling natural-language queries over security score data for 12M+ companies. Designed, built, and shipped to AWS (Kubernetes) in 6 weeks from zero.</li>
                             <li><span class="contribution-highlight">Platform Ownership:</span> Sole backend owner across three Django systems (platform API, support portal, intranet), shipping features weekly while sustaining reliability for security-critical product.</li>
                             <li><span class="contribution-highlight">Test Coverage:</span> Restored abandoned test suites across all three repos from 0% to production-grade coverage, unblocking a major platform refactor.</li>
                             <li><span class="contribution-highlight">Developer Experience:</span> Containerized internal support toolset with Docker, cutting engineer onboarding time from hours to under 60 minutes.</li>
