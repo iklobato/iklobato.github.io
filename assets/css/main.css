@@ -842,7 +842,45 @@
         .service-link:hover i {
             transform: translateX(4px);
         }
-        
+
+        .project-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-md);
+        }
+
+        .project-badges img {
+            height: 20px;
+        }
+
+        .project-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-lg);
+            margin-top: auto;
+        }
+
+        .project-links a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-xs);
+            transition: color var(--transition-fast);
+        }
+
+        .project-links a:hover {
+            color: var(--secondary);
+            text-decoration: underline;
+        }
+
+        .project-links i {
+            font-size: 0.95rem;
+        }
+
         /* ============================================
            TIMELINE - EXPERIENCE
            ============================================ */
@@ -2336,6 +2374,120 @@ body[data-active-filter] .skill-category-card {
   animation: fadeIn 300ms ease;
 }
 
+/* ============================================
+   COMPANY LOGO CAROUSEL
+   ============================================ */
+.companies-carousel-section {
+    padding: var(--space-xl) 0;
+    background: var(--surface-alt);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+}
+
+.companies-label {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-lighter);
+    margin-bottom: var(--space-md);
+}
+
+.carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.carousel-track {
+    display: flex;
+    gap: var(--space-lg);
+    width: max-content;
+    padding: var(--space-xs) 0;
+    animation: carouselMarquee 32s linear infinite;
+}
+
+.carousel-wrapper:hover .carousel-track {
+    animation-play-state: paused;
+}
+
+.company-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-full);
+    white-space: nowrap;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow var(--transition-fast), transform var(--transition-fast);
+    user-select: none;
+}
+
+.company-badge:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.company-initial {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.company-initial.ci-ot  { background: #0068FF; }
+.company-initial.ci-ssc { background: #FF6900; }
+.company-initial.ci-se  { background: #642CA9; }
+.company-initial.ci-ikt { background: var(--primary); }
+.company-initial.ci-dx  { background: #00A86B; }
+.company-initial.ci-mw  { background: #E63946; }
+.company-initial.ci-st  { background: #457B9D; }
+.company-initial.ci-gpr { background: #E9A740; }
+
+.company-badge-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.company-logo-img {
+    height: 20px;
+    width: auto;
+    display: block;
+    opacity: 0.9;
+}
+
+.company-logo-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+    .company-logo-img--mono,
+    .company-logo-icon--mono {
+        filter: brightness(0) invert(1);
+        opacity: 0.8;
+    }
+}
+
+@keyframes carouselMarquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
 /* Allow reduced motion to skip transitions */
 @media (prefers-reduced-motion: reduce) {
   .experience-body,
@@ -2345,5 +2497,10 @@ body[data-active-filter] .skill-category-card {
   body[data-active-filter] .service-card,
   body[data-active-filter] .skill-category-card {
     transition: none !important;
+  }
+  .carousel-track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

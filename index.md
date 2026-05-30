@@ -96,6 +96,31 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
     </div>
 </header>
 
+<section class="companies-carousel-section">
+    <div class="companies-label">Companies I've worked with</div>
+    <div class="carousel-wrapper">
+        <div class="carousel-track">
+            <div class="company-badge"><img src="/assets/images/company-logos/onetrust.svg" alt="OneTrust" class="company-logo-img company-logo-img--mono"></div>
+            <div class="company-badge"><img src="/assets/images/company-logos/securityscorecard.svg" alt="" aria-hidden="true" class="company-logo-icon company-logo-icon--mono"><span class="company-badge-name">SecurityScorecard</span></div>
+            <div class="company-badge"><img src="/assets/images/company-logos/serasa-experian.svg" alt="Serasa Experian" class="company-logo-img"></div>
+            <div class="company-badge"><span class="company-initial ci-ikt">I</span><span class="company-badge-name">IkTech</span></div>
+            <div class="company-badge"><span class="company-initial ci-dx">D</span><span class="company-badge-name">Dextra</span></div>
+            <div class="company-badge"><span class="company-initial ci-mw">M</span><span class="company-badge-name">Multiway</span></div>
+            <div class="company-badge"><span class="company-initial ci-st">S</span><span class="company-badge-name">Sintecsys</span></div>
+            <div class="company-badge"><span class="company-initial ci-gpr">G</span><span class="company-badge-name">GPR Sistemas</span></div>
+            <!-- Duplicated for seamless infinite loop -->
+            <div class="company-badge"><img src="/assets/images/company-logos/onetrust.svg" alt="OneTrust" class="company-logo-img company-logo-img--mono"></div>
+            <div class="company-badge"><img src="/assets/images/company-logos/securityscorecard.svg" alt="" aria-hidden="true" class="company-logo-icon company-logo-icon--mono"><span class="company-badge-name">SecurityScorecard</span></div>
+            <div class="company-badge"><img src="/assets/images/company-logos/serasa-experian.svg" alt="Serasa Experian" class="company-logo-img"></div>
+            <div class="company-badge"><span class="company-initial ci-ikt">I</span><span class="company-badge-name">IkTech</span></div>
+            <div class="company-badge"><span class="company-initial ci-dx">D</span><span class="company-badge-name">Dextra</span></div>
+            <div class="company-badge"><span class="company-initial ci-mw">M</span><span class="company-badge-name">Multiway</span></div>
+            <div class="company-badge"><span class="company-initial ci-st">S</span><span class="company-badge-name">Sintecsys</span></div>
+            <div class="company-badge"><span class="company-initial ci-gpr">G</span><span class="company-badge-name">GPR Sistemas</span></div>
+        </div>
+    </div>
+</section>
+
 <main class="main-content">
     <section id="skills" class="animate-on-scroll">
         <h2>Technical Skills</h2>
@@ -238,7 +263,77 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             </div>
         </div>
     </section>
-    
+
+    <section id="open-source" class="animate-on-scroll">
+        <h2>Open Source Projects</h2>
+        <p class="services-intro">Tools I've designed, built, and published — open source, on PyPI and Docker Hub. Each one is production-grade engineering you can install and run today.</p>
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-shield-halved"></i></div>
+                <h4>avai</h4>
+                <p>A security guard for your computers. It continuously snapshots what's running on a Mac or Linux machine — processes, USB devices, network connections, browser extensions — checks each finding against 17 public threat-intelligence sources, and lets an AI judge flag what's actually dangerous, with a one-line fix for each. Runs entirely on your own machine.</p>
+                <div class="project-badges">
+                    <img src="https://img.shields.io/pypi/v/avai-monitor?color=10b981&label=pypi" alt="avai-monitor on PyPI" loading="lazy" height="20">
+                    <img src="https://img.shields.io/docker/pulls/iklob1/avai?color=10b981&label=docker%20pulls" alt="avai Docker pulls" loading="lazy" height="20">
+                </div>
+                <div class="service-tech-tags">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>HTMX</span>
+                    <span>LLM</span>
+                    <span>SQLite</span>
+                    <span>Docker</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/iklobato/avai" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://getavai.com" target="_blank" rel="noopener"><i class="fas fa-globe"></i> getavai.com</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-robot"></i></div>
+                <h4>briar</h4>
+                <p>An AI assistant for your engineering workflow. It reads the live state of your tools — GitHub, Jira, AWS, Linear, meeting notes — turns it into a clean, AI-readable knowledge base, keeps it fresh automatically, and then lets autonomous agents act on it: fixing pull-request comments or implementing a ticket end-to-end. Everything stays on your laptop — nothing is uploaded.</p>
+                <div class="project-badges">
+                    <img src="https://img.shields.io/pypi/v/briar-cli?color=10b981&label=pypi" alt="briar-cli on PyPI" loading="lazy" height="20">
+                </div>
+                <div class="service-tech-tags">
+                    <span>Python</span>
+                    <span>LLM Agents</span>
+                    <span>CLI</span>
+                    <span>PostgreSQL</span>
+                    <span>Multi-cloud</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/iklobato/briar" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://usebriar.com" target="_blank" rel="noopener"><i class="fas fa-globe"></i> usebriar.com</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                <h4>lightapi</h4>
+                <p>A toolkit that helps developers build web APIs far faster. Instead of writing the same setup three times, you describe your data once and LightAPI generates the database table, the validation rules, and the working REST API around it — with filtering, pagination, caching, and async support built in.</p>
+                <div class="project-badges">
+                    <img src="https://img.shields.io/pypi/v/lightapi?label=pypi&color=10b981" alt="lightapi on PyPI" loading="lazy" height="20">
+                    <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+" loading="lazy" height="20">
+                </div>
+                <div class="service-tech-tags">
+                    <span>Python</span>
+                    <span>SQLAlchemy 2.0</span>
+                    <span>Pydantic v2</span>
+                    <span>Starlette</span>
+                    <span>Uvicorn</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/iklobato/lightapi" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://pypi.org/project/lightapi/" target="_blank" rel="noopener"><i class="fab fa-python"></i> PyPI</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="tech-skills">
         <h2>Freelance Services</h2>
         
