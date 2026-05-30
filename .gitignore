@@ -33,3 +33,4 @@ Thumbs.db
 **/.cursor/
 **/.specify/
 **/specs/
+.playwright-mcp/
