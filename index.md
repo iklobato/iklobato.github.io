@@ -289,7 +289,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 </div>
                 <div class="project-links">
                     <a href="https://github.com/iklobato/avai" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://getavai.com" target="_blank" rel="noopener"><i class="fas fa-globe"></i> getavai.com</a>
+                    <a href="https://pypi.org/project/avai-monitor/" target="_blank" rel="noopener"><i class="fab fa-python"></i> PyPI</a>
                 </div>
             </div>
 
@@ -309,7 +309,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 </div>
                 <div class="project-links">
                     <a href="https://github.com/iklobato/briar" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://usebriar.com" target="_blank" rel="noopener"><i class="fas fa-globe"></i> usebriar.com</a>
+                    <a href="https://pypi.org/project/briar-cli/" target="_blank" rel="noopener"><i class="fab fa-python"></i> PyPI</a>
                 </div>
             </div>
 
