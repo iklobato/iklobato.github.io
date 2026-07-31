@@ -100,6 +100,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
     <div class="companies-label">Companies I've worked with</div>
     <div class="carousel-wrapper">
         <div class="carousel-track">
+            <div class="company-badge"><img src="/assets/images/company-logos/pinterest.svg" alt="" aria-hidden="true" class="company-logo-icon company-logo-icon--mono"><span class="company-badge-name">Pinterest</span></div>
             <div class="company-badge"><img src="/assets/images/company-logos/onetrust.svg" alt="OneTrust" class="company-logo-img company-logo-img--mono"></div>
             <div class="company-badge"><img src="/assets/images/company-logos/securityscorecard.svg" alt="" aria-hidden="true" class="company-logo-icon company-logo-icon--mono"><span class="company-badge-name">SecurityScorecard</span></div>
             <div class="company-badge"><img src="/assets/images/company-logos/serasa-experian.svg" alt="Serasa Experian" class="company-logo-img"></div>
@@ -109,6 +110,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             <div class="company-badge"><span class="company-initial ci-st">S</span><span class="company-badge-name">Sintecsys</span></div>
             <div class="company-badge"><span class="company-initial ci-gpr">G</span><span class="company-badge-name">GPR Sistemas</span></div>
             <!-- Duplicated for seamless infinite loop -->
+            <div class="company-badge"><img src="/assets/images/company-logos/pinterest.svg" alt="" aria-hidden="true" class="company-logo-icon company-logo-icon--mono"><span class="company-badge-name">Pinterest</span></div>
             <div class="company-badge"><img src="/assets/images/company-logos/onetrust.svg" alt="OneTrust" class="company-logo-img company-logo-img--mono"></div>
             <div class="company-badge"><img src="/assets/images/company-logos/securityscorecard.svg" alt="" aria-hidden="true" class="company-logo-icon company-logo-icon--mono"><span class="company-badge-name">SecurityScorecard</span></div>
             <div class="company-badge"><img src="/assets/images/company-logos/serasa-experian.svg" alt="Serasa Experian" class="company-logo-img"></div>
@@ -452,13 +454,51 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
         <div class="timeline-container">
             <div class="timeline-item">
                 <div class="timeline-marker">
+                    <div class="timeline-date">2026</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <span class="company-name">Pinterest</span> — <span class="job-title">Sr. Data Engineer, Infrastructure</span>
+                            <span class="job-duration">Jun 2026 – Present | Remote, Brazil</span>
+                        </div>
+                        <div class="job-description">Infrastructure Data Science &amp; Engineering — pipelines that give visibility into infrastructure cost and usage across a platform serving 500M+ monthly users</div>
+
+                        <ul class="contributions-list">
+                            <li><span class="contribution-highlight">Cost &amp; Usage Pipelines:</span> Own the production ETL pipelines that measure Pinterest's infrastructure cost and usage, giving engineering teams the data they need to see and reduce their own spend.</li>
+                            <li><span class="contribution-highlight">Large-Scale ETL:</span> Build and maintain batch and streaming data pipelines on Spark and Airflow, covering ingestion, data modeling, and the semantic layer that analytics and reporting run on.</li>
+                            <li><span class="contribution-highlight">Data Quality &amp; Governance:</span> Define schemas, freshness and correctness checks, and lineage for infrastructure datasets so cost and efficiency numbers are trusted across the company.</li>
+                            <li><span class="contribution-highlight">Self-Serve Tooling:</span> Ship tooling and dashboards that let infrastructure teams answer their own cost and capacity questions without a data engineer in the loop.</li>
+                            <li><span class="contribution-highlight">Cross-Functional Work:</span> Partner with infrastructure engineering, data science, and finance to turn open-ended efficiency questions into concrete datasets and metrics.</li>
+                        </ul>
+
+                        <div class="technologies">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Spark</span>
+                            <span>Scala</span>
+                            <span>Airflow</span>
+                            <span>Kafka</span>
+                            <span>Flink</span>
+                            <span>Trino</span>
+                            <span>Apache Iceberg</span>
+                            <span>Hadoop</span>
+                            <span>AWS</span>
+                            <span>Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker">
                     <div class="timeline-date">2023</div>
                 </div>
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
                             <span class="company-name">OneTrust</span> — <span class="job-title">Senior Backend Engineer</span>
-                            <span class="job-duration">Sep 2023 – Present | Remote, USA</span>
+                            <span class="job-duration">Sep 2023 – Jun 2026 | Remote, USA</span>
                         </div>
                         <div class="job-description">Global privacy & compliance SaaS, 14,000+ enterprise customers across 180 countries</div>
                         
