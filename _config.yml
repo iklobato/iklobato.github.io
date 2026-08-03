@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://iklobato.com"
 # Every "book a call" link on the site points here. Swap this one line to move
 # to another scheduling service.
-booking_url: &booking_url https://calendly.com/hlobato/lets-talk
+booking_url: &booking_url https://cal.iklobato.com/iklobato/lets-talk
 social:
   name: Henrique Lobato
   github: iklobato
