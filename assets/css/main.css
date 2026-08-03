@@ -2103,7 +2103,7 @@
             a { text-decoration: none; color: black !important; }
             
             .header::after {
-                content: "Email: iklobato@proton.me";
+                content: "Email: me@iklobato.com";
                 display: block;
                 text-align: center;
                 margin-top: 0.5rem;
