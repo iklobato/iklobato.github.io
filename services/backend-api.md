@@ -44,7 +44,7 @@ breadcrumbs:
                 <h2>Build High-Performance APIs That Scale</h2>
                 <p>I design and develop custom REST and GraphQL APIs using Django and FastAPI that handle millions of requests with exceptional reliability. Whether you need to modernize legacy systems, build new microservices, or scale existing APIs, I deliver solutions that combine performance, security, and maintainability.</p>
                 <div class="hero-cta">
-                    <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
+                    <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Free Consultation</a>
                     <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
                 </div>
             </div>
@@ -552,7 +552,7 @@ breadcrumbs:
             <p>Let's discuss how I can help you build high-performance APIs that scale with your business.</p>
             
             <div class="contact-cta">
-                <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
+                <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Free Consultation</a>
                 <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
             </div>
         </div>

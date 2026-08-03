@@ -212,7 +212,7 @@
     hireSection.querySelector('.hire-me-content').insertBefore(form, ctaButtons);
     ctaButtons.hidden = true;
 
-    const calendlyBase = 'https://calendly.com/hlobato/lets-talk';
+    const bookingBase = document.body.dataset.bookingUrl;
     const email = 'me@iklobato.com';
 
     const buildParams = () => {
@@ -222,14 +222,14 @@
       return entries;
     };
 
-    const toCalendlyUrl = (data) => {
+    const toBookingUrl = (data) => {
       const params = new URLSearchParams({
         utm_source: 'iklobato.com',
         utm_medium: 'qualifier',
         utm_campaign: data.project_type || 'unspecified',
         utm_content: `${data.timeline || 'na'}_${data.budget || 'na'}`,
       });
-      return `${calendlyBase}?${params.toString()}`;
+      return `${bookingBase}?${params.toString()}`;
     };
 
     const toMailto = (data) => {
@@ -271,7 +271,14 @@
 
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      window.open(toCalendlyUrl(buildParams()), '_blank', 'noopener');
+      const data = buildParams();
+      // Without a booking URL the lead would land on a broken page, so fall
+      // back to email rather than losing the contact.
+      if (!bookingBase) {
+        window.location.href = toMailto(data);
+        return;
+      }
+      window.open(toBookingUrl(data), '_blank', 'noopener');
     });
 
     form.querySelector('.qualifier-email').addEventListener('click', () => {

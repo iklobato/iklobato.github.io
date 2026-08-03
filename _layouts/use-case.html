@@ -327,7 +327,7 @@
     {% assign asset_version = site.github.build_revision | default: site.time | date: '%s' %}
     <script defer src="{{ '/assets/js/interactions.js' | relative_url }}?v={{ asset_version }}"></script>
 </head>
-<body>
+<body data-booking-url="{{ site.booking_url }}">
     <div class="container">
         <header class="header">
             <a href="{{ page.back_link }}" class="back-link"><i class="fas fa-arrow-left"></i> Back to {{ page.back_text }}</a>
@@ -342,7 +342,7 @@
                 <h2>Need similar solutions for your business?</h2>
                 <p>I help companies build high-performance, scalable systems that solve real business problems. Let's discuss how I can bring my expertise to your project.</p>
                 <div class="cta-buttons">
-                    <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Consultation</a>
+                    <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Consultation</a>
                     <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me</a>
                 </div>
             </div>

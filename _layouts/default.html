@@ -103,7 +103,7 @@
 
     {% seo %}
 </head>
-<body>
+<body data-booking-url="{{ site.booking_url }}">
     <!-- Page Loader -->
     <div class="page-loader">
         <div class="page-loader-spinner"></div>
@@ -134,7 +134,7 @@
             <a href="mailto:me@iklobato.com" class="floating-cta-btn" aria-label="Email">
                 <i class="fas fa-envelope"></i>
             </a>
-            <a href="https://calendly.com/hlobato/lets-talk" class="floating-cta-btn" aria-label="Schedule Call">
+            <a href="{{ site.booking_url }}" class="floating-cta-btn" aria-label="Schedule Call">
                 <i class="fas fa-calendar-check"></i>
             </a>
         </div>
