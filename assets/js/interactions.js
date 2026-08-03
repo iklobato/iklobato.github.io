@@ -213,7 +213,7 @@
     ctaButtons.hidden = true;
 
     const calendlyBase = 'https://calendly.com/hlobato/lets-talk';
-    const email = 'iklobato@proton.me';
+    const email = 'me@iklobato.com';
 
     const buildParams = () => {
       const data = new FormData(form);

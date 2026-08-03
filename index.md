@@ -22,9 +22,9 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <span class="availability-badge">Available for Projects</span>
             </div>
             <div class="contact-info">
-                <a href="mailto:iklobato@proton.me" class="contact-item" aria-label="Email iklobato@proton.me">
+                <a href="mailto:me@iklobato.com" class="contact-item" aria-label="Email me@iklobato.com">
                     <i class="fas fa-envelope" aria-hidden="true"></i>
-                    iklobato@proton.me
+                    me@iklobato.com
                 </a>
                 <span class="contact-item location">
                     <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
@@ -904,7 +904,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 
                 <div class="cta-buttons">
                     <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
-                    <a href="mailto:iklobato@proton.me" class="secondary-cta">Email Me About Your Project</a>
+                    <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
                 </div>
             </div>
         </div>
