@@ -38,7 +38,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <a href="https://github.com/iklobato" class="social-link" title="GitHub" aria-label="GitHub Profile">
                     <i class="fab fa-github" aria-hidden="true"></i>
                 </a>
-                <a href="https://calendly.com/hlobato/lets-talk" class="social-link" title="Schedule a call" aria-label="Schedule Consultation">
+                <a href="{{ site.booking_url }}" class="social-link" title="Schedule a call" aria-label="Schedule Consultation">
                     <i class="fas fa-calendar-check" aria-hidden="true"></i>
                 </a>
             </div>
@@ -91,7 +91,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <i class="fas fa-download"></i> Download PDF
             </button>
             <a href="/blog/" class="cv-link"><i class="fas fa-rss"></i> Technical Blog</a>
-            <a href="https://calendly.com/hlobato/lets-talk" class="cv-link"><i class="fas fa-calendar-check"></i> Schedule a Consultation</a>
+            <a href="{{ site.booking_url }}" class="cv-link"><i class="fas fa-calendar-check"></i> Schedule a Consultation</a>
         </div>
     </div>
 </header>
@@ -903,7 +903,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 </div>
                 
                 <div class="cta-buttons">
-                    <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
+                    <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Free Consultation</a>
                     <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
                 </div>
             </div>

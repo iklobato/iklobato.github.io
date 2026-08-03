@@ -44,7 +44,7 @@ breadcrumbs:
                 <h2>Build Scalable, Reliable Data Pipelines</h2>
                 <p>I design and implement robust ETL/ELT pipelines orchestrated with Apache Airflow, data warehousing on Snowflake, and big data processing with PySpark and Hadoop. Whether you need to migrate data, process millions of records daily, or build real-time analytics pipelines, I deliver solutions that ensure data accuracy and reliability.</p>
                 <div class="hero-cta">
-                    <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
+                    <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Free Consultation</a>
                     <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
                 </div>
             </div>
@@ -539,7 +539,7 @@ breadcrumbs:
             <p>Let's discuss how I can help you build data pipelines that ensure data accuracy and reliability at scale.</p>
             
             <div class="contact-cta">
-                <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
+                <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Free Consultation</a>
                 <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
             </div>
         </div>

@@ -44,7 +44,7 @@ breadcrumbs:
                 <h2>Optimize Your Cloud Infrastructure and Automate Deployments</h2>
                 <p>I help businesses reduce cloud costs by 30-40% while improving reliability and scalability. From cloud migrations to CI/CD automation and Kubernetes orchestration, I deliver infrastructure solutions that are cost-effective, secure, and maintainable.</p>
                 <div class="hero-cta">
-                    <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
+                    <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Free Consultation</a>
                     <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
                 </div>
             </div>
@@ -547,7 +547,7 @@ breadcrumbs:
             <p>Let's discuss how I can help reduce your cloud costs while improving reliability and scalability.</p>
             
             <div class="contact-cta">
-                <a href="https://calendly.com/hlobato/lets-talk" class="primary-cta">Schedule a Free Consultation</a>
+                <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Free Consultation</a>
                 <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
             </div>
         </div>

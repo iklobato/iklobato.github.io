@@ -9,7 +9,7 @@ permalink: /full-cv/
 **Tech Lead | Senior Python Developer | Cloud Architect**  
 📧 Email: [me@iklobato.com](mailto:me@iklobato.com)  
 📨 Telegram: [@iklobato](https://t.me/iklobato)  
-🔗 [LinkedIn](https://www.linkedin.com/in/iklobato/) | [GitHub](https://github.com/iklobato) | [📅 Schedule a call](https://calendly.com/hlobato/30mincall)
+🔗 [LinkedIn](https://www.linkedin.com/in/iklobato/) | [GitHub](https://github.com/iklobato) | [📅 Schedule a call]({{ site.booking_url }})
 
 ---
 
