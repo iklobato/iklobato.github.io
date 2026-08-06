@@ -459,7 +459,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">Pinterest</span> — <span class="job-title">Sr. Data Engineer, Infrastructure</span>
+                            <img src="/assets/images/company-logos/pinterest.svg" alt="" aria-hidden="true" class="company-logo-img company-logo-img--mono"><span class="company-name">Pinterest</span> — <span class="job-title">Sr. Data Engineer, Infrastructure</span>
                             <span class="job-duration">Jun 2026 – Present | Remote, Brazil</span>
                         </div>
                         <div class="job-description">Infrastructure Data Science &amp; Engineering — pipelines that give visibility into infrastructure cost and usage across a platform serving 500M+ monthly users</div>
@@ -497,7 +497,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">OneTrust</span> — <span class="job-title">Senior Backend Engineer</span>
+                            <img src="/assets/images/company-logos/onetrust-mark.svg" alt="" aria-hidden="true" class="company-logo-img company-logo-img--mono"><span class="company-name">OneTrust</span> — <span class="job-title">Senior Backend Engineer</span>
                             <span class="job-duration">Sep 2023 – Jun 2026 | Remote, USA</span>
                         </div>
                         <div class="job-description">Global privacy & compliance SaaS, 14,000+ enterprise customers across 180 countries</div>
@@ -537,7 +537,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">SecurityScorecard</span> — <span class="job-title">Senior Backend Engineer</span>
+                            <img src="/assets/images/company-logos/securityscorecard.svg" alt="" aria-hidden="true" class="company-logo-img company-logo-img--mono"><span class="company-name">SecurityScorecard</span> — <span class="job-title">Senior Backend Engineer</span>
                             <span class="job-duration">Apr 2022 – Sep 2023 | Remote, USA</span>
                         </div>
                         <div class="job-description">Cybersecurity SaaS, continuous security ratings for 12M+ companies globally</div>
@@ -580,7 +580,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">IkTech</span> — <span class="job-title">Senior Backend Engineer / Cloud Architect</span>
+                            <span class="company-initial ci-ikt" aria-hidden="true">I</span><span class="company-name">IkTech</span> — <span class="job-title">Senior Backend Engineer / Cloud Architect</span>
                             <span class="job-duration">Jun 2020 – Apr 2022 | Remote, USA</span>
                         </div>
                         <div class="job-description">Consulting: PayPal/Venmo, Hercules, ProbiusDx, Swimlane, TIVIT</div>
@@ -637,7 +637,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">Dextra</span> — <span class="job-title">Senior Backend Engineer, Tech Lead</span>
+                            <span class="company-initial ci-dx" aria-hidden="true">D</span><span class="company-name">Dextra</span> — <span class="job-title">Senior Backend Engineer, Tech Lead</span>
                             <span class="job-duration">Nov 2019 – Jul 2020 | Brazil</span>
                         </div>
                         <div class="job-description">Custom software: Serasa Experian, Globo.com, Caixa Bank</div>
@@ -686,7 +686,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <div class="timeline-content">
                     <div class="experience-card">
                         <div class="experience-header">
-                            <span class="company-name">Multiway / Sintecsys / GPR Sistemas</span> — <span class="job-title">Backend Engineer / Software Developer</span>
+                            <span class="experience-logo-group" aria-hidden="true"><span class="company-initial ci-mw">M</span><span class="company-initial ci-st">S</span><span class="company-initial ci-gpr">G</span></span><span class="company-name">Multiway / Sintecsys / GPR Sistemas</span> — <span class="job-title">Backend Engineer / Software Developer</span>
                             <span class="job-duration">Jan 2016 – Oct 2019 | Brazil</span>
                         </div>
                         <div class="job-description">Progressive roles in public safety, computer vision, and network security</div>

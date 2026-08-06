@@ -1013,7 +1013,23 @@
             font-size: 0.9rem;
             margin-left: auto;
         }
-        
+
+        /* The header aligns on the baseline, so logos need explicit centering. */
+        .experience-header .company-logo-img,
+        .experience-header .company-initial,
+        .experience-logo-group {
+            align-self: center;
+        }
+
+        .experience-header .company-logo-img {
+            height: 26px;
+        }
+
+        .experience-logo-group {
+            display: inline-flex;
+            gap: 0.25rem;
+        }
+
         @media (max-width: 767px) {
             .timeline-container {
                 padding-left: 0;
@@ -1039,6 +1055,10 @@
             
             .company-name {
                 font-size: 1.2rem;
+            }
+
+            .experience-header .company-logo-img {
+                height: 22px;
             }
             
             .job-title {
