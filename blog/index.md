@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Python Development Blog | Backend, Cloud & AI Engineering Insights
+title: "Articles on Python, APIs and AI"
 description: Practical tutorials and insights on Python development, API architecture, cloud optimization, and AI integration from Senior Python Developer Henrique Lobato.
-keywords: Python blog, Backend development, Cloud optimization, API architecture, AI integration, FastAPI tutorial, Django REST, AWS cost reduction, Python microservices
 breadcrumbs:
   - name: Blog
     url: /blog/
@@ -53,7 +52,7 @@ breadcrumbs:
                     <span class="tag">Deployment</span>
                     <span class="tag">Production</span>
                 </div>
-                <a href="https://medium.com/@iklobato1/mastering-gunicorn-and-uvicorn-the-right-way-to-deploy-fastapi-applications-aaa06849841e" class="post-link" target="_blank" rel="canonical noopener">Read the full article on Medium <i class="fas fa-external-link-alt"></i></a>
+                <a href="https://medium.com/@iklobato1/mastering-gunicorn-and-uvicorn-the-right-way-to-deploy-fastapi-applications-aaa06849841e" class="post-link" target="_blank" rel="noopener">Read the full article on Medium <i class="fas fa-external-link-alt"></i></a>
             </div>
         </div>
         
@@ -75,7 +74,7 @@ breadcrumbs:
                     <span class="tag">Ollama</span>
                     <span class="tag">Self-hosted LLM</span>
                 </div>
-                <a href="https://medium.com/@iklobato1/how-to-run-ollama-securely-on-a-remote-gpu-with-vast-ai-a-private-token-free-ai-setup-e68287e23951" class="post-link" target="_blank" rel="canonical noopener">Read the full article on Medium <i class="fas fa-external-link-alt"></i></a>
+                <a href="https://medium.com/@iklobato1/how-to-run-ollama-securely-on-a-remote-gpu-with-vast-ai-a-private-token-free-ai-setup-e68287e23951" class="post-link" target="_blank" rel="noopener">Read the full article on Medium <i class="fas fa-external-link-alt"></i></a>
             </div>
         </div>
     </section>
@@ -233,7 +232,6 @@ breadcrumbs:
     }
 </style>
 
-<link rel="canonical" href="https://iklobato.github.io/blog/" />
 
 <script type="application/ld+json">
 {
@@ -241,16 +239,16 @@ breadcrumbs:
   "@type": "Blog",
   "headline": "Python Development & Engineering Blog",
   "description": "Practical tutorials and insights on Python development, API architecture, cloud optimization, and AI integration from Senior Python Developer Henrique Lobato.",
-  "url": "https://iklobato.github.io/blog/",
+  "url": "https://iklobato.com/blog/",
   "author": {
     "@type": "Person",
     "name": "Henrique Lobato",
-    "url": "https://iklobato.github.io"
+    "url": "https://iklobato.com"
   },
   "publisher": {
     "@type": "Person",
     "name": "Henrique Lobato",
-    "url": "https://iklobato.github.io",
+    "url": "https://iklobato.com",
     "logo": {
       "@type": "ImageObject",
       "url": "https://avatars.githubusercontent.com/u/18133417?v=4"

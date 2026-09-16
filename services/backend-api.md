@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Backend API Development Services | Scalable REST & GraphQL APIs | Python Developer
-description: Need scalable backend APIs? I build high-performance REST and GraphQL APIs with Django and FastAPI that handle millions of requests with 99.9%+ uptime. Proven track record with Fortune 500 clients.
-keywords: Backend API development, Django REST API, FastAPI developer, GraphQL API, Python backend developer, Microservices architecture, API scaling, REST API design
+title: Backend API Development With Python
+description: "I build and fix Python backends and APIs with Django and FastAPI: slow endpoints, fragile deploys, missing tests and monoliths that need to be split safely."
+keywords: Backend API development, Django REST API, FastAPI developer, Python backend developer, microservices architecture, API performance, API consultant, legacy API modernization
 permalink: /services/backend-api/
 breadcrumbs:
   - name: Services
@@ -14,11 +14,11 @@ breadcrumbs:
 <header class="header">
     <div class="profile-section">
         <div class="profile-info">
-            <h1>Scalable Backend API Development</h1>
-            <span class="title">Build APIs That Scale to Millions of Users with 99.9%+ Uptime</span>
+            <h1>Backend API Development</h1>
+            <span class="title">Python backends that stay fast, tested and easy to change</span>
         </div>
     </div>
-    
+
     <nav aria-label="Breadcrumb" class="breadcrumb">
         <ol itemscope itemtype="https://schema.org/BreadcrumbList">
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -26,7 +26,7 @@ breadcrumbs:
                 <meta itemprop="position" content="1" />
             </li>
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a href="/#services" itemprop="item"><span itemprop="name">Services</span></a>
+                <a href="/services/" itemprop="item"><span itemprop="name">Services</span></a>
                 <meta itemprop="position" content="2" />
             </li>
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -41,8 +41,8 @@ breadcrumbs:
     <section id="service-hero">
         <div class="service-hero">
             <div class="service-hero-content">
-                <h2>Build High-Performance APIs That Scale</h2>
-                <p>I design and develop custom REST and GraphQL APIs using Django and FastAPI that handle millions of requests with exceptional reliability. Whether you need to modernize legacy systems, build new microservices, or scale existing APIs, I deliver solutions that combine performance, security, and maintainability.</p>
+                <h2>APIs Your Team Can Ship On Every Week</h2>
+                <p>A backend usually does not fail all at once. Endpoints get slower, deploys get scarier, tests get skipped, and one day nobody wants to touch the code. I build new APIs and fix existing ones in Python, with Django and FastAPI, so they handle real load, have tests you trust and can be released without a war room. I have done this as the sole backend owner of three Django systems and on platforms serving millions of records.</p>
                 <div class="hero-cta">
                     <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Free Consultation</a>
                     <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
@@ -50,280 +50,247 @@ breadcrumbs:
             </div>
         </div>
     </section>
-    
+
     <section id="problems-solved">
         <h2>What Problems I Solve</h2>
-        
+
         <div class="services-grid">
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-tools"></i></div>
-                <h3>Legacy API Modernization</h3>
-                <p>Transform outdated monolithic APIs into modern, scalable microservices architectures that are easier to maintain and extend.</p>
-            </div>
-            
-            <div class="service-card">
                 <div class="service-icon"><i class="fas fa-tachometer-alt"></i></div>
-                <h3>Performance & Scaling Issues</h3>
-                <p>Identify and resolve bottlenecks that prevent your APIs from handling increased load. Achieve 45-85% improvement in response times.</p>
+                <h3>Slow Endpoints</h3>
+                <p>Find what is actually slow, usually queries, N+1 access or missing caching, and fix it with measurements before and after.</p>
             </div>
-            
+
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
-                <h3>Security & Compliance</h3>
-                <p>Implement robust security measures including authentication, authorization, rate limiting, and SOC2 compliance requirements.</p>
+                <div class="service-icon"><i class="fas fa-plus-square"></i></div>
+                <h3>New APIs and Services</h3>
+                <p>REST APIs designed from the contract out: OpenAPI spec, validation at the edge, versioning and clear errors that client teams can build against.</p>
             </div>
-            
+
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-puzzle-piece"></i></div>
-                <h3>Complex Business Logic</h3>
-                <p>Build APIs that handle complex business rules, data transformations, and integrations with multiple third-party services.</p>
+                <div class="service-icon"><i class="fas fa-vial"></i></div>
+                <h3>No Tests, Scary Changes</h3>
+                <p>Bring an untested codebase back under test so refactors and releases stop being a gamble. I have taken suites from near zero to 80%+ coverage.</p>
             </div>
-            
+
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-code-branch"></i></div>
-                <h3>API Versioning & Compatibility</h3>
-                <p>Design versioning strategies that allow smooth transitions and backward compatibility while introducing new features.</p>
+                <div class="service-icon"><i class="fas fa-cubes"></i></div>
+                <h3>Monolith Decomposition</h3>
+                <p>Split out the parts of a monolith that need to scale or change on their own, one service at a time, with no big-bang rewrite.</p>
             </div>
-            
+
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-plug"></i></div>
-                <h3>Third-Party Integrations</h3>
-                <p>Seamlessly integrate with payment processors, authentication providers, messaging services, and other external APIs.</p>
+                <div class="service-icon"><i class="fas fa-database"></i></div>
+                <h3>Data Integrity Under Load</h3>
+                <p>Idempotent writes, transactions and validation so concurrent traffic and retries do not create duplicates or half-written records.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                <h3>Load You Have Not Tested</h3>
+                <p>Load tests that simulate real concurrency before a launch, so you find the breaking point on a staging environment instead of in production.</p>
             </div>
         </div>
     </section>
-    
+
     <section id="value-delivered">
         <h2>Value I Deliver</h2>
-        
+
         <div class="value-props">
             <div class="value-prop">
-                <i class="fas fa-rocket"></i>
-                <h4>45-85% Performance Improvement</h4>
-                <p>Optimize API response times and throughput through efficient code, caching strategies, and database optimization.</p>
+                <i class="fas fa-shipping-fast"></i>
+                <h4>Faster Releases</h4>
+                <p>CI/CD that makes a release routine. At OneTrust the pipelines I designed cut release cycle time by 60%, with multi-environment deploys in under 30 minutes.</p>
             </div>
             <div class="value-prop">
-                <i class="fas fa-check-circle"></i>
-                <h4>99.9%+ Uptime Reliability</h4>
-                <p>Build resilient APIs with proper error handling, monitoring, and failover mechanisms that ensure high availability.</p>
+                <i class="fas fa-check-double"></i>
+                <h4>Tests You Trust</h4>
+                <p>Coverage on the code that matters, fast enough to run on every pull request, so a green build means something.</p>
             </div>
             <div class="value-prop">
                 <i class="fas fa-shield-alt"></i>
-                <h4>SOC2 Compliance Ready</h4>
-                <p>Implement security best practices and compliance measures that meet enterprise security standards.</p>
+                <h4>Correct Data</h4>
+                <p>Schema validation, idempotent writes and transactional rollback, so a failure leaves the data clean and a retry is safe.</p>
             </div>
             <div class="value-prop">
-                <i class="fas fa-chart-line"></i>
-                <h4>Cost-Effective Scaling</h4>
-                <p>Design architectures that scale efficiently without exponential cost increases as traffic grows.</p>
+                <i class="fas fa-file-code"></i>
+                <h4>Documented Contracts</h4>
+                <p>OpenAPI specs and examples that frontend and partner teams can use without asking the backend team every time.</p>
             </div>
             <div class="value-prop">
-                <i class="fas fa-broom"></i>
-                <h4>Reduced Technical Debt</h4>
-                <p>Write clean, maintainable code with comprehensive tests and documentation that reduces future maintenance costs.</p>
+                <i class="fas fa-eye"></i>
+                <h4>Visible Behavior</h4>
+                <p>Metrics, traces and alerts on every service, so problems show up on a dashboard before they show up in support tickets.</p>
             </div>
             <div class="value-prop">
-                <i class="fas fa-clock"></i>
-                <h4>Faster Time-to-Market</h4>
-                <p>Deliver production-ready APIs quickly through proven patterns, reusable components, and efficient development processes.</p>
+                <i class="fas fa-user-plus"></i>
+                <h4>Easier Onboarding</h4>
+                <p>Tooling that runs in a container on the first day. At SecurityScorecard, containerizing the support tools cut engineer onboarding from hours to under 60 minutes.</p>
             </div>
         </div>
     </section>
-    
+
     <section id="case-studies">
         <h2>Real-World Implementations</h2>
-        
+
         <div class="case-study">
             <div class="case-study-header">
-                <h3>Enterprise Data Migration Platform</h3>
-                <p class="case-study-meta">OneTrust | Django REST APIs with Complex Schema Transformations</p>
+                <h3>Compliance Data APIs on Kubernetes</h3>
+                <p class="case-study-meta">OneTrust | Django REST Framework, millions of compliance records, zero data loss</p>
             </div>
-            
+
             <div class="case-study-content">
                 <div class="case-challenge">
                     <h4>Challenge</h4>
-                    <p>Following OneTrust's acquisition of Convercent, we needed to migrate terabytes of sensitive compliance data across different database schemas. The challenge involved handling 100+ custom fields, maintaining 99.9% data accuracy, and ensuring zero privacy violations during the migration process.</p>
+                    <p>OneTrust serves 14,000+ enterprise customers. After the Convercent acquisition, compliance records had to be ingested concurrently and at scale, where a duplicate or a half-written record is a compliance problem for the customer.</p>
                 </div>
-                
+
                 <div class="case-solution">
                     <h4>Solution</h4>
-                    <p>I designed and implemented a robust Django REST API architecture with PostgreSQL that handled complex schema transformations across 50+ data types. The solution included:</p>
-                    
                     <ul class="solution-details">
-                        <li>Flexible mapping engine that could transform data structures dynamically</li>
-                        <li>Django REST Framework APIs with custom serializers for each data type</li>
-                        <li>PostgreSQL database design optimized for complex queries and relationships</li>
-                        <li>Comprehensive data validation at multiple layers</li>
-                        <li>Parallel batch processing architecture for performance</li>
-                        <li>Kubernetes-based deployment for scalability and reliability</li>
+                        <li>Django REST endpoints deployed on Kubernetes for concurrent ingestion</li>
+                        <li>Idempotent writes, schema validation and transactional rollback across millions of records</li>
+                        <li>Phased validation across DEV, QA1, QA2 and PROD before each release</li>
+                        <li>Jira-triggered CI/CD pipelines with full auditability</li>
+                        <li>Audited three legacy services and brought their test coverage from near zero to 80%+</li>
                     </ul>
                 </div>
-                
+
                 <div class="case-results">
                     <h4>Results</h4>
                     <div class="results-metrics">
-                        <div class="metric">
-                            <div class="metric-value">99.9%</div>
-                            <div class="metric-label">Data Accuracy</div>
-                        </div>
-                        <div class="metric">
-                            <div class="metric-value">45%</div>
-                            <div class="metric-label">Faster Processing</div>
-                        </div>
-                        <div class="metric">
-                            <div class="metric-value">20+</div>
-                            <div class="metric-label">Clients Migrated</div>
-                        </div>
                         <div class="metric">
                             <div class="metric-value">0</div>
                             <div class="metric-label">Data Loss Incidents</div>
                         </div>
+                        <div class="metric">
+                            <div class="metric-value">60%</div>
+                            <div class="metric-label">Shorter Release Cycle</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">&lt;30 min</div>
+                            <div class="metric-label">Multi-Environment Deploys</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">80%+</div>
+                            <div class="metric-label">Test Coverage</div>
+                        </div>
                     </div>
-                    <p>Successfully migrated 20+ enterprise clients with zero data loss incidents, accelerating time-to-value for the acquired customer base. The parallel batch processing reduced data processing time by 45% while maintaining strict data integrity requirements.</p>
+                    <p>The migration finished with zero data loss and zero production incidents, and the engineering standards I wrote were adopted team-wide. <a href="/work/onetrust-compliance-migration/">Read the full case study <i class="fas fa-arrow-right"></i></a></p>
                 </div>
-                
+
                 <div class="case-technologies">
                     <h4>Technologies Used</h4>
                     <div class="tech-list">
-                        <span class="tech-item">Django</span>
+                        <span class="tech-item">Python</span>
                         <span class="tech-item">Django REST Framework</span>
                         <span class="tech-item">PostgreSQL</span>
-                        <span class="tech-item">Python</span>
-                        <span class="tech-item">Kubernetes</span>
-                        <span class="tech-item">AWS</span>
-                        <span class="tech-item">Docker</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="case-study">
-            <div class="case-study-header">
-                <h3>High-Volume Microservices API Platform</h3>
-                <p class="case-study-meta">SecurityScorecard | FastAPI Microservices Handling 1M+ Requests/Hour</p>
-            </div>
-            
-            <div class="case-study-content">
-                <div class="case-challenge">
-                    <h4>Challenge</h4>
-                    <p>SecurityScorecard needed to scale their cybersecurity rating platform to handle 1M+ hourly API requests while maintaining 99.95% uptime. The system needed to support comprehensive API versioning, handle complex security data queries, and integrate with multiple data sources without performance degradation.</p>
-                </div>
-                
-                <div class="case-solution">
-                    <h4>Solution</h4>
-                    <p>I architected and implemented a microservices-based API platform using FastAPI that could scale horizontally. Key components included:</p>
-                    
-                    <ul class="solution-details">
-                        <li>FastAPI microservices with async/await for high concurrency</li>
-                        <li>Comprehensive API versioning strategy with backward compatibility</li>
-                        <li>Intelligent caching layer using Redis for frequently accessed data</li>
-                        <li>Load balancing and auto-scaling configuration</li>
-                        <li>Comprehensive monitoring and alerting for proactive issue detection</li>
-                        <li>Extensive test suites covering unit, integration, and performance tests</li>
-                    </ul>
-                </div>
-                
-                <div class="case-results">
-                    <h4>Results</h4>
-                    <div class="results-metrics">
-                        <div class="metric">
-                            <div class="metric-value">99.95%</div>
-                            <div class="metric-label">Uptime</div>
-                        </div>
-                        <div class="metric">
-                            <div class="metric-value">1M+</div>
-                            <div class="metric-label">Requests/Hour</div>
-                        </div>
-                        <div class="metric">
-                            <div class="metric-value">30%</div>
-                            <div class="metric-label">API Usage Increase</div>
-                        </div>
-                        <div class="metric">
-                            <div class="metric-value">3x</div>
-                            <div class="metric-label">Vendor Capacity</div>
-                        </div>
-                    </div>
-                    <p>The microservices architecture enabled the platform to handle 3x more vendors per customer while maintaining exceptional reliability. Systems contributed to a 30% increase in API usage, demonstrating the scalability and performance of the solution.</p>
-                </div>
-                
-                <div class="case-technologies">
-                    <h4>Technologies Used</h4>
-                    <div class="tech-list">
-                        <span class="tech-item">FastAPI</span>
-                        <span class="tech-item">Python</span>
-                        <span class="tech-item">Microservices</span>
                         <span class="tech-item">Redis</span>
-                        <span class="tech-item">Docker</span>
                         <span class="tech-item">Kubernetes</span>
                         <span class="tech-item">AWS</span>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <div class="case-study">
             <div class="case-study-header">
-                <h3>Financial Transaction Security API</h3>
-                <p class="case-study-meta">PayPal / Venmo | Security-Enhanced Authentication APIs</p>
+                <h3>Sole Backend Owner of Three Django Systems</h3>
+                <p class="case-study-meta">SecurityScorecard | Platform API, support portal and intranet</p>
             </div>
-            
+
             <div class="case-study-content">
                 <div class="case-challenge">
                     <h4>Challenge</h4>
-                    <p>Venmo needed to strengthen authentication flows for their financial transaction systems handling millions of daily transfers. The challenge was to improve security against common attack vectors while maintaining a seamless user experience and ensuring zero downtime during deployment.</p>
+                    <p>Three Django systems behind a security-critical product, one backend owner, weekly feature work, and test suites that had been abandoned. A major platform refactor was waiting on those tests.</p>
                 </div>
-                
+
                 <div class="case-solution">
                     <h4>Solution</h4>
-                    <p>I developed a comprehensive security enhancement solution using Flask and Python that included:</p>
-                    
                     <ul class="solution-details">
-                        <li>Custom Python validation decorators that prevent common attack vectors (SQL injection, XSS, CSRF)</li>
-                        <li>Flask-based REST APIs with robust input validation and sanitization</li>
-                        <li>Comprehensive QA testing framework covering 20+ edge case scenarios</li>
-                        <li>CI/CD pipelines using Kubernetes for zero-downtime deployments</li>
-                        <li>SSO workflow integration for secure authentication</li>
-                        <li>Real-time monitoring and alerting for security events</li>
+                        <li>Restored the abandoned test suites across all three repositories, from 0% to production-grade coverage</li>
+                        <li>Kept shipping features every week while the suites came back</li>
+                        <li>Containerized the internal support tooling with Docker</li>
                     </ul>
                 </div>
-                
+
                 <div class="case-results">
                     <h4>Results</h4>
                     <div class="results-metrics">
                         <div class="metric">
-                            <div class="metric-value">100%</div>
-                            <div class="metric-label">Attack Prevention</div>
+                            <div class="metric-value">3</div>
+                            <div class="metric-label">Systems Owned</div>
                         </div>
                         <div class="metric">
-                            <div class="metric-value">20+</div>
-                            <div class="metric-label">Edge Cases Covered</div>
-                        </div>
-                        <div class="metric">
-                            <div class="metric-value">0</div>
-                            <div class="metric-label">Downtime</div>
+                            <div class="metric-value">&lt;60 min</div>
+                            <div class="metric-label">Engineer Onboarding</div>
                         </div>
                     </div>
-                    <p>The security enhancements successfully prevented fraudulent authentication attempts while maintaining seamless user experience. The comprehensive testing framework ensured reliability across all edge cases, and the CI/CD pipeline enabled zero-downtime deployments.</p>
+                    <p>The restored tests unblocked the platform refactor, and onboarding a new engineer went from hours to under 60 minutes. <a href="/work/">See all case studies <i class="fas fa-arrow-right"></i></a></p>
                 </div>
-                
+
                 <div class="case-technologies">
                     <h4>Technologies Used</h4>
                     <div class="tech-list">
-                        <span class="tech-item">Flask</span>
                         <span class="tech-item">Python</span>
-                        <span class="tech-item">Kubernetes</span>
-                        <span class="tech-item">AWS</span>
+                        <span class="tech-item">Django</span>
                         <span class="tech-item">Docker</span>
-                        <span class="tech-item">CI/CD</span>
+                        <span class="tech-item">pytest</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="case-study">
+            <div class="case-study-header">
+                <h3>Load Testing a Real-Time Banking Platform</h3>
+                <p class="case-study-meta">Caixa Bank | Distributed WebSocket load testing on AWS</p>
+            </div>
+
+            <div class="case-study-content">
+                <div class="case-challenge">
+                    <h4>Challenge</h4>
+                    <p>Caixa Bank needed to know how its platform behaved under heavy concurrent WebSocket traffic from operators and clients at the same time.</p>
+                </div>
+
+                <div class="case-solution">
+                    <h4>Solution</h4>
+                    <ul class="solution-details">
+                        <li>Built a distributed load-testing framework running on AWS</li>
+                        <li>Simulated 30,000 concurrent operators and 100,000 virtual clients over WebSockets</li>
+                    </ul>
+                </div>
+
+                <div class="case-results">
+                    <h4>Results</h4>
+                    <div class="results-metrics">
+                        <div class="metric">
+                            <div class="metric-value">30,000</div>
+                            <div class="metric-label">Concurrent Operators</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">100,000</div>
+                            <div class="metric-label">Virtual Clients</div>
+                        </div>
+                    </div>
+                    <p>The team could see how the platform behaved at that scale on test infrastructure, not in production. <a href="/work/">See all case studies <i class="fas fa-arrow-right"></i></a></p>
+                </div>
+
+                <div class="case-technologies">
+                    <h4>Technologies Used</h4>
+                    <div class="tech-list">
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">WebSockets</span>
+                        <span class="tech-item">AWS</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section id="technologies">
-        <h2>Technologies & Tools I Work With</h2>
-        
+        <h2>Technologies &amp; Tools I Work With</h2>
+
         <div class="tech-container">
             <div class="tech-category">
                 <h3>Frameworks</h3>
@@ -332,225 +299,169 @@ breadcrumbs:
                     <span class="tech-item">Django REST Framework</span>
                     <span class="tech-item">FastAPI</span>
                     <span class="tech-item">Flask</span>
-                    <span class="tech-item">REST</span>
-                    <span class="tech-item">GraphQL</span>
+                    <span class="tech-item">Celery</span>
                 </div>
             </div>
-            
+
             <div class="tech-category">
-                <h3>Databases & Caching</h3>
+                <h3>Databases &amp; Caching</h3>
                 <div class="tech-list">
                     <span class="tech-item">PostgreSQL</span>
                     <span class="tech-item">MySQL</span>
                     <span class="tech-item">Redis</span>
-                    <span class="tech-item">DynamoDB</span>
                     <span class="tech-item">SQLAlchemy</span>
+                    <span class="tech-item">DynamoDB</span>
                 </div>
             </div>
-            
+
             <div class="tech-category">
-                <h3>Architecture Patterns</h3>
+                <h3>API Design</h3>
                 <div class="tech-list">
-                    <span class="tech-item">Microservices</span>
-                    <span class="tech-item">Serverless</span>
-                    <span class="tech-item">Event-Driven</span>
-                    <span class="tech-item">RESTful Design</span>
-                    <span class="tech-item">GraphQL Schemas</span>
+                    <span class="tech-item">REST / OpenAPI</span>
+                    <span class="tech-item">GraphQL</span>
+                    <span class="tech-item">WebSockets</span>
+                    <span class="tech-item">OAuth2 / JWT</span>
                 </div>
             </div>
-            
+
             <div class="tech-category">
-                <h3>Security & Authentication</h3>
-                <div class="tech-list">
-                    <span class="tech-item">OAuth2</span>
-                    <span class="tech-item">JWT</span>
-                    <span class="tech-item">API Keys</span>
-                    <span class="tech-item">Rate Limiting</span>
-                    <span class="tech-item">CORS</span>
-                    <span class="tech-item">Input Validation</span>
-                </div>
-            </div>
-            
-            <div class="tech-category">
-                <h3>Testing & Quality</h3>
+                <h3>Testing</h3>
                 <div class="tech-list">
                     <span class="tech-item">pytest</span>
-                    <span class="tech-item">unittest</span>
-                    <span class="tech-item">Integration Testing</span>
-                    <span class="tech-item">API Testing</span>
+                    <span class="tech-item">Contract Tests</span>
                     <span class="tech-item">Load Testing</span>
                 </div>
             </div>
-            
+
             <div class="tech-category">
-                <h3>Deployment & Infrastructure</h3>
+                <h3>Deployment</h3>
                 <div class="tech-list">
                     <span class="tech-item">Docker</span>
                     <span class="tech-item">Kubernetes</span>
+                    <span class="tech-item">Helm</span>
+                    <span class="tech-item">ArgoCD</span>
                     <span class="tech-item">AWS</span>
                     <span class="tech-item">GCP</span>
-                    <span class="tech-item">CI/CD</span>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h3>Observability</h3>
+                <div class="tech-list">
+                    <span class="tech-item">Datadog</span>
+                    <span class="tech-item">OpenTelemetry</span>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section id="how-i-work">
         <h2>How I Work</h2>
-        
+
         <div class="process-steps">
             <div class="process-step">
                 <div class="step-number">1</div>
-                <h3>Discovery & Requirements</h3>
-                <p>I start by understanding your business needs, technical constraints, and success criteria. This includes analyzing existing systems, identifying pain points, and defining clear project goals.</p>
+                <h3>Read the Code and the Metrics</h3>
+                <p>Before proposing anything I read the codebase, the slow query log and the deploy history. The fix depends on what is actually wrong.</p>
             </div>
-            
+
             <div class="process-step">
                 <div class="step-number">2</div>
-                <h3>Architecture Design</h3>
-                <p>I design the API architecture considering scalability, security, and maintainability. This includes database schema design, API endpoint planning, and technology stack selection.</p>
+                <h3>Agree on the Contract</h3>
+                <p>For new work, the API contract is written and reviewed first, so client teams can start in parallel.</p>
             </div>
-            
+
             <div class="process-step">
                 <div class="step-number">3</div>
-                <h3>Development & Testing</h3>
-                <p>I follow agile development practices with regular updates. Code is written with comprehensive tests, proper error handling, and follows best practices for maintainability.</p>
+                <h3>Test Before Changing</h3>
+                <p>Tests go around the behavior that has to stay the same before any refactor starts. Then changes land in small pull requests.</p>
             </div>
-            
+
             <div class="process-step">
                 <div class="step-number">4</div>
-                <h3>Deployment & Monitoring</h3>
-                <p>I set up CI/CD pipelines, configure monitoring and alerting, and ensure smooth deployment to production. This includes performance monitoring and error tracking.</p>
+                <h3>Release in Stages</h3>
+                <p>Each environment is validated before the next, with monitoring in place and a rollback path ready.</p>
             </div>
-            
+
             <div class="process-step">
                 <div class="step-number">5</div>
-                <h3>Documentation & Knowledge Transfer</h3>
-                <p>I provide comprehensive documentation including API specifications, deployment guides, and code documentation. I also conduct knowledge transfer sessions with your team.</p>
+                <h3>Hand Over</h3>
+                <p>API documentation, runbooks and a walkthrough with your team, so the code stays maintainable after I leave.</p>
             </div>
         </div>
     </section>
-    
+
     <section id="engagement-models">
         <h2>How We Can Work Together</h2>
-        
+
         <div class="services-grid">
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-project-diagram"></i></div>
-                <h3>Project-Based</h3>
-                <p>Fixed scope and timeline for specific API development projects. Ideal for well-defined requirements and one-time implementations.</p>
+                <div class="service-icon"><i class="fas fa-search"></i></div>
+                <h3>Backend Review</h3>
+                <p>A short, fixed-scope review of your codebase, performance and release process. You get a written report: risks, what to fix first and a plan you can execute with or without me.</p>
             </div>
-            
+
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-clock"></i></div>
-                <h3>Hourly Consulting</h3>
-                <p>Flexible hourly engagement for ongoing support, troubleshooting, or incremental improvements to existing APIs.</p>
+                <div class="service-icon"><i class="fas fa-project-diagram"></i></div>
+                <h3>Fixed-Scope Project</h3>
+                <p>A defined API, service or performance fix with a written scope, timeline and deliverables.</p>
             </div>
-            
+
             <div class="service-card">
                 <div class="service-icon"><i class="fas fa-calendar-check"></i></div>
                 <h3>Monthly Retainer</h3>
-                <p>Dedicated monthly hours for ongoing API development, maintenance, and optimization. Provides predictable costs and priority support.</p>
-            </div>
-            
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
-                <h3>Technical Consultation</h3>
-                <p>Architecture reviews, code audits, performance analysis, and strategic technical guidance for your API initiatives.</p>
+                <p>Senior backend help every month: features, reviews, performance and reliability work, with predictable cost and priority response.</p>
             </div>
         </div>
+        <p class="services-intro">Not sure which fits? <a href="/consulting/">See how consulting engagements work</a> or <a href="{{ site.booking_url }}">book a call</a>.</p>
     </section>
-    
-    <section id="why-choose-me">
-        <h2>Why Choose Me</h2>
-        
-        <div class="value-props">
-            <div class="value-prop">
-                <i class="fas fa-award"></i>
-                <h4>10+ Years Experience</h4>
-                <p>Extensive experience building production APIs for startups to Fortune 500 companies across various industries.</p>
-            </div>
-            <div class="value-prop">
-                <i class="fas fa-building"></i>
-                <h4>Fortune 500 Track Record</h4>
-                <p>Proven experience working with major companies including OneTrust, SecurityScorecard, PayPal, and Venmo.</p>
-            </div>
-            <div class="value-prop">
-                <i class="fas fa-code"></i>
-                <h4>Clean, Maintainable Code</h4>
-                <p>Focus on writing code that's easy to understand, test, and maintain, reducing long-term technical debt.</p>
-            </div>
-            <div class="value-prop">
-                <i class="fas fa-shield-alt"></i>
-                <h4>Security-First Approach</h4>
-                <p>Security is built into every API from the ground up, not added as an afterthought.</p>
-            </div>
-            <div class="value-prop">
-                <i class="fas fa-comments"></i>
-                <h4>Clear Communication</h4>
-                <p>Regular updates, clear documentation, and transparent communication throughout the project lifecycle.</p>
-            </div>
-            <div class="value-prop">
-                <i class="fas fa-chart-line"></i>
-                <h4>Proven Results</h4>
-                <p>Consistent delivery of measurable improvements in performance, reliability, and cost-effectiveness.</p>
-            </div>
-        </div>
-    </section>
-    
+
     <section id="faq">
         <h2>Frequently Asked Questions</h2>
-        
+
         <div class="faq-container">
             <div class="faq-item">
-                <h3>How long does a typical API development project take?</h3>
+                <h3>Django or FastAPI?</h3>
                 <div class="faq-answer">
-                    <p>Project timelines vary based on complexity, but typically range from 4-16 weeks. A simple REST API might take 4-6 weeks, while a complex microservices platform with multiple integrations could take 12-16 weeks. I provide detailed timeline estimates during our initial consultation based on your specific requirements.</p>
+                    <p>Django when you want the admin, the ORM and batteries included for a product backend. FastAPI when you need a lean, async service or a model-serving API. Many systems use both. If you already have one, the answer is usually to keep it.</p>
                 </div>
             </div>
-            
+
             <div class="faq-item">
-                <h3>What's your approach to API security?</h3>
+                <h3>Our backend is slow. Where do you start?</h3>
                 <div class="faq-answer">
-                    <p>Security is fundamental to my API design. I implement authentication (OAuth2, JWT), authorization, input validation, rate limiting, and follow OWASP security best practices. For enterprise clients, I ensure SOC2 compliance requirements are met. Security is built in from the start, not bolted on later.</p>
+                    <p>With measurements: which endpoints, under what load, and where the time goes. Most slowness comes from a small number of queries or missing caches, and fixing those first gives the biggest gain for the least change.</p>
                 </div>
             </div>
-            
+
             <div class="faq-item">
-                <h3>Can you work with our existing tech stack?</h3>
+                <h3>Can you work inside our existing codebase and team?</h3>
                 <div class="faq-answer">
-                    <p>Absolutely. I'm experienced with Python frameworks (Django, FastAPI, Flask), various databases (PostgreSQL, MySQL, MongoDB), and cloud platforms (AWS, GCP, Azure). I can integrate with your existing infrastructure and work within your technology constraints while recommending improvements where appropriate.</p>
+                    <p>Yes. I follow your repo's conventions, open pull requests your team reviews and document decisions where your team will find them.</p>
                 </div>
             </div>
-            
+
             <div class="faq-item">
-                <h3>Do you provide ongoing maintenance and support?</h3>
+                <h3>What do we get at the end?</h3>
                 <div class="faq-answer">
-                    <p>Yes, I offer maintenance packages for all APIs I build. This includes bug fixes, performance optimization, security updates, feature enhancements, and monitoring. Maintenance can be arranged as a monthly retainer or on an as-needed basis depending on your requirements.</p>
+                    <p>Code merged into your repository with tests, an OpenAPI spec for new endpoints, deployment configuration, monitoring and a handover session with your team.</p>
                 </div>
             </div>
-            
+
             <div class="faq-item">
-                <h3>What's included in your API deliverables?</h3>
+                <h3>How long does a backend project take?</h3>
                 <div class="faq-answer">
-                    <p>My deliverables include: production-ready API code with comprehensive tests, API documentation (OpenAPI/Swagger), deployment configuration and CI/CD setup, monitoring and alerting setup, database schema and migration scripts, and knowledge transfer documentation. I also provide code walkthroughs and training sessions for your team.</p>
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <h3>How do you ensure API performance and scalability?</h3>
-                <div class="faq-answer">
-                    <p>I design APIs with scalability in mind from the start. This includes efficient database queries, caching strategies, async processing where appropriate, load testing, and horizontal scaling architecture. I've built APIs handling 1M+ requests per hour with 99.95% uptime, and I apply the same principles to all projects.</p>
+                    <p>A focused performance fix or a single new service is typically a few weeks. Larger work, like splitting a monolith, is planned in phases. I give a written estimate after the first call, once I have seen the code.</p>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section id="contact">
         <div class="contact-container">
-            <h2>Ready to Build Scalable APIs?</h2>
-            <p>Let's discuss how I can help you build high-performance APIs that scale with your business.</p>
-            
+            <h2>Have a Backend That Is Holding You Back?</h2>
+            <p>Tell me what is slow, fragile or missing, and I will tell you what I would fix first.</p>
+
             <div class="contact-cta">
                 <a href="{{ site.booking_url }}" class="primary-cta">Schedule a Free Consultation</a>
                 <a href="mailto:me@iklobato.com" class="secondary-cta">Email Me About Your Project</a>
@@ -569,9 +480,9 @@ breadcrumbs:
   "provider": {
     "@type": "Person",
     "name": "Henrique Lobato",
-    "url": "https://iklobato.github.io"
+    "url": "{{ site.url }}"
   },
-  "description": "Custom backend API development services using Django, FastAPI, and Flask. Building scalable REST and GraphQL APIs that handle millions of requests with 99.9%+ uptime.",
+  "description": "Backend API development and consulting in Python with Django and FastAPI: new APIs, performance fixes, test coverage, monolith decomposition and release automation.",
   "areaServed": {
     "@type": "Country",
     "name": "Worldwide"

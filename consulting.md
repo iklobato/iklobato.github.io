@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Backend, AI & Systems Integration Consulting | Henrique Lobato
-description: Consulting for teams that need backend systems, AI features and system integrations shipped to production. Architecture reviews, fixed-scope projects and monthly retainers, delivered by a senior Python engineer with 10+ years in production systems.
-keywords: backend consultant, AI integration consultant, systems integration consultant, Python consulting, architecture review, fractional backend engineer, LLM consulting, API consulting, technical consultant remote
+title: "Backend, AI and Integration Consulting"
+description: "Architecture reviews, fixed-scope projects and monthly retainers for backend, AI and systems integration work. Senior Python engineer, 10+ years, remote."
 permalink: /consulting/
 breadcrumbs:
   - name: Consulting
@@ -145,7 +144,7 @@ breadcrumbs:
                 <p>OneTrust: Jira-triggered CI/CD on Kubernetes, multi-environment deploys in under 30 minutes with full auditability.</p>
             </div>
         </div>
-        <p class="services-intro">Full write-ups: <a href="/backend-engineering-use-cases/">backend</a>, <a href="/data-engineering-use-cases/">data</a>, <a href="/devops-cloud-use-cases/">cloud</a>. What clients and colleagues say: <a href="/#testimonials">recommendations</a>.</p>
+        <p class="services-intro">Full write-ups: <a href="/work/">all case studies</a>. What clients and colleagues say: <a href="/#testimonials">recommendations</a>.</p>
     </section>
 
     <section id="how-i-work">

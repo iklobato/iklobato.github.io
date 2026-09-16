@@ -7,6 +7,16 @@
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/^-+|-+$/g, '');
 
+  // GA4 recommended lead event; mark it as a key event in the GA admin to count conversions.
+  const trackLead = (method, source) => {
+    if (typeof window.gtag !== 'function') return;
+    window.gtag('event', 'generate_lead', {
+      method,
+      lead_source: source,
+      page_path: window.location.pathname,
+    });
+  };
+
   const extractTechs = (root, selector) => {
     const techs = new Set();
     root.querySelectorAll(selector).forEach((el) => {
@@ -279,53 +289,18 @@
       // Without a booking URL the lead would land on a broken page, so fall
       // back to email rather than losing the contact.
       if (!bookingBase) {
+        trackLead('email', 'qualifier');
         window.location.href = toMailto(data);
         return;
       }
+      trackLead('booking', 'qualifier');
       window.open(toBookingUrl(data), '_blank', 'noopener');
     });
 
     form.querySelector('.qualifier-email').addEventListener('click', () => {
       if (!form.reportValidity()) return;
+      trackLead('email', 'qualifier');
       window.location.href = toMailto(buildParams());
-    });
-  }
-
-  // ============================================================
-  // 4. CASE-STUDY PROGRESSIVE REVEAL (use-case pages)
-  // ============================================================
-  function initCaseStudyReveal() {
-    const cases = document.querySelectorAll('.use-case');
-    if (!cases.length) return;
-
-    cases.forEach((uc, idx) => {
-      uc.classList.add('collapsible');
-      const title = uc.querySelector('.use-case-title');
-      if (!title) return;
-
-      const toggle = document.createElement('button');
-      toggle.type = 'button';
-      toggle.className = 'use-case-toggle';
-      toggle.setAttribute(
-        'aria-expanded',
-        idx === 0 ? 'true' : 'false'
-      );
-      toggle.setAttribute('aria-label', 'Expand case study');
-      toggle.innerHTML = '<i class="fas fa-chevron-down" aria-hidden="true"></i>';
-      title.appendChild(toggle);
-
-      if (idx !== 0) uc.classList.add('collapsed');
-
-      const doToggle = () => {
-        const collapsed = uc.classList.toggle('collapsed');
-        toggle.setAttribute('aria-expanded', String(!collapsed));
-      };
-
-      title.addEventListener('click', (e) => {
-        if (e.target.closest('a')) return;
-        doToggle();
-      });
-      title.style.cursor = 'pointer';
     });
   }
 
@@ -359,14 +334,31 @@
   }
 
   // ============================================================
+  // 6. LEAD CLICK TRACKING
+  // ============================================================
+  function initLeadTracking() {
+    const bookingBase = document.body.dataset.bookingUrl;
+    document.addEventListener('click', (event) => {
+      const link = event.target.closest('a[href]');
+      if (!link) return;
+      const href = link.getAttribute('href');
+      if (bookingBase && href.startsWith(bookingBase)) {
+        trackLead('booking', 'link');
+      } else if (href.startsWith('mailto:')) {
+        trackLead('email', 'link');
+      }
+    });
+  }
+
+  // ============================================================
   // INIT
   // ============================================================
   const boot = () => {
     try { initTechFilter(); } catch (e) { console.error(e); }
     try { initTimelineCollapse(); } catch (e) { console.error(e); }
     try { initQualifier(); } catch (e) { console.error(e); }
-    try { initCaseStudyReveal(); } catch (e) { console.error(e); }
     try { initDarkModeToggle(); } catch (e) { console.error(e); }
+    try { initLeadTracking(); } catch (e) { console.error(e); }
   };
 
   if (document.readyState === 'loading') {

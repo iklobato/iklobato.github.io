@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Services | Backend, AI, Systems Integration, Cloud & Data | Henrique Lobato
-description: "Freelance and consulting services from a senior Python engineer: systems integration, AI integration, backend APIs, cloud infrastructure and data pipelines. Fixed-scope projects, architecture reviews and monthly retainers."
-keywords: Python consulting services, systems integration services, AI integration services, backend API development, cloud DevOps services, data pipeline engineering
+title: "Services: Backend, AI, Cloud and Data"
+description: "Systems integration, AI integration, backend APIs, cloud infrastructure and data pipelines. Fixed-scope projects, reviews and retainers from a senior engineer."
 permalink: /services/
 breadcrumbs:
   - name: Services

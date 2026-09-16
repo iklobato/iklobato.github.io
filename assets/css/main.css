@@ -2408,41 +2408,6 @@ body[data-active-filter] .skill-category-card {
   min-width: 200px;
 }
 
-/* ---------- Case-study collapsible (use-case pages) ---------- */
-.use-case.collapsible .use-case-title {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  user-select: none;
-}
-.use-case-toggle {
-  margin-left: auto;
-  background: transparent;
-  border: 1px solid var(--border);
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: var(--primary);
-  transition: transform var(--transition-normal), background var(--transition-fast);
-}
-.use-case-toggle:hover { background: var(--primary-light); }
-.use-case.collapsed .use-case-toggle .fa-chevron-down {
-  transform: rotate(-90deg);
-}
-.use-case.collapsed .section:not(.impact-section) {
-  display: none;
-}
-.use-case.collapsible .section {
-  transition: opacity var(--transition-normal);
-}
-.use-case.collapsible .section .impact {
-  animation: fadeIn 300ms ease;
-}
-
 /* ============================================
    COMPANY LOGO CAROUSEL
    ============================================ */
