@@ -23,27 +23,9 @@
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#2563eb">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3b82f6">
     
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
-    <meta name="author" content="{{ site.author }}">
-    <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="7 days">
+    {% if page.noindex %}<meta name="robots" content="noindex, follow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">{% endif %}
     <meta name="format-detection" content="telephone=no">
-    <meta name="geo.region" content="BR">
-    <meta name="geo.placename" content="São Paulo">
-    
-    <!-- hreflang for multilingual SEO -->
-    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <link rel="alternate" hreflang="pt-BR" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    
+
     <!-- Resource Hints -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
@@ -52,48 +34,17 @@
     <!-- Preload critical assets -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono&display=swap" as="style">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="{{ site.url }}/assets/images/og-card.png">
+
+    <!-- Share card details jekyll-seo-tag does not emit -->
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Henrique Lobato: I connect systems, ship AI to production and fix backends that do not scale.">
-    <meta property="og:site_name" content="Hire Henrique Lobato - Senior Backend Developer">
-    <meta property="og:locale" content="en_US">
-
-    <!-- Twitter / X -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/og-card.png">
     <meta name="twitter:image:alt" content="Henrique Lobato: I connect systems, ship AI to production and fix backends that do not scale.">
-    <meta name="twitter:creator" content="@iklobato">
-    <meta name="twitter:site" content="@iklobato">
-    
-    <!-- SEO keywords for freelance work -->
-    <meta name="keywords" content="hire Python developer, freelance backend consultant, API architect, Python Django expert, FastAPI developer, cloud solutions architect, remote backend developer, freelance API expert, scalable systems builder, Python microservices consultant">
-    <script>
-        // Force HTTPS
-        if (window.location.protocol !== "https:" && 
-            window.location.hostname !== "localhost" && 
-            window.location.hostname !== "127.0.0.1") {
-            window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
-        }
-    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
     
-    <!-- Cache Control Headers -->
-    <meta http-equiv="Cache-Control" content="max-age=86400, public">
-    <meta http-equiv="Expires" content="{{ site.time | date: '%a, %d %b %Y %H:%M:%S GMT' }}">
-
     <!-- Main stylesheet -->
     {% assign asset_version = site.github.build_revision | default: site.time | date: '%s' %}
     <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}?v={{ asset_version }}" as="style">
@@ -118,14 +69,14 @@
         <div class="sticky-nav-content">
             <a href="/" class="sticky-nav-logo">HL</a>
             <div class="sticky-nav-links">
-                <a href="#skills" class="sticky-nav-link">Skills</a>
-                <a href="#experience" class="sticky-nav-link">Experience</a>
-                <a href="#services" class="sticky-nav-link">Services</a>
+                <a href="/services/" class="sticky-nav-link">Services</a>
+                <a href="/work/" class="sticky-nav-link">Work</a>
                 <a href="/consulting/" class="sticky-nav-link">Consulting</a>
+                <a href="/about/" class="sticky-nav-link">About</a>
                 <button class="sticky-nav-pdf" onclick="generatePDF()">
                     <i class="fas fa-download"></i> PDF
                 </button>
-                <a href="#hire-me" class="sticky-nav-cta">Let's Talk</a>
+                <a href="/#hire-me" class="sticky-nav-cta">Let's Talk</a>
             </div>
         </div>
     </nav>
@@ -140,7 +91,7 @@
                 <i class="fas fa-calendar-check"></i>
             </a>
         </div>
-        <a href="#hire-me" class="floating-cta-main btn-press">
+        <a href="/#hire-me" class="floating-cta-main btn-press">
             <i class="fas fa-rocket"></i>
             <span>Let's Talk</span>
         </a>
@@ -164,7 +115,7 @@
         {{ content }}
         
         <footer class="footer">
-            <p>&copy; 2025 Henrique Lobato. All rights reserved.</p>
+            <p>&copy; {{ site.time | date: "%Y" }} Henrique Lobato. All rights reserved.</p>
             <p class="last-updated">Last updated: {{ site.time | date: "%B %d, %Y at %H:%M" }} UTC</p>
         </footer>
     </div>
@@ -327,7 +278,6 @@
         window.generatePDF = generatePDF;
     </script>
     
-    {% include schema-webpage.html %}
     {% include schema-breadcrumb.html %}
     {% if page.url == '/' %}
       {% include schema-person.html %}

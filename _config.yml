@@ -1,5 +1,5 @@
-title: Hire Python Developer | Senior Backend Engineer | Freelance API Expert
-description: Expert Python backend developer building scalable APIs & cloud solutions. 10+ years experience, 99.9% uptime. Hire a senior Python developer for your next project.
+title: Henrique Lobato
+description: "Senior Python and AI engineer. I connect systems, ship AI to production and fix backends that do not scale. Consulting and freelance, remote."
 author: Henrique Lobato
 baseurl: ""
 url: "https://iklobato.com"
@@ -14,7 +14,6 @@ social:
     - https://www.linkedin.com/in/iklobato/
     - https://github.com/iklobato
     - *booking_url
-keywords: Hire Python Developer, Senior Python Developer, Freelance Python Developer, Python Backend Developer, Django Developer, FastAPI Developer, REST API Developer, API Architect, AWS Developer, GCP Cloud Expert, Kubernetes Developer, Docker Expert, Microservices Architect, Remote Python Developer, Python Freelancer, Backend Engineer, Cloud Architect, CI/CD Engineer, DevOps Engineer, AI Integration Developer, LangChain Developer, ETL Pipeline Engineer
 
 # Build settings
 markdown: kramdown
@@ -23,7 +22,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-last-modified-at
+  - jekyll-redirect-from
 
 # jekyll-seo-tag defaults
 twitter:
