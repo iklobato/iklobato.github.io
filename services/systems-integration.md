@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Systems Integration Services | Connect APIs, Legacy Systems & SaaS | Python Consultant
-description: Need two systems to talk to each other? I integrate third-party APIs, legacy platforms and SaaS tools with Python, with zero-downtime cut-overs and replayable, idempotent data flows. Migrated 20+ enterprise clients with zero data loss.
-keywords: Systems integration consultant, API integration services, legacy system integration, SaaS integration, ERP CRM integration, webhook integration, event-driven integration, data migration, Python integration developer
+title: "Systems Integration Services"
+description: "Connect third-party APIs, legacy platforms and SaaS tools with zero-downtime cut-overs. 20+ enterprise clients migrated with zero data loss."
 permalink: /services/systems-integration/
 breadcrumbs:
   - name: Services
@@ -173,8 +172,8 @@ breadcrumbs:
                             <div class="metric-label">Production Incidents</div>
                         </div>
                         <div class="metric">
-                            <div class="metric-value">45%</div>
-                            <div class="metric-label">Faster Processing</div>
+                            <div class="metric-value">4</div>
+                            <div class="metric-label">Environments, Phased</div>
                         </div>
                     </div>
                     <p>Every client moved with zero data loss and zero production incidents. The configuration-driven mapping meant each new client was a config change, not a new project.</p>
@@ -192,6 +191,7 @@ breadcrumbs:
                     </div>
                 </div>
             </div>
+            <a href="/work/onetrust-compliance-migration/" class="service-link">Read the full case study <i class="fas fa-arrow-right"></i></a>
         </div>
 
         <div class="case-study">
@@ -247,6 +247,7 @@ breadcrumbs:
                     </div>
                 </div>
             </div>
+            <a href="/work/probiusdx-azure-to-aws/" class="service-link">Read the full case study <i class="fas fa-arrow-right"></i></a>
         </div>
 
         <div class="case-study">

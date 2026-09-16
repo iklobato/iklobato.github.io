@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Senior Python & AI/LLM Engineer | Backend Engineer | LangChain · HuggingFace · AWS
-description: Senior Python and AI/LLM engineer with production-shipped LLM systems. Built a LangChain + HuggingFace chatbot for a 12M-company cybersecurity platform. Available for backend, AI integration, and private LLM infrastructure projects.
-keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, HuggingFace Developer, LLM Integration Developer, AI Chatbot Developer, Private LLM Infrastructure, Ollama Developer, LlamaIndex Developer, Prompt Engineering, RAG Developer, Python AI Developer, Hire Python Developer, Senior Python Developer, Freelance Python Developer, Python Backend Developer, Django Developer, FastAPI Developer, REST API Developer, API Architect, AWS Developer, GCP Cloud Expert, Kubernetes Developer, Docker Expert, Microservices Architect, Remote Python Developer, Python Freelancer, Backend Engineer, Cloud Architect, CI/CD Engineer
+title: "Senior Python and AI Engineer, Consultant"
+description: "Senior Python and AI engineer with 10+ years in production. Systems integration, LLM features and backends that scale, for teams in the US, Europe and Brazil."
 ---
 
 <header class="header">
@@ -68,8 +67,8 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             <div class="stat-label">Weeks from zero to a production LLM chatbot <span class="stat-source">SecurityScorecard</span></div>
         </div>
         <div class="stat-item">
-            <div class="stat-number" data-target="40" data-suffix="%">40%</div>
-            <div class="stat-label">Lower cloud costs after a platform migration <span class="stat-source">ProbiusDx</span></div>
+            <div class="stat-number" data-target="35" data-suffix="%">35%</div>
+            <div class="stat-label">Less operational overhead after an Azure to AWS move <span class="stat-source">ProbiusDx</span></div>
         </div>
     </section>
 
@@ -135,21 +134,22 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <div class="case-company"><img src="/assets/images/company-logos/onetrust.svg" alt="OneTrust" class="case-company-logo case-company-logo--mono"></div>
                 <h4>20+ enterprise clients migrated, zero data loss</h4>
                 <p>Compliance records moved between two SaaS platforms after an acquisition. Phased across four environments, idempotent writes, zero production incidents.</p>
-                <a href="/backend-engineering-use-cases/" class="service-link">Read the write-up <i class="fas fa-arrow-right"></i></a>
+                <a href="/work/onetrust-compliance-migration/" class="service-link">Read the write-up <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="service-card">
                 <div class="case-company"><img src="/assets/images/company-logos/securityscorecard.svg" alt="" aria-hidden="true" class="case-company-logo case-company-logo--mono"><span class="case-company-name">SecurityScorecard</span></div>
                 <h4>LLM chatbot in production in 6 weeks</h4>
                 <p>LangChain, HuggingFace and FastAPI on AWS Kubernetes. Natural-language questions over security data for 12M+ companies, built from zero.</p>
-                <a href="/backend-engineering-use-cases/" class="service-link">Read the write-up <i class="fas fa-arrow-right"></i></a>
+                <a href="/work/securityscorecard-llm-chatbot/" class="service-link">Read the write-up <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="service-card">
                 <div class="case-company"><img src="/assets/images/company-logos/serasa-experian.svg" alt="Serasa Experian" class="case-company-logo"></div>
                 <h4>Credit scoring engine used by thousands of companies</h4>
                 <p>Led six engineers to deliver a PySpark and neural-network decisioning engine for Brazil's largest credit bureau.</p>
-                <a href="/data-engineering-use-cases/" class="service-link">Read the write-up <i class="fas fa-arrow-right"></i></a>
+                <a href="/work/serasa-credit-scoring/" class="service-link">Read the write-up <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
+        <p class="services-intro"><a href="/work/">See all case studies</a></p>
     </section>
 
     <section id="tech-skills">
@@ -163,17 +163,17 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                     <div class="value-prop">
                         <i class="fas fa-rocket"></i>
                         <h4>Scalable Systems</h4>
-                        <p>Microservices architectures handling millions of daily events with 99.9% uptime</p>
+                        <p>Microservices and event-driven pipelines sustaining tens of millions of daily events</p>
                     </div>
                     <div class="value-prop">
                         <i class="fas fa-coins"></i>
                         <h4>Cloud Cost Optimization</h4>
-                        <p>30-40% decrease in infrastructure costs through right-sizing and serverless</p>
+                        <p>35% less operational overhead on a legacy platform moved from Azure to AWS</p>
                     </div>
                     <div class="value-prop">
                         <i class="fas fa-shield-alt"></i>
                         <h4>Secure Architecture</h4>
-                        <p>SOC2 compliance and OWASP-aligned security implementations</p>
+                        <p>OWASP-aligned APIs and fully auditable deployments for compliance software</p>
                     </div>
                 </div>
             </div>
@@ -589,6 +589,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             </div>
         </div>
     </div>
+    <p class="services-intro"><a href="https://www.linkedin.com/in/iklobato/details/recommendations/">Read all recommendations on LinkedIn</a></p>
 </section>
 
     <section id="skills" class="animate-on-scroll">
@@ -902,11 +903,11 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                 <div class="hire-me-benefits">
                     <div class="benefit-item">
                         <i class="fas fa-check-circle"></i>
-                        <span>99.9% uptime for mission-critical systems</span>
+                        <span>20+ enterprise clients migrated with zero data loss</span>
                     </div>
                     <div class="benefit-item">
                         <i class="fas fa-check-circle"></i>
-                        <span>30-40% cloud infrastructure cost reduction</span>
+                        <span>35% less operational overhead after a cloud migration</span>
                     </div>
                     <div class="benefit-item">
                         <i class="fas fa-check-circle"></i>
