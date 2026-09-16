@@ -29,7 +29,12 @@ plugins:
 twitter:
   username: iklobato
   card: summary_large_image
-logo: /assets/images/profile.jpg
+logo: /assets/images/og-card.png
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-card.png
 
 # Jekyll settings
 permalink: pretty
