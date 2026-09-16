@@ -171,10 +171,12 @@
           <span>Project type</span>
           <select name="project_type" required>
             <option value="">Choose…</option>
+            <option value="systems-integration">Systems Integration / Migration</option>
             <option value="backend-api">Backend API / Microservices</option>
             <option value="cloud-devops">Cloud Infrastructure / DevOps</option>
             <option value="ai-integration">AI / ML Integration</option>
             <option value="data-pipeline">Data Pipeline / ETL</option>
+            <option value="architecture-review">Architecture Review / Consulting</option>
             <option value="other">Other / Not sure yet</option>
           </select>
         </label>
@@ -234,10 +236,12 @@
 
     const toMailto = (data) => {
       const labels = {
+        'systems-integration': 'Systems Integration / Migration',
         'backend-api': 'Backend API / Microservices',
         'cloud-devops': 'Cloud Infrastructure / DevOps',
         'ai-integration': 'AI / ML Integration',
         'data-pipeline': 'Data Pipeline / ETL',
+        'architecture-review': 'Architecture Review / Consulting',
         other: 'Other',
       };
       const timelines = {
