@@ -90,6 +90,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             <button class="print-cv-btn" onclick="generatePDF()">
                 <i class="fas fa-download"></i> Download PDF
             </button>
+            <a href="/consulting/" class="cv-link"><i class="fas fa-handshake"></i> Consulting</a>
             <a href="/blog/" class="cv-link"><i class="fas fa-rss"></i> Technical Blog</a>
             <a href="{{ site.booking_url }}" class="cv-link"><i class="fas fa-calendar-check"></i> Schedule a Consultation</a>
         </div>
@@ -364,7 +365,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
         </div>
         
         <div class="services-offered" id="services">
-            <p class="services-intro">Specialized services for startups and enterprises building mission-critical systems.</p>
+            <p class="services-intro">Specialized services for startups and enterprises building mission-critical systems. Available as <a href="/consulting/">architecture reviews, fixed-scope projects or a monthly retainer</a>.</p>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-server"></i></div>
@@ -380,6 +381,19 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                     <a href="/services/backend-api" class="service-link">View Expertise <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-plug"></i></div>
+                    <h4>Systems Integration</h4>
+                    <p>Connect the systems you already run: third-party APIs, CRM and ERP, legacy databases, SaaS migrations. Idempotent, monitored, cut over with zero downtime.</p>
+                    <div class="service-tech-tags">
+                        <span>REST / gRPC</span>
+                        <span>Kafka</span>
+                        <span>Webhooks</span>
+                        <span>Migrations</span>
+                    </div>
+                    <a href="/services/systems-integration/" class="service-link">View Integration Services <i class="fas fa-arrow-right"></i></a>
+                </div>
+
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-brain"></i></div>
                     <h4>AI/ML Integration</h4>

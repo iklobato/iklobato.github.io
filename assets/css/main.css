@@ -1655,6 +1655,13 @@
             color: white;
             transform: translateY(-1px);
         }
+
+        /* Five links plus two buttons do not fit a phone width; the header
+           already carries a Download PDF button, so the nav copy goes. */
+        @media (max-width: 768px) {
+            .sticky-nav-links { gap: var(--space-sm); }
+            .sticky-nav-pdf { display: none; }
+        }
         
         /* ============================================
            PRINT CV BUTTON
