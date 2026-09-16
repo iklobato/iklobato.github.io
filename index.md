@@ -16,9 +16,9 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
         </div>
         <div class="profile-info">
             <h1>Henrique Lobato</h1>
-            <span class="title">Senior Python & AI/LLM Engineer &middot; LangChain &middot; HuggingFace &middot; Distributed Systems &middot; AWS / GCP</span>
+            <span class="title">I connect systems, ship AI to production and fix backends that do not scale.</span>
             <div class="contact-row">
-                <div class="experience-years">10+ years of experience</div>
+                <div class="experience-years">Senior Python &amp; AI/LLM engineer &middot; 10+ years</div>
                 <span class="availability-badge">Available for Projects</span>
             </div>
             <div class="contact-info">
@@ -30,6 +30,10 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                     <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                     São Paulo, Remote (US Timezone Overlap)
                 </span>
+            </div>
+            <div class="cta-buttons hero-actions">
+                <a href="{{ site.booking_url }}" class="primary-cta"><i class="fas fa-calendar-check" aria-hidden="true"></i> Book a free 30-minute call</a>
+                <a href="#case-studies" class="secondary-cta">See results</a>
             </div>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/iklobato/" class="social-link" title="LinkedIn" aria-label="LinkedIn Profile">
@@ -44,8 +48,8 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             </div>
         </div>
         <div style="display:flex;flex-direction:column;gap:20px;align-items:center">
-        <div id=r><style>@import"https://use.typekit.net/kmj5qkr.css";:root{--h:polygon(50% 0,100% 24%,100% 76%,50% 100%,0 76%,0 24%)}.h{display:inline-block;background:#25a9ef;padding:6px;clip-path:var(--h)}.a{width:200px;padding:24px 0 40px;display:flex;flex-direction:column;align-items:center;gap:8px;color:#204ecf;text-align:center;background:radial-gradient(circle at 20% -10%,#00c3ff -80%,#fff 30%),radial-gradient(circle at -20% 20%,#00c3ff -80%,#fff 30%),radial-gradient(circle at 70% 100%,#00c3ff -80%,#fff 30%),radial-gradient(circle at 120% 80%,#00c3ff -80%,#fff 30%);background-blend-mode:multiply;clip-path:var(--h);box-shadow:0 28px 50px rgba(6,30,96,.35)}#r{font-family:proxima-nova,Arial,sans-serif}.b{margin:0;font-size:19px;font-weight:700;line-height:1}.c{width:120px;height:1px;background:#25a9ef}.d{font-size:16px;margin-bottom:-6px}.f{display:inline-flex;align-items:center;justify-content:center;padding:4px 20px;border-radius:6px;background:#296bff;color:#fff;font-size:16px;font-weight:500;text-decoration-thickness:.5px;text-underline-offset:2px}</style><div class=h><div class=a><svg width=64 viewBox="0 0 60 17" xmlns="http://www.w3.org/2000/svg"><path d="m20.85 6.38 6.06-.89 2.72-5.49 2.71 5.49 6.06.89-4.39 4.28 1.04 6.03-5.42-2.85-5.43 2.85 1.04-6.03zm33.06 7.17 1.85-.27.82-1.67.83 1.67 1.84.27-1.33 1.31.31 1.83-1.65-.87-1.66.87.32-1.83zm-3.38-3.01-3.61-.52-1.61-3.26-1.62 3.26-3.6.52 2.6 2.55-.61 3.59 3.23-1.69 3.21 1.69-.61-3.59zm-45.19 3.01-1.85-.27-.82-1.67-.83 1.67-1.84.27 1.33 1.31-.31 1.83 1.65-.87 1.65.87-.31-1.83zm3.38-3.01 3.61-.52 1.61-3.26 1.61 3.26 3.61.52-2.6 2.55.61 3.59-3.23-1.69-3.22 1.69.62-3.59z" fill="#00c3ff"/></svg><h3 class=b>TOP 3% TALENT</h3><div class=c></div><span class=d>Vetted by</span><svg style="width:100px;" viewBox="0 0 108 30" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.11 0L14.82 6.7C14.87 6.75 14.91 6.8 14.97 6.85L20.82 12.7L11.31 22.16L15.66 26.52L12.75 29.41L6.09 22.75C6.01 22.68 5.93 22.6 5.85 22.52L0 16.68L9.48 7.25L5.16 2.94L8.11 0ZM12.36 10.5C12.27 10.48 12.18 10.48 12.1 10.5C12.01 10.53 11.94 10.57 11.78 10.72L6.37 16.11C6.21 16.27 6.17 16.34 6.15 16.42C6.12 16.51 6.12 16.6 6.15 16.68C6.17 16.77 6.22 16.85 6.37 17L8.09 18.72C8.24 18.87 8.31 18.91 8.4 18.94C8.49 18.96 8.57 18.96 8.66 18.94C8.75 18.91 8.82 18.87 8.97 18.72L14.38 13.33C14.54 13.18 14.58 13.1 14.61 13.02C14.63 12.93 14.63 12.85 14.61 12.76C14.59 12.67 14.54 12.6 14.39 12.45L12.67 10.73C12.52 10.57 12.44 10.53 12.36 10.5Z" fill="#204ecf"/><path fill-rule="evenodd" clip-rule="evenodd" d="M62.65 7.76C64.76 7.76 66.56 8.58 67.99 10.16C69.45 11.69 70.18 13.8 70.17 16.42C70.17 18.98 69.42 21.22 67.93 22.8C66.46 24.37 64.59 25.17 62.35 25.17C60.42 25.16 58.67 24.47 57.51 23.28L57.35 23.11L57.34 29.86L53.52 29.85V29.57L53.56 7.96L57.36 7.96L57.35 10.6C58.6 9.19 60.61 7.76 62.65 7.76ZM87.1 7.82C89.28 7.82 90.78 8.31 91.94 9.26C93.05 10.18 93.64 11.82 93.69 13.55L93.69 13.81L93.67 24.95H89.8L89.8 24.49C89.8 24.01 89.8 23.52 89.8 23.02C88.68 24.57 87.12 25.32 85.04 25.32C83.39 25.32 81.99 24.82 80.97 23.9C79.94 22.95 79.39 21.66 79.39 20.16C79.41 17.33 81.41 15.37 84.91 14.76L85.18 14.71L89.82 13.98V13.61C89.82 12.83 89.59 11.89 89.13 11.5C88.66 11.1 88.09 10.77 87.1 10.77C84.37 10.77 83.81 12.78 83.78 13.79L83.78 13.88L80.36 13.92C80.36 12.43 81.05 10.5 82.44 9.29C83.56 8.32 85.19 7.87 86.77 7.82L87.07 7.82H87.1ZM72.12 3.46L75.93 3.46L75.92 8.02L79.45 8.02L79.45 11.2L75.91 11.19L75.9 19.73C75.9 20.67 76.09 21.29 76.5 21.58C76.93 21.88 77.8 21.6 77.8 21.6L78.14 24.92C78.14 24.92 76.94 25.23 76.18 25.23C75.19 25.23 74.34 24.98 73.69 24.48C72.63 23.68 72.09 22.28 72.09 20.31L72.11 11.19L68.92 8L72.12 8.01L72.12 3.46ZM49.66 10.26C50.76 11.39 52.07 13.4 52.06 16.52C52.05 19.63 50.74 21.63 49.65 22.76C48.15 24.3 46.11 25.18 44.06 25.18C43.98 25.18 43.9 25.18 43.81 25.17C41.62 25.16 39.68 24.38 38.06 22.84C36.43 21.29 35.6 19.16 35.6 16.48C35.6 13.8 36.44 11.66 38.07 10.12C39.69 8.59 41.62 7.82 43.82 7.82C45.99 7.75 48.11 8.65 49.66 10.26ZM40.85 3.22V6.99L33.49 7L33.51 24.97L29.54 24.96V24.62L29.57 6.99H22.06L22.07 3.22H40.85ZM95.53 3.47L98.95 3.48V3.57L98.92 24.95L95.5 24.94V24.84L95.53 3.47ZM89.82 17.05L86.01 17.69C84.15 18.01 83.29 18.73 83.28 19.99C83.27 21.14 84.09 21.91 85.37 21.98L85.53 21.98H85.55C87.99 21.98 89.72 20.08 89.81 17.31L89.82 17.09V17.05ZM43.8 11.21C42.52 11.21 41.41 11.7 40.51 12.68C39.63 13.64 39.18 14.92 39.18 16.49C39.18 18.07 39.63 19.35 40.51 20.31C41.4 21.29 42.51 21.78 43.79 21.79C45.09 21.79 46.21 21.3 47.1 20.32C48 19.34 48.45 18.06 48.46 16.51C48.47 14.95 48.01 13.67 47.11 12.69C46.21 11.71 45.1 11.21 43.8 11.21ZM61.74 11.33H61.72C60.44 11.33 59.38 11.79 58.48 12.76C57.58 13.7 57.13 14.92 57.12 16.39C57.12 17.88 57.57 19.22 58.47 20.2C59.39 21.14 60.45 21.61 61.72 21.61C63.01 21.61 64.1 21.13 64.97 20.2C65.88 19.23 66.32 17.9 66.33 16.41C66.33 14.93 65.87 13.71 64.99 12.78C64.12 11.82 63.03 11.33 61.74 11.33Z" fill="#262d3d"/></svg><a target="_blank" rel="noopener" class="f" href="https://www.toptal.com/developers/resume/henrique-brandao#ydz74l">Hire me</a></div></div></div>
-        <div class="bd-badge"><style>.bd-badge{font-family:Arial,sans-serif;--bdh:polygon(50% 0,100% 24%,100% 76%,50% 100%,0 76%,0 24%)}.bd-badge .bh{display:inline-block;background:#f25f2a;padding:6px;clip-path:var(--bdh)}.bd-badge .ba{width:200px;padding:24px 0 40px;display:flex;flex-direction:column;align-items:center;gap:8px;color:#7a2a0e;text-align:center;background:radial-gradient(circle at 20% -10%,#ffb38a -80%,#fff 30%),radial-gradient(circle at -20% 20%,#ffb38a -80%,#fff 30%),radial-gradient(circle at 70% 100%,#ffb38a -80%,#fff 30%),radial-gradient(circle at 120% 80%,#ffb38a -80%,#fff 30%);background-blend-mode:multiply;clip-path:var(--bdh);box-shadow:0 28px 50px rgba(96,30,6,.35)}.bd-badge .bb{margin:0;font-size:19px;font-weight:800;line-height:1;letter-spacing:.5px}.bd-badge .bc{width:120px;height:1px;background:#f25f2a}.bd-badge .bv{font-size:14px;margin-bottom:-2px}.bd-badge .bw{font-size:18px;font-weight:800;color:#262d3d;letter-spacing:-.5px;line-height:1}.bd-badge .bf{display:inline-flex;align-items:center;justify-content:center;padding:4px 20px;border-radius:6px;background:#f25f2a;color:#fff;font-size:16px;font-weight:500;text-decoration:none}</style><div class="bh"><div class="ba"><svg width="44" height="44" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M20 3 L24.7 14.5 L37 15.6 L27.6 23.7 L30.6 35.7 L20 29.3 L9.4 35.7 L12.4 23.7 L3 15.6 L15.3 14.5 Z" fill="#f25f2a"/></svg><h3 class="bb">TOP 1% TALENT</h3><div class="bc"></div><span class="bv">Vetted by</span><span class="bw">BairesDev</span><a target="_blank" rel="noopener" class="bf" href="https://bairesdev.com">Hire me</a></div></div></div>
+        <div id=r><style>@import"https://use.typekit.net/kmj5qkr.css";:root{--h:polygon(50% 0,100% 24%,100% 76%,50% 100%,0 76%,0 24%)}.h{display:inline-block;background:#25a9ef;padding:6px;clip-path:var(--h)}.a{width:200px;padding:24px 0 40px;display:flex;flex-direction:column;align-items:center;gap:8px;color:#204ecf;text-align:center;background:radial-gradient(circle at 20% -10%,#00c3ff -80%,#fff 30%),radial-gradient(circle at -20% 20%,#00c3ff -80%,#fff 30%),radial-gradient(circle at 70% 100%,#00c3ff -80%,#fff 30%),radial-gradient(circle at 120% 80%,#00c3ff -80%,#fff 30%);background-blend-mode:multiply;clip-path:var(--h);box-shadow:0 28px 50px rgba(6,30,96,.35)}#r{font-family:proxima-nova,Arial,sans-serif}.b{margin:0;font-size:19px;font-weight:700;line-height:1}.c{width:120px;height:1px;background:#25a9ef}.d{font-size:16px;margin-bottom:-6px}.f{display:inline-flex;align-items:center;justify-content:center;padding:4px 20px;border-radius:6px;background:#296bff;color:#fff;font-size:16px;font-weight:500;text-decoration-thickness:.5px;text-underline-offset:2px}</style><div class=h><div class=a><svg width=64 viewBox="0 0 60 17" xmlns="http://www.w3.org/2000/svg"><path d="m20.85 6.38 6.06-.89 2.72-5.49 2.71 5.49 6.06.89-4.39 4.28 1.04 6.03-5.42-2.85-5.43 2.85 1.04-6.03zm33.06 7.17 1.85-.27.82-1.67.83 1.67 1.84.27-1.33 1.31.31 1.83-1.65-.87-1.66.87.32-1.83zm-3.38-3.01-3.61-.52-1.61-3.26-1.62 3.26-3.6.52 2.6 2.55-.61 3.59 3.23-1.69 3.21 1.69-.61-3.59zm-45.19 3.01-1.85-.27-.82-1.67-.83 1.67-1.84.27 1.33 1.31-.31 1.83 1.65-.87 1.65.87-.31-1.83zm3.38-3.01 3.61-.52 1.61-3.26 1.61 3.26 3.61.52-2.6 2.55.61 3.59-3.23-1.69-3.22 1.69.62-3.59z" fill="#00c3ff"/></svg><h3 class=b>TOP 3% TALENT</h3><div class=c></div><span class=d>Vetted by</span><svg style="width:100px;" viewBox="0 0 108 30" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.11 0L14.82 6.7C14.87 6.75 14.91 6.8 14.97 6.85L20.82 12.7L11.31 22.16L15.66 26.52L12.75 29.41L6.09 22.75C6.01 22.68 5.93 22.6 5.85 22.52L0 16.68L9.48 7.25L5.16 2.94L8.11 0ZM12.36 10.5C12.27 10.48 12.18 10.48 12.1 10.5C12.01 10.53 11.94 10.57 11.78 10.72L6.37 16.11C6.21 16.27 6.17 16.34 6.15 16.42C6.12 16.51 6.12 16.6 6.15 16.68C6.17 16.77 6.22 16.85 6.37 17L8.09 18.72C8.24 18.87 8.31 18.91 8.4 18.94C8.49 18.96 8.57 18.96 8.66 18.94C8.75 18.91 8.82 18.87 8.97 18.72L14.38 13.33C14.54 13.18 14.58 13.1 14.61 13.02C14.63 12.93 14.63 12.85 14.61 12.76C14.59 12.67 14.54 12.6 14.39 12.45L12.67 10.73C12.52 10.57 12.44 10.53 12.36 10.5Z" fill="#204ecf"/><path fill-rule="evenodd" clip-rule="evenodd" d="M62.65 7.76C64.76 7.76 66.56 8.58 67.99 10.16C69.45 11.69 70.18 13.8 70.17 16.42C70.17 18.98 69.42 21.22 67.93 22.8C66.46 24.37 64.59 25.17 62.35 25.17C60.42 25.16 58.67 24.47 57.51 23.28L57.35 23.11L57.34 29.86L53.52 29.85V29.57L53.56 7.96L57.36 7.96L57.35 10.6C58.6 9.19 60.61 7.76 62.65 7.76ZM87.1 7.82C89.28 7.82 90.78 8.31 91.94 9.26C93.05 10.18 93.64 11.82 93.69 13.55L93.69 13.81L93.67 24.95H89.8L89.8 24.49C89.8 24.01 89.8 23.52 89.8 23.02C88.68 24.57 87.12 25.32 85.04 25.32C83.39 25.32 81.99 24.82 80.97 23.9C79.94 22.95 79.39 21.66 79.39 20.16C79.41 17.33 81.41 15.37 84.91 14.76L85.18 14.71L89.82 13.98V13.61C89.82 12.83 89.59 11.89 89.13 11.5C88.66 11.1 88.09 10.77 87.1 10.77C84.37 10.77 83.81 12.78 83.78 13.79L83.78 13.88L80.36 13.92C80.36 12.43 81.05 10.5 82.44 9.29C83.56 8.32 85.19 7.87 86.77 7.82L87.07 7.82H87.1ZM72.12 3.46L75.93 3.46L75.92 8.02L79.45 8.02L79.45 11.2L75.91 11.19L75.9 19.73C75.9 20.67 76.09 21.29 76.5 21.58C76.93 21.88 77.8 21.6 77.8 21.6L78.14 24.92C78.14 24.92 76.94 25.23 76.18 25.23C75.19 25.23 74.34 24.98 73.69 24.48C72.63 23.68 72.09 22.28 72.09 20.31L72.11 11.19L68.92 8L72.12 8.01L72.12 3.46ZM49.66 10.26C50.76 11.39 52.07 13.4 52.06 16.52C52.05 19.63 50.74 21.63 49.65 22.76C48.15 24.3 46.11 25.18 44.06 25.18C43.98 25.18 43.9 25.18 43.81 25.17C41.62 25.16 39.68 24.38 38.06 22.84C36.43 21.29 35.6 19.16 35.6 16.48C35.6 13.8 36.44 11.66 38.07 10.12C39.69 8.59 41.62 7.82 43.82 7.82C45.99 7.75 48.11 8.65 49.66 10.26ZM40.85 3.22V6.99L33.49 7L33.51 24.97L29.54 24.96V24.62L29.57 6.99H22.06L22.07 3.22H40.85ZM95.53 3.47L98.95 3.48V3.57L98.92 24.95L95.5 24.94V24.84L95.53 3.47ZM89.82 17.05L86.01 17.69C84.15 18.01 83.29 18.73 83.28 19.99C83.27 21.14 84.09 21.91 85.37 21.98L85.53 21.98H85.55C87.99 21.98 89.72 20.08 89.81 17.31L89.82 17.09V17.05ZM43.8 11.21C42.52 11.21 41.41 11.7 40.51 12.68C39.63 13.64 39.18 14.92 39.18 16.49C39.18 18.07 39.63 19.35 40.51 20.31C41.4 21.29 42.51 21.78 43.79 21.79C45.09 21.79 46.21 21.3 47.1 20.32C48 19.34 48.45 18.06 48.46 16.51C48.47 14.95 48.01 13.67 47.11 12.69C46.21 11.71 45.1 11.21 43.8 11.21ZM61.74 11.33H61.72C60.44 11.33 59.38 11.79 58.48 12.76C57.58 13.7 57.13 14.92 57.12 16.39C57.12 17.88 57.57 19.22 58.47 20.2C59.39 21.14 60.45 21.61 61.72 21.61C63.01 21.61 64.1 21.13 64.97 20.2C65.88 19.23 66.32 17.9 66.33 16.41C66.33 14.93 65.87 13.71 64.99 12.78C64.12 11.82 63.03 11.33 61.74 11.33Z" fill="#262d3d"/></svg><a target="_blank" rel="noopener" class="f" href="https://www.toptal.com/developers/resume/henrique-brandao#ydz74l">View profile</a></div></div></div>
+        <div class="bd-badge"><style>.bd-badge{font-family:Arial,sans-serif;--bdh:polygon(50% 0,100% 24%,100% 76%,50% 100%,0 76%,0 24%)}.bd-badge .bh{display:inline-block;background:#f25f2a;padding:6px;clip-path:var(--bdh)}.bd-badge .ba{width:200px;padding:24px 0 40px;display:flex;flex-direction:column;align-items:center;gap:8px;color:#7a2a0e;text-align:center;background:radial-gradient(circle at 20% -10%,#ffb38a -80%,#fff 30%),radial-gradient(circle at -20% 20%,#ffb38a -80%,#fff 30%),radial-gradient(circle at 70% 100%,#ffb38a -80%,#fff 30%),radial-gradient(circle at 120% 80%,#ffb38a -80%,#fff 30%);background-blend-mode:multiply;clip-path:var(--bdh);box-shadow:0 28px 50px rgba(96,30,6,.35)}.bd-badge .bb{margin:0;font-size:19px;font-weight:800;line-height:1;letter-spacing:.5px}.bd-badge .bc{width:120px;height:1px;background:#f25f2a}.bd-badge .bv{font-size:14px;margin-bottom:-2px}.bd-badge .bw{font-size:18px;font-weight:800;color:#262d3d;letter-spacing:-.5px;line-height:1}.bd-badge .bf{display:inline-flex;align-items:center;justify-content:center;padding:4px 20px;border-radius:6px;background:#f25f2a;color:#fff;font-size:16px;font-weight:500;text-decoration:none}</style><div class="bh"><div class="ba"><svg width="44" height="44" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M20 3 L24.7 14.5 L37 15.6 L27.6 23.7 L30.6 35.7 L20 29.3 L9.4 35.7 L12.4 23.7 L3 15.6 L15.3 14.5 Z" fill="#f25f2a"/></svg><h3 class="bb">TOP 1% TALENT</h3><div class="bc"></div><span class="bv">Vetted by</span><span class="bw">BairesDev</span><a target="_blank" rel="noopener" class="bf" href="https://bairesdev.com">View profile</a></div></div></div>
         </div>
     </div>
 
@@ -53,19 +57,19 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
     <section class="stats-section animate-on-scroll">
         <div class="stat-item">
             <div class="stat-number" data-target="10" data-suffix="+">10+</div>
-            <div class="stat-label">Years Experience</div>
+            <div class="stat-label">Years owning production systems</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number" data-target="99" data-suffix=".9%">99.9%</div>
-            <div class="stat-label">Uptime Delivered</div>
+            <div class="stat-number" data-target="20" data-suffix="+">20+</div>
+            <div class="stat-label">Enterprise clients migrated, zero data loss <span class="stat-source">OneTrust</span></div>
         </div>
         <div class="stat-item">
-            <div class="stat-number" data-target="30" data-suffix="%">30%</div>
-            <div class="stat-label">Cloud Cost Savings</div>
+            <div class="stat-number" data-target="6">6</div>
+            <div class="stat-label">Weeks from zero to a production LLM chatbot <span class="stat-source">SecurityScorecard</span></div>
         </div>
         <div class="stat-item">
-            <div class="stat-number" data-target="60" data-suffix="%">60%</div>
-            <div class="stat-label">Faster Deploys</div>
+            <div class="stat-number" data-target="40" data-suffix="%">40%</div>
+            <div class="stat-label">Lower cloud costs after a platform migration <span class="stat-source">ProbiusDx</span></div>
         </div>
     </section>
 
@@ -86,13 +90,11 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
         </div>
         
         <div class="cv-links">
-            <a href="#hire-me" class="cv-link"><i class="fas fa-briefcase"></i> Hire Me Today</a>
+            <a href="/consulting/" class="cv-link"><i class="fas fa-handshake"></i> How consulting works</a>
+            <a href="#services" class="cv-link"><i class="fas fa-th-large"></i> Services</a>
             <button class="print-cv-btn" onclick="generatePDF()">
-                <i class="fas fa-download"></i> Download PDF
+                <i class="fas fa-download"></i> Download CV (PDF)
             </button>
-            <a href="/consulting/" class="cv-link"><i class="fas fa-handshake"></i> Consulting</a>
-            <a href="/blog/" class="cv-link"><i class="fas fa-rss"></i> Technical Blog</a>
-            <a href="{{ site.booking_url }}" class="cv-link"><i class="fas fa-calendar-check"></i> Schedule a Consultation</a>
         </div>
     </div>
 </header>
@@ -125,214 +127,27 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
 </section>
 
 <main class="main-content">
-    <section id="skills" class="animate-on-scroll">
-        <h2>Technical Skills</h2>
-        
-        <div class="skills-grid">
-            <div class="skill-category-card">
-                <div class="skill-category-header">
-                    <i class="fas fa-code"></i>
-                    <h3>Languages</h3>
-                </div>
-                <div class="skill-tags">
-                    <span class="skill-tag">Python 3</span>
-                    <span class="skill-tag">SQL</span>
-                    <span class="skill-tag">Shell Script</span>
-                </div>
-            </div>
-            
-            <div class="skill-category-card">
-                <div class="skill-category-header">
-                    <i class="fas fa-layer-group"></i>
-                    <h3>Frameworks</h3>
-                </div>
-                <div class="skill-tags">
-                    <span class="skill-tag">Django</span>
-                    <span class="skill-tag">Django REST Framework</span>
-                    <span class="skill-tag">FastAPI</span>
-                    <span class="skill-tag">Flask</span>
-                    <span class="skill-tag">SQLAlchemy</span>
-                    <span class="skill-tag">Celery</span>
-                </div>
-            </div>
-            
-            <div class="skill-category-card">
-                <div class="skill-category-header">
-                    <i class="fas fa-database"></i>
-                    <h3>Databases</h3>
-                </div>
-                <div class="skill-tags">
-                    <span class="skill-tag">PostgreSQL</span>
-                    <span class="skill-tag">MySQL</span>
-                    <span class="skill-tag">DynamoDB</span>
-                    <span class="skill-tag">Redis</span>
-                    <span class="skill-tag">Memcached</span>
-                    <span class="skill-tag">Snowflake</span>
-                    <span class="skill-tag">Firebase</span>
-                </div>
-            </div>
-            
-            <div class="skill-category-card">
-                <div class="skill-category-header">
-                    <i class="fas fa-cloud"></i>
-                    <h3>Cloud & CDN</h3>
-                </div>
-                <div class="skill-tags">
-                    <span class="skill-tag">AWS (EC2, Lambda, ECS, RDS, S3, VPC, IAM, CloudFront, CloudWatch, Rekognition)</span>
-                    <span class="skill-tag">GCP</span>
-                    <span class="skill-tag">Cloudflare</span>
-                </div>
-            </div>
-            
-            <div class="skill-category-card">
-                <div class="skill-category-header">
-                    <i class="fas fa-server"></i>
-                    <h3>Infrastructure & IaC</h3>
-                </div>
-                <div class="skill-tags">
-                    <span class="skill-tag">Kubernetes</span>
-                    <span class="skill-tag">Helm</span>
-                    <span class="skill-tag">Terraform</span>
-                    <span class="skill-tag">ArgoCD</span>
-                    <span class="skill-tag">Ansible</span>
-                    <span class="skill-tag">Docker</span>
-                    <span class="skill-tag">Nginx</span>
-                </div>
-            </div>
-            
-            <div class="skill-category-card">
-                <div class="skill-category-header">
-                    <i class="fas fa-stream"></i>
-                    <h3>Streaming & Data</h3>
-                </div>
-                <div class="skill-tags">
-                    <span class="skill-tag">Apache Kafka</span>
-                    <span class="skill-tag">RabbitMQ</span>
-                    <span class="skill-tag">PySpark</span>
-                    <span class="skill-tag">Apache Spark</span>
-                    <span class="skill-tag">Hadoop</span>
-                    <span class="skill-tag">gRPC</span>
-                    <span class="skill-tag">WebSockets</span>
-                </div>
-            </div>
-            
-            <div class="skill-category-card">
-                <div class="skill-category-header">
-                    <i class="fas fa-infinity"></i>
-                    <h3>CI/CD & Observability</h3>
-                </div>
-                <div class="skill-tags">
-                    <span class="skill-tag">GitHub Actions</span>
-                    <span class="skill-tag">Jenkins</span>
-                    <span class="skill-tag">ArgoCD</span>
-                    <span class="skill-tag">Prometheus</span>
-                    <span class="skill-tag">Grafana</span>
-                    <span class="skill-tag">Datadog</span>
-                    <span class="skill-tag">OpenTelemetry</span>
-                </div>
-            </div>
-            
-            <div class="skill-category-card">
-                <div class="skill-category-header">
-                    <i class="fas fa-brain"></i>
-                    <h3>AI / ML</h3>
-                </div>
-                <div class="skill-tags">
-                    <span class="skill-tag">LangChain</span>
-                    <span class="skill-tag">HuggingFace</span>
-                    <span class="skill-tag">OpenAI APIs</span>
-                    <span class="skill-tag">Ollama</span>
-                    <span class="skill-tag">LlamaIndex</span>
-                    <span class="skill-tag">PyTorch</span>
-                    <span class="skill-tag">TensorFlow / Keras</span>
-                    <span class="skill-tag">scikit-learn</span>
-                    <span class="skill-tag">OpenCV</span>
-                    <span class="skill-tag">PySpark</span>
-                </div>
-            </div>
-            
-            <div class="skill-category-card">
-                <div class="skill-category-header">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Security</h3>
-                </div>
-                <div class="skill-tags">
-                    <span class="skill-tag">OWASP</span>
-                    <span class="skill-tag">Penetration Testing</span>
-                    <span class="skill-tag">JWT</span>
-                    <span class="skill-tag">TCP/IP</span>
-                    <span class="skill-tag">InfoSec</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="open-source" class="animate-on-scroll">
-        <h2>Open Source Projects</h2>
-        <p class="services-intro">Tools I've designed, built, and published — open source, on PyPI and Docker Hub. Each one is production-grade engineering you can install and run today.</p>
+    <section id="case-studies" class="animate-on-scroll">
+        <h2>Results</h2>
+        <p class="services-intro">Three outcomes from real engagements. Every number links to the full write-up.</p>
         <div class="services-grid">
-
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-shield-halved"></i></div>
-                <h4>avai</h4>
-                <p>A security guard for your computers. It continuously snapshots what's running on a Mac or Linux machine — processes, USB devices, network connections, browser extensions — checks each finding against 17 public threat-intelligence sources, and lets an AI judge flag what's actually dangerous, with a one-line fix for each. Runs entirely on your own machine.</p>
-                <div class="project-badges">
-                    <img src="https://img.shields.io/pypi/v/avai-monitor?color=10b981&label=pypi" alt="avai-monitor on PyPI" loading="lazy" height="20">
-                    <img src="https://img.shields.io/docker/pulls/iklob1/avai?color=10b981&label=docker%20pulls" alt="avai Docker pulls" loading="lazy" height="20">
-                </div>
-                <div class="service-tech-tags">
-                    <span>Python</span>
-                    <span>Flask</span>
-                    <span>HTMX</span>
-                    <span>LLM</span>
-                    <span>SQLite</span>
-                    <span>Docker</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/iklobato/avai" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://pypi.org/project/avai-monitor/" target="_blank" rel="noopener"><i class="fab fa-python"></i> PyPI</a>
-                </div>
+                <div class="case-company"><img src="/assets/images/company-logos/onetrust.svg" alt="OneTrust" class="case-company-logo case-company-logo--mono"></div>
+                <h4>20+ enterprise clients migrated, zero data loss</h4>
+                <p>Compliance records moved between two SaaS platforms after an acquisition. Phased across four environments, idempotent writes, zero production incidents.</p>
+                <a href="/backend-engineering-use-cases/" class="service-link">Read the write-up <i class="fas fa-arrow-right"></i></a>
             </div>
-
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-robot"></i></div>
-                <h4>briar</h4>
-                <p>An AI assistant for your engineering workflow. It reads the live state of your tools — GitHub, Jira, AWS, Linear, meeting notes — turns it into a clean, AI-readable knowledge base, keeps it fresh automatically, and then lets autonomous agents act on it: fixing pull-request comments or implementing a ticket end-to-end. Everything stays on your laptop — nothing is uploaded.</p>
-                <div class="project-badges">
-                    <img src="https://img.shields.io/pypi/v/briar-cli?color=10b981&label=pypi" alt="briar-cli on PyPI" loading="lazy" height="20">
-                </div>
-                <div class="service-tech-tags">
-                    <span>Python</span>
-                    <span>LLM Agents</span>
-                    <span>CLI</span>
-                    <span>PostgreSQL</span>
-                    <span>Multi-cloud</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/iklobato/briar" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://pypi.org/project/briar-cli/" target="_blank" rel="noopener"><i class="fab fa-python"></i> PyPI</a>
-                </div>
+                <div class="case-company"><img src="/assets/images/company-logos/securityscorecard.svg" alt="" aria-hidden="true" class="case-company-logo case-company-logo--mono"><span class="case-company-name">SecurityScorecard</span></div>
+                <h4>LLM chatbot in production in 6 weeks</h4>
+                <p>LangChain, HuggingFace and FastAPI on AWS Kubernetes. Natural-language questions over security data for 12M+ companies, built from zero.</p>
+                <a href="/backend-engineering-use-cases/" class="service-link">Read the write-up <i class="fas fa-arrow-right"></i></a>
             </div>
-
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-bolt"></i></div>
-                <h4>lightapi</h4>
-                <p>A toolkit that helps developers build web APIs far faster. Instead of writing the same setup three times, you describe your data once and LightAPI generates the database table, the validation rules, and the working REST API around it — with filtering, pagination, caching, and async support built in.</p>
-                <div class="project-badges">
-                    <img src="https://img.shields.io/pypi/v/lightapi?label=pypi&color=10b981" alt="lightapi on PyPI" loading="lazy" height="20">
-                    <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+" loading="lazy" height="20">
-                </div>
-                <div class="service-tech-tags">
-                    <span>Python</span>
-                    <span>SQLAlchemy 2.0</span>
-                    <span>Pydantic v2</span>
-                    <span>Starlette</span>
-                    <span>Uvicorn</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/iklobato/lightapi" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://pypi.org/project/lightapi/" target="_blank" rel="noopener"><i class="fab fa-python"></i> PyPI</a>
-                </div>
+                <div class="case-company"><img src="/assets/images/company-logos/serasa-experian.svg" alt="Serasa Experian" class="case-company-logo"></div>
+                <h4>Credit scoring engine used by thousands of companies</h4>
+                <p>Led six engineers to deliver a PySpark and neural-network decisioning engine for Brazil's largest credit bureau.</p>
+                <a href="/data-engineering-use-cases/" class="service-link">Read the write-up <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -433,31 +248,6 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
                     </div>
                     <a href="/services/data-pipelines" class="service-link">View Data Solutions <i class="fas fa-arrow-right"></i></a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="case-studies" class="animate-on-scroll">
-        <h2>Featured Case Studies</h2>
-        <p class="services-intro">Deep dives into real-world projects with measurable business impact — architecture, challenges, and outcomes.</p>
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-server"></i></div>
-                <h4>Backend Engineering</h4>
-                <p>API development, microservices decomposition, and system architecture case studies with measurable performance wins.</p>
-                <a href="/backend-engineering-use-cases/" class="service-link">Read case studies <i class="fas fa-arrow-right"></i></a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-database"></i></div>
-                <h4>Data Engineering</h4>
-                <p>ETL pipelines, real-time data processing, and large-scale data systems — real projects, real outcomes.</p>
-                <a href="/data-engineering-use-cases/" class="service-link">Read case studies <i class="fas fa-arrow-right"></i></a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-cloud"></i></div>
-                <h4>DevOps &amp; Cloud</h4>
-                <p>AWS/GCP optimizations, Kubernetes rollouts, and CI/CD pipelines that cut costs and deploy time.</p>
-                <a href="/devops-cloud-use-cases/" class="service-link">Read case studies <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -746,7 +536,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             </div>
         </div>
     </section>
-    
+
     <section id="testimonials" class="testimonials-section">
     <h2>Recommendations</h2>
     <div class="testimonial-grid">
@@ -801,6 +591,218 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
     </div>
 </section>
 
+    <section id="skills" class="animate-on-scroll">
+        <h2>Technical Skills</h2>
+        
+        <div class="skills-grid">
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python 3</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Shell Script</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Frameworks</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">Django REST Framework</span>
+                    <span class="skill-tag">FastAPI</span>
+                    <span class="skill-tag">Flask</span>
+                    <span class="skill-tag">SQLAlchemy</span>
+                    <span class="skill-tag">Celery</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">DynamoDB</span>
+                    <span class="skill-tag">Redis</span>
+                    <span class="skill-tag">Memcached</span>
+                    <span class="skill-tag">Snowflake</span>
+                    <span class="skill-tag">Firebase</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud & CDN</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS (EC2, Lambda, ECS, RDS, S3, VPC, IAM, CloudFront, CloudWatch, Rekognition)</span>
+                    <span class="skill-tag">GCP</span>
+                    <span class="skill-tag">Cloudflare</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-server"></i>
+                    <h3>Infrastructure & IaC</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">Helm</span>
+                    <span class="skill-tag">Terraform</span>
+                    <span class="skill-tag">ArgoCD</span>
+                    <span class="skill-tag">Ansible</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Nginx</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-stream"></i>
+                    <h3>Streaming & Data</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Apache Kafka</span>
+                    <span class="skill-tag">RabbitMQ</span>
+                    <span class="skill-tag">PySpark</span>
+                    <span class="skill-tag">Apache Spark</span>
+                    <span class="skill-tag">Hadoop</span>
+                    <span class="skill-tag">gRPC</span>
+                    <span class="skill-tag">WebSockets</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-infinity"></i>
+                    <h3>CI/CD & Observability</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">GitHub Actions</span>
+                    <span class="skill-tag">Jenkins</span>
+                    <span class="skill-tag">ArgoCD</span>
+                    <span class="skill-tag">Prometheus</span>
+                    <span class="skill-tag">Grafana</span>
+                    <span class="skill-tag">Datadog</span>
+                    <span class="skill-tag">OpenTelemetry</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI / ML</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">LangChain</span>
+                    <span class="skill-tag">HuggingFace</span>
+                    <span class="skill-tag">OpenAI APIs</span>
+                    <span class="skill-tag">Ollama</span>
+                    <span class="skill-tag">LlamaIndex</span>
+                    <span class="skill-tag">PyTorch</span>
+                    <span class="skill-tag">TensorFlow / Keras</span>
+                    <span class="skill-tag">scikit-learn</span>
+                    <span class="skill-tag">OpenCV</span>
+                    <span class="skill-tag">PySpark</span>
+                </div>
+            </div>
+            
+            <div class="skill-category-card">
+                <div class="skill-category-header">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">OWASP</span>
+                    <span class="skill-tag">Penetration Testing</span>
+                    <span class="skill-tag">JWT</span>
+                    <span class="skill-tag">TCP/IP</span>
+                    <span class="skill-tag">InfoSec</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="open-source" class="animate-on-scroll">
+        <h2>Open Source Projects</h2>
+        <p class="services-intro">Tools I've designed, built, and published — open source, on PyPI and Docker Hub. Each one is production-grade engineering you can install and run today.</p>
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-shield-halved"></i></div>
+                <h4>avai</h4>
+                <p>A security guard for your computers. It continuously snapshots what's running on a Mac or Linux machine — processes, USB devices, network connections, browser extensions — checks each finding against 17 public threat-intelligence sources, and lets an AI judge flag what's actually dangerous, with a one-line fix for each. Runs entirely on your own machine.</p>
+                <div class="project-badges">
+                    <img src="https://img.shields.io/pypi/v/avai-monitor?color=10b981&label=pypi" alt="avai-monitor on PyPI" loading="lazy" height="20">
+                    <img src="https://img.shields.io/docker/pulls/iklob1/avai?color=10b981&label=docker%20pulls" alt="avai Docker pulls" loading="lazy" height="20">
+                </div>
+                <div class="service-tech-tags">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>HTMX</span>
+                    <span>LLM</span>
+                    <span>SQLite</span>
+                    <span>Docker</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/iklobato/avai" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://pypi.org/project/avai-monitor/" target="_blank" rel="noopener"><i class="fab fa-python"></i> PyPI</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-robot"></i></div>
+                <h4>briar</h4>
+                <p>An AI assistant for your engineering workflow. It reads the live state of your tools — GitHub, Jira, AWS, Linear, meeting notes — turns it into a clean, AI-readable knowledge base, keeps it fresh automatically, and then lets autonomous agents act on it: fixing pull-request comments or implementing a ticket end-to-end. Everything stays on your laptop — nothing is uploaded.</p>
+                <div class="project-badges">
+                    <img src="https://img.shields.io/pypi/v/briar-cli?color=10b981&label=pypi" alt="briar-cli on PyPI" loading="lazy" height="20">
+                </div>
+                <div class="service-tech-tags">
+                    <span>Python</span>
+                    <span>LLM Agents</span>
+                    <span>CLI</span>
+                    <span>PostgreSQL</span>
+                    <span>Multi-cloud</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/iklobato/briar" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://pypi.org/project/briar-cli/" target="_blank" rel="noopener"><i class="fab fa-python"></i> PyPI</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                <h4>lightapi</h4>
+                <p>A toolkit that helps developers build web APIs far faster. Instead of writing the same setup three times, you describe your data once and LightAPI generates the database table, the validation rules, and the working REST API around it — with filtering, pagination, caching, and async support built in.</p>
+                <div class="project-badges">
+                    <img src="https://img.shields.io/pypi/v/lightapi?label=pypi&color=10b981" alt="lightapi on PyPI" loading="lazy" height="20">
+                    <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+" loading="lazy" height="20">
+                </div>
+                <div class="service-tech-tags">
+                    <span>Python</span>
+                    <span>SQLAlchemy 2.0</span>
+                    <span>Pydantic v2</span>
+                    <span>Starlette</span>
+                    <span>Uvicorn</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/iklobato/lightapi" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://pypi.org/project/lightapi/" target="_blank" rel="noopener"><i class="fab fa-python"></i> PyPI</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="certifications">
         <h2>Certifications</h2>
         <div class="certification-grid">
@@ -838,7 +840,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             </div>
         </div>
     </section>
-    
+
     <section id="education">
         <h2>Education</h2>
         
@@ -866,7 +868,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             </div>
         </div>
     </section>
-    
+
     <section id="languages">
         <h2>Languages</h2>
         
@@ -890,7 +892,7 @@ keywords: LLM Engineer, AI Engineer, AI Backend Engineer, LangChain Engineer, Hu
             </div>
         </div>
     </section>
-    
+
     <section id="hire-me">
         <h2>Ready to Build Something Amazing?</h2>
         <div class="hire-me-container">
