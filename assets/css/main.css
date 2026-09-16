@@ -1836,6 +1836,44 @@
             color: var(--text-light);
             font-weight: 500;
         }
+
+        .stat-source {
+            display: block;
+            margin-top: var(--space-xs);
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: var(--primary);
+        }
+
+        .hero-actions {
+            margin-top: var(--space-md);
+            justify-content: flex-start;
+        }
+
+        .hero-actions .primary-cta,
+        .hero-actions .secondary-cta {
+            padding: var(--space-sm) var(--space-lg);
+        }
+
+        .case-company {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            height: 28px;
+            margin-bottom: var(--space-md);
+        }
+
+        .case-company-logo {
+            height: 24px;
+            width: auto;
+        }
+
+        .case-company-name {
+            font-weight: 700;
+            font-size: 1rem;
+        }
         
         /* ============================================
            HERO BACKGROUND ENHANCEMENT
@@ -1937,7 +1975,8 @@
         }
         
         /* Scroll-triggered animations */
-        .animate-on-scroll {
+        /* Only hide reveal sections when the script that reveals them runs. */
+        .js .animate-on-scroll {
             opacity: 0;
             transform: translateY(30px);
             transition: opacity 0.6s ease, transform 0.6s ease;
@@ -2191,6 +2230,9 @@ html[data-theme="light"] {
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 #theme-toggle:hover { transform: scale(1.08); box-shadow: var(--shadow-lg); }
+/* The toggle sits above the sticky nav and covered its "Let's Talk" button;
+   drop it below the nav while the nav is on screen. */
+body:has(.sticky-nav.visible) #theme-toggle { top: 4.5rem; }
 #theme-toggle .fa-sun { display: none; }
 #theme-toggle .fa-moon { display: inline-block; }
 html[data-theme="dark"] #theme-toggle .fa-sun,
@@ -2504,7 +2546,8 @@ body[data-active-filter] .skill-category-card {
 
 @media (prefers-color-scheme: dark) {
     .company-logo-img--mono,
-    .company-logo-icon--mono {
+    .company-logo-icon--mono,
+    .case-company-logo--mono {
         filter: brightness(0) invert(1);
         opacity: 0.8;
     }

@@ -13,6 +13,7 @@
     <!-- End Google Analytics -->
     
     <meta charset="UTF-8">
+    <script>document.documentElement.classList.add('js');</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta name="color-scheme" content="dark light">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -57,10 +58,10 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
+    <meta property="og:image" content="{{ site.url }}/assets/images/og-card.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Henrique Lobato - Freelance Python Developer and API Architect specializing in backend development, cloud infrastructure, and API design">
+    <meta property="og:image:alt" content="Henrique Lobato: I connect systems, ship AI to production and fix backends that do not scale.">
     <meta property="og:site_name" content="Hire Henrique Lobato - Senior Backend Developer">
     <meta property="og:locale" content="en_US">
 
@@ -69,8 +70,8 @@
     <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/18133417?v=4">
-    <meta name="twitter:image:alt" content="Henrique Lobato - Freelance Python Backend Developer specialized in API architecture, cloud solutions and scalable systems">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/og-card.png">
+    <meta name="twitter:image:alt" content="Henrique Lobato: I connect systems, ship AI to production and fix backends that do not scale.">
     <meta name="twitter:creator" content="@iklobato">
     <meta name="twitter:site" content="@iklobato">
     
