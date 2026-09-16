@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "About Henrique Lobato"
+title: "About: Senior Python and AI Engineer"
 description: "Senior Python and AI engineer from São Paulo with 10+ years owning production systems at Pinterest, OneTrust, SecurityScorecard and PayPal/Venmo."
 permalink: /about/
 redirect_from:
