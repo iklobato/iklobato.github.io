@@ -44,7 +44,7 @@ breadcrumbs:
             </div>
             <div class="post-content">
                 <h3>Mastering Gunicorn and Uvicorn: The Right Way to Deploy FastAPI Applications</h3>
-                <p class="post-meta">Published: May 27, 2024 • 12 min read</p>
+                <p class="post-meta">Published: May 27, 2025 • 22 min read</p>
                 <p class="post-excerpt">A comprehensive guide to properly deploying FastAPI applications in production using Gunicorn and Uvicorn workers. Learn about optimal configurations, performance tuning, and best practices for scalable Python web applications.</p>
                 <div class="post-tags">
                     <span class="tag">FastAPI</span>
@@ -52,7 +52,7 @@ breadcrumbs:
                     <span class="tag">Deployment</span>
                     <span class="tag">Production</span>
                 </div>
-                <a href="https://medium.com/@iklobato1/mastering-gunicorn-and-uvicorn-the-right-way-to-deploy-fastapi-applications-aaa06849841e" class="post-link" target="_blank" rel="noopener">Read the full article on Medium <i class="fas fa-external-link-alt"></i></a>
+                <a href="/blog/gunicorn-uvicorn-fastapi-deployment/" class="post-link">Read the article <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
         
@@ -66,7 +66,7 @@ breadcrumbs:
             </div>
             <div class="post-content">
                 <h3>How to Run Ollama Securely on a Remote GPU with Vast.ai</h3>
-                <p class="post-meta">Published: May 8, 2024 • 15 min read</p>
+                <p class="post-meta">Published: May 7, 2025 • 3 min read</p>
                 <p class="post-excerpt">Need affordable GPU power for AI experiments without relying on API tokens? This step-by-step guide shows you how to set up a secure, private Ollama environment on Vast.ai's GPUs, perfect for developers who want full control over their AI infrastructure.</p>
                 <div class="post-tags">
                     <span class="tag">AI Infrastructure</span>
@@ -74,7 +74,7 @@ breadcrumbs:
                     <span class="tag">Ollama</span>
                     <span class="tag">Self-hosted LLM</span>
                 </div>
-                <a href="https://medium.com/@iklobato1/how-to-run-ollama-securely-on-a-remote-gpu-with-vast-ai-a-private-token-free-ai-setup-e68287e23951" class="post-link" target="_blank" rel="noopener">Read the full article on Medium <i class="fas fa-external-link-alt"></i></a>
+                <a href="/blog/run-ollama-on-remote-gpu-vast-ai/" class="post-link">Read the article <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -259,46 +259,40 @@ breadcrumbs:
       "@type": "BlogPosting",
       "headline": "Mastering Gunicorn and Uvicorn: The Right Way to Deploy FastAPI Applications",
       "description": "A comprehensive guide to properly deploying FastAPI applications in production using Gunicorn and Uvicorn workers with performance tuning.",
-      "url": "https://medium.com/@iklobato1/mastering-gunicorn-and-uvicorn-the-right-way-to-deploy-fastapi-applications-aaa06849841e",
-      "datePublished": "2024-05-27",
+      "url": "https://iklobato.com/blog/gunicorn-uvicorn-fastapi-deployment/",
+      "datePublished": "2025-05-27",
       "author": {
         "@type": "Person",
         "name": "Henrique Lobato"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Medium",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://miro.medium.com/max/1200/1*cy8UgfukfMRkJLWyBy5t8g.png"
-        }
+        "@type": "Person",
+        "name": "Henrique Lobato",
+        "url": "https://iklobato.com"
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://medium.com/@iklobato1/mastering-gunicorn-and-uvicorn-the-right-way-to-deploy-fastapi-applications-aaa06849841e"
+        "@id": "https://iklobato.com/blog/gunicorn-uvicorn-fastapi-deployment/"
       }
     },
     {
       "@type": "BlogPosting",
       "headline": "How to Run Ollama Securely on a Remote GPU with Vast.ai",
       "description": "Step-by-step guide to setting up Ollama on Vast.ai GPUs for a secure, token-free AI environment with cost optimization tips.",
-      "url": "https://medium.com/@iklobato1/how-to-run-ollama-securely-on-a-remote-gpu-with-vast-ai-a-private-token-free-ai-setup-e68287e23951",
-      "datePublished": "2024-05-08",
+      "url": "https://iklobato.com/blog/run-ollama-on-remote-gpu-vast-ai/",
+      "datePublished": "2025-05-07",
       "author": {
         "@type": "Person",
         "name": "Henrique Lobato"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Medium",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://miro.medium.com/max/1200/1*cy8UgfukfMRkJLWyBy5t8g.png"
-        }
+        "@type": "Person",
+        "name": "Henrique Lobato",
+        "url": "https://iklobato.com"
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://medium.com/@iklobato1/how-to-run-ollama-securely-on-a-remote-gpu-with-vast-ai-a-private-token-free-ai-setup-e68287e23951"
+        "@id": "https://iklobato.com/blog/run-ollama-on-remote-gpu-vast-ai/"
       }
     }
   ]
