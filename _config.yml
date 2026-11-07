@@ -54,6 +54,7 @@ exclude:
   - index.md.backup
   - services-subpages-plan.md
   - specs
+  - docs
   - .specify
   - .cursor
   - .idea
