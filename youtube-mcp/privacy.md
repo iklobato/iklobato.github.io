@@ -11,18 +11,18 @@ sitemap: false
 Last updated: 2026-11-13
 
 youtube-mcp is a private tool used only by the owner of the Por Baixo Do Sistema
-YouTube channel. It runs on the owner's own computer.
+YouTube channel. It runs on the computer of the owner.
 
 ## What data it uses
 
-When the owner signs in with Google, the tool asks for access to the owner's YouTube
-account (the `youtube`, `youtube.force-ssl` and `yt-analytics.readonly` scopes). It uses
-that access only to read and manage the owner's own channel: channel details, videos,
+When the owner signs in with Google, the tool asks for access to the YouTube
+account of the owner (the `youtube`, `youtube.force-ssl` and `yt-analytics.readonly` scopes). It uses
+that access only to read and manage the channel of the owner: channel details, videos,
 playlists, captions, comments and analytics.
 
 ## Where data is kept
 
-- The sign-in token is stored only on the owner's computer, in a file only the owner can read.
+- The sign-in token is stored only on the computer of the owner, in a file only the owner can read.
 - Data read from YouTube is shown to the owner and is not sent to any server run by this tool.
 - No data is sold, shared with third parties, or used for ads.
 
@@ -37,7 +37,7 @@ The tool also uses YouTube API Services; see the
 ## How to remove access
 
 Open [myaccount.google.com/permissions](https://myaccount.google.com/permissions) and remove
-youtube-mcp. Deleting the token file on the owner's computer also ends access.
+youtube-mcp. Deleting the token file on the computer of the owner also ends access.
 
 ## Contact
 
