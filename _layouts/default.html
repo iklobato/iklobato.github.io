@@ -130,17 +130,12 @@
             if (progressBar) {
                 progressBar.style.width = scrolled + '%';
             }
-            
-            // Sticky Navigation
-            const stickyNav = document.getElementById('stickyNav');
-            if (stickyNav) {
-                if (winScroll > 400) {
-                    stickyNav.classList.add('visible');
-                } else {
-                    stickyNav.classList.remove('visible');
-                }
-            }
         });
+
+        const stickyNav = document.getElementById('stickyNav');
+        new ResizeObserver(function() {
+            document.documentElement.style.setProperty('--nav-height', stickyNav.offsetHeight + 'px');
+        }).observe(stickyNav);
         
         // Scroll to top functionality
         const scrollToTopBtn = document.getElementById('scrollToTop');

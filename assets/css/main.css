@@ -1566,7 +1566,7 @@
            ============================================ */
         .sticky-nav {
             position: fixed;
-            top: -100px;
+            top: 0;
             left: 0;
             right: 0;
             background: rgba(255, 255, 255, 0.95);
@@ -1575,13 +1575,13 @@
             border-bottom: 1px solid var(--border);
             padding: var(--space-sm) var(--space-lg);
             z-index: 1000;
-            transition: top var(--transition-normal);
             box-shadow: var(--shadow-md);
         }
-        
-        .sticky-nav.visible {
-            top: 0;
-        }
+
+        /* The nav is fixed, so it takes no room in the flow. --nav-height is set
+           by the layout script because the links wrap to two rows on phones. */
+        html { scroll-padding-top: var(--nav-height, 48px); }
+        .container { margin-top: var(--nav-height, 48px); }
         
         @media (prefers-color-scheme: dark) {
             .sticky-nav {
@@ -2213,7 +2213,7 @@ html[data-theme="light"] {
 
 #theme-toggle {
   position: fixed;
-  top: 1rem;
+  top: 4.5rem; /* below the always-visible nav, off its "Let's Talk" button */
   right: 1rem;
   z-index: 1001;
   width: 42px;
@@ -2230,9 +2230,6 @@ html[data-theme="light"] {
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 #theme-toggle:hover { transform: scale(1.08); box-shadow: var(--shadow-lg); }
-/* The toggle sits above the sticky nav and covered its "Let's Talk" button;
-   drop it below the nav while the nav is on screen. */
-body:has(.sticky-nav.visible) #theme-toggle { top: 4.5rem; }
 #theme-toggle .fa-sun { display: none; }
 #theme-toggle .fa-moon { display: inline-block; }
 html[data-theme="dark"] #theme-toggle .fa-sun,
