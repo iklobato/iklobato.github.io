@@ -55,6 +55,7 @@ exclude:
   - services-subpages-plan.md
   - specs
   - docs
+  - knowledge
   - .specify
   - .cursor
   - .idea
